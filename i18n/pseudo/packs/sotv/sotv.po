@@ -695,7 +695,7 @@ msgstr ""
 msgctxt "03047.text"
 msgid ""
 "Persistent. Unique. Spirit.\n"
-"<b>Exhaust:</b> When a Ranger interacts with a card in the same area as this spirit, discard 2 or more [progress[ from this spirit to commit 1 effort for every 2[progress] discarded."
+"<b>Exhaust:</b> When a Ranger interacts with a card in the same area as this spirit, discard 2 or more [progress] from this spirit to commit 1 effort for every 2[progress] discarded."
 msgstr ""
 
 msgctxt "03047.mountain_challenge"
