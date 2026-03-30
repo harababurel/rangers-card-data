@@ -90,7 +90,7 @@
     "approach_conflict": 1,
     "type_id": "attachment",
     "traits": "Spiritual",
-    "text": "Attach to a spirit or companion.\n<b>Exhaust:</b> Read the attached being or add 2[progress] to it.",
+    "text": "Attach to a spirit or companion.\n<b>Exhaust:</b> Ready the attached being or add 2[progress] to it.",
     "spoiler": true,
     "subset_id": "sos_reward",
     "subset_position": 4
