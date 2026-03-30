@@ -353,7 +353,7 @@ msgid ""
 msgstr ""
 
 msgctxt "02223.name"
-msgid "Repllant Spores"
+msgid "Repellant Spores"
 msgstr ""
 
 msgctxt "02223.traits"

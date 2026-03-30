@@ -398,7 +398,7 @@ msgstr ""
 "<b>Erschöpfen:</b> Wenn ein Ranger einen Test ausführt, der mit der angehängten Karte interagiert, investiert dies 2 Mühe. Für diesen Test muss keine Energie investiert werden."
 
 msgctxt "02223.name"
-msgid "Repllant Spores"
+msgid "Repellant Spores"
 msgstr "Abstoßende Sporen"
 
 msgctxt "02223.traits"

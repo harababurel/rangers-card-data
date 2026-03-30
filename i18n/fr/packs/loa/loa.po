@@ -398,7 +398,7 @@ msgid "You can sense the presence of the Estians all amoun you, their hands shap
 msgstr "Vous sentez la présence de Estiens tout autour de vous, leurs mains façonnant le présent en s’inspirant du passé.#############################"
 
 msgctxt "02223.name"
-msgid "Repllant Spores"
+msgid "Repellant Spores"
 msgstr "Spores Répulsives"
 
 msgctxt "02223.traits"

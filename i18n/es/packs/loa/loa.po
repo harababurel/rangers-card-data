@@ -398,7 +398,7 @@ msgstr ""
 "<b>Agotar:</b> Si un Guardián realiza un Reto que interactúa con la carta adjunta, destina 2 de Esfuerzo. Este Reto se puede realizar sin destinar Energía.\tPuedes sentir la presencia de los estianmos a tu alrededor; sus manos dando forma al presente a través del pasado."
 
 msgctxt "02223.name"
-msgid "Repllant Spores"
+msgid "Repellant Spores"
 msgstr "Repelente de esporas"
 
 msgctxt "02223.traits"
