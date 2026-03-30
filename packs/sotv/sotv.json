@@ -898,7 +898,7 @@
     "traits": "Spirit / Major",
     "type_id": "being",
     "presence": 1,
-    "text": "Persistent. Unique. Spirit.\n<b>Exhaust:</b> When a Ranger interacts with a card in the same area as this spirit, discard 2 or more [progress[ from this spirit to commit 1 effort for every 2[progress] discarded.",
+    "text": "Persistent. Unique. Spirit.\n<b>Exhaust:</b> When a Ranger interacts with a card in the same area as this spirit, discard 2 or more [progress] from this spirit to commit 1 effort for every 2[progress] discarded.",
     "mountain_challenge": "You may discard 3[progress] from this spirit to exhaust a feature in the same area."
   },
   {
@@ -1147,7 +1147,7 @@
     "approach_conflict": 1,
     "traits": "Tale",
     "type_id": "moment",
-    "text": "Add 1[harm] to a prey to exhaust a predator and add 3[harm] to it.",
+    "text": "Add 1[harm] to a prey to exhaust and add 3[harm] to a predator.",
     "flavor": "...and the buck, when pressed, reared on its haunches, lifting the wolhund high into the air. The wolhund bit and clawed at the antlers, but was thrown to the earth with force. There it lay for many heartbeats, seeming dead..."
   },
   {
