@@ -500,3 +500,11 @@ msgstr ""
 msgctxt "spray.plurals"
 msgid "Spray,Sprays"
 msgstr ""
+
+msgctxt "piton.name"
+msgid "Piton"
+msgstr ""
+
+msgctxt "piton.plurals"
+msgid "Piton,Pitons"
+msgstr ""

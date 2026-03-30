@@ -60,3 +60,7 @@ msgstr "Награда"
 msgctxt "sib_reward.name"
 msgid "Reward"
 msgstr ""
+
+msgctxt "sos_reward.name"
+msgid "Reward"
+msgstr ""

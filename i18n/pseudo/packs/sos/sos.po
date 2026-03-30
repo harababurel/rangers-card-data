@@ -1,0 +1,90 @@
+msgid ""
+msgstr ""
+"Language: pseudo\n"
+"Plural-Forms: nplurals=2l plural=(n != 1);\n"
+
+msgctxt "05201.name"
+msgid "Climbing Harness"
+msgstr ""
+
+msgctxt "05201.traits"
+msgid "Tool"
+msgstr ""
+
+msgctxt "05201.text"
+msgid ""
+"<b>[FIT] + [explore] (use 1 piton): Climb</b> <f>the terrain to</f> choose an ascent. Then choose options equal to your effort (you may choose an option multiple times):\n"
+"Add 2[progress] to that ascent.\n"
+"Exhaust that ascent if it is a feature.\n"
+"Move your [ranger] to that ascent."
+msgstr ""
+
+msgctxt "05202.name"
+msgid "Memlev Snowshoes"
+msgstr ""
+
+msgctxt "05202.traits"
+msgid "Clothing / Tech"
+msgstr ""
+
+msgctxt "05202.text"
+msgid "<b>Exhaust (use 1 charge):</b> Add 2[progress] to an obstacle."
+msgstr ""
+
+msgctxt "05202.flavor"
+msgid "Oz gave you this pair of snowshoes after you helped him make a snowman outside the Terra Lodge. With a simple gesture, the soles of the snowshoes come alive, splitting into separate fragments held together by microgravitons."
+msgstr ""
+
+msgctxt "05203.name"
+msgid "Nimbus Spirit"
+msgstr ""
+
+msgctxt "05203.traits"
+msgid "Spirit"
+msgstr ""
+
+msgctxt "05203.text"
+msgid ""
+"Friendly. Persistent. Unique. Spirit.\n"
+"<b>[FOC] + [explore]: Observe</b> <f>the weather patterns to</f> add [progress] to this being equal to your effort. Then scout 1 path card."
+msgstr ""
+
+msgctxt "05203.sun_challenge"
+msgid "You may exhaust this spirit and discard 3[progress] from him to add 1 token to or discard 1 token from the weather."
+msgstr ""
+
+msgctxt "05204.name"
+msgid "Aspect of the Elk"
+msgstr ""
+
+msgctxt "05204.traits"
+msgid "Spiritual"
+msgstr ""
+
+msgctxt "05204.text"
+msgid ""
+"Attach to a spirit or companion.\n"
+"<<b>Exhaust:</b> Read the attached being or add 2[progress] to it."
+msgstr ""
+
+msgctxt "05204.flavor"
+msgid "All lives end, but we live on in the memories of those we leave behind. Though you never met this shaper in life, you'll forever hold the memory of his final manifestation in your mind."
+msgstr ""
+
+msgctxt "05205.name"
+msgid "Rousing Speech"
+msgstr ""
+
+msgctxt "05205.traits"
+msgid "Otherworldly"
+msgstr ""
+
+msgctxt "05205.text"
+msgid ""
+"<b>Response:</b> After the weather flips, add 1 shift to this gear.\n"
+"<b>Use 1 shift:</b> Before a challenge effect on the weather would resolve, cancel that effect."
+msgstr ""
+
+msgctxt "05205.flavor"
+msgid "You've still only scratched the surface of what this device is truly capable of."
+msgstr ""

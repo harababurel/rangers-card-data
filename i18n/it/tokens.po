@@ -500,3 +500,11 @@ msgstr ""
 msgctxt "hum.plurals"
 msgid "Hum,Hums"
 msgstr ""
+
+msgctxt "piton.name"
+msgid "Piton"
+msgstr ""
+
+msgctxt "piton.plurals"
+msgid "Piton,Pitons"
+msgstr ""

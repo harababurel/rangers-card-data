@@ -1356,3 +1356,7 @@ msgid ""
 "Persistent. Spirit.\n"
 "<b>Response:</b> Before a Romping Lutrinal would move, discard 1[progress] from this spirit to prevent it."
 msgstr ""
+
+msgctxt "03060.text"
+msgid "Add 1[harm] to a prey to exhaust and add 3[harm] to a predator."
+msgstr ""

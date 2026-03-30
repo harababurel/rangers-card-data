@@ -355,14 +355,6 @@ msgctxt "tune.plurals"
 msgid "Tune,Tunes"
 msgstr "Stück,Stücke"
 
-msgctxt "crack.name"
-msgid "Crack"
-msgstr ""
-
-msgctxt "crack.plurals"
-msgid "Crack,Cracks"
-msgstr ""
-
 msgctxt "essay.name"
 msgid "Essay"
 msgstr "Aufsatz"
@@ -435,22 +427,6 @@ msgctxt "hunch.plurals"
 msgid "Hunch,Hunches"
 msgstr "Route,Routen"
 
-msgctxt "lesson.name"
-msgid "Lesson"
-msgstr ""
-
-msgctxt "lesson.plurals"
-msgid "Lesson,Lessons"
-msgstr ""
-
-msgctxt "slice.name"
-msgid "Slice"
-msgstr ""
-
-msgctxt "slice.plurals"
-msgid "Slice,Slices"
-msgstr ""
-
 msgctxt "journey.name"
 msgid "Journey"
 msgstr "Reise"
@@ -483,6 +459,38 @@ msgctxt "strum.plurals"
 msgid "Strum,Strums"
 msgstr "Akkord,Akkorde"
 
+msgctxt "hum.name"
+msgid "Hum"
+msgstr "Summen"
+
+msgctxt "hum.plurals"
+msgid "Hum,Hums"
+msgstr "Summen,Summen"
+
+msgctxt "crack.name"
+msgid "Crack"
+msgstr ""
+
+msgctxt "crack.plurals"
+msgid "Crack,Cracks"
+msgstr ""
+
+msgctxt "lesson.name"
+msgid "Lesson"
+msgstr ""
+
+msgctxt "lesson.plurals"
+msgid "Lesson,Lessons"
+msgstr ""
+
+msgctxt "slice.name"
+msgid "Slice"
+msgstr ""
+
+msgctxt "slice.plurals"
+msgid "Slice,Slices"
+msgstr ""
+
 msgctxt "spray.name"
 msgid "Spray"
 msgstr ""
@@ -491,10 +499,10 @@ msgctxt "spray.plurals"
 msgid "Spray,Sprays"
 msgstr ""
 
-msgctxt "hum.name"
-msgid "Hum"
-msgstr "Summen"
+msgctxt "piton.name"
+msgid "Piton"
+msgstr ""
 
-msgctxt "hum.plurals"
-msgid "Hum,Hums"
-msgstr "Summen,Summen"
+msgctxt "piton.plurals"
+msgid "Piton,Pitons"
+msgstr ""

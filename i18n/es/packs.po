@@ -38,3 +38,11 @@ msgstr ""
 msgctxt "sib.short_name"
 msgid "SIB"
 msgstr ""
+
+msgctxt "sos.name"
+msgid "Shadow of the Storm"
+msgstr ""
+
+msgctxt "sos.short_name"
+msgid "SOS"
+msgstr ""

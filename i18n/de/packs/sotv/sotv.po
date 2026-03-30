@@ -459,7 +459,7 @@ msgstr "Wirf 1 ¬Wesen mit Präsenz 0 ab. Ist dieses ¬Wesen ein ¬Raubtier? Leg
 
 msgctxt "03028.flavor"
 msgid "You recall your mentor's words: \"Use  caution, but show no fear. As your understanding grows, so will your fear diminish. All beings are but manifestations of a greater whole. We are all one.\""
-msgstr "Die Worte deines Mentors hallen in dir nach: \"Sei vorsichtig, aber zeige keine Angst. Mit zunehmendem Verständnis wird deine Angst schwinden. Alle Wesen sind nur Manifestationen eines größeren Ganzen. Wir sind alle eins.\”"
+msgstr "Die Worte deines Mentors hallen in dir nach: \"Sei vorsichtig, aber zeige keine Angst. Mit zunehmendem Verständnis wird deine Angst schwinden. Alle Wesen sind nur Manifestationen eines größeren Ganzen. Wir sind alle eins.\\”"
 
 msgctxt "03029.name"
 msgid "All Together Now"
@@ -1352,3 +1352,14 @@ msgstr ""
 "Belohnung <f>(Vorwärts, furchtloser Ranger)</f>.\n"
 "An eine ¬Berufung anhängen (an der noch nicht <i>Der tapferste Ranger</i> anhängt).\n"
 "<b>Erschöpfen:</b> Wenn du X Müdigkeit erleiden würdest, darfst du stattdessen X Karten von deiner Hand auf deinen Müdigkeitsstapel legen."
+
+msgctxt "03019.text"
+msgid ""
+"Friendly. Persistent. Unique.\n"
+"<b>Exhaust:</b> Discard 1[progress] from an obstacle to move your [ranger] to it.\n"
+"<b>[AWA] + [exploration]: Scavenge [2]</b> <f>for useful scrap to</f> add 1 token to a tech. If you fail, draw a path card."
+msgstr ""
+
+msgctxt "03060.text"
+msgid "Add 1[harm] to a prey to exhaust and add 3[harm] to a predator."
+msgstr ""

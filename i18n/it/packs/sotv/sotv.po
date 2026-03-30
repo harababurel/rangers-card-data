@@ -910,7 +910,7 @@ msgid "Tale"
 msgstr ""
 
 msgctxt "03060.text"
-msgid "Add 1[harm] to a prey to exhaust a predator and add 3[harm] to it."
+msgid "Add 1[harm] to a prey to exhaust and add 3[harm] to a predator."
 msgstr ""
 
 msgctxt "03060.flavor"
