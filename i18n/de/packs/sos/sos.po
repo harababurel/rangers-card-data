@@ -72,7 +72,7 @@ msgstr ""
 msgctxt "05204.text"
 msgid ""
 "Attach to a spirit or companion.\n"
-"<b>Exhaust:</b> Read the attached being or add 2[progress] to it."
+"<b>Exhaust:</b> Ready the attached being or add 2[progress] to it."
 msgstr ""
 
 msgctxt "05204.flavor"
