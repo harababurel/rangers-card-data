@@ -15,7 +15,7 @@
     "approach_conflict": 2,
     "type_id": "gear",
     "traits": "Tool / Weapon",
-    "text": "<b>Exhaust:</b> Add 2 [harm] to a feature or being and 1 crack to this gear.\n<b>Exhaust:</b> When you would suffer an injury, add 2 cracks to this gear instead.\n<b>Response:</b> After 1 or more cracks are added to this gear, discard cards from the top of the challenge deck equal to the number of cracks on this gear. If 2 or more [crest] symbols are discarded, <f>the glass explodes into thousands of pieces.</f> Suffer 1 injury, return this gear to the collection, and remove a checkmark next to Adaptive Glass Shard on your campaign tracker..",
+    "text": "<b>Exhaust:</b> Add 2 [harm] to a feature or being and 1 crack to this gear.\n<b>Exhaust:</b> When you would suffer an injury, add 2 cracks to this gear instead.\n<b>Response:</b> After 1 or more cracks are added to this gear, discard cards from the top of the challenge deck equal to the number of cracks on this gear. If 2 or more [crest] symbols are discarded, <f>the glass explodes into thousands of pieces.</f> Suffer 1 injury, return this gear to the collection, and remove a checkmark next to Adaptive Glass Shard on your campaign tracker.",
     "spoiler": true,
     "subset_id": "sib_reward",
     "subset_position": 1,

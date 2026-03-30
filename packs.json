@@ -21,5 +21,11 @@
     "name": "Spire in Bloom",
     "short_name": "SIB",
     "position": 4
+  },
+  {
+    "id": "sos",
+    "name": "Shadow of the Storm",
+    "short_name": "SOS",
+    "position": 5
   }
 ]
