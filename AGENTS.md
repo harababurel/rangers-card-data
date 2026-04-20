@@ -39,6 +39,12 @@ The existing `schema.ts` already shows foresight for encounter cards, even if th
   - Standard italics are generally replaced by the `<f>` tag for flavor text (e.g., `<f>Flavor text here</f>`).
   - Game icons and attributes are typically enclosed in brackets (e.g., `[progress]`, `[FOC]`, `[FIT]`, `[SPI]`, `[AWA]`).
 
+### Card ID Generation
+A card's 5-digit `id` is a composite of the Pack ID and the card's position within that pack:
+- **First 2 digits (Pack Prefix):** Determined by the `position` of the pack in `packs.json`, zero-padded (e.g., `01` for Core set, `02` for Legacy of the Ancestors).
+- **Last 3 digits (Card Position):** Corresponds to the `position` value of the individual card within its JSON file, zero-padded (e.g., a card with position `47` gets `047`).
+- **Example:** A card in the Core set (`01`) with position `47` gets the ID `"01047"`.
+
 ## Guidelines for Future AI Agents
 When picking up tasks in this repository:
 1. **Adding Encounter Cards:** Before adding new card types (e.g., Weather, Moments), verify that their corresponding IDs exist in `types.json` and the necessary campaign/day sets exist in `sets.json` or `subsets.json`.
