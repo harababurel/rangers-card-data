@@ -1057,6 +1057,7 @@
     "traits": "Spirit / Major",
     "type_id": "being",
     "presence": 1,
+    "harm": "/",
     "text": "Persistent. Unique. Spirit.\n<b>Exhaust:</b> When you would suffer 1 or more fatigue or an injury while this spirit is within reach, discard 3[progress] from it to prevent that fatigue or injury.",
     "crest_challenge": "You may discard 2[progress] from this spirit and choose a path card. If you do, challenge effects on that card do not resolve during this test."
   },

@@ -67,6 +67,7 @@
     "type_id": "being",
     "traits": "Spirit",
     "presence": 1,
+    "harm": "/",
     "text": "Friendly. Persistent. Unique. Spirit.\n<b>[FOC] + [exploration]: Observe</b> <f>the weather patterns to</f> add [progress] to this being equal to your effort. Then scout 1 path card.",
     "sun_challenge": "You may exhaust this spirit and discard 3[progress] from him to add 1 token to or discard 1 token from the weather.",
     "spoiler": true,

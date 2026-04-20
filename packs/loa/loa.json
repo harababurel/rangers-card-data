@@ -602,6 +602,7 @@
     "approach_connection": 1,
     "approach_reason": 1,
     "presence": 1,
+    "harm": "/",
     "type_id": "being",
     "traits": "Spirit / Estian",
     "text": "Friendly. Persistent. Unique. Spirit.\n<b>[FIT] + [connection]: Tend [2]</b> <f>to the land alongside the spirit to</f> add [progress] to this being equal to your effort. You may discard 1[harm] from a feature. If it is a flora, soothe 2 fatigue.",
