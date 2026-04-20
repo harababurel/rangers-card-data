@@ -423,6 +423,7 @@
     "type_id": "being",
     "traits": "Spirit / Estian",
     "presence": 1,
+    "harm": "/",
     "text": "Friendly. Persistent. Unique. Spirit.\n<b>[SPI] + [reason]: Reflect [2]</b> <f>on the spirit's wisdom to</f> add [progress] to this being equal to your effort. Then scout 1 challenge card.",
     "crest_challenge": "You may exhaust this spirit and discard 3[progress] from it to place all fatigue you suffered this test on the bottom of your Ranger deck.",
     "spoiler": true,
