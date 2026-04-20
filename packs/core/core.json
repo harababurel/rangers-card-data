@@ -2649,5 +2649,60 @@
     "spirit": 3,
     "fitness": 1,
     "focus": 2
+  },
+  {
+    "name": "1421 aspect",
+    "id": "01243",
+    "position": 243,
+    "quantity": 1,
+    "type_id": "aspect",
+    "awareness": 1,
+    "spirit": 4,
+    "fitness": 2,
+    "focus": 1
+  },
+  {
+    "name": "1412 aspect",
+    "id": "01244",
+    "position": 244,
+    "quantity": 1,
+    "type_id": "aspect",
+    "awareness": 1,
+    "spirit": 4,
+    "fitness": 1,
+    "focus": 2
+  },
+  {
+    "name": "2411 aspect",
+    "id": "01245",
+    "position": 245,
+    "quantity": 1,
+    "type_id": "aspect",
+    "awareness": 2,
+    "spirit": 4,
+    "fitness": 1,
+    "focus": 1
+  },
+  {
+    "name": "2321 aspect",
+    "id": "01246",
+    "position": 246,
+    "quantity": 1,
+    "type_id": "aspect",
+    "awareness": 2,
+    "spirit": 3,
+    "fitness": 2,
+    "focus": 1
+  },
+  {
+    "name": "2213 aspect",
+    "id": "01247",
+    "position": 247,
+    "quantity": 1,
+    "type_id": "aspect",
+    "awareness": 2,
+    "spirit": 2,
+    "fitness": 1,
+    "focus": 3
   }
 ]
