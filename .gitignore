@@ -1,3 +1,4 @@
 **/*.mo
 **/.DS_Store
 .idea
+temp_curator/

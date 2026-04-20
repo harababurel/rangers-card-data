@@ -2704,5 +2704,93 @@
     "spirit": 2,
     "fitness": 1,
     "focus": 3
+  },
+  {
+    "name": "2123 aspect",
+    "id": "01248",
+    "position": 248,
+    "quantity": 1,
+    "type_id": "aspect",
+    "awareness": 2,
+    "spirit": 1,
+    "fitness": 2,
+    "focus": 3
+  },
+  {
+    "name": "1223 aspect",
+    "id": "01249",
+    "position": 249,
+    "quantity": 1,
+    "type_id": "aspect",
+    "awareness": 1,
+    "spirit": 2,
+    "fitness": 2,
+    "focus": 3
+  },
+  {
+    "name": "1232 aspect",
+    "id": "01250",
+    "position": 250,
+    "quantity": 1,
+    "type_id": "aspect",
+    "awareness": 1,
+    "spirit": 2,
+    "fitness": 3,
+    "focus": 2
+  },
+  {
+    "name": "2231 aspect",
+    "id": "01251",
+    "position": 251,
+    "quantity": 1,
+    "type_id": "aspect",
+    "awareness": 2,
+    "spirit": 2,
+    "fitness": 3,
+    "focus": 1
+  },
+  {
+    "name": "2132 aspect",
+    "id": "01252",
+    "position": 252,
+    "quantity": 1,
+    "type_id": "aspect",
+    "awareness": 2,
+    "spirit": 1,
+    "fitness": 3,
+    "focus": 2
+  },
+  {
+    "name": "3212 aspect",
+    "id": "01253",
+    "position": 253,
+    "quantity": 1,
+    "type_id": "aspect",
+    "awareness": 3,
+    "spirit": 2,
+    "fitness": 1,
+    "focus": 2
+  },
+  {
+    "name": "3221 aspect",
+    "id": "01254",
+    "position": 254,
+    "quantity": 1,
+    "type_id": "aspect",
+    "awareness": 3,
+    "spirit": 2,
+    "fitness": 2,
+    "focus": 1
+  },
+  {
+    "name": "3122 aspect",
+    "id": "01255",
+    "position": 255,
+    "quantity": 1,
+    "type_id": "aspect",
+    "awareness": 3,
+    "spirit": 1,
+    "fitness": 2,
+    "focus": 2
   }
 ]
