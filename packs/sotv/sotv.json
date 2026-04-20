@@ -979,6 +979,7 @@
     "type_id": "being",
     "text": "Persistent. Unique. Spirit.",
     "presence": 1,
+    "harm": "/",
     "sun_challenge": "You may move up to 4[progress] from this spirit to another spirit in the same area.",
     "mountain_challenge": "You may discard 3[progress] from this spirit to gain 1 energy of any type.",
     "crest_challenge": "You may discard 2[progress] from this spirit to scout 1 challenge card."
