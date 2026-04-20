@@ -2627,5 +2627,27 @@
     "traits": "Malady",
     "text": "Fatiguing 2\n<b>Response:</b> When you draw this card, attach it to your role.\n<b>[FIT] + [reason]: Treat [2]</b> <f>and bandage the injury to</f> return this card to your collection.",
     "spoiler": true
+  },
+  {
+    "name": "1322 aspect",
+    "id": "01241",
+    "position": 241,
+    "quantity": 1,
+    "type_id": "aspect",
+    "awareness": 1,
+    "spirit": 3,
+    "fitness": 2,
+    "focus": 2
+  },
+  {
+    "name": "2312 aspect",
+    "id": "01242",
+    "position": 242,
+    "quantity": 1,
+    "type_id": "aspect",
+    "awareness": 2,
+    "spirit": 3,
+    "fitness": 1,
+    "focus": 2
   }
 ]
