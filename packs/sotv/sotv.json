@@ -1506,7 +1506,7 @@
     "traits": "Trail",
     "presence": 0,
     "harm": 3,
-    "progress": 2,
+    "progress": "2[per_ranger]",
     "text": "Personal Reward <i>(Grell's Secret Map)</i>.\n<b>Clear [progress]:</b> For each feature in play, choose one <i>(you may choose the same option more than once)</i>:\nExhaust and move that feature.\nAdd 3[progress] to that feature.\nSoothe fatigue equal to that feature's presence.",
     "spoiler": true,
     "subset_id": "sotv_reward",

@@ -237,6 +237,7 @@
     "approach_conflict": 1,
     "approach_exploration": 1,
     "presence": 1,
+    "harm": "/",
     "type_id": "being",
     "traits": "Spirit / Estian",
     "text": "Friendly. Persistent. Unique. Spirit.\n<b>[FOC] + [exploration]: Navigate [2]</b> alongside the spirit to add [progress] to this being equal to your effort. Then you may move your [ranger] to a feature in the same area.",
