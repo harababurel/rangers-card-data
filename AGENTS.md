@@ -45,6 +45,15 @@ A card's 5-digit `id` is a composite of the Pack ID and the card's position with
 - **Last 3 digits (Card Position):** Corresponds to the `position` value of the individual card within its JSON file, zero-padded (e.g., a card with position `47` gets `047`).
 - **Example:** A card in the Core set (`01`) with position `47` gets the ID `"01047"`.
 
+### Identical Card Grouping
+Many Path and Location cards are identical in text and stats but have different set indices (e.g., *Wading Ursus* 1/5 and 2/5). To keep the database clean:
+- **Single Entry:** Use one JSON object per unique card template.
+- **`quantity`**: Set this to the total number of physical copies (e.g., `2`).
+- **`set_position`**: Use a string range or list (e.g., `"1-2"` or `"1, 5"`).
+- **`position`**: Use the **starting position** of the range.
+- **`id`**: Based on the starting position (e.g., `"01256"`).
+- **Curator Logic**: The UI automatically accounts for `quantity` when suggesting the next available position.
+
 ## Guidelines for Future AI Agents
 When picking up tasks in this repository:
 1. **Adding Encounter Cards:** Before adding new card types (e.g., Weather, Moments), verify that their corresponding IDs exist in `types.json` and the necessary campaign/day sets exist in `sets.json` or `subsets.json`.

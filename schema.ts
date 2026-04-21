@@ -78,7 +78,6 @@ export const TABLES: { [key: string]: Table } = {
       'approach_exploration',
       'approach_connection',
       'set_id',
-      'set_position',
       'quantity',
       'level',
       'type_id',
@@ -107,6 +106,7 @@ export const TABLES: { [key: string]: Table } = {
     textFields: [
       'name',
       'traits',
+      'set_position',
       'text',
       'flavor',
       'harm',
