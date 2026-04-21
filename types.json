@@ -50,5 +50,9 @@
   {
     "id": "challenge",
     "name": "Challenge"
+  },
+  {
+    "id": "weather",
+    "name": "Weather"
   }
-]
+  ]

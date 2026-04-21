@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ranger",
+    "name": "Ranger"
+  },
+  {
+    "id": "path",
+    "name": "Path"
+  },
+  {
+    "id": "location",
+    "name": "Location"
+  },
+  {
+    "id": "weather",
+    "name": "Weather"
+  },
+  {
+    "id": "mission",
+    "name": "Mission"
+  },
+  {
+    "id": "challenge",
+    "name": "Challenge"
+  }
+]

@@ -21,9 +21,9 @@
     "subset_id": "sos_reward",
     "subset_position": 1,
     "token_id": "piton",
-    "token_count": 3
+    "token_count": 3,
+    "category_id": "ranger"
   },
-
   {
     "id": "05202",
     "cost": 1,
@@ -47,7 +47,8 @@
     "subset_id": "sos_reward",
     "subset_position": 2,
     "token_id": "charge",
-    "token_count": 3
+    "token_count": 3,
+    "category_id": "ranger"
   },
   {
     "id": "05203",
@@ -72,7 +73,8 @@
     "sun_challenge": "You may exhaust this spirit and discard 3[progress] from him to add 1 token to or discard 1 token from the weather.",
     "spoiler": true,
     "subset_id": "sos_reward",
-    "subset_position": 3
+    "subset_position": 3,
+    "category_id": "ranger"
   },
   {
     "id": "05204",
@@ -94,7 +96,8 @@
     "text": "Attach to a spirit or companion.\n<b>Exhaust:</b> Ready the attached being or add 2[progress] to it.",
     "spoiler": true,
     "subset_id": "sos_reward",
-    "subset_position": 4
+    "subset_position": 4,
+    "category_id": "ranger"
   },
   {
     "id": "05205",
@@ -119,6 +122,7 @@
     "subset_id": "sos_reward",
     "subset_position": 5,
     "token_id": "shift",
-    "token_count": 1
+    "token_count": 1,
+    "category_id": "ranger"
   }
 ]

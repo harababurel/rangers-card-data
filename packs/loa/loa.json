@@ -21,7 +21,8 @@
     "text": "<b>Exhaust (use 1 flash)</b>: Choose a path card. That card gains illumination until the end of the turn.\n<b>[FOC] + [reason] (use 1 flash): Distract</b> <f>with a brilliant flash of light to</f> exhaust a being.",
     "spoiler": true,
     "subset_id": "loa_reward",
-    "subset_position": 1
+    "subset_position": 1,
+    "category_id": "ranger"
   },
   {
     "id": "02202",
@@ -43,7 +44,8 @@
     "text": "<b>Exhaust:</b> When you would suffer 1 or more fatigue, draw a challenge card and resolve the following effect based on its icon:\n[sun] Soothe that amount of fatigue instead.\n[mountain] Prevent that fatigue.\n[crest] Suffer 1 additional fatigue or discard this gear.",
     "spoiler": true,
     "subset_id": "loa_reward",
-    "subset_position": 2
+    "subset_position": 2,
+    "category_id": "ranger"
   },
   {
     "id": "02203",
@@ -63,7 +65,8 @@
     "text": "<b>Choose one:</b>\nExhaust X path cards.\nShuffle a path card with X or less presence into the path deck. Then search the General set for a Fractal Frog and shuffle it into the path deck.",
     "spoiler": true,
     "subset_id": "loa_reward",
-    "subset_position": 3
+    "subset_position": 3,
+    "category_id": "ranger"
   },
   {
     "id": "02204",
@@ -86,7 +89,8 @@
     "text": "Friendly. Persistent. Unique.\n<b>Exhaust:</b> Shuffle a being attached to this biomeld into the path deck. If that being was a predator, add 3[harm] to another being. If it was a prey, add 4[progress] to another being. Otherwise, exhaust another being.\nIf there is not a being attached to this biomeld, it gains the following test:\n<b>[AWA] + [connection]: Suggest</b> <f>a new form to</f> attach a non-human being from the path discard facedown to this biomeld. Then exhaust this biomeld.",
     "spoiler": true,
     "subset_id": "loa_reward",
-    "subset_position": 4
+    "subset_position": 4,
+    "category_id": "ranger"
   },
   {
     "id": "02205",
@@ -108,7 +112,8 @@
     "text": "Manifestation. <f>(To play a manifestation, discard 1 token from a conduit.)</f>\nAdd 1[harm] to a flora to place a path card on top of the path deck. If that card is a biomeld, place it on the bottom of the path deck instead.",
     "spoiler": true,
     "subset_id": "loa_reward",
-    "subset_position": 5
+    "subset_position": 5,
+    "category_id": "ranger"
   },
   {
     "id": "02206",
@@ -130,7 +135,8 @@
     "text": "Attach to a Ranger's equipped gear.\n<b>Response:</b> After a Ranger succeeds at a test from the attached gear, if it cleared a being, scout 1 path card. If it cleared a feature, add 2[progress] to the location. Otherwise, scout 1 Ranger card.",
     "spoiler": true,
     "subset_id": "loa_reward",
-    "subset_position": 6
+    "subset_position": 6,
+    "category_id": "ranger"
   },
   {
     "id": "02207",
@@ -152,7 +158,8 @@
     "flavor": "The reclaimer invasion has reached its nadir, and they appear to be dying off. You wonder, however, if they have simply gone dormant and will one day return.",
     "spoiler": true,
     "subset_id": "loa_reward",
-    "subset_position": 7
+    "subset_position": 7,
+    "category_id": "ranger"
   },
   {
     "id": "02208",
@@ -175,7 +182,8 @@
     "text": "Setup.\n<b>Exhaust (use 1 filter):</b> When you interact with a water card, commit 2 effort.\nThis gear cannot be discarded or returned to your hand by path card effects.",
     "spoiler": true,
     "subset_id": "loa_reward",
-    "subset_position": 8
+    "subset_position": 8,
+    "category_id": "ranger"
   },
   {
     "id": "02209",
@@ -198,7 +206,8 @@
     "text": "Friendly. Persistent. Unique.\n<b>Exhaust:</b> Look at the top card of the path deck. Add [progress] equal to its presence to another path card in play that shares its card type.\n<b>[FIT] + [connection]: Nuzzle</b> <f>your little friend to</f> ready this being and soothe 1 fatigue.",
     "spoiler": true,
     "subset_id": "loa_reward",
-    "subset_position": 9
+    "subset_position": 9,
+    "category_id": "ranger"
   },
   {
     "id": "02210",
@@ -220,7 +229,8 @@
     "flavor": "You took this device from Orlin's Vault not knowing how truly useful it would be.",
     "spoiler": true,
     "subset_id": "loa_reward",
-    "subset_position": 10
+    "subset_position": 10,
+    "category_id": "ranger"
   },
   {
     "id": "02211",
@@ -244,7 +254,8 @@
     "mountain_challenge": "You may exhaust this spirit to move up to 3[progress] from it to the location.",
     "spoiler": true,
     "subset_id": "loa_reward",
-    "subset_position": 11
+    "subset_position": 11,
+    "category_id": "ranger"
   },
   {
     "id": "02212",
@@ -268,7 +279,8 @@
     "text": "<b>[FOC] + [exploration] (use 1 entry): Consult</b> <f>observations on the arcology to</f> add 1[progress] to a feature for every 2 effort. If that feature is a ruin or machine, add [progress] equal to your effort instead. Then, read [guide] 197.",
     "spoiler": true,
     "subset_id": "loa_reward",
-    "subset_position": 12
+    "subset_position": 12,
+    "category_id": "ranger"
   },
   {
     "id": "02213",
@@ -290,9 +302,9 @@
     "flavor": "The Estian's vision for their arcology was grand. Not only could it house hundreds of thousands, but its inhabitants were tasked with inventing new technologies that would preserve their legacy.",
     "spoiler": true,
     "subset_id": "loa_reward",
-    "subset_position": 13
+    "subset_position": 13,
+    "category_id": "ranger"
   },
-
   {
     "id": "02214",
     "cost": 1,
@@ -313,7 +325,8 @@
     "text": "Unique.\n<b>Exhaust:</b> When you suffer 1 or more fatigue, add an equal number of [progress] to the location.\n<b>Response:</b> If you have 1 or less fatigue, discard this gear.",
     "spoiler": true,
     "subset_id": "loa_reward",
-    "subset_position": 14
+    "subset_position": 14,
+    "category_id": "ranger"
   },
   {
     "id": "02215",
@@ -335,7 +348,8 @@
     "flavor": "After exploring every inch of the subterranean chambers of the arcology, and encountering no small number of wondrous beings, you've come to understand that there is no place on Earth that is not home to multitudinous life, be that under the sun, or below its surface.",
     "spoiler": true,
     "subset_id": "loa_reward",
-    "subset_position": 15
+    "subset_position": 15,
+    "category_id": "ranger"
   },
   {
     "id": "02216",
@@ -359,7 +373,8 @@
     "flavor": "Lunn gifted you this \"artisanal\" device.",
     "spoiler": true,
     "subset_id": "loa_reward",
-    "subset_position": 16
+    "subset_position": 16,
+    "category_id": "ranger"
   },
   {
     "id": "02217",
@@ -382,7 +397,8 @@
     "text": "Friendly. Persistent. Unique.\n<b>Exhaust:</b> Discard 3[progress] from this being to resolve a challenge effect on a being.\n<b>[AWA] + [exploration]: Chase [2]</b> <f>the scampering lutrinal to</f> add 1[progress] to a feature for every 2 effort. Then add an equal amount of [progress] to this being and move it.",
     "spoiler": true,
     "subset_id": "loa_reward",
-    "subset_position": 17
+    "subset_position": 17,
+    "category_id": "ranger"
   },
   {
     "id": "02218",
@@ -403,7 +419,8 @@
     "text": "Manifestation.\nAttach to a feature or location.\nWhen you <b>Traverse</b> the attached card, dodge all obstacles. If you fail, prevent the injury and return this manifestation to your hand.",
     "spoiler": true,
     "subset_id": "loa_reward",
-    "subset_position": 18
+    "subset_position": 18,
+    "category_id": "ranger"
   },
   {
     "id": "02219",
@@ -428,7 +445,8 @@
     "crest_challenge": "You may exhaust this spirit and discard 3[progress] from it to place all fatigue you suffered this test on the bottom of your Ranger deck.",
     "spoiler": true,
     "subset_id": "loa_reward",
-    "subset_position": 19
+    "subset_position": 19,
+    "category_id": "ranger"
   },
   {
     "id": "02220",
@@ -449,7 +467,8 @@
     "text": "<b>Response:</b> Before you decide to travel, if there is 2[per_ranger] or more [progress] on the location, you may travel <i>(regardless of the location's [progress] threshold)</i>. If there is 5[per_ranger] or more [progress] on it, travel to a location up to two paths away. Use the terrain of the second path when building the path deck.",
     "spoiler": true,
     "subset_id": "loa_reward",
-    "subset_position": 20
+    "subset_position": 20,
+    "category_id": "ranger"
   },
   {
     "id": "02221",
@@ -474,7 +493,8 @@
     "flavor": "You hold the lantern aloft and \"Slugmond\" squirms, emitting a warm glow.",
     "spoiler": true,
     "subset_id": "loa_reward",
-    "subset_position": 21
+    "subset_position": 21,
+    "category_id": "ranger"
   },
   {
     "id": "02222",
@@ -496,7 +516,8 @@
     "text": "Attach to a path card.\n<b>Exhaust:</b> When a Ranger performs a test that interacts with the attached card, commit 2 effort. This test can be performed without commiting energy.",
     "spoiler": true,
     "subset_id": "loa_reward",
-    "subset_position": 22
+    "subset_position": 22,
+    "category_id": "ranger"
   },
   {
     "id": "02223",
@@ -519,7 +540,8 @@
     "text": "Setup.\n<b>Exhaust (use 1 puff):</b> When you interact with a flora, commit 2 effort.\n<b>[FOC] + [reason] (use 1 puff): Release</b> <f>a cloud of spores to</f> exhaust a flora.",
     "spoiler": true,
     "subset_id": "loa_reward",
-    "subset_position": 23
+    "subset_position": 23,
+    "category_id": "ranger"
   },
   {
     "id": "02224",
@@ -541,7 +563,8 @@
     "flavor": "Ever since you delivered the mysterious seed to its destination, you have discovered a new kinship with the Valley's plant life, and a new source of wisdom.",
     "spoiler": true,
     "subset_id": "loa_reward",
-    "subset_position": 24
+    "subset_position": 24,
+    "category_id": "ranger"
   },
   {
     "id": "02225",
@@ -562,7 +585,8 @@
     "text": "<b>Deployed:</b> When you add 1 or more [progress] to a being, increase the [progress] added by 1. When you add 1 or more [progress] to a feature, decrease the [progress] added by 1. This gear gains the following ability:\n<b>Response:</b> When you rest, soothe 2 fatigue.",
     "spoiler": true,
     "subset_id": "loa_reward",
-    "subset_position": 26
+    "subset_position": 26,
+    "category_id": "ranger"
   },
   {
     "id": "02226",
@@ -585,7 +609,8 @@
     "text": "You can <b>Connect</b> with flora features.\n<b>Exhaust:</b> After you successfully <b>Connect</b> with a flora, soothe 1 fatigue. If that flora has the mycelial keyword, add [progress] equal to your effort to each other flora with the mycelial keyword.",
     "spoiler": true,
     "subset_id": "loa_reward",
-    "subset_position": 27
+    "subset_position": 27,
+    "category_id": "ranger"
   },
   {
     "id": "02227",
@@ -609,7 +634,8 @@
     "spoiler": true,
     "sun_challenge": "You may discard 3[progress] from this spirit and exhaust it to choose a nature card in your discard and add it to your hand.",
     "subset_id": "loa_reward",
-    "subset_position": 27
+    "subset_position": 27,
+    "category_id": "ranger"
   },
   {
     "id": "02228",
@@ -632,7 +658,8 @@
     "flavor": "The Estians feared no limitation and heeded no boundary; as evidenced by the biomelds that yet roam the Arcology ruin.",
     "spoiler": true,
     "subset_id": "loa_reward",
-    "subset_position": 28
+    "subset_position": 28,
+    "category_id": "ranger"
   },
   {
     "id": "02229",
@@ -657,6 +684,7 @@
     "flavor": "Crafted by Tollin Lang, this lithophone is capable of rich, vibrating tones that resonate deep within, supplying listeners with a profound sense of well-being.",
     "spoiler": true,
     "subset_id": "loa_reward",
-    "subset_position": 29
+    "subset_position": 29,
+    "category_id": "ranger"
   }
 ]

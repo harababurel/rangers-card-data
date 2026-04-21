@@ -60,9 +60,15 @@ export const TABLES: { [key: string]: Table } = {
     fields: ['position'],
     textFields: ['name']
   },
+  category: {
+    collection: 'category',
+    fields: [],
+    textFields: ['name'],
+  },
   card: {
     collection: 'card',
     fields: [
+      'category_id',
       'equip',
       'presence',
       'token_id',
@@ -87,7 +93,16 @@ export const TABLES: { [key: string]: Table } = {
       'back_card_id',
       'position',
       'deck_limit',
-      'spoiler'
+      'spoiler',
+      'pivotal',
+      'location_icon',
+      'progress_threshold',
+      'awa_value',
+      'spi_value',
+      'fit_value',
+      'foc_value',
+      'challenge_icon',
+      'reshuffle'
     ],
     textFields: [
       'name',
@@ -100,9 +115,12 @@ export const TABLES: { [key: string]: Table } = {
       'imagesrc',
       'sun_challenge',
       'mountain_challenge',
-      'crest_challenge'
+      'crest_challenge',
+      'setup',
+      'key_locations'
     ],
     foreignKeys: {
+      category_id: 'category',
       token_id: 'token',
       set_id: 'set',
       type_id: 'type',

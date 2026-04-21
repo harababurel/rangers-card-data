@@ -20,9 +20,9 @@
     "subset_id": "sib_reward",
     "subset_position": 1,
     "token_id": "crack",
-    "token_count": 0
+    "token_count": 0,
+    "category_id": "ranger"
   },
-
   {
     "id": "04202",
     "cost": 1,
@@ -43,7 +43,8 @@
     "text": "If there is a human in play, add 3 [progress] to that human or add 3 [progress] to the location. If Helping Hand is attached to that human, do both instead.",
     "spoiler": true,
     "subset_id": "sib_reward",
-    "subset_position": 2
+    "subset_position": 2,
+    "category_id": "ranger"
   },
   {
     "id": "04203",
@@ -66,7 +67,8 @@
     "text": "<b>Response:</b> When you pertorm a test, if your [ranger] is on a flora, you may dodge each card in the same area as that flora.\n[AWA] + [exploration]<b>: Blend</b> <f>into the environment to</f> move your [ranger] to a flora.",
     "spoiler": true,
     "subset_id": "sib_reward",
-    "subset_position": 3
+    "subset_position": 3,
+    "category_id": "ranger"
   },
   {
     "id": "04204",
@@ -91,7 +93,8 @@
     "token_id": "spray",
     "token_count": 3,
     "subset_id": "sib_reward",
-    "subset_position": 4
+    "subset_position": 4,
+    "category_id": "ranger"
   },
   {
     "id": "04205",
@@ -114,6 +117,7 @@
     "text": "Each Ranger may spend any amount of energy of one aspect to gain that much energy of another aspect.",
     "spoiler": true,
     "subset_id": "sib_reward",
-    "subset_position": 5
+    "subset_position": 5,
+    "category_id": "ranger"
   }
 ]
