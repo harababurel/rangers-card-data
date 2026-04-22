@@ -1,14 +1,14 @@
 [
   {
-    "id": "play",
-    "name": "In play"
-  },
-  {
-    "id": "reach",
+    "id": "within_reach",
     "name": "Within reach"
   },
   {
-    "id": "along",
+    "id": "along_the_way",
     "name": "Along the way"
+  },
+  {
+    "id": "in_play",
+    "name": "In play"
   }
 ]

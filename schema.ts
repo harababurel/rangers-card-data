@@ -101,7 +101,11 @@ export const TABLES: { [key: string]: Table } = {
       'fit_value',
       'foc_value',
       'challenge_icon',
-      'reshuffle'
+      'reshuffle',
+      'awareness',
+      'spirit',
+      'fitness',
+      'focus'
     ],
     textFields: [
       'name',
