@@ -45,6 +45,13 @@ A card's 5-digit `id` is a composite of the Pack ID and the card's position with
 - **Last 3 digits (Card Position):** Corresponds to the `position` value of the individual card within its JSON file, zero-padded (e.g., a card with position `47` gets `047`).
 - **Example:** A card in the Core set (`01`) with position `47` gets the ID `"01047"`.
 
+### Functional Conventions
+- **Hierarchical Classification:** Every card must have a `category_id` (representing the card back/deck context: `ranger`, `path`, `location`, `weather`, `mission`, `challenge`) and a `type_id` (representing the functional content: `being`, `gear`, `moment`, etc.).
+- **Traits vs. Types:** Do NOT include the card's functional type in its `traits` field. For example, a card with `type_id: "being"` should not have "Being" in its `traits` string.
+- **Area IDs:** Path cards use `area_id` to represent the spawn arrow. The valid values are `within_reach` (down arrow) and `along_the_way` (up arrow). Ranger cards typically use `in_play`.
+- **Aspect Cards:** These cards use numeric fields (`awareness`, `spirit`, `fitness`, `focus`) to define base attribute values.
+- **Challenge Cards:** These use `awa_value`, `spi_value`, etc., for the aspect modifiers, and `challenge_icon` for the band color icon.
+
 ### Identical Card Grouping
 Many Path and Location cards are identical in text and stats but have different set indices (e.g., *Wading Ursus* 1/5 and 2/5). To keep the database clean:
 - **Single Entry:** Use one JSON object per unique card template.
