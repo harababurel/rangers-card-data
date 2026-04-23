@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Earthborne Rangers Curator</title>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @font-face {
+      font-family: "core";
+      src: url("/fonts/core.woff") format("woff");
+      font-weight: normal;
+      font-style: normal;
+      font-display: block;
+    }
+
+    .core-icon {
+      font-family: "core" !important;
+      speak: never;
+      font-style: normal;
+      font-weight: normal;
+      font-variant: normal;
+      text-transform: none;
+      line-height: 1;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      display: inline-block;
+      vertical-align: middle;
+      font-size: 1.2em;
+    }
+
+    .core-conflict:before { content: "\e900"; }
+    .core-connection:before { content: "\e901"; }
+    .core-reason:before { content: "\e902"; }
+    .core-exploration:before { content: "\e903"; }
+    .core-harm:before { content: "\e905"; }
+    .core-progress:before { content: "\e906"; }
+    .core-ranger:before { content: "\e907"; }
+    .core-sun:before { content: "\e90b"; }
+    .core-crest:before { content: "\e90c"; }
+    .core-mountain:before { content: "\e90d"; }
+    .core-spi:before { content: "\e90e"; }
+    .core-foc:before { content: "\e90f"; }
+    .core-fit:before { content: "\e910"; }
+    .core-awa:before { content: "\e911"; }
+    .core-presence:before { content: "\e907"; } 
+
+    .card-image {
+      width: 300px;
+      height: 420px; 
+      background-repeat: no-repeat;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+      transition: all 0.3s ease;
+    }
+  </style>
+</head>
+<body class="bg-gray-100 p-4 font-sans text-sm">
+  <div id="app" class="flex h-screen gap-4">
+    <!-- Sidebar -->
+    <div class="w-[15%] bg-white p-4 rounded shadow overflow-y-auto flex flex-col gap-2 text-xs">
+      <div class="flex justify-between items-center mb-1">
+        <h2 class="text-base font-bold">Cards ({{ filteredCards.length }})</h2>
+        <label class="flex items-center gap-1 cursor-pointer select-none text-[10px] text-gray-500 hover:text-blue-600">
+          <input type="checkbox" v-model="showCompleted" class="w-3 h-3">
+          Show All
+        </label>
+      </div>
+      <input type="text" v-model="search" placeholder="Search nickname..." class="w-full border p-2 rounded mb-2">
+      <div class="flex-1 overflow-y-auto pr-2">
+        <div v-for="card in filteredCards" :key="getCardKey(card)" 
+             @click="selectCard(card)"
+             :class="['p-2 mb-1 cursor-pointer border rounded flex justify-between items-center', 
+                      selected === card ? 'bg-blue-100 border-blue-500 font-semibold' : 'hover:bg-gray-50',
+                      isCompleted(card) ? 'opacity-50 line-through' : '']">
+          <span class="truncate">{{ card.nickname }}</span>
+          <span v-if="isCompleted(card)" class="text-green-600 font-bold ml-1">✓</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Editor -->
+    <div class="w-2/3 bg-white p-4 rounded shadow flex overflow-y-auto" v-if="selected">
+      <div class="w-1/3 flex flex-col items-center gap-4">
+        <h2 class="text-xl font-bold">{{ selected.nickname }}</h2>
+        <div class="card-image" :style="getCardStyle(selected)"></div>
+        <button @click="toggleAspect" class="mt-2 bg-gray-200 hover:bg-gray-300 text-gray-700 px-3 py-1 rounded text-xs border border-gray-400">
+          🔄 Toggle Aspect Ratio
+        </button>
+        
+        <div class="w-full mt-4 bg-gray-50 border rounded p-3 text-xs leading-relaxed overflow-y-auto flex-1">
+          <h3 class="font-bold mb-1 border-b pb-1">Formatting Cheat Sheet</h3>
+          <ul class="list-disc pl-4 text-gray-700 space-y-1">
+            <li><b>Flavor:</b> <code>&lt;f&gt;Text&lt;/f&gt;</code></li>
+            <li><b>Icons:</b> <code>[AWA]</code>, <code>[FIT]</code>, <code>[FOC]</code>, <code>[SPI]</code></li>
+            <li><b>Stats:</b> <code>[progress]</code>, <code>[harm]</code>, <code>[energy]</code>, <code>[ranger]</code></li>
+            <li><b>Approaches:</b> <code>[conflict]</code>, <code>[reason]</code>, <code>[exploration]</code>, <code>[connection]</code></li>
+            <li><b>Challenges:</b> <code>[sun]</code>, <code>[mountain]</code>, <code>[crest]</code></li>
+            <li><b>Bold:</b> <code>&lt;b&gt;Text&lt;/b&gt;</code></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="w-2/3 flex flex-col gap-3 pl-4 overflow-y-auto">
+        <h3 class="text-lg font-semibold border-b pb-1">Edit Metadata</h3>
+        
+        <!-- Repo Cross-reference -->
+        <div class="bg-indigo-50 border border-indigo-200 p-2 rounded">
+          <div class="flex justify-between items-center mb-1">
+            <label class="block font-bold text-indigo-800">Cross-reference Repo</label>
+            <span v-if="loadingRepo" class="text-[10px] text-indigo-500 animate-pulse">Loading index...</span>
+            <span v-else class="text-[10px] text-indigo-400">{{ repoCards.length }} cards indexed</span>
+          </div>
+          <div class="flex gap-2">
+            <input type="text" v-model="repoSearchTerm" @keyup.enter="searchRepo" placeholder="Search repo by name..." class="flex-1 border border-indigo-300 p-1 rounded">
+            <button @click="searchRepo" :disabled="loadingRepo" class="bg-indigo-600 text-white px-3 py-1 rounded hover:bg-indigo-700 disabled:opacity-50">Search</button>
+          </div>
+          <div v-if="repoSearchResults.length > 0" class="mt-2 text-xs bg-white border border-indigo-200 rounded max-h-32 overflow-y-auto">
+            <div v-for="r in repoSearchResults" @click="populateFromRepo(r)" class="cursor-pointer hover:bg-indigo-100 p-2 border-b last:border-b-0 flex justify-between">
+              <span class="font-bold">{{r.name}}</span>
+              <span class="text-gray-500">{{r.id}} ({{r.category_id || '??'}}:{{r.type_id}})</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Basic Info -->
+        <div class="grid grid-cols-4 gap-2">
+          <div><label class="block font-bold">Pack Prefix</label><input v-model="packPrefix" class="w-full border p-1 rounded bg-gray-50"></div>
+          <div><label class="block font-bold">Position</label><input v-model.number="form.position" class="w-full border p-1 rounded bg-gray-100" readonly></div>
+          <div><label class="block font-bold text-blue-800">Generated ID</label><input v-model="form.id" class="w-full border p-1 rounded bg-blue-50 border-blue-200" readonly></div>
+          <div><label class="block font-bold text-red-800">Quantity</label><input v-model.number="form.quantity" type="number" class="w-full border p-1 rounded border-red-200"></div>
+        </div>
+        <div><label class="block font-bold">Name</label><input v-model="form.name" class="w-full border p-1 rounded"></div>
+
+        <!-- Hierarchical Classification -->
+        <div class="grid grid-cols-2 gap-2">
+          <div>
+            <label class="block font-bold text-blue-600">Category (Back)</label>
+            <select v-model="form.category_id" class="w-full border p-1 rounded bg-blue-50">
+              <option v-for="c in categories" :key="c.id" :value="c.id">{{c.name}}</option>
+            </select>
+          </div>
+          <div>
+            <label class="block font-bold">Type (Content)</label>
+            <select v-model="form.type_id" class="w-full border p-1 rounded">
+              <option v-for="t in filteredTypes" :key="t.id" :value="t.id">{{t.name}}</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Conditional Fields: Ranger -->
+        <div v-if="form.category_id === 'ranger' && form.type_id !== 'aspect'" class="grid grid-cols-3 gap-2 bg-green-50 p-2 rounded border border-green-200">
+          <div><label class="block font-bold">Aspect Req</label>
+            <select v-model="form.aspect_id" class="w-full border p-1 rounded">
+              <option value="">None</option>
+              <option value="AWA">AWA</option>
+              <option value="FIT">FIT</option>
+              <option value="FOC">FOC</option>
+              <option value="SPI">SPI</option>
+            </select>
+          </div>
+          <div><label class="block font-bold">Cost</label><input v-model.number="form.cost" type="number" class="w-full border p-1 rounded"></div>
+          <div><label class="block font-bold">Equip</label><input v-model.number="form.equip" type="number" class="w-full border p-1 rounded"></div>
+        </div>
+
+        <!-- Conditional Fields: Path -->
+        <div v-if="form.category_id === 'path' && form.type_id !== 'aspect'" class="grid grid-cols-2 gap-2 bg-orange-50 p-2 rounded border border-orange-200">
+          <div><label class="block font-bold">Spawn Area (Arrow)</label>
+            <select v-model="form.area_id" class="w-full border p-1 rounded">
+              <option v-for="a in areas" :key="a.id" :value="a.id">{{a.name}}</option>
+            </select>
+          </div>
+          <div><label class="block font-bold">Presence</label><input v-model.number="form.presence" type="number" class="w-full border p-1 rounded"></div>
+        </div>
+
+        <!-- Conditional Fields: Location -->
+        <div v-if="form.category_id === 'location' && form.type_id !== 'aspect'" class="grid grid-cols-3 gap-2 bg-stone-100 p-2 rounded border border-stone-300">
+          <div class="flex items-center gap-2"><input type="checkbox" v-model="form.pivotal" id="pivotal"><label for="pivotal" class="font-bold">Pivotal</label></div>
+          <div><label class="block font-bold">Icon</label><input v-model="form.location_icon" class="w-full border p-1 rounded"></div>
+          <div><label class="block font-bold">Prog. Threshold</label><input v-model.number="form.progress_threshold" type="number" class="w-full border p-1 rounded"></div>
+        </div>
+
+        <!-- Conditional Fields: Challenge Deck -->
+        <div v-if="form.category_id === 'challenge' && form.type_id !== 'aspect'" class="grid grid-cols-2 gap-2 bg-purple-50 p-2 rounded border border-purple-200">
+           <div class="grid grid-cols-2 gap-1">
+             <div><label class="text-[10px] font-bold">AWA</label><input v-model.number="form.awa_value" type="number" class="w-full border p-0.5 rounded"></div>
+             <div><label class="text-[10px] font-bold">SPI</label><input v-model.number="form.spi_value" type="number" class="w-full border p-0.5 rounded"></div>
+             <div><label class="text-[10px] font-bold">FIT</label><input v-model.number="form.fit_value" type="number" class="w-full border p-0.5 rounded"></div>
+             <div><label class="text-[10px] font-bold">FOC</label><input v-model.number="form.foc_value" type="number" class="w-full border p-0.5 rounded"></div>
+           </div>
+           <div class="flex flex-col gap-1">
+             <label class="block font-bold">Icon</label>
+             <select v-model="form.challenge_icon" class="w-full border p-1 rounded">
+               <option value="sun">Sun</option>
+               <option value="mountain">Mountain</option>
+               <option value="crest">Crest</option>
+             </select>
+             <div class="flex items-center gap-1 mt-1"><input type="checkbox" v-model="form.reshuffle" id="reshuffle"><label for="reshuffle" class="text-xs">Reshuffle</label></div>
+           </div>
+        </div>
+
+        <!-- Stats & Approaches (Shared by Path/Location/Weather/Mission) -->
+        <div v-if="['path', 'location', 'weather', 'mission'].includes(form.category_id) && form.type_id !== 'aspect'" class="grid grid-cols-2 gap-2">
+          <div class="grid grid-cols-2 gap-2">
+            <div><label class="block font-bold"><span class="core-icon core-harm"></span> Harm</label><input v-model="form.harm" class="w-full border p-1 rounded"></div>
+            <div><label class="block font-bold"><span class="core-icon core-progress"></span> Progress</label><input v-model="form.progress" class="w-full border p-1 rounded"></div>
+          </div>
+          <div class="grid grid-cols-4 gap-1">
+            <div><label class="block text-[10px] font-bold text-center"><span class="core-icon core-conflict"></span></label><input v-model.number="form.approach_conflict" type="number" class="w-full border p-1 rounded text-center"></div>
+            <div><label class="block text-[10px] font-bold text-center"><span class="core-icon core-reason"></span></label><input v-model.number="form.approach_reason" type="number" class="w-full border p-1 rounded text-center"></div>
+            <div><label class="block text-[10px] font-bold text-center"><span class="core-icon core-exploration"></span></label><input v-model.number="form.approach_exploration" type="number" class="w-full border p-1 rounded text-center"></div>
+            <div><label class="block text-[10px] font-bold text-center"><span class="core-icon core-connection"></span></label><input v-model.number="form.approach_connection" type="number" class="w-full border p-1 rounded text-center"></div>
+          </div>
+        </div>
+
+        <!-- Common Metadata -->
+        <div v-if="form.type_id !== 'aspect'" class="grid grid-cols-2 gap-2">
+          <div><label class="block font-bold">Set ID</label><input v-model="form.set_id" class="w-full border p-1 rounded"></div>
+          <div><label class="block font-bold text-indigo-600 italic">Set Position (range ok)</label><input v-model="form.set_position" class="w-full border p-1 rounded border-indigo-200"></div>
+        </div>
+        
+        <div v-if="form.type_id !== 'aspect'" class="grid grid-cols-2 gap-2">
+          <div><label class="block font-bold">Token Type</label>
+            <select v-model="form.token_id" class="w-full border p-1 rounded">
+              <option value="">None</option>
+              <option v-for="t in tokens" :key="t.id" :value="t.id">{{t.name}}</option>
+            </select>
+          </div>
+          <div><label class="block font-bold">Starting Tokens</label><input v-model.number="form.token_count" type="number" class="w-full border p-1 rounded"></div>
+        </div>
+
+        <div v-if="form.category_id === 'mission' && form.type_id !== 'aspect'"><label class="block font-bold">Key Locations</label><input v-model="form.key_locations" class="w-full border p-1 rounded"></div>
+        
+        <div v-if="form.type_id !== 'aspect'"><label class="block font-bold">Traits</label><input v-model="form.traits" class="w-full border p-1 rounded"></div>
+        <div v-if="form.type_id !== 'aspect'"><label class="block font-bold">Rules Text</label><textarea v-model="form.text" class="w-full border p-1 rounded h-20 font-mono text-[10px]"></textarea></div>
+        <div v-if="form.category_id === 'location' && form.type_id !== 'aspect'"><label class="block font-bold text-stone-600">Setup Instructions (Back)</label><textarea v-model="form.setup" class="w-full border p-1 rounded h-16 bg-stone-50 font-mono text-[10px]"></textarea></div>
+        <div v-else-if="form.type_id !== 'aspect'"><label class="block font-bold">Flavor Text</label><textarea v-model="form.flavor" class="w-full border p-1 rounded h-16 italic text-gray-600"></textarea></div>
+        
+        <!-- Aspect Cards specific (Attributes on aspect cards) -->
+        <div v-if="form.type_id === 'aspect'" class="grid grid-cols-4 gap-2 bg-yellow-50 p-2 rounded border border-yellow-200">
+          <div><label class="block font-bold text-xs"><span class="core-icon core-awa"></span> Awareness</label><input v-model.number="form.awareness" type="number" class="w-full border p-1 rounded"></div>
+          <div><label class="block font-bold text-xs"><span class="core-icon core-spi"></span> Spirit</label><input v-model.number="form.spirit" type="number" class="w-full border p-1 rounded"></div>
+          <div><label class="block font-bold text-xs"><span class="core-icon core-fit"></span> Fitness</label><input v-model.number="form.fitness" type="number" class="w-full border p-1 rounded"></div>
+          <div><label class="block font-bold text-xs"><span class="core-icon core-foc"></span> Focus</label><input v-model.number="form.focus" type="number" class="w-full border p-1 rounded"></div>
+        </div>
+
+        <!-- Challenges (Global for most except challenge cards themselves) -->
+        <div v-if="form.category_id !== 'challenge' && form.category_id !== 'ranger' && form.type_id !== 'aspect'" class="space-y-1">
+          <div class="flex gap-2">
+            <div class="flex-1">
+              <label class="flex items-center gap-1 font-bold cursor-pointer select-none text-[10px]"><input type="checkbox" v-model="form.has_sun" class="w-3 h-3"><span class="core-icon core-sun"></span> Sun</label>
+              <input v-if="form.has_sun" v-model="form.sun_challenge" class="w-full border p-1 rounded text-[10px] bg-orange-50/30">
+            </div>
+            <div class="flex-1">
+              <label class="flex items-center gap-1 font-bold cursor-pointer select-none text-[10px]"><input type="checkbox" v-model="form.has_mountain" class="w-3 h-3"><span class="core-icon core-mountain"></span> Mtn</label>
+              <input v-if="form.has_mountain" v-model="form.mountain_challenge" class="w-full border p-1 rounded text-[10px] bg-gray-50/50">
+            </div>
+            <div class="flex-1">
+              <label class="flex items-center gap-1 font-bold cursor-pointer select-none text-[10px]"><input type="checkbox" v-model="form.has_crest" class="w-3 h-3"><span class="core-icon core-crest"></span> Crest</label>
+              <input v-if="form.has_crest" v-model="form.crest_challenge" class="w-full border p-1 rounded text-[10px] bg-blue-50/30">
+            </div>
+          </div>
+        </div>
+        
+        <div class="mt-4 flex gap-2 pb-8">
+          <button @click="saveCurrent" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 flex-1 font-bold">Save & Add to Queue</button>
+          <button @click="toggleComplete(selected)" 
+                  :class="['px-4 py-2 rounded border flex-1', isCompleted(selected) ? 'bg-green-100 text-green-700 border-green-300' : 'bg-white text-gray-700 border-gray-300 hover:bg-gray-50']">
+            {{ isCompleted(selected) ? '✓ Completed' : 'Mark Done' }}
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="flex-1 bg-white p-4 rounded shadow flex items-center justify-center text-gray-500" v-else>
+      Select a card from the left to start editing
+    </div>
+    
+    <!-- Output Queue -->
+    <div class="w-1/4 bg-white p-4 rounded shadow flex flex-col">
+      <div class="flex justify-between items-center mb-2">
+        <h2 class="text-xl font-bold">Queue ({{ queue.length }})</h2>
+        <button v-if="queue.length > 0" @click="queue = []" class="text-[10px] text-red-500 hover:underline">Clear All</button>
+      </div>
+      <div class="flex-1 overflow-y-auto mb-2 border p-2 bg-gray-50 rounded">
+        <div v-for="q in queue" :key="q.id" class="text-[10px] border-b pb-1 mb-1 flex justify-between items-start group">
+          <div class="flex flex-col">
+            <span class="font-bold text-gray-800">{{ q.name }}</span>
+            <span class="text-gray-400">{{ q.id }} ({{q.category_id}}:{{ q.type_id }})</span>
+          </div>
+          <button @click="removeFromQueue(q.id)" class="text-gray-300 hover:text-red-500 font-bold px-1 rounded">
+            &times;
+          </button>
+        </div>
+      </div>
+      <button @click="flushQueue" class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 w-full mb-2 font-bold" :disabled="queue.length===0">Flush to File</button>
+    </div>
+  </div>
+
+  <script>
+    const { createApp } = Vue;
+
+    createApp({
+      data() {
+        return {
+          cards: [],
+          repoCards: [],
+          loadingRepo: true,
+          repoError: null,
+          repoSearchTerm: '',
+          repoSearchResults: [],
+          search: '',
+          selected: null,
+          isLandscapeOverride: null,
+          isRepoMatch: false,
+          packPrefix: '01',
+          form: {},
+          queue: [],
+          tokens: [],
+          categories: [],
+          types: [],
+          areas: [],
+          completedCards: JSON.parse(localStorage.getItem('completedCards') || '[]'),
+          showCompleted: false
+        };
+      },
+      watch: {
+        'form.position'(val) {
+          this.updateId();
+        },
+        'form.category_id'(val) {
+           if (val === 'location') this.isLandscapeOverride = true;
+           if (val === 'ranger') this.isLandscapeOverride = false;
+        },
+        packPrefix(val) {
+          if (!this.isRepoMatch) {
+            this.form.position = this.nextPosition;
+          }
+          this.updateId();
+        }
+      },
+      computed: {
+        maxPositions() {
+          const map = {};
+          this.repoCards.forEach(c => {
+            const prefix = (c.id || '').substring(0, 2);
+            const pos = Number(c.position || 0);
+            const qty = Number(c.quantity || 1);
+            if (prefix && pos) {
+              map[prefix] = Math.max(map[prefix] || 0, pos + qty - 1);
+            }
+          });
+          this.queue.forEach(q => {
+            const prefix = (q.id || '').substring(0, 2);
+            const pos = Number(q.position || 0);
+            const qty = Number(q.quantity || 1);
+            if (prefix && pos) {
+              map[prefix] = Math.max(map[prefix] || 0, pos + qty - 1);
+            }
+          });
+          return map;
+        },
+        nextPosition() {
+          return (this.maxPositions[this.packPrefix] || 0) + 1;
+        },
+        filteredCards() {
+          let list = this.cards;
+          if (!this.showCompleted) {
+            list = list.filter(c => !this.isCompleted(c));
+          }
+          if (!this.search) return list;
+          const s = this.search.toLowerCase();
+          return list.filter(c => c.nickname && c.nickname.toLowerCase().includes(s));
+        },
+        filteredTypes() {
+          if (!this.form.category_id) return this.types;
+          if (this.form.category_id === 'ranger') {
+             return this.types.filter(t => !['path', 'location', 'mission', 'weather', 'challenge'].includes(t.id));
+          }
+          if (this.form.category_id === 'path') {
+             return this.types.filter(t => ['being', 'feature', 'moment', 'attachment'].includes(t.id));
+          }
+          if (['location', 'mission', 'weather', 'challenge'].includes(this.form.category_id)) {
+             return this.types.filter(t => t.id === this.form.category_id);
+          }
+          return this.types;
+        }
+      },
+      mounted() {
+        Promise.all([
+          fetch('/api/tokens').then(r => r.json()),
+          fetch('/api/categories').then(r => r.json()),
+          fetch('/api/areas').then(r => r.json()),
+          fetch('/api/cards').then(r => r.json()),
+          fetch('/api/repo-cards').then(r => r.json())
+        ]).then(([tokens, categories, areas, cards, repoCards]) => {
+          this.tokens = tokens;
+          this.categories = categories;
+          this.areas = areas;
+          this.cards = cards;
+          this.repoCards = repoCards;
+          this.loadingRepo = false;
+          
+          this.types = [
+            {id: "gear", name: "Gear"}, {id: "attachment", name: "Attachment"}, {id: "moment", name: "Moment"},
+            {id: "role", name: "Role"}, {id: "aspect", name: "Aspect"}, {id: "attribute", name: "Attribute"},
+            {id: "being", name: "Being"}, {id: "feature", name: "Feature"}, {id: "stat", name: "Stat"},
+            {id: "malady", name: "Malady"}, {id: "mission", name: "Mission"}, {id: "location", name: "Location"},
+            {id: "challenge", name: "Challenge"}, {id: "weather", name: "Weather"}
+          ];
+        }).catch(err => {
+          this.repoError = err.message;
+          this.loadingRepo = false;
+        });
+      },
+      methods: {
+        selectCard(card) {
+          this.selected = card;
+          this.isLandscapeOverride = false;
+          this.isRepoMatch = false;
+          this.form = {
+            name: card.nickname,
+            id: '',
+            position: null,
+            quantity: 1,
+            category_id: 'path',
+            type_id: 'being',
+            area_id: '',
+            aspect_id: '',
+            cost: null,
+            equip: null,
+            token_id: '',
+            token_count: null,
+            set_id: '',
+            set_position: '',
+            traits: '',
+            text: '',
+            flavor: '',
+            harm: '',
+            progress: '',
+            presence: null,
+            approach_conflict: null,
+            approach_reason: null,
+            approach_exploration: null,
+            approach_connection: null,
+            awareness: null,
+            spirit: null,
+            fitness: null,
+            focus: null,
+            sun_challenge: '',
+            mountain_challenge: '',
+            crest_challenge: '',
+            has_sun: false,
+            has_mountain: false,
+            has_crest: false,
+            pivotal: false,
+            location_icon: '',
+            progress_threshold: null,
+            setup: '',
+            key_locations: '',
+            awa_value: 0,
+            spi_value: 0,
+            fit_value: 0,
+            foc_value: 0,
+            challenge_icon: 'sun',
+            reshuffle: false
+          };
+          this.repoSearchResults = [];
+          
+          const cleanNickname = card.nickname.replace(/\s+\d+$/, '').trim();
+          this.repoSearchTerm = cleanNickname;
+          
+          if (this.repoCards && this.repoCards.length > 0) {
+            const match = this.repoCards.find(c => {
+              const repoName = (c.name || '').trim().toLowerCase();
+              return repoName === cleanNickname.toLowerCase() || repoName === card.nickname.trim().toLowerCase();
+            });
+            if (match) this.populateFromRepo(match);
+            else this.searchRepo();
+          }
+
+          if (!this.isRepoMatch) {
+            this.form.position = this.nextPosition;
+            this.updateId();
+          }
+        },
+        updateId() {
+          if (this.form.position) {
+            const padded = String(this.form.position).padStart(3, '0');
+            this.form.id = `${this.packPrefix}${padded}`;
+          } else {
+            this.form.id = '';
+          }
+        },
+        searchRepo() {
+          const s = (this.repoSearchTerm || '').trim().toLowerCase();
+          if (!s) { this.repoSearchResults = []; return; }
+          this.repoSearchResults = this.repoCards.filter(c => {
+            const name = (c.name || '').toLowerCase();
+            return name.includes(s) || s.includes(name);
+          });
+        },
+        populateFromRepo(card) {
+          this.isRepoMatch = true;
+          Object.keys(this.form).forEach(k => {
+            if (card[k] !== undefined && card[k] !== null) {
+              this.form[k] = card[k];
+            }
+          });
+          this.form.has_sun = !!card.sun_challenge;
+          this.form.has_mountain = !!card.mountain_challenge;
+          this.form.has_crest = !!card.crest_challenge;
+          this.repoSearchResults = [];
+        },
+        getCardStyle(card) {
+          const w = card.deckInfo.NumWidth;
+          const h = card.deckInfo.NumHeight;
+          const i = card.index;
+          const row = Math.floor(i / w);
+          const col = i % w;
+          const sizeX = w * 100;
+          const sizeY = h * 100;
+          const posX = (col / (w - 1 || 1)) * 100;
+          const posY = (row / (h - 1 || 1)) * 100;
+          const isLandscape = this.isLandscapeOverride;
+
+          return {
+            width: isLandscape ? '420px' : '300px',
+            height: isLandscape ? '300px' : '420px',
+            backgroundImage: `url('/api/image?url=${encodeURIComponent(card.deckInfo.FaceURL)}')`,
+            backgroundSize: `${sizeX}% ${sizeY}%`,
+            backgroundPosition: `${posX}% ${posY}%`
+          };
+        },
+        toggleAspect() {
+          this.isLandscapeOverride = !this.isLandscapeOverride;
+        },
+        saveCurrent() {
+          if (!this.form.position || !this.form.quantity || !this.form.name) {
+            alert('Position, Quantity, and Name are required!');
+            return;
+          }
+
+          const toSave = { ...this.form };
+          if (this.selected.deckInfo && this.selected.deckInfo.FaceURL) {
+            toSave.imagesrc = this.selected.deckInfo.FaceURL;
+          }
+          
+          const identity = ['name', 'id', 'position', 'quantity', 'category_id', 'type_id', 'imagesrc', 'set_id', 'set_position', 'traits'];
+          
+          if (toSave.type_id === 'aspect') {
+            Object.keys(toSave).forEach(k => {
+              if (![...identity, 'awareness', 'spirit', 'fitness', 'focus'].includes(k)) delete toSave[k];
+            });
+          } else {
+            if (!toSave.has_sun) delete toSave.sun_challenge;
+            if (!toSave.has_mountain) delete toSave.mountain_challenge;
+            if (!toSave.has_crest) delete toSave.crest_challenge;
+            
+            if (toSave.category_id !== 'challenge') {
+              delete toSave.awa_value; delete toSave.spi_value; delete toSave.fit_value; delete toSave.foc_value; delete toSave.challenge_icon; delete toSave.reshuffle;
+            }
+            if (toSave.category_id !== 'ranger') {
+              delete toSave.aspect_id; delete toSave.cost; delete toSave.equip;
+            }
+            if (toSave.category_id !== 'path') {
+              delete toSave.area_id; delete toSave.presence;
+            }
+            if (toSave.category_id !== 'location') {
+              delete toSave.pivotal; delete toSave.location_icon; delete toSave.progress_threshold; delete toSave.setup;
+            }
+            if (toSave.category_id !== 'mission') {
+              delete toSave.key_locations;
+            }
+          }
+          
+          delete toSave.has_sun; delete toSave.has_mountain; delete toSave.has_crest;
+
+          const numericFields = ['position', 'quantity', 'presence', 'cost', 'equip', 'token_count', 'awareness', 'spirit', 'fitness', 'focus', 'approach_conflict', 'approach_reason', 'approach_exploration', 'approach_connection', 'progress_threshold', 'awa_value', 'spi_value', 'fit_value', 'foc_value'];
+          numericFields.forEach(f => {
+            if (toSave[f] !== null && toSave[f] !== undefined && toSave[f] !== '') {
+              toSave[f] = Number(toSave[f]);
+            }
+          });
+
+          Object.keys(toSave).forEach(k => {
+            if (typeof toSave[k] === 'string') toSave[k] = toSave[k].trim();
+            const isEmpty = toSave[k] === null || toSave[k] === undefined || toSave[k] === '';
+            if (isEmpty && !['position', 'quantity', 'set_position', 'awa_value', 'spi_value', 'fit_value', 'foc_value'].includes(k)) {
+              delete toSave[k];
+            }
+          });
+          
+          const existingIdx = this.queue.findIndex(q => q.id === toSave.id);
+          if (existingIdx !== -1) this.queue[existingIdx] = toSave;
+          else this.queue.push(toSave);
+          
+          if (!this.isCompleted(this.selected)) this.toggleComplete(this.selected);
+
+          const idx = this.filteredCards.indexOf(this.selected);
+          if (idx !== -1 && idx + 1 < this.filteredCards.length) {
+            this.selectCard(this.filteredCards[idx + 1]);
+          }
+        },
+        removeFromQueue(id) {
+          this.queue = this.queue.filter(q => q.id !== id);
+        },
+        flushQueue() {
+          fetch('/api/save', {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify(this.queue)
+          }).then(r => r.json()).then(res => {
+            if (res.success) {
+              alert(`Saved ${res.count} cards!`);
+              this.queue = [];
+            }
+          })
+        },
+        getCardKey(card) {
+          return `${card.nickname}-${card.index}-${card.deckInfo.FaceURL}`;
+        },
+        isCompleted(card) {
+          return this.completedCards.includes(this.getCardKey(card));
+        },
+        toggleComplete(card) {
+          const key = this.getCardKey(card);
+          if (this.isCompleted(card)) {
+            this.completedCards = this.completedCards.filter(k => k !== key);
+          } else {
+            this.completedCards.push(key);
+          }
+          localStorage.setItem('completedCards', JSON.stringify(this.completedCards));
+        }
+      }
+    }).mount('#app');
+  </script>
+</body>
+</html>

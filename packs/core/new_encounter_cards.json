@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "name": "1322 aspect",
+    "id": "01241",
+    "position": 241,
+    "quantity": 1,
+    "category_id": "ranger",
+    "type_id": "aspect",
+    "set_position": "",
+    "awareness": 1,
+    "spirit": 3,
+    "fitness": 2,
+    "focus": 2,
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/1825653570817820094/96A11A517CDB60412E567100683E33ED6D0B86A5/"
+  }
+]
