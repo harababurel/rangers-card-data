@@ -1,4 +1,7 @@
 **/*.mo
 **/.DS_Store
 .idea
-temp_curator/
+
+# Curator Tool
+curator/node_modules/
+curator/cache/
