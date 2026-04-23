@@ -3010,13 +3010,38 @@
     "harm": "5",
     "progress": "6",
     "presence": 2,
-    "mountain_challenge": "<b>If there is a fish in play,</b> the ursus has found its fishing spot. <b>right_arrow Move this predator to the same area as that fish.</b>",
-    "crest_challenge": "If this being is within reach, exhaust it. right_arrow Suffer 1 injury.",
+    "mountain_challenge": "<b>If there is a fish in play,</b> the ursus has found its fishing spot. <b>[right_arrow] Move this predator to the same area as that fish.</b>",
+    "crest_challenge": "If this being is within reach, exhaust it. [right_arrow] Suffer 1 injury.",
     "image_rect": [
       0,
       4,
       3
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500419219/AC30F6285D31E08A4E825E51620A1A2C2301E552/"
+  },
+  {
+    "name": "Hydraworm",
+    "id": "01258",
+    "position": 258,
+    "quantity": 4,
+    "category_id": "path",
+    "type_id": "being",
+    "area_id": "within_reach",
+    "set_id": "swamp",
+    "set_position": "1-4",
+    "traits": "Predator / Biomeld",
+    "text": "Clear [harm]: You feel the swamp shudder. Add 1 [harm] to each other Hydraworm in play.",
+    "harm": "5",
+    "progress": "9",
+    "presence": 2,
+    "sun_challenge": "<b>If this being has 1 or more [harm]</b>, <i>the swamp churns.</i> [right_arrow] <b>Search the path deck and discard for a Hydraworm and put it into play.</b>",
+    "mountain_challenge": "<b>If there is another Hydraworm in the same area as this one</b>, <i>they spread out.</i> [right_arrow] <b>Move this being.</b>",
+    "crest_challenge": "Exhaust this being. [right_arrow] <b>Suffer 1 injury.</b>",
+    "image_rect": [
+      1,
+      4,
+      3
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500421808/5164EEC1DA1758643DDF683BA08637370EEE2A23/"
   }
 ]
