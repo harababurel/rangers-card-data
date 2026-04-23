@@ -3003,7 +3003,7 @@
     "quantity": 2,
     "category_id": "path",
     "type_id": "being",
-    "area_id": "within_reach",
+    "area_id": "along_the_way",
     "set_id": "river",
     "set_position": "1-2",
     "traits": "Predator / Mammal",
@@ -3011,6 +3011,12 @@
     "progress": "6",
     "presence": 2,
     "mountain_challenge": "<b>If there is a fish in play,</b> the ursus has found its fishing spot. <b>right_arrow Move this predator to the same area as that fish.</b>",
-    "crest_challenge": "If this being is within reach, exhaust it. right_arrow Suffer 1 injury."
+    "crest_challenge": "If this being is within reach, exhaust it. right_arrow Suffer 1 injury.",
+    "image_rect": [
+      0,
+      4,
+      3
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500419219/AC30F6285D31E08A4E825E51620A1A2C2301E552/"
   }
 ]
