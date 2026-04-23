@@ -3114,5 +3114,50 @@
       3
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500412430/22A4C5F356243437774F8E478444230B5EA22FD2/"
+  },
+  {
+    "name": "Flood",
+    "id": "01265",
+    "position": 265,
+    "quantity": 2,
+    "category_id": "path",
+    "type_id": "attachment",
+    "area_id": "along_the_way",
+    "set_id": "general",
+    "set_position": "12-13",
+    "traits": "Water",
+    "text": "<b>Response:</b> When this card enters play or its attached card leaves play without being cleared, attach it to the feature or being from the path deck with the highest presence that doesn't already have a Flood attached. Move that card along the way. If there are no cards to attach to: [guide] 1.06",
+    "presence": 1,
+    "sun_challenge": "Add a flood token to the attached card.",
+    "crest_challenge": "If the number of flood tokens on the attached card is greater than its presence. [right_arrow] Discard it. Each Ranger suffers 3 fatigue.",
+    "image_rect": [
+      0,
+      1,
+      1
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2283951908966699906/2F8B9500304AB4777B9F5B52FE6F73A4D46B88CE/"
+  },
+  {
+    "name": "Flood Damage",
+    "id": "01267",
+    "position": 267,
+    "quantity": 1,
+    "category_id": "path",
+    "type_id": "feature",
+    "area_id": "along_the_way",
+    "token_id": "damage",
+    "token_count": "2[per_ranger]",
+    "set_id": "general",
+    "set_position": "14",
+    "traits": "Water",
+    "text": "<b>Response:</b> When there is no damage on this feature: [guide] 95\n<b>[FIT] + [reason]: Repair [2]</b> <f>the damage caused by the raging waters to</f> discard 1 damage.",
+    "progress": "6",
+    "presence": 2,
+    "image_rect": [
+      13,
+      4,
+      4
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500386904/066B5A5E89BC49C57EF3E1F7B94B5CACE6969603/"
   }
 ]
