@@ -3201,5 +3201,123 @@
       4
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500386904/066B5A5E89BC49C57EF3E1F7B94B5CACE6969603/"
+  },
+  {
+    "name": "Reclaimer Grub",
+    "id": "01269",
+    "position": 269,
+    "quantity": 2,
+    "category_id": "path",
+    "type_id": "being",
+    "area_id": "within_reach",
+    "token_id": "growth",
+    "token_count": 0,
+    "set_id": "general",
+    "set_position": "10-11",
+    "traits": "Prey / Biomeld / Reclaimer",
+    "text": "<b>Response:</b> When you interact with this prey, it fatigues you.",
+    "harm": "5",
+    "progress": "9",
+    "presence": 1,
+    "sun_challenge": "Add 1 growth. If there are 3 or more, <f>it grows</f>. [right_arrow] Discard this prey and search the General set for a Reclaimer Seeker.",
+    "mountain_challenge": "If you suffered fatigue during this test, <f>you touch the grub's corrosive slime.</f> [right_arrow] Suffer 1 injury.",
+    "crest_challenge": "If there is an active predator, discard it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
+    "image_rect": [
+      9,
+      4,
+      4
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500386904/066B5A5E89BC49C57EF3E1F7B94B5CACE6969603/"
+  },
+  {
+    "name": "Rotting Dolewood",
+    "id": "01271",
+    "position": 271,
+    "quantity": 2,
+    "category_id": "path",
+    "type_id": "feature",
+    "area_id": "along_the_way",
+    "set_id": "old_growth",
+    "set_position": "10-11",
+    "traits": "Hazard / Flora / Obstacle",
+    "text": "Obstacle.\n<b>Clear [harm]:</b> Discard each flora in play. Each Ranger suffers fatigue equal to 2 plus the combined presence of all flora discarded this way.",
+    "harm": "3",
+    "progress": "4",
+    "presence": 2,
+    "mountain_challenge": "Add 1[harm] to this feature. If the weather is inclement, increase the number of [harm] added by 1.",
+    "image_rect": [
+      9,
+      4,
+      3
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500412430/22A4C5F356243437774F8E478444230B5EA22FD2/"
+  },
+  {
+    "name": "Rapids",
+    "id": "01273",
+    "position": 273,
+    "quantity": 2,
+    "category_id": "path",
+    "type_id": "feature",
+    "area_id": "along_the_way",
+    "set_id": "river",
+    "set_position": "11-12",
+    "traits": "Hazard / Water",
+    "text": "Ambush.",
+    "progress": "3[per_ranger]",
+    "presence": 3,
+    "mountain_challenge": "Choose the card along the way with the highest presence and move it within reach.",
+    "crest_challenge": "If this feature is within reach, <f>you must act quickly or crash into a rock!</f> [right_arrow] Discard 2[progress] from this feature or suffer 1 injury.",
+    "image_rect": [
+      10,
+      4,
+      3
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500419219/AC30F6285D31E08A4E825E51620A1A2C2301E552/"
+  },
+  {
+    "name": "Strong Current",
+    "id": "01275",
+    "position": 275,
+    "quantity": 2,
+    "category_id": "path",
+    "type_id": "feature",
+    "area_id": "along_the_way",
+    "set_id": "river",
+    "set_position": "8-9",
+    "traits": "Water",
+    "text": "X is equal to the number of water features in play.",
+    "progress": "4",
+    "presence": -2,
+    "sun_challenge": "Choose the card along the way with the highest presence and move it within reach. If it's this card, it fatigues you.",
+    "image_rect": [
+      7,
+      4,
+      3
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500419219/AC30F6285D31E08A4E825E51620A1A2C2301E552/"
+  },
+  {
+    "name": "Web Wall",
+    "id": "01277",
+    "position": 277,
+    "quantity": 2,
+    "category_id": "path",
+    "type_id": "feature",
+    "area_id": "along_the_way",
+    "set_id": "ravine",
+    "set_position": "9-10",
+    "traits": "Hazard / Obstacle",
+    "text": "Obstacle.\nWhile your [ranger] is on this feature your [ranger] cannot be moved and [progress] cannot be added to this feature.\n<b>[FIT] + [conflict]: Pull [2]</b> <f>apart the cloying webs to</f> add 1[harm] to this feature for every 2 effort. If you fail, move your [ranger] to this feature.",
+    "harm": "2",
+    "progress": "2",
+    "presence": 1,
+    "crest_challenge": "Move your [ranger] to this feature. [right_arrow] Move this feature within reach.",
+    "image_rect": [
+      8,
+      4,
+      3
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500416402/780E597C8F43148676ACA47669E27FEE313ECF19/"
   }
 ]
