@@ -1654,99 +1654,201 @@
     "category_id": "ranger"
   },
   {
-    "name": "1214 aspect",
+    "name": "1421 aspect",
     "id": "03206",
     "position": 206,
     "quantity": 1,
     "type_id": "aspect",
     "awareness": 1,
-    "spirit": 2,
-    "fitness": 1,
-    "focus": 4,
-    "category_id": "ranger"
+    "spirit": 4,
+    "fitness": 2,
+    "focus": 1,
+    "category_id": "ranger",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15665141664316885892/0F74DA675EFAFC63EF6E6B1C9BC5201E410C7B5B/",
+    "image_rect": [
+      20,
+      10,
+      7
+    ]
   },
   {
-    "name": "1124 aspect",
+    "name": "1412 aspect",
     "id": "03207",
     "position": 207,
     "quantity": 1,
     "type_id": "aspect",
     "awareness": 1,
-    "spirit": 1,
-    "fitness": 2,
-    "focus": 4,
-    "category_id": "ranger"
+    "spirit": 4,
+    "fitness": 1,
+    "focus": 2,
+    "category_id": "ranger",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15665141664316885892/0F74DA675EFAFC63EF6E6B1C9BC5201E410C7B5B/",
+    "image_rect": [
+      21,
+      10,
+      7
+    ]
   },
   {
-    "name": "2141 aspect",
+    "name": "2411 aspect",
     "id": "03208",
     "position": 208,
     "quantity": 1,
     "type_id": "aspect",
     "awareness": 2,
-    "spirit": 1,
-    "fitness": 4,
+    "spirit": 4,
+    "fitness": 1,
     "focus": 1,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15665141664316885892/0F74DA675EFAFC63EF6E6B1C9BC5201E410C7B5B/",
+    "image_rect": [
+      19,
+      10,
+      7
+    ]
   },
   {
-    "name": "1241 aspect",
+    "name": "1214 aspect",
     "id": "03209",
     "position": 209,
     "quantity": 1,
     "type_id": "aspect",
     "awareness": 1,
     "spirit": 2,
-    "fitness": 4,
-    "focus": 1,
-    "category_id": "ranger"
+    "fitness": 1,
+    "focus": 4,
+    "category_id": "ranger",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15665141664316885892/0F74DA675EFAFC63EF6E6B1C9BC5201E410C7B5B/",
+    "image_rect": [
+      26,
+      10,
+      7
+    ]
   },
   {
-    "name": "1142 aspect",
+    "name": "1124 aspect",
     "id": "03210",
     "position": 210,
     "quantity": 1,
     "type_id": "aspect",
     "awareness": 1,
     "spirit": 1,
+    "fitness": 2,
+    "focus": 4,
+    "category_id": "ranger",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15665141664316885892/0F74DA675EFAFC63EF6E6B1C9BC5201E410C7B5B/",
+    "image_rect": [
+      25,
+      10,
+      7
+    ]
+  },
+  {
+    "name": "2141 aspect",
+    "id": "03211",
+    "position": 211,
+    "quantity": 1,
+    "type_id": "aspect",
+    "awareness": 2,
+    "spirit": 1,
+    "fitness": 4,
+    "focus": 1,
+    "category_id": "ranger",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15665141664316885892/0F74DA675EFAFC63EF6E6B1C9BC5201E410C7B5B/",
+    "image_rect": [
+      27,
+      10,
+      7
+    ]
+  },
+  {
+    "name": "1241 aspect",
+    "id": "03212",
+    "position": 212,
+    "quantity": 1,
+    "type_id": "aspect",
+    "awareness": 1,
+    "spirit": 2,
+    "fitness": 4,
+    "focus": 1,
+    "category_id": "ranger",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15665141664316885892/0F74DA675EFAFC63EF6E6B1C9BC5201E410C7B5B/",
+    "image_rect": [
+      24,
+      10,
+      7
+    ]
+  },
+  {
+    "name": "1142 aspect",
+    "id": "03213",
+    "position": 213,
+    "quantity": 1,
+    "type_id": "aspect",
+    "awareness": 1,
+    "spirit": 1,
     "fitness": 4,
     "focus": 2,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15665141664316885892/0F74DA675EFAFC63EF6E6B1C9BC5201E410C7B5B/",
+    "image_rect": [
+      22,
+      10,
+      7
+    ]
   },
   {
     "name": "4112 aspect",
-    "id": "03211",
-    "position": 211,
+    "id": "03214",
+    "position": 214,
     "quantity": 1,
     "type_id": "aspect",
     "awareness": 4,
     "spirit": 1,
     "fitness": 1,
     "focus": 2,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15665141664316885892/0F74DA675EFAFC63EF6E6B1C9BC5201E410C7B5B/",
+    "image_rect": [
+      17,
+      10,
+      7
+    ]
   },
   {
     "name": "4211 aspect",
-    "id": "03212",
-    "position": 212,
+    "id": "03215",
+    "position": 215,
     "quantity": 1,
     "type_id": "aspect",
     "awareness": 4,
     "spirit": 2,
     "fitness": 1,
     "focus": 1,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15665141664316885892/0F74DA675EFAFC63EF6E6B1C9BC5201E410C7B5B/",
+    "image_rect": [
+      18,
+      10,
+      7
+    ]
   },
   {
     "name": "4121 aspect",
-    "id": "03213",
-    "position": 213,
+    "id": "03216",
+    "position": 216,
     "quantity": 1,
     "type_id": "aspect",
     "awareness": 4,
     "spirit": 1,
     "fitness": 2,
     "focus": 1,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15665141664316885892/0F74DA675EFAFC63EF6E6B1C9BC5201E410C7B5B/",
+    "image_rect": [
+      16,
+      10,
+      7
+    ]
   }
 ]
