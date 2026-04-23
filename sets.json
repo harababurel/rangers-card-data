@@ -108,7 +108,7 @@
     "id": "swamp",
     "name": "Swamp",
     "type_id": "terrain",
-    "size": 5
+    "size": 12
   },
   {
     "id": "ravine",
@@ -120,11 +120,17 @@
     "id": "river",
     "name": "River",
     "type_id": "terrain",
-    "size": 5
+    "size": 12
   },
   {
     "id": "the_valley",
     "name": "The Valley",
+    "type_id": "terrain",
+    "size": 5
+  },
+  {
+    "id": "lone_tree_station",
+    "name": "Lone Tree Station",
     "type_id": "terrain",
     "size": 5
   },

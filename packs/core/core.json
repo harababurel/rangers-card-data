@@ -3099,7 +3099,7 @@
     "category_id": "path",
     "type_id": "being",
     "area_id": "within_reach",
-    "set_id": "old-growth",
+    "set_id": "old_growth",
     "set_position": "1",
     "traits": "Predator / Mammal",
     "harm": "5",
