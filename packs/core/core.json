@@ -3657,5 +3657,102 @@
       3
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500416402/780E597C8F43148676ACA47669E27FEE313ECF19/"
+  },
+  {
+    "name": "Pouncing Atrox",
+    "id": "01293",
+    "position": 293,
+    "quantity": 2,
+    "pack_id": "ebr",
+    "category_id": "path",
+    "type_id": "being",
+    "area_id": "within_reach",
+    "set_id": "mountain_pass",
+    "set_position": "3-4",
+    "traits": "Predator / Mammal",
+    "text": "Ambush.",
+    "harm": "4",
+    "progress": "6",
+    "presence": 2,
+    "sun_challenge": "If there is another active predator, <f>the atrox pounces.</f> [right_arrow] Add 2[harm] to that predator and 1[harm] to this being.",
+    "crest_challenge": "If you have 2 or more fatigue, exhaust this being. [right_arrow] Suffer 1 injury.",
+    "image_rect": [
+      2,
+      4,
+      3
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500408373/F8D8780A3E146F7CC2B9F11DDF4992D35EAC1332/"
+  },
+  {
+    "name": "Oura Vos, Traveler",
+    "id": "01295",
+    "position": 295,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "category_id": "path",
+    "type_id": "being",
+    "set_id": "the_valley",
+    "set_position": "7",
+    "traits": "Human / Villager",
+    "text": "Friendly.\n<b>[FOC] + [exploration]: Ask [3]</b> <f>Oura who she has encountered during her travels to</f> search the Valley set for a human and shuffle them into the path deck.\nClear [progress] or [harm]: [guide] 81",
+    "harm": "3",
+    "progress": "3[per_ranger]",
+    "presence": 1,
+    "crest_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
+    "image_rect": [
+      6,
+      4,
+      4
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500438803/B12B2361EE850A11CBB2D21CF77D958DF28CCCB7/"
+  },
+  {
+    "name": "Fetid Bog",
+    "id": "01296",
+    "position": 296,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "category_id": "path",
+    "type_id": "feature",
+    "area_id": "along_the_way",
+    "set_id": "swamp",
+    "set_position": "7",
+    "traits": "Flora / Water",
+    "text": "<b>Response:</b> After a being is cleared by [harm], attach it facedown to this feature.\n<b>Refresh:</b> Discard 1 facedown card attached to this feature.\nX is equal to twice the number of facedown cards attached to this feature.",
+    "harm": "6",
+    "progress": "6",
+    "presence": -2,
+    "mountain_challenge": "You may exhaust your role. If you do not, this feature fatigues you.",
+    "image_rect": [
+      6,
+      4,
+      3
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500421808/5164EEC1DA1758643DDF683BA08637370EEE2A23/"
+  },
+  {
+    "name": "Quiet",
+    "id": "01297",
+    "position": 297,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "category_id": "path",
+    "type_id": "being",
+    "area_id": "within_reach",
+    "set_id": "the_valley",
+    "set_position": "13",
+    "traits": "Predator / Mammal",
+    "text": "Ambush.",
+    "harm": "5[per_ranger]",
+    "progress": "5[per_ranger]",
+    "presence": 3,
+    "sun_challenge": "If there is another active predator, <f>Quiet defends her hunting ground.</f> [right_arrow] Add 3 [harm] to that predator and 1 [harm] to this being.",
+    "crest_challenge": "Suffer 1 injury.",
+    "image_rect": [
+      12,
+      4,
+      4
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500438803/B12B2361EE850A11CBB2D21CF77D958DF28CCCB7/"
   }
 ]
