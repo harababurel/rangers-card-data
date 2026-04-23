@@ -3150,7 +3150,7 @@
     "set_id": "general",
     "set_position": "14",
     "traits": "Water",
-    "text": "<b>Response:</b> When there is no damage on this feature: [guide] 95\n<b>[FIT] + [reason]: Repair [2]</b> <f>the damage caused by the raging waters to</f> discard 1 damage.",
+    "text": "<b>Response:</b> When there is no damage on this feature: [guide] 95\n<b>[FIT] + [reason]: Repair \\[2\\]</b> <f>the damage caused by the raging waters to</f> discard 1 damage.",
     "progress": "6",
     "presence": 2,
     "image_rect": [
