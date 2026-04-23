@@ -22,7 +22,8 @@
     "subset_position": 1,
     "token_id": "piton",
     "token_count": 3,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sos"
   },
   {
     "id": "05202",
@@ -48,7 +49,8 @@
     "subset_position": 2,
     "token_id": "charge",
     "token_count": 3,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sos"
   },
   {
     "id": "05203",
@@ -74,7 +76,8 @@
     "spoiler": true,
     "subset_id": "sos_reward",
     "subset_position": 3,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sos"
   },
   {
     "id": "05204",
@@ -97,7 +100,8 @@
     "spoiler": true,
     "subset_id": "sos_reward",
     "subset_position": 4,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sos"
   },
   {
     "id": "05205",
@@ -123,6 +127,7 @@
     "subset_position": 5,
     "token_id": "shift",
     "token_count": 1,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sos"
   }
 ]

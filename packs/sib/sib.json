@@ -21,7 +21,8 @@
     "subset_position": 1,
     "token_id": "crack",
     "token_count": 0,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sib"
   },
   {
     "id": "04202",
@@ -44,7 +45,8 @@
     "spoiler": true,
     "subset_id": "sib_reward",
     "subset_position": 2,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sib"
   },
   {
     "id": "04203",
@@ -68,7 +70,8 @@
     "spoiler": true,
     "subset_id": "sib_reward",
     "subset_position": 3,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sib"
   },
   {
     "id": "04204",
@@ -94,7 +97,8 @@
     "token_count": 3,
     "subset_id": "sib_reward",
     "subset_position": 4,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sib"
   },
   {
     "id": "04205",
@@ -118,6 +122,7 @@
     "spoiler": true,
     "subset_id": "sib_reward",
     "subset_position": 5,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sib"
   }
 ]

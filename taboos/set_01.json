@@ -1,7 +1,7 @@
 [
   {
     "id": "01002",
-    "pack_id": "core",
+    "pack_id": "ebr",
     "position": 2,
     "quantity": 2,
     "deck_limit": 2,
@@ -20,7 +20,7 @@
   },
   {
     "id": "01009",
-    "pack_id": "core",
+    "pack_id": "ebr",
     "position": 9,
     "quantity": 2,
     "deck_limit": 2,
@@ -43,7 +43,7 @@
   },
   {
     "id": "01013",
-    "pack_id": "core",
+    "pack_id": "ebr",
     "position": 16,
     "quantity": 2,
     "deck_limit": 2,
@@ -65,7 +65,7 @@
   },
   {
     "id": "01021",
-    "pack_id": "core",
+    "pack_id": "ebr",
     "position": 21,
     "quantity": 2,
     "deck_limit": 2,
@@ -84,7 +84,7 @@
   },
   {
     "id": "01027",
-    "pack_id": "core",
+    "pack_id": "ebr",
     "position": 27,
     "quantity": 2,
     "deck_limit": 2,
@@ -104,7 +104,7 @@
   },
   {
     "id": "01041",
-    "pack_id": "core",
+    "pack_id": "ebr",
     "position": 41,
     "quantity": 2,
     "deck_limit": 2,
@@ -124,7 +124,7 @@
   },
   {
     "id": "01044",
-    "pack_id": "core",
+    "pack_id": "ebr",
     "position": 44,
     "quantity": 2,
     "deck_limit": 2,
@@ -144,7 +144,7 @@
   },
   {
     "id": "01065",
-    "pack_id": "core",
+    "pack_id": "ebr",
     "position": 65,
     "quantity": 1,
     "set_id": "conciliator",
@@ -156,7 +156,7 @@
   },
   {
     "id": "01069",
-    "pack_id": "core",
+    "pack_id": "ebr",
     "position": 69,
     "quantity": 2,
     "deck_limit": 2,
@@ -175,7 +175,7 @@
   },
   {
     "id": "01074",
-    "pack_id": "core",
+    "pack_id": "ebr",
     "position": 74,
     "quantity": 2,
     "deck_limit": 2,
@@ -194,7 +194,7 @@
   },
   {
     "id": "01075",
-    "pack_id": "core",
+    "pack_id": "ebr",
     "position": 75,
     "quantity": 2,
     "deck_limit": 2,
@@ -215,7 +215,7 @@
   },
   {
     "id": "01077",
-    "pack_id": "core",
+    "pack_id": "ebr",
     "position": 77,
     "quantity": 2,
     "deck_limit": 2,
@@ -237,7 +237,7 @@
   },
   {
     "id": "01080",
-    "pack_id": "core",
+    "pack_id": "ebr",
     "position": 80,
     "quantity": 1,
     "set_id": "shaper",
@@ -249,7 +249,7 @@
   },
   {
     "id": "01084",
-    "pack_id": "core",
+    "pack_id": "ebr",
     "position": 84,
     "quantity": 2,
     "deck_limit": 2,
@@ -267,7 +267,7 @@
   },
   {
     "id": "01226",
-    "pack_id": "core",
+    "pack_id": "ebr",
     "cost": 1,
     "position": 226,
     "quantity": 2,

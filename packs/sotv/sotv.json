@@ -19,7 +19,8 @@
     "flavor": "When you encounter a problem, you often discover that you already have a solution.",
     "subset_id": "sotv_traveler",
     "subset_position": 1,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03002",
@@ -42,7 +43,8 @@
     "text": "Unique. Objective (6 hunches: [aspiration]).\nThis gear does not ready during the refresh phase.\n<b>Exhaust:</b> When a feature with 2 or more presence is cleared, add 1 hunch to this gear and 1[progress] to the location.\n<b>Response:</b> When you travel, ready this gear.",
     "subset_id": "sotv_traveler",
     "subset_position": 2,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03003",
@@ -66,7 +68,8 @@
     "flavor": "As you place the cap upon your head, you note the softness of the lining.The brushed ironwool whisks away moisture and allows for a delightful amount of breathability – warm or cool as circumstances demand.",
     "subset_id": "sotv_traveler",
     "subset_position": 3,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03004",
@@ -87,7 +90,8 @@
     "flavor": "Sometimes you need only reflect upon your own experience to discern the way forward.",
     "subset_id": "sotv_traveler",
     "subset_position": 4,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03005",
@@ -107,7 +111,8 @@
     "text": "Objective (6 improvements: [aspiration]).\nAttach to a human.\n<b>Response:</b> When a Ranger <b>Connects</b> with the attached human, the Ranger who played this card may discard 1 token from on of their equipped gear to commit 1 effort.\n<b>Response:</b> After the attached human is cleared with [progress], record 1 improvement and discard this attachment.",
     "subset_id": "sotv_artisan",
     "subset_position": 1,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03006",
@@ -129,7 +134,8 @@
     "flavor": "You socket your gear into the cradle at your waist. When you head out, you hear a quiet thwomp of energy as the gear slowly charges with each and every step.",
     "subset_id": "sotv_artisan",
     "subset_position": 2,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03007",
@@ -150,7 +156,8 @@
     "text": "<b>Response:</b> When one of your equipped gear is discarded, you may attach it to this gear, facedown.\n<b>Exhaust:</b> When a Ranger performs a test, commit a card attached to this gear. <i>(Discard the committed card after the test is resolved.)</i>",
     "subset_id": "sotv_artisan",
     "subset_position": 3,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03008",
@@ -171,7 +178,8 @@
     "flavor": "Your mentor taught you to always consider the material components of your ideas at their inception. Otherwise you might doom that idea to your sketchpad, never to experience life beyond its pages.",
     "subset_id": "sotv_artisan",
     "subset_position": 4,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03009",
@@ -192,7 +200,8 @@
     "flavor": "Since you were young, you've had a whistle that can be heard at great distances. Your closest friends never take long to respond.",
     "subset_id": "sotv_shepherd",
     "subset_position": 1,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03010",
@@ -216,7 +225,8 @@
     "text": "<b>Exhaust (use 1 essay):</b> Move a being.\n<b>Use 1 essay:</b> When a being would move, it does not.\n<b>[SPI] + [exploration]: Deepen [2]</b> <f>your understanding to</f> add 1[progress] to a being for every 2 effort. Then add 1 essay to this book.",
     "subset_id": "sotv_shepherd",
     "subset_position": 2,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03011",
@@ -239,7 +249,8 @@
     "text": "Objective (7 records: [aspiration]).\n<b>Exhaust:</b> Choose a being in the path discard with the same name as a being in play. If no attached beings have that name, attach the being from the path discard to this gear facedown. If you do, add 1 record to this gear and 2[progress] to the being in play.",
     "subset_id": "sotv_shepherd",
     "subset_position": 3,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03012",
@@ -259,7 +270,8 @@
     "text": "Attach to a being within reach.\n<b>Response:</b> After you successfully <b>Connect</b> with the attached being, soothe 1 fatigue.\n<b>Response:</b> When [harm] would be added to the attached being, discard this attachment to prevent that [harm].",
     "subset_id": "sotv_shepherd",
     "subset_position": 4,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03013",
@@ -280,7 +292,8 @@
     "flavor": "Beneath every rock, behind every tree, and in the moist darkness of the soil, you'll find entire ecosystems at work; life brimming at its fullest, blissful in its relative isolation.",
     "subset_id": "sotv_forager",
     "subset_position": 1,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03014",
@@ -301,7 +314,8 @@
     "flavor": "You catch the distinctively sweet smell of a nearby patch of needle moss.",
     "subset_id": "sotv_forager",
     "subset_position": 2,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03015",
@@ -325,7 +339,8 @@
     "flavor": "Before she became a Ranger, Sirisana Mir wandered the Valley, documenting its plantlife in exhaustive detail.You're fortunate enough to have acquired a copy.",
     "subset_id": "sotv_forager",
     "subset_position": 3,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03016",
@@ -346,7 +361,8 @@
     "flavor": "It is said that brightfuit seeds only take root when planted by a luminous soul.",
     "subset_id": "sotv_forager",
     "subset_position": 4,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03017",
@@ -360,7 +376,8 @@
     "text": "<b>Exhaust:</b> Scout 1 path card.",
     "subset_id": "sotv_explorer",
     "subset_position": 1,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03018",
@@ -381,7 +398,8 @@
     "flavor": "Your mentor taught you that it is an explorer's solemn responsibility to take the long way around when given the option. For there awaits the unknown.",
     "subset_id": "sotv_explorer",
     "subset_position": 2,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03019",
@@ -403,7 +421,8 @@
     "text": "Friendly. Persistent. Unique.\n<b>Exhaust:</b> Discard 1[progress] from an obstacle to move your [ranger] to it.\n<b>[AWA] + [exploration]: Scavenge [2]</b> <f>for useful scrap to</f> add 1 token to a tech. If you fail, draw a path card.",
     "subset_id": "sotv_explorer",
     "subset_position": 3,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03020",
@@ -426,7 +445,8 @@
     "text": "<b>Exhaust:</b> When you suffer 1 or more fatigue, add an equal number of stories to this book.\n<b>[SPI] + [exploration]: Reflect [2]</b> <f>on your travels to</f> discard all stories from this book. If you discarded at least 4 stories, shuffle up to 2 cards from your fatigue stack into your deck.",
     "subset_id": "sotv_explorer",
     "subset_position": 4,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03021",
@@ -451,7 +471,8 @@
     "flavor": "After years in the wild, you've learned that nothing breaks the ice quite like a slice of freshly baked honey loaf, a traditional confection loved by all beings.",
     "subset_id": "sotv_explorer",
     "subset_position": 5,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03022",
@@ -465,7 +486,8 @@
     "text": "<b>Exhaust:</b> Choose a Ranger. That Ranger may search their deck for a gear and play it <i>(paying its cost)</i>.",
     "subset_id": "sotv_artificer",
     "subset_position": 1,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03023",
@@ -485,7 +507,8 @@
     "text": "After you succeed at a test in which you committed this attribute, choose a gear in your Ranger discard and place it on top of your fatigue stack. If your total effort was 3 or more, add it to your hand instead.",
     "subset_id": "sotv_artificer",
     "subset_position": 2,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03024",
@@ -506,7 +529,8 @@
     "text": "<b>Deployed:</b> When you perform an <b>Avoid</b> test, reduce your effort by 1. When you perform a <b>Traverse</b> test, commit 1 effort. This gear gains the following test:\n<b>[FOC] + [exploration]: Study</b> <f>the landscape to</f> move a feature and add 1[progress] to it.",
     "subset_id": "sotv_artificer",
     "subset_position": 3,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03025",
@@ -527,7 +551,8 @@
     "text": "<b>Exhaust:</b> Discard 2 tokens from one of your equipped tech to add 1 token to any Ranger's equipped tech.\n<b>Exhaust:</b> Discard a tech from your hand to add 2 tokens to any Ranger's equipped tech.",
     "subset_id": "sotv_artificer",
     "subset_position": 4,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03026",
@@ -551,7 +576,8 @@
     "flavor": "You whistle the two notes, holding long on the second. A moment later, the remotes lift into the air, their rotors making a sound like the beating wings of a hummingbird.",
     "subset_id": "sotv_artificer",
     "subset_position": 5,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03027",
@@ -565,7 +591,8 @@
     "text": "<b>Exhaust:</b> Either move a being, treating it as if it does not have ambush or discard 1[harm] from a being.",
     "subset_id": "sotv_conciliator",
     "subset_position": 1,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03028",
@@ -586,7 +613,8 @@
     "flavor": "You recall your mentor's words: \"Use  caution, but show no fear. As your understanding grows, so will your fear diminish. All beings are but manifestations of a greater whole. We are all one.\"",
     "subset_id": "sotv_conciliator",
     "subset_position": 2,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03029",
@@ -608,7 +636,8 @@
     "flavor": "As a conciliator, you've found that there are few joys greater than that of bringing people together to share in the completion a difficult task.",
     "subset_id": "sotv_conciliator",
     "subset_position": 3,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03030",
@@ -629,7 +658,8 @@
     "flavor": "You've spent years cultivating deep and meaningful connections with the people of your village. As such, you've come to be regarded as a source of great wisdom.",
     "subset_id": "sotv_conciliator",
     "subset_position": 4,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03031",
@@ -653,7 +683,8 @@
     "flavor": "You've spent years cultivating deep and meaningful connections with the people of your village. As such, you've come to be regarded as a source of great wisdom.",
     "subset_id": "sotv_conciliator",
     "subset_position": 5,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03032",
@@ -667,7 +698,8 @@
     "text": "<b>Exhaust:</b> Add 1 token to a Conduit or ready it.",
     "subset_id": "sotv_shaper",
     "subset_position": 1,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03033",
@@ -689,7 +721,8 @@
     "text": "Manifestation.\nAttach to a path card.\n<b>Use 1 strain:</b> When the attached card would ready, it remains exhausted.\n<b>Response:</b> When the attached card leaves play, you may discard 1 token from a conduit to attach this manifestation to another path card.",
     "subset_id": "sotv_shaper",
     "subset_position": 2,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03034",
@@ -709,7 +742,8 @@
     "text": "Manifestation.\nMove any number of beings or features. After moving the last card, each area must have same number of path cards as before you played this manifestation. While moving cards this way, treat them as if they do not have the ambush keyword.",
     "subset_id": "sotv_shaper",
     "subset_position": 3,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03035",
@@ -727,7 +761,8 @@
     "text": "Manifestation. <i>(To commit this attribute, discard 1 token from a conduit.)</i>\nYou can commit this attribute to any test you perform. When you do, suffer 1 fatigue and double the energy committed to this test.",
     "subset_id": "sotv_shaper",
     "subset_position": 4,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03036",
@@ -752,7 +787,8 @@
     "flavor": "Shortly after Spire was settled, Bastian Cress began having visions. He describes a spike of pearl above a mountain top, wreathed in diaphanous clouds, and out from it reaching a pair of grasping hands.",
     "subset_id": "sotv_shaper",
     "subset_position": 5,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03037",
@@ -764,7 +800,8 @@
     "illustrator": "Evan Simonet",
     "type_id": "role",
     "text": "<b>Exhaust:</b> Before your first turn of the round, add 2[progress] to a spirit. Then, <b>spiritspeak</b>.",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03038",
@@ -776,7 +813,8 @@
     "illustrator": "Evan Simonet",
     "type_id": "role",
     "text": "<b>Exhaust:</b> Spend 1 energy to <b>spiritspeak</b>.",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03039",
@@ -788,7 +826,8 @@
     "illustrator": "Evan Simonet",
     "type_id": "role",
     "text": "<b>Exhaust:</b> Perform a spirit speaker test.",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03040",
@@ -806,7 +845,8 @@
     "traits": "Wisdom / Spiritual",
     "type_id": "attachment",
     "text": "Attach to a spirit.\nWhen you play this attachment, you may ready the attached spirit.\n<b>Response:</b> When a Ranger performs a test, they may discard 2 or more [progress] from the attached spirit. Dodge a card in the same area as it for every 2[progress] discarded.",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03041",
@@ -825,7 +865,8 @@
     "type_id": "moment",
     "text": "Search your deck for a spirit and add it to your hand. If you are <b>spiritspeaking</b>, you may play that spirit, reducing its cost by 1. Otherwise, you may exhaust your role to <b>spiritspeak</b>.",
     "flavor": "Your helping spirits are always with you, but you've learned that they are most effective when given explicit instruction.",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03042",
@@ -845,7 +886,8 @@
     "presence": 0,
     "text": "Persistent. Spirit.\n<b>Response:</b> Before a Sitka Buck would resolve a challenge effect, discard 2[progress] from this spirit to exhaust the Buck.",
     "crest_challenge": "You may discard 1 or more [progress] from this spirit to exhaust a being in the same area with presence equal to the number of [progress] discarded.",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03043",
@@ -866,7 +908,8 @@
     "presence": 1,
     "text": "Persistent. Unique. Spirit.\n<b>Exhaust:</b> Discard up to 3[progress] from this spirit to choose a path card in the same area. Reduce that card's presence by the number of [progress] discarded until the end of the turn.",
     "sun_challenge": "You may discard 2[progress] from this spirit to search the path deck for the next being or feature. Then, add 2[progress] to that card.",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03044",
@@ -885,7 +928,8 @@
     "type_id": "moment",
     "text": "<b>Response:</b> After you succeed at a test that interacts with a spirit, add [progress] to the location equal to your effort. This is in addition to the test's standard effect.",
     "flavor": "You quiet the chatter of your mind and reflect upon the message you've received. As usual, what the spirit told you was both incredibly simple, and undeniably wise.",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03045",
@@ -903,7 +947,8 @@
     "traits": "Knowledge / Spiritual",
     "type_id": "attachment",
     "text": "Attach to a spirit.\n<b>Response:</b> When a Ranger interacts with a card in the same area as the attached spirit, you may exhaust that spirit to commit its approach icons to that test.\n<b>Exhaust:</b> Move the attached spirit.",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03046",
@@ -923,7 +968,8 @@
     "presence": 0,
     "text": "Persistent. Spirit.\n<b>Response:</b> When Pouncing Atrox enters play, discard 2[progress] from this spirit to treat the Atrox as if it did not have ambush.",
     "sun_challenge": "You may either exhaust this spirit or discard 2[progress] from it. If you do, move up to 3[progress] from this spirit to a feature in the same area.",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03047",
@@ -944,7 +990,8 @@
     "presence": 1,
     "text": "Persistent. Unique. Spirit.\n<b>Exhaust:</b> When a Ranger interacts with a card in the same area as this spirit, discard 2 or more [progress] from this spirit to commit 1 effort for every 2[progress] discarded.",
     "mountain_challenge": "You may discard 3[progress] from this spirit to exhaust a feature in the same area.",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03048",
@@ -966,7 +1013,8 @@
     "token_count": 3,
     "text": "<b>Exhaust (use 1 beat):</b> When a Ranger reveals a challenge card during a test, choose a challenge effect on an active being. Resolve that effect this test.",
     "flavor": "It's as though each strike of the drum conjures a deep and ancient memory; one shared by all beings. The sound is comforting and invigorating all at once.",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03049",
@@ -987,7 +1035,8 @@
     "token_id": "journey",
     "token_count": 3,
     "text": "<b>Exhaust (use 1 journey):</b> After you succeed at a test that interacts with a spirit, add [progress] to another spirit equal to your effort.\n<b>[SPI] + [reason]: Study [2]</b> <f>the wisdom of your ancestors to</f> add 1[progress] for every 2 effort to a spirit. Then add 1 journey to this book.",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03050",
@@ -1007,7 +1056,8 @@
     "presence": 0,
     "text": "Persistent. Spirit.\n<b>Response:</b> When you travel, discard 2[progress] from this spirit to treat all Circling Irix as if they did not have persistent.",
     "mountain_challenge": "You may either exhaust this spirit or discard 1[progress] from it. If you do, resolve a challenge effect on another being in the same area.",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03051",
@@ -1031,7 +1081,8 @@
     "sun_challenge": "You may move up to 4[progress] from this spirit to another spirit in the same area.",
     "mountain_challenge": "You may discard 3[progress] from this spirit to gain 1 energy of any type.",
     "crest_challenge": "You may discard 2[progress] from this spirit to scout 1 challenge card.",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03052",
@@ -1049,7 +1100,8 @@
     "traits": "Skill / Spiritual",
     "type_id": "attachment",
     "text": "Attach to a being with 1 or less presence.\nThe attached being gains friendly.\n<b>Exhaust:</b> Move up to 2[progress] from the attached being to another being in the same area.",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03053",
@@ -1070,7 +1122,8 @@
     "token_id": "song",
     "token_count": 4,
     "text": "<b>Exhaust (use 1 song):</b> After you succeed at a <b>Connect</b> or <b>Commune</b> test, soothe 1 fatigue.\n<b>Response:</b> When you would suffer an injury, spend 2[progress] from a spirit within reach to prevent it.",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03054",
@@ -1090,7 +1143,8 @@
     "presence": 0,
     "text": "Persistent. Spirit.\n<b>Response:</b> Before a Romping Lutrinal would move, discard 1[progress] from this spirit to prevent it.",
     "sun_challenge": "You may either exhaust this spirit or discard 2[progress] from it. If you do, move up to 3[progress] from this spirit to a non-spirit being in the same area.",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03055",
@@ -1112,7 +1166,8 @@
     "harm": "/",
     "text": "Persistent. Unique. Spirit.\n<b>Exhaust:</b> When you would suffer 1 or more fatigue or an injury while this spirit is within reach, discard 3[progress] from it to prevent that fatigue or injury.",
     "crest_challenge": "You may discard 2[progress] from this spirit and choose a path card. If you do, challenge effects on that card do not resolve during this test.",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03056",
@@ -1131,7 +1186,8 @@
     "type_id": "moment",
     "text": "<b>Response:</b> When a Ranger performs a test, they dodge 1 card. If that Ranger has 5 or more fatigue, add this moment back to your hand instead of discarding it.",
     "flavor": "They did as Elder Atma bade and followed the cat as it moved swiftly through the woods until they arrived at a clearing...",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03057",
@@ -1151,7 +1207,8 @@
     "token_id": "hum",
     "token_count": 4,
     "text": "Attach to a being.\n<b>Use 1 hum:</b> When the attached being would ready, it remains exhausted. If its presence is 2 or more, the Ranger who played this attachment suffers 1 fatigue.\n<b>Response:</b> When the attached being readies, discard this attachment.",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03058",
@@ -1170,7 +1227,8 @@
     "type_id": "moment",
     "text": "Choose a being within reach of a Ranger. That being fatigues that Ranger. Shuffle that being into the path deck. That Ranger scouts a number of path cards equal to the chosen being's presence, then draws a path card.",
     "flavor": "Recall the tale of the Ranger who once fled a pack of wolhunds only to fall off a cliff.",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03059",
@@ -1188,7 +1246,8 @@
     "traits": "Tale",
     "type_id": "attachment",
     "text": "Attach to a location or feature.\nWhen you play this attachment on a feature, you may move that feature.\n<b>Exhaust:</b> After a Ranger suffers 1 or more fatigue, add [progress] to the attached card equal to the number of fatigue suffered plus 1.",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03060",
@@ -1207,7 +1266,8 @@
     "type_id": "moment",
     "text": "Add 1[harm] to a prey to exhaust and add 3[harm] to a predator.",
     "flavor": "...and the buck, when pressed, reared on its haunches, lifting the wolhund high into the air. The wolhund bit and clawed at the antlers, but was thrown to the earth with force. There it lay for many heartbeats, seeming dead...",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03061",
@@ -1226,7 +1286,8 @@
     "type_id": "moment",
     "text": "Objective (9 feats: [aspiration]).\nChoose a Ranger to perform a test, doubling its difficulty. If they succeed, they soothe 2 fatigue. Then record feats equal to the test's original difficulty.",
     "flavor": "Sometimes a Ranger needs a little extra encouragement to achieve greatness.",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03062",
@@ -1245,7 +1306,8 @@
     "type_id": "moment",
     "text": "<b>Response:</b> When a Ranger resolves an effect that scouts and/or draws cards from their deck, they do so from their fatigue stack instead. Then, if that Ranger has 5 or more fatigue, return this moment to your hand.",
     "flavor": "This tale is one best told with liberal use of onomatopoeia and a few hand props.",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03063",
@@ -1267,7 +1329,8 @@
     "token_id": "deed",
     "token_count": 0,
     "text": "<b>Response:</b> After a Ranger succeeds at a test with 4 or more effort or suffers 2 or more fatigue, add 1 deed to this gear.\n<b>[SPI] + [exploration] (use 1 deed): Recount [2]</b> <f>your adventures to</f> shuffle a card from the top of a Ranger's fatigue stack into their deck. Add 2[progress] to each human within reach of them.",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03064",
@@ -1289,7 +1352,8 @@
     "token_id": "melody",
     "token_count": 4,
     "text": "<b>Exhaust (use 1 melody):</b> Ready an attachment or a card with a tale attached to it.\n<b>Exhaust (use X melodies):</b> After you play an attachment on a path card, exhaust that path card. X is equal to that card's presence.",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03065",
@@ -1308,7 +1372,8 @@
     "type_id": "moment",
     "text": "<b>Response:</b> When a Ranger rests, they soothe 2 fatigue. If that Ranger has 5 or more fatigue, they soothe 4 fatigue instead.",
     "flavor": "...and as the artisan closed her eyes, she understood that everyone must rest from time to time, and that she had earned a break. Then, she slept.",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03066",
@@ -1329,7 +1394,8 @@
     "token_id": "buffer",
     "token_count": 3,
     "text": "You may play this gear equipped to another Ranger.\n<b>Exhaust (use 1 buffer):</b> When you would suffer 1 or more fatigue, discard a card from your hand. If you do, either prevent 1 of that fatigue or, if you have 5 or more fatigue, prevent all of it.",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03067",
@@ -1347,7 +1413,8 @@
     "traits": "Tale",
     "type_id": "attachment",
     "text": "Attach to a Ranger's role.\n<b>Response:</b> After you exhaust your role, you may soothe 1 fatigue.\n<b>Response:</b> When you would discard your fatigue stack due to an injury, discard this tale instead.",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03068",
@@ -1370,7 +1437,8 @@
     "token_count": 4,
     "text": "<b>Exhaust (use 1 strum):</b> Choose a Ranger. That Ranger soothes 1 fatigue. If there is a tale attached to their role they soothe 1 additional fatigue.",
     "flavor": "This lute was crafted by none other than master luthier, Vaal Rez. You had to trade your set of traditional Messepian kettledrums to get it, but it was worth it.",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03069",
@@ -1390,7 +1458,8 @@
     "illustrator": "Evan Simonet",
     "subset_id": "sotv_personality",
     "subset_position": 1,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03070",
@@ -1411,7 +1480,8 @@
     "illustrator": "Evan Simonet",
     "subset_id": "sotv_personality",
     "subset_position": 2,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03071",
@@ -1432,7 +1502,8 @@
     "illustrator": "Evan Simonet",
     "subset_id": "sotv_personality",
     "subset_position": 3,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03072",
@@ -1453,7 +1524,8 @@
     "illustrator": "Evan Simonet",
     "subset_id": "sotv_personality",
     "subset_position": 4,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03073",
@@ -1473,7 +1545,8 @@
     "illustrator": "Evan Simonet",
     "subset_id": "sotv_personality",
     "subset_position": 5,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03074",
@@ -1494,7 +1567,8 @@
     "illustrator": "Evan Simonet",
     "subset_id": "sotv_personality",
     "subset_position": 6,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03075",
@@ -1514,7 +1588,8 @@
     "illustrator": "Evan Simonet",
     "subset_id": "sotv_personality",
     "subset_position": 7,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03076",
@@ -1535,7 +1610,8 @@
     "illustrator": "Evan Simonet",
     "subset_id": "sotv_personality",
     "subset_position": 8,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03201",
@@ -1557,7 +1633,8 @@
     "spoiler": true,
     "subset_id": "sotv_reward",
     "subset_position": 1,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03202",
@@ -1582,7 +1659,8 @@
     "spoiler": true,
     "subset_id": "sotv_reward",
     "subset_position": 2,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03203",
@@ -1605,7 +1683,8 @@
     "spoiler": true,
     "subset_id": "sotv_reward",
     "subset_position": 3,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03204",
@@ -1629,7 +1708,8 @@
     "spoiler": true,
     "subset_id": "sotv_reward",
     "subset_position": 4,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "id": "03205",
@@ -1651,7 +1731,8 @@
     "spoiler": true,
     "subset_id": "sotv_reward",
     "subset_position": 5,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "sotv"
   },
   {
     "name": "1421 aspect",
@@ -1669,7 +1750,8 @@
       20,
       10,
       7
-    ]
+    ],
+    "pack_id": "sotv"
   },
   {
     "name": "1412 aspect",
@@ -1687,7 +1769,8 @@
       21,
       10,
       7
-    ]
+    ],
+    "pack_id": "sotv"
   },
   {
     "name": "2411 aspect",
@@ -1705,7 +1788,8 @@
       19,
       10,
       7
-    ]
+    ],
+    "pack_id": "sotv"
   },
   {
     "name": "1214 aspect",
@@ -1723,7 +1807,8 @@
       26,
       10,
       7
-    ]
+    ],
+    "pack_id": "sotv"
   },
   {
     "name": "1124 aspect",
@@ -1741,7 +1826,8 @@
       25,
       10,
       7
-    ]
+    ],
+    "pack_id": "sotv"
   },
   {
     "name": "2141 aspect",
@@ -1759,7 +1845,8 @@
       27,
       10,
       7
-    ]
+    ],
+    "pack_id": "sotv"
   },
   {
     "name": "1241 aspect",
@@ -1777,7 +1864,8 @@
       24,
       10,
       7
-    ]
+    ],
+    "pack_id": "sotv"
   },
   {
     "name": "1142 aspect",
@@ -1795,7 +1883,8 @@
       22,
       10,
       7
-    ]
+    ],
+    "pack_id": "sotv"
   },
   {
     "name": "4112 aspect",
@@ -1813,7 +1902,8 @@
       17,
       10,
       7
-    ]
+    ],
+    "pack_id": "sotv"
   },
   {
     "name": "4211 aspect",
@@ -1831,7 +1921,8 @@
       18,
       10,
       7
-    ]
+    ],
+    "pack_id": "sotv"
   },
   {
     "name": "4121 aspect",
@@ -1849,7 +1940,8 @@
       16,
       10,
       7
-    ]
+    ],
+    "pack_id": "sotv"
   },
   {
     "name": "2114 aspect",
@@ -1868,6 +1960,7 @@
       1,
       1
     ],
-    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15398307509714413278/2291314E51FBAC2CC94CBCBD4E6D8779C0DDB52A/"
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15398307509714413278/2291314E51FBAC2CC94CBCBD4E6D8779C0DDB52A/",
+    "pack_id": "sotv"
   }
 ]

@@ -22,7 +22,8 @@
     "spoiler": true,
     "subset_id": "loa_reward",
     "subset_position": 1,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "loa"
   },
   {
     "id": "02202",
@@ -45,7 +46,8 @@
     "spoiler": true,
     "subset_id": "loa_reward",
     "subset_position": 2,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "loa"
   },
   {
     "id": "02203",
@@ -66,7 +68,8 @@
     "spoiler": true,
     "subset_id": "loa_reward",
     "subset_position": 3,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "loa"
   },
   {
     "id": "02204",
@@ -90,7 +93,8 @@
     "spoiler": true,
     "subset_id": "loa_reward",
     "subset_position": 4,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "loa"
   },
   {
     "id": "02205",
@@ -113,7 +117,8 @@
     "spoiler": true,
     "subset_id": "loa_reward",
     "subset_position": 5,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "loa"
   },
   {
     "id": "02206",
@@ -136,7 +141,8 @@
     "spoiler": true,
     "subset_id": "loa_reward",
     "subset_position": 6,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "loa"
   },
   {
     "id": "02207",
@@ -159,7 +165,8 @@
     "spoiler": true,
     "subset_id": "loa_reward",
     "subset_position": 7,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "loa"
   },
   {
     "id": "02208",
@@ -183,7 +190,8 @@
     "spoiler": true,
     "subset_id": "loa_reward",
     "subset_position": 8,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "loa"
   },
   {
     "id": "02209",
@@ -207,7 +215,8 @@
     "spoiler": true,
     "subset_id": "loa_reward",
     "subset_position": 9,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "loa"
   },
   {
     "id": "02210",
@@ -230,7 +239,8 @@
     "spoiler": true,
     "subset_id": "loa_reward",
     "subset_position": 10,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "loa"
   },
   {
     "id": "02211",
@@ -255,7 +265,8 @@
     "spoiler": true,
     "subset_id": "loa_reward",
     "subset_position": 11,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "loa"
   },
   {
     "id": "02212",
@@ -280,7 +291,8 @@
     "spoiler": true,
     "subset_id": "loa_reward",
     "subset_position": 12,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "loa"
   },
   {
     "id": "02213",
@@ -303,7 +315,8 @@
     "spoiler": true,
     "subset_id": "loa_reward",
     "subset_position": 13,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "loa"
   },
   {
     "id": "02214",
@@ -326,7 +339,8 @@
     "spoiler": true,
     "subset_id": "loa_reward",
     "subset_position": 14,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "loa"
   },
   {
     "id": "02215",
@@ -349,7 +363,8 @@
     "spoiler": true,
     "subset_id": "loa_reward",
     "subset_position": 15,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "loa"
   },
   {
     "id": "02216",
@@ -374,7 +389,8 @@
     "spoiler": true,
     "subset_id": "loa_reward",
     "subset_position": 16,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "loa"
   },
   {
     "id": "02217",
@@ -398,7 +414,8 @@
     "spoiler": true,
     "subset_id": "loa_reward",
     "subset_position": 17,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "loa"
   },
   {
     "id": "02218",
@@ -420,7 +437,8 @@
     "spoiler": true,
     "subset_id": "loa_reward",
     "subset_position": 18,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "loa"
   },
   {
     "id": "02219",
@@ -446,7 +464,8 @@
     "spoiler": true,
     "subset_id": "loa_reward",
     "subset_position": 19,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "loa"
   },
   {
     "id": "02220",
@@ -468,7 +487,8 @@
     "spoiler": true,
     "subset_id": "loa_reward",
     "subset_position": 20,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "loa"
   },
   {
     "id": "02221",
@@ -494,7 +514,8 @@
     "spoiler": true,
     "subset_id": "loa_reward",
     "subset_position": 21,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "loa"
   },
   {
     "id": "02222",
@@ -517,7 +538,8 @@
     "spoiler": true,
     "subset_id": "loa_reward",
     "subset_position": 22,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "loa"
   },
   {
     "id": "02223",
@@ -541,7 +563,8 @@
     "spoiler": true,
     "subset_id": "loa_reward",
     "subset_position": 23,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "loa"
   },
   {
     "id": "02224",
@@ -564,7 +587,8 @@
     "spoiler": true,
     "subset_id": "loa_reward",
     "subset_position": 24,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "loa"
   },
   {
     "id": "02225",
@@ -586,7 +610,8 @@
     "spoiler": true,
     "subset_id": "loa_reward",
     "subset_position": 26,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "loa"
   },
   {
     "id": "02226",
@@ -610,7 +635,8 @@
     "spoiler": true,
     "subset_id": "loa_reward",
     "subset_position": 27,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "loa"
   },
   {
     "id": "02227",
@@ -635,7 +661,8 @@
     "sun_challenge": "You may discard 3[progress] from this spirit and exhaust it to choose a nature card in your discard and add it to your hand.",
     "subset_id": "loa_reward",
     "subset_position": 27,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "loa"
   },
   {
     "id": "02228",
@@ -659,7 +686,8 @@
     "spoiler": true,
     "subset_id": "loa_reward",
     "subset_position": 28,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "loa"
   },
   {
     "id": "02229",
@@ -685,6 +713,7 @@
     "spoiler": true,
     "subset_id": "loa_reward",
     "subset_position": 29,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "loa"
   }
 ]

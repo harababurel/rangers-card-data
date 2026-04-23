@@ -97,6 +97,15 @@ app.get('/api/repo-cards', (req, res) => {
   res.json(allCards);
 });
 
+app.get('/api/packs', (req, res) => {
+  const packsPath = path.join(__dirname, '../packs.json');
+  if (fs.existsSync(packsPath)) {
+    res.json(JSON.parse(fs.readFileSync(packsPath, 'utf8')));
+  } else {
+    res.json([]);
+  }
+});
+
 app.get('/api/tokens', (req, res) => {
   const tokensPath = path.join(__dirname, '../tokens.json');
   if (fs.existsSync(tokensPath)) {

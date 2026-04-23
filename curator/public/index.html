@@ -189,7 +189,12 @@
 
         <!-- Basic Info -->
         <div class="grid grid-cols-4 gap-2">
-          <div><label class="block font-bold">Pack Prefix</label><input v-model="packPrefix" class="w-full border p-1 rounded bg-gray-50"></div>
+          <div>
+            <label class="block font-bold">Pack</label>
+            <select v-model="form.pack_id" class="w-full border p-1 rounded bg-gray-50">
+              <option v-for="p in packs" :key="p.id" :value="p.id">{{p.name}}</option>
+            </select>
+          </div>
           <div><label class="block font-bold">Position</label><input v-model.number="form.position" class="w-full border p-1 rounded bg-gray-100" readonly></div>
           <div><label class="block font-bold text-blue-800">Generated ID</label><input v-model="form.id" class="w-full border p-1 rounded bg-blue-50 border-blue-200" readonly></div>
           <div><label class="block font-bold text-red-800">Quantity</label><input v-model.number="form.quantity" type="number" class="w-full border p-1 rounded border-red-200"></div>
@@ -376,13 +381,13 @@
           selected: null,
           isLandscapeOverride: null,
           isRepoMatch: false,
-          packPrefix: '01',
           form: {},
           queue: [],
           tokens: [],
           categories: [],
           types: [],
           areas: [],
+          packs: [],
           completedCards: JSON.parse(localStorage.getItem('completedCards') || '[]'),
           showCompleted: false
         };
@@ -395,7 +400,7 @@
            if (val === 'location') this.isLandscapeOverride = true;
            if (val === 'ranger') this.isLandscapeOverride = false;
         },
-        packPrefix(val) {
+        'form.pack_id'(val) {
           if (!this.isRepoMatch) {
             this.form.position = this.nextPosition;
           }
@@ -403,6 +408,10 @@
         }
       },
       computed: {
+        packPrefix() {
+          const pack = this.packs.find(p => p.id === this.form.pack_id);
+          return pack ? String(pack.position).padStart(2, '0') : '01';
+        },
         maxPositions() {
           const map = {};
           this.repoCards.forEach(c => {
@@ -455,13 +464,15 @@
           fetch('/api/categories').then(r => r.json()),
           fetch('/api/areas').then(r => r.json()),
           fetch('/api/cards').then(r => r.json()),
-          fetch('/api/repo-cards').then(r => r.json())
-        ]).then(([tokens, categories, areas, cards, repoCards]) => {
+          fetch('/api/repo-cards').then(r => r.json()),
+          fetch('/api/packs').then(r => r.json())
+        ]).then(([tokens, categories, areas, cards, repoCards, packs]) => {
           this.tokens = tokens;
           this.categories = categories;
           this.areas = areas;
           this.cards = cards;
           this.repoCards = repoCards;
+          this.packs = packs;
           this.loadingRepo = false;
           
           this.types = [
@@ -486,6 +497,7 @@
             id: '',
             position: null,
             quantity: 1,
+            pack_id: 'ebr',
             category_id: 'path',
             type_id: 'being',
             area_id: '',
@@ -611,7 +623,7 @@
             toSave.image_rect = [this.selected.index, this.selected.deckInfo.NumWidth, this.selected.deckInfo.NumHeight];
           }
           
-          const identity = ['name', 'id', 'position', 'quantity', 'category_id', 'type_id', 'imagesrc', 'image_rect', 'set_id', 'set_position', 'traits'];
+          const identity = ['name', 'id', 'position', 'quantity', 'pack_id', 'category_id', 'type_id', 'imagesrc', 'image_rect', 'set_id', 'set_position', 'traits'];
           
           if (toSave.type_id === 'aspect') {
             Object.keys(toSave).forEach(k => {

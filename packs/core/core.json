@@ -16,7 +16,8 @@
     "flavor": "When you were young, you and your father would climb the Mound of the Navigator and look over the Valley. From that high vantage, he taught you to see the subtlest movements and minute detail of the flora and fauna far below.",
     "approach_conflict": 1,
     "illustrator": "Wayne O'Connor",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01002",
@@ -35,7 +36,8 @@
     "flavor": "As you walk the Valley, you recall the wisdom gained during the seasonal wanderings of your youth.",
     "approach_exploration": 1,
     "illustrator": "Wayne O'Connor",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01003",
@@ -53,7 +55,8 @@
     "approach_exploration": 3,
     "flavor": "From the day you took your first steps, you haven't stopped moving. Your heart yearns to scale distant peaks and wander untrodden vistas. You continually look toward the horizon, never content to sit still.",
     "illustrator": "Wayne O'Connor",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01004",
@@ -75,7 +78,8 @@
     "token_count": 2,
     "flavor": "It's a delicious medley of cherry moss pemmican, marbled great beans, starpeas, almonds, and a few surprises.",
     "illustrator": "Banner & Simonet",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01006",
@@ -93,7 +97,8 @@
     "text": "Play a moment from your discard pile without paying its energy cost (X is equal to the chosen moment’s cost).\nThis card can be played at the time specified on the chosen moment.",
     "approach_exploration": 1,
     "illustrator": "Wayne O'Connor",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01005",
@@ -114,7 +119,8 @@
     "token_id": "echo",
     "token_count": 2,
     "illustrator": "Banner & Simonet",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01007",
@@ -136,7 +142,8 @@
     "token_count": 3,
     "flavor": "There's no better companion than a memlev multitool. It's like having an artificer's workshop in the palm of your hand, but not nearly as heavy.",
     "illustrator": "Evan Simonet",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01008",
@@ -156,7 +163,8 @@
     "approach_conflict": 1,
     "flavor": "Your mother taught you many things as you walked by her side, trekking across the Valley and back, but of all her teachings, none were more useful than this: always wear comfortable shoes.",
     "illustrator": "Evan Simonet",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01009",
@@ -179,7 +187,8 @@
     "token_count": 3,
     "flavor": "You feel that quiet meditation is essential to daily life, and that the ability to enjoy moments of stillness is paramount to one's well-being.",
     "illustrator": "Banner & Simonet",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01010",
@@ -198,7 +207,8 @@
     "approach_connection": 1,
     "flavor": "Your mother taught you how to work with a great number of tools, and from her you gained an intimate knowledge of their function and practical application.",
     "illustrator": "Wayne O'Connor",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01011",
@@ -219,7 +229,8 @@
     "token_count": 3,
     "approach_reason": 1,
     "illustrator": "Evan Simonet",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01014",
@@ -238,7 +249,8 @@
     "approach_connection": 1,
     "flavor": "You know that inspiration does not simply come when called. When it strikes, you must act.",
     "illustrator": "Wayne O'Connor",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01015",
@@ -257,7 +269,8 @@
     "approach_conflict": 1,
     "flavor": "You'll never forget the look on your brother's face we he saw that raccoon out of the corner of his eye, believing it was a bearsloth. You also remember the raccoon, struck by a belt pouch, yet unperturbed.",
     "illustrator": "Wayne O'Connor",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01016",
@@ -277,7 +290,8 @@
     "approach_exploration": 1,
     "flavor": "During your apprenticeship at the carbon forge, you learned much from Elder Orlin.",
     "illustrator": "Rob Laskey",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01012",
@@ -296,7 +310,8 @@
     "text": "Attach to a Ranger’s equipped tech.\nWhen you play this attachment, add 3 tokens to the attached gear.\n<b>Response:</b> When this card becomes unattached, discard 3 tokens from the attached gear.",
     "approach_reason": 1,
     "illustrator": "Rob Laskey",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01013",
@@ -318,7 +333,8 @@
     "token_count": 3,
     "flavor": "So you would discover the artistry in even the simplest of objects, your mentor encouraged you to mimic the work of master craftspeople.",
     "illustrator": "Evan Simonet",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01017",
@@ -337,7 +353,8 @@
     "approach_reason": 1,
     "flavor": "When you are at work, you are at peace, and when you work with your favorite gear, you are filled with a deep sense of purpose, fully in the moment and alive.",
     "illustrator": "Rob Laskey",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01018",
@@ -359,7 +376,8 @@
     "token_count": 3,
     "flavor": "You crafted these hiking greaves from dolewood bark, overlaid them with a veneer of forged carbon, then applied a kinesthetic lining as the finishing touch.",
     "illustrator": "Evan Simonet",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01019",
@@ -378,7 +396,8 @@
     "approach_reason": 1,
     "flavor": "While tending your flock of ironwool sheep, under the sun and moon, you learned the importance of staying alert, even when all seems still.",
     "illustrator": "Wayne O'Connor",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01020",
@@ -398,7 +417,8 @@
     "text": "Friendly. Persistent. Unique.\n<b>Exhaust:</b> Add 1[harm] to a being in the same area as this companion.\n[AWA] + [reason]<b>: Survey</b> <f>the way ahead to</f> scout path cards equal to your effort, then draw 1 path card.",
     "approach_exploration": 1,
     "illustrator": "Chris Beck",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01021",
@@ -417,7 +437,8 @@
     "approach_conflict": 1,
     "flavor": "You've spent countless days, year after year, in relative solitude, alone but for your flock. In that time you've learned that any being can be reasoned with. You just need to ask nicely (and put your back into it).",
     "illustrator": "Wayne O'Connor",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01022",
@@ -437,7 +458,8 @@
     "approach_connection": 1,
     "flavor": "Your uncle loves to regale any who'll listen with the Tale of the Shepherd and the Relgerbeast. The shepherd in the tale saves his flock not by harming the beast, but by riding it back to the village. It then becomes a valued member of the community, rooting out Scrofs in the field.",
     "illustrator": "Wayne O'Connor",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01023",
@@ -459,7 +481,8 @@
     "token_count": 3,
     "flavor": "You were gifted this whistle during a brief summer romance, and each time you blow it, you're reminded of a flower-scented breeze beneath a high, glimmering sun.",
     "illustrator": "Chris Beck",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01024",
@@ -479,7 +502,8 @@
     "approach_connection": 1,
     "flavor": "In your solitude, you once observed the wind describing its course across the plain and came to a place of peace. You saw your life as the wind, ephemeral and beautiful, and you were grateful for it.",
     "illustrator": "Wayne O'Connor",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01025",
@@ -498,7 +522,8 @@
     "approach_connection": 1,
     "flavor": "The spirit speaker of Meadow mentored you in the healing arts of your ancestors. You have never forgotten those lessons.",
     "illustrator": "Wayne O'Connor",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01026",
@@ -516,7 +541,8 @@
     "text": "Attach to a predator.\nAttached card loses the predator trait.\n<b>Response:</b> Before a challenge effect on the attached card would resolve, you may discard 2[progress] from it to cancel the effect.",
     "approach_connection": 1,
     "illustrator": "Rob Laskey",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01027",
@@ -536,7 +562,8 @@
     "text": "Friendly. Persistent. Unique.\n<b>Exhaust:</b> Move a being and add 2[progress] to it.\n[FIT] + [connection]<b>: Pet</b> <f>your canine companion to</f> ready this being and soothe 1 fatigue.",
     "approach_connection": 1,
     "illustrator": "Evan Simonet",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01028",
@@ -554,7 +581,8 @@
     "text": "Search the path deck and discard for a flora and put it into play with this skill attached.\nIncrease the attached flora’s [harm] threshold by 2.",
     "approach_connection": 1,
     "illustrator": "Rob Laskey",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01029",
@@ -573,7 +601,8 @@
     "approach_exploration": 1,
     "flavor": "Your great aunt taught you that when the artilope are in the field, the way through the forest becomes clear.",
     "illustrator": "Wayne O'Connor",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01030",
@@ -591,7 +620,8 @@
     "text": "Attach to any Ranger’s equipped gear.\n<b>Response:</b> When you add [harm] to a being with the attached gear, exhaust that being and attach this card to it.\nThe attached being gains the flora trait.",
     "approach_conflict": 1,
     "illustrator": "Rob Laskey",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01031",
@@ -611,7 +641,8 @@
     "approach_reason": 1,
     "flavor": "During family foraging excursions, your parents would call your attention to subtle passages created by sitka deer. These convenient shortcuts led to many fruit-bearing plants like sunberry brambles and cherry moss.",
     "illustrator": "Wayne O'Connor",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01032",
@@ -630,7 +661,8 @@
     "text": "[SPI] + [reason]<b>: Tend</b> <f>to the local plants to</f> add or remove [harm] from a flora equal to your effort.\n[FIT] + [conflict]<b>: Strike [2]</b> <f>out with your gardening tool to</f> add 1[harm] to a being for every 2 effort. If you fail, suffer 1 injury.",
     "approach_exploration": 1,
     "illustrator": "Trevor Barclay",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01033",
@@ -651,7 +683,8 @@
     "approach_exploration": 1,
     "flavor": "You grew up exploring the Valley's hidden places, where miniature ecologies thrive in the secluded glades, and dolewood stumps shelter life in abundance.",
     "illustrator": "Rob Laskey",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01034",
@@ -672,7 +705,8 @@
     "token_count": 0,
     "approach_reason": 1,
     "illustrator": "Trevor Barclay",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01035",
@@ -691,7 +725,8 @@
     "approach_reason": 1,
     "flavor": "Your summers spent sifting sunberries in the shade of the cedars has led to a deep affinity for the freshest of fruits.",
     "illustrator": "Wayne O'Connor",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01036",
@@ -713,7 +748,8 @@
     "approach_reason": 1,
     "flavor": "When held near a fruit-bearing plant, the sifter comes to life, crackling with energy as it attracts the plant's ripened bounty.",
     "illustrator": "Chris Beck",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01037",
@@ -725,7 +761,8 @@
     "type_id": "role",
     "text": "<b>Exhaust:</b> When you perform a test, dodge 1 card.",
     "illustrator": "Evan Simonet",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01038",
@@ -737,7 +774,8 @@
     "type_id": "role",
     "text": "<b>Exhaust:</b> Move your [ranger] to a feature. That feature fatigues you.",
     "illustrator": "Evan Simonet",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01039",
@@ -756,7 +794,8 @@
     "approach_exploration": 1,
     "flavor": "You sense the flow of energy in the life around you and heed its subtle cues as you pass unnoticed along your path.",
     "illustrator": "Wayne O'Connor",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01040",
@@ -778,7 +817,8 @@
     "token_count": 3,
     "flavor": "You depress the applicator, and one small drop of water bubbles and expands to form a single clarifying lens.",
     "illustrator": "Evan Simonet",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01041",
@@ -798,7 +838,8 @@
     "approach_exploration": 1,
     "flavor": "Your mentor once took you into the hills beyond Lone Tree, blindfolded, and had you lead the way home in the night, with only the stars to guide you.",
     "illustrator": "Wayne O'Connor",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01042",
@@ -820,7 +861,8 @@
     "token_count": 4,
     "flavor": "A soft hum briefly emits from the device, and you suddenly feel more confident in your steps, certain of the way forward.",
     "illustrator": "Evan Simonet",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01043",
@@ -841,7 +883,8 @@
     "token_id": "stride",
     "token_count": 3,
     "illustrator": "Evan Simonet",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01044",
@@ -861,7 +904,8 @@
     "approach_reason": 1,
     "flavor": "You've learned from experience that sometimes a persistent predator can only be dissuaded from its meal by a faceful of rocks or a decaying log suddenly dropped in its path.",
     "illustrator": "Wayne O'Connor",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01045",
@@ -881,7 +925,8 @@
     "approach_exploration": 1,
     "flavor": "You tap the sensor at your temple, and sight and sound converge to evoke a scene in your mind beyond what your ears and eyes can normally comprehend.",
     "illustrator": "Banner & Simonet",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01046",
@@ -903,7 +948,8 @@
     "token_id": "entry",
     "token_count": 0,
     "illustrator": "Banner & Simonet",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01047",
@@ -923,7 +969,8 @@
     "text": "<b>Response:</b> When you travel, if this trail is attached to the location, travel to a location up to two paths away. Use the terrain of the second path when building the path deck.\n<b>Clear [progress]:</b> Attach this trail to the location.",
     "approach_exploration": 2,
     "illustrator": "Banner & Simonet",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01048",
@@ -942,7 +989,8 @@
     "approach_connection": 1,
     "flavor": "Through practice and intention, you've learned to show others the vastness of possibility before them. There are no limits save the ones we place on ourselves.",
     "illustrator": "Wayne O'Connor",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01049",
@@ -961,7 +1009,8 @@
     "approach_connection": 1,
     "approach_conflict": 1,
     "illustrator": "Wayne O'Connor",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01050",
@@ -981,7 +1030,8 @@
     "approach_exploration": 1,
     "flavor": "You lie back and breathe deep. In this moment you are keenly aware of your connection to the earth and to all living things.",
     "illustrator": "Wayne O'Connor",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01051",
@@ -993,7 +1043,8 @@
     "type_id": "role",
     "text": "<b>Exhaust:</b> Ready a tech.",
     "illustrator": "Evan Simonet",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01052",
@@ -1005,7 +1056,8 @@
     "type_id": "role",
     "text": "<b>Exhaust:</b> Spend 1 energy to add 1 token to a tech.",
     "illustrator": "Evan Simonet",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01053",
@@ -1027,7 +1079,8 @@
     "token_count": 4,
     "flavor": "The telescopic sensor extending from the spine identifies nearby fauna then reveals information regarding their biology and behavior from within the tome.",
     "illustrator": "Chris Beck",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01054",
@@ -1047,7 +1100,8 @@
     "token_id": "length",
     "token_count": 3,
     "illustrator": "Rob Laskey",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01055",
@@ -1069,7 +1123,8 @@
     "token_id": "charge",
     "token_count": 1,
     "illustrator": "Chris Beck",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01056",
@@ -1087,7 +1142,8 @@
     "text": "Attach to a location or feature.\nThe attached card gains the trail trait.\n<b>Response:</b> When 1 or more [progress] is added to the attached trail, increase the number of [progress] added by 1.",
     "approach_exploration": 1,
     "illustrator": "Rob Laskey",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01057",
@@ -1108,7 +1164,8 @@
     "token_id": "charge",
     "token_count": 2,
     "illustrator": "Evan Simonet",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01058",
@@ -1130,7 +1187,8 @@
     "token_id": "dart",
     "token_count": 3,
     "illustrator": "Chris Beck",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01059",
@@ -1152,7 +1210,8 @@
     "token_id": "sip",
     "token_count": 3,
     "illustrator": "Chris Beck",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01060",
@@ -1174,7 +1233,8 @@
     "token_id": "inkrill",
     "token_count": 0,
     "illustrator": "Chris Beck",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01061",
@@ -1197,7 +1257,8 @@
     "token_count": 3,
     "flavor": "With each step, your trekking poles spring upward, easing your burden as they provide buoyancy to your limbs.",
     "illustrator": "Chris Beck",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01062",
@@ -1217,7 +1278,8 @@
     "approach_reason": 1,
     "flavor": "Whether in your workshop or in nature, you are able to reach a state of being where you are at one with with your surroundings, moving with an ease that suggests an intrinsic understanding of creation.",
     "illustrator": "Wayne O'Connor",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01063",
@@ -1239,7 +1301,8 @@
     "token_count": 3,
     "flavor": "With a clockwise rotation of the clasp, the surface of the cloak adopts the patterns and coloration of your environment, making you all but invisible to the untrained eye.",
     "illustrator": "Chris Beck",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01064",
@@ -1258,7 +1321,8 @@
     "approach_exploration": 1,
     "flavor": "You never leave your workshop without the tools essential to survival in the wilderness.The right tool can turn even the most exhausting of endeavors into a moment of exhilaration.",
     "illustrator": "Wayne O'Connor",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01065",
@@ -1270,7 +1334,8 @@
     "type_id": "role",
     "text": "<b>Exhaust:</b> Reduce a being’s presence to 0 until the end of the turn.",
     "illustrator": "Evan Simonet",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01066",
@@ -1282,7 +1347,8 @@
     "type_id": "role",
     "text": "<b>Exhaust:</b> Spend 1 energy to add 1 token to an aid card.",
     "illustrator": "Evan Simonet",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01067",
@@ -1302,7 +1368,8 @@
     "token_id": "marker",
     "token_count": 1,
     "illustrator": "Rob Laskey",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01068",
@@ -1323,7 +1390,8 @@
     "token_count": 1,
     "flavor": "The mesh of interlocking snares hums with a gentle, harmonic energy that can soothe even the most aggressive of beings.",
     "illustrator": "Chris Beck",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01069",
@@ -1342,7 +1410,8 @@
     "approach_connection": 1,
     "flavor": "For years you've preserved the harmony of your village by not only fostering love and compassion in your community, but by spending time in the surrounding mountains and forests, connecting with the natural world.",
     "illustrator": "Wayne O'Connor",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01070",
@@ -1361,7 +1430,8 @@
     "approach_conflict": 2,
     "flavor": "You believe that greater understanding and insight can always be reached if you spend time following in the footsteps of those who came before.",
     "illustrator": "Wayne O'Connor",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01071",
@@ -1382,7 +1452,8 @@
     "token_id": "pulse",
     "token_count": 3,
     "illustrator": "Evan Simonet",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01072",
@@ -1402,7 +1473,8 @@
     "token_id": "track",
     "token_count": 3,
     "illustrator": "Rob Laskey",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01073",
@@ -1425,7 +1497,8 @@
     "token_count": 3,
     "flavor": "When this device is activated, you feel somehow incapable of misunderstanding those around you. Each word and gesture conveys a purity of thought perceivable by only the most empathetic of beings.",
     "illustrator": "Chris Beck",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01074",
@@ -1444,7 +1517,8 @@
     "approach_connection": 2,
     "flavor": "You are selfless in your defense of others, knowing that all wounds are temporary, and the scars you carry are reminders of your sworn duty.",
     "illustrator": "Wayne O'Connor",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01075",
@@ -1465,7 +1539,8 @@
     "token_count": 2,
     "flavor": "A small ceramic device worn at your waist sends a pulse of energy to your chest, altering you to potential dangers.",
     "illustrator": "Rob Laskey",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01076",
@@ -1484,7 +1559,8 @@
     "approach_connection": 1,
     "flavor": "Our ancestors hold a wealth of knowledge and experience. To venture forth into life as paupers is both foolish and unnecessary. With their help we may preserve that which they've gifted to us and prosper.",
     "illustrator": "Wayne O'Connor",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01077",
@@ -1506,7 +1582,8 @@
     "approach_conflict": 1,
     "flavor": "Pokodo is unswervingly loyal and adored by all who meet her.",
     "illustrator": "Chris Beck",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01078",
@@ -1524,7 +1601,8 @@
     "text": "Search the path deck and discard for a human and put them into play with this card attached.\n<b>Response:</b> When the attached human is cleared, move the [progress] from it to any number of other beings, divided as you choose",
     "approach_connection": 1,
     "illustrator": "Rob Laskey",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01079",
@@ -1536,7 +1614,8 @@
     "type_id": "role",
     "text": "<b>Exhaust:</b> Scout 1 challenge card.",
     "illustrator": "Evan Simonet",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01080",
@@ -1548,7 +1627,8 @@
     "type_id": "role",
     "text": "<b>Exhaust:</b> Choose a manifestation in your discard, and add it to your hand.",
     "illustrator": "Evan Simonet",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01081",
@@ -1566,7 +1646,8 @@
     "text": "Manifestation.\nAttach to a feature, and add 2[progress] to it.\n<b>Response:</b> When a Ranger performs a test, they may discard 1 or more [progress] from the attached feature to dodge an equal number of cards in the same area.",
     "approach_conflict": 1,
     "illustrator": "Rob Laskey",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01082",
@@ -1584,7 +1665,8 @@
     "text": "Manifestation. <f>(To play a manifestation, discard 1 token from a conduit.)</f>\n<b>[AWA] + [conflict]: Strike</b> <f>with a whirling coil of wind and water to</f> add [harm] to a being equal to your effort. Then exhaust that being.",
     "approach_conflict": 1,
     "illustrator": "Wayne O'Connor",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01083",
@@ -1606,7 +1688,8 @@
     "approach_exploration": 1,
     "approach_reason": 1,
     "illustrator": "Banner & Simonet",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01084",
@@ -1624,7 +1707,8 @@
     "text": "Manifestation.\n<b>Response:</b> When drawing challenge cards during a test, draw and discard challenge cards until you draw one with a +1 in the used aspect. Use that challenge card for this test, and suffer fatigue equal the number of cards discarded this way.",
     "approach_conflict": 1,
     "illustrator": "Wayne O'Connor",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01085",
@@ -1642,7 +1726,8 @@
     "text": "Manifestation. <f>(To play a manifestation, discard 1 token from a conduit.)</f>\nAdd 1[progress] to each feature and location. Then you may redistribute any number of [progress] between them.",
     "approach_conflict": 1,
     "illustrator": "Wayne O'Connor",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01086",
@@ -1664,7 +1749,8 @@
     "token_id": "stride",
     "token_count": 1,
     "illustrator": "Banner & Simonet",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01087",
@@ -1683,7 +1769,8 @@
     "approach_conflict": 1,
     "approach_connection": 1,
     "illustrator": "Wayne O'Connor",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01088",
@@ -1702,7 +1789,8 @@
     "text": "<b>Response:</b> After you perform a test in which you committed 1 or more manifestation, gain 1 [FOC].\n<b>Response:</b> When you rest, if you have 1 or more [FOC] in your energy pool, scout 1 challenge card.",
     "approach_reason": 1,
     "illustrator": "Banner & Simonet",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01089",
@@ -1723,7 +1811,8 @@
     "token_id": "vision",
     "token_count": 1,
     "illustrator": "Banner & Simonet",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01090",
@@ -1741,7 +1830,8 @@
     "text": "Manifestation.\nAttach to a being within reach of any Ranger.\n<b> Response:</b> After a challenge effect on the attached being resolves, the Ranger that played this card gains 1 energy of any type.",
     "approach_reason": 1,
     "illustrator": "Rob Laskey",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01091",
@@ -1760,7 +1850,8 @@
     "approach_reason": 1,
     "approach_exploration": 1,
     "illustrator": "Wayne O'Connor",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01092",
@@ -1782,7 +1873,8 @@
     "token_id": "song",
     "token_count": 1,
     "illustrator": "Banner & Simonet",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01093",
@@ -1800,7 +1892,8 @@
     "traits": "Innate",
     "text": "After you succeed at a test in which you committed this attribute, you may suffer 1 fatigue to add it back into your hand.",
     "illustrator": "Evan Simonet",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01094",
@@ -1818,7 +1911,8 @@
     "flavor": "Your senses heighten and you become aware of every movement and every sound. Time itself seems to slow as you toil unerringly at your task.",
     "approach_conflict": 1,
     "illustrator": "Evan Simonet",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01095",
@@ -1836,7 +1930,8 @@
     "flavor": "The world comes to life as you perceive every detail of your surroundings: the gentle sway of grass in the bloom-scented breeze, the melodic buzz of insects in the forest, and the reflected light of the sun as it gives shape to all within your vision.",
     "approach_exploration": 1,
     "illustrator": "Evan Simonet",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01096",
@@ -1853,7 +1948,8 @@
     "flavor": "As you put your mind to your task, your every movement carries meaning, and each step is made with care and intention. No detail escapes your notice. You've accounted for every outcome and planned contingencies should you fall short of your visualized result.",
     "approach_conflict": 2,
     "illustrator": "Evan Simonet",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01097",
@@ -1871,7 +1967,8 @@
     "flavor": "You are gifted with an unquenchable fire that burns within. While at times it lies dormant, the proper tinder can coax it to life, and in those moments, you shine brightly on all those around you.",
     "approach_connection": 1,
     "illustrator": "Evan Simonet",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01098",
@@ -1889,7 +1986,8 @@
     "flavor": "As you move in rhythm with your surroundings, your mind clears, refreshed by deep breaths of sweet air and the resonant beating of your heart.",
     "approach_conflict": 1,
     "illustrator": "Evan Simonet",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01099",
@@ -1907,7 +2005,8 @@
     "flavor": "Your goal in sight, you draw upon a deep well of inner strength. Your limbs surge with energy, and you know with certainty that there is nothing you cannot accomplish.",
     "approach_exploration": 1,
     "illustrator": "Evan Simonet",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01100",
@@ -1924,7 +2023,8 @@
     "flavor": "In your many years of experience, you've found the chattering mind to be the greatest obstacle to achieving one's goals. While some overcomplicate the world with indecision and doubt, you simply act and find success.",
     "approach_exploration": 2,
     "illustrator": "Evan Simonet",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01101",
@@ -1942,7 +2042,8 @@
     "flavor": "You take tremendous joy in exploring the fine details of a task. To you, there is no action worth taking that cannot be seen through to perfection.",
     "approach_exploration": 1,
     "illustrator": "Evan Simonet",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01102",
@@ -1960,7 +2061,8 @@
     "flavor": "Ever since you were young you've found that no skill lies outside of your understanding. As a result, you're not afraid to try anything at least once.",
     "approach_connection": 1,
     "illustrator": "Evan Simonet",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01103",
@@ -1978,7 +2080,8 @@
     "flavor": "While the minds of others may find comfort in following traditional paths, yours is at its best when it breaks away, forging new routes through the wilderness of thought.",
     "approach_reason": 1,
     "illustrator": "Evan Simonet",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01104",
@@ -1995,7 +2098,8 @@
     "flavor": "The problem takes shape in your mind like a multifaceted jewel, each vertex a possible solution. The swiftest gleams in the light of your attention, and soon the gem is but a single line, the edge of a razor, the way forward as undeniable and alluring as that sharpened blade.",
     "approach_reason": 2,
     "illustrator": "Evan Simonet",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01105",
@@ -2013,7 +2117,8 @@
     "flavor": "As you give voice to your intention, you do so from a place of love, so that there may be no misconstruing your desire for a specific outcome as anything other than a desire for peace and understanding.",
     "approach_conflict": 1,
     "illustrator": "Evan Simonet",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01106",
@@ -2031,7 +2136,8 @@
     "flavor": "You have the gift of being able to sense the needs of those around you. Instinctively, you lend a hand without being overbearing, your ego nowhere to be found.",
     "approach_reason": 1,
     "illustrator": "Evan Simonet",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01107",
@@ -2049,7 +2155,8 @@
     "flavor": "As you fully inhabit yourself, you feel a oneness with the flow of life. Those around you are buoyed by the energy of your presence, inspired by your certainty, and happy to help in whatever way they can.",
     "approach_connection": 1,
     "illustrator": "Evan Simonet",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01108",
@@ -2066,7 +2173,8 @@
     "flavor": "You open your heart and feel your consciousness settle into your chest. A great warmth spreads within you as you let fall any armor that may unnecessarily hinder this, the truest of connections, oneself laid bare to another.",
     "approach_connection": 2,
     "illustrator": "Evan Simonet",
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01201",
@@ -2088,7 +2196,8 @@
     "approach_conflict": 2,
     "approach_exploration": 1,
     "spoiler": true,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01202",
@@ -2109,7 +2218,8 @@
     "text": "<b>[FOC] + [exploration]: Navigate</b> <f>the winding tunnel to</f> move your [ranger] to this feature.\n<b>Response:</b> When you perform a test, if your [ranger] is on this feature, add 1[harm] to it to dodge each card in the same area.\n<b>Clear [harm]:</b> If your [ranger]is on this feature, suffer 1 injury.",
     "approach_exploration": 2,
     "spoiler": true,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01203",
@@ -2130,7 +2240,8 @@
     "approach_connection": 1,
     "approach_conflict": 2,
     "spoiler": true,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01204",
@@ -2153,7 +2264,8 @@
     "approach_connection": 2,
     "approach_reason": 1,
     "spoiler": true,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01205",
@@ -2174,7 +2286,8 @@
     "approach_exploration": 2,
     "approach_reason": 1,
     "spoiler": true,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01206",
@@ -2199,7 +2312,8 @@
     "approach_connection": 1,
     "approach_reason": 1,
     "spoiler": true,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01207",
@@ -2219,7 +2333,8 @@
     "approach_conflict": 2,
     "approach_reason": 1,
     "spoiler": true,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01208",
@@ -2243,7 +2358,8 @@
     "approach_exploration": 1,
     "approach_reason": 2,
     "spoiler": true,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01209",
@@ -2266,7 +2382,8 @@
     "approach_connection": 1,
     "approach_conflict": 2,
     "spoiler": true,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01210",
@@ -2288,7 +2405,8 @@
     "token_count": 3,
     "approach_conflict": 2,
     "spoiler": true,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01211",
@@ -2312,7 +2430,8 @@
     "approach_exploration": 1,
     "approach_conflict": 1,
     "spoiler": true,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01212",
@@ -2335,7 +2454,8 @@
     "token_count": 4,
     "approach_conflict": 2,
     "spoiler": true,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01213",
@@ -2355,7 +2475,8 @@
     "text": "Setup.\nYou may travel on river paths.\nWhile your [ranger] is on this vehicle, treat the presence of all water features as 1 lower and the presence of all non-water features as 1 higher.\n<b>[FIT] + [reason]: Board</b> <f>the boat to</f> move your [ranger] to this vehicle or return it to your role.",
     "approach_exploration": 2,
     "spoiler": true,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01214",
@@ -2375,7 +2496,8 @@
     "flavor": "After observing the precision with which Kasende dispatches hydraworms, you've learned to apply a similar measure of force when the need arises.",
     "approach_conflict": 2,
     "spoiler": true,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01215",
@@ -2396,7 +2518,8 @@
     "approach_exploration": 1,
     "approach_reason": 1,
     "spoiler": true,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01216",
@@ -2417,7 +2540,8 @@
     "approach_conflict": 1,
     "approach_exploration": 2,
     "spoiler": true,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01217",
@@ -2438,7 +2562,8 @@
     "approach_conflict": 2,
     "approach_exploration": 1,
     "spoiler": true,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01218",
@@ -2462,7 +2587,8 @@
     "approach_exploration": 1,
     "approach_reason": 2,
     "spoiler": true,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01219",
@@ -2486,7 +2612,8 @@
     "approach_exploration": 2,
     "approach_reason": 1,
     "spoiler": true,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01220",
@@ -2506,7 +2633,8 @@
     "flavor": "After your many encounters with the archaeologist, Silaro Mako, you've come to understand more of the deep, complicated history of the Valley, and the role the Estians' played in its evolution.",
     "approach_reason": 2,
     "spoiler": true,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01221",
@@ -2528,7 +2656,8 @@
     "approach_connection": 1,
     "approach_reason": 1,
     "spoiler": true,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01222",
@@ -2549,7 +2678,8 @@
     "approach_exploration": 2,
     "approach_reason": 1,
     "spoiler": true,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01223",
@@ -2573,7 +2703,8 @@
     "approach_exploration": 1,
     "approach_reason": 2,
     "spoiler": true,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01224",
@@ -2595,7 +2726,8 @@
     "approach_exploration": 1,
     "approach_reason": 1,
     "spoiler": true,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01225",
@@ -2615,7 +2747,8 @@
     "flavor": "Nal is fond of saying that the spirits are always with us, and one may speak with them as one would the oldest of friends.",
     "approach_connection": 2,
     "spoiler": true,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01226",
@@ -2636,7 +2769,8 @@
     "approach_connection": 1,
     "approach_reason": 2,
     "spoiler": true,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01227",
@@ -2661,7 +2795,8 @@
     "approach_exploration": 1,
     "approach_conflict": 1,
     "spoiler": true,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01228",
@@ -2684,7 +2819,8 @@
     "token_id": "bite",
     "token_count": 2,
     "spoiler": true,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01229",
@@ -2705,7 +2841,8 @@
     "flavor": "An adornment of great honor, the harvest crown is rewarded only to those who embody the spirit of Meadow Harvest Festival, an annual tradition cherished by all those who attend.",
     "approach_connection": 3,
     "spoiler": true,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01230",
@@ -2727,7 +2864,8 @@
     "approach_exploration": 1,
     "approach_reason": 1,
     "spoiler": true,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01231",
@@ -2750,7 +2888,8 @@
     "token_id": "xp",
     "token_count": 3,
     "spoiler": true,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "id": "01240",
@@ -2766,7 +2905,8 @@
     "traits": "Malady",
     "text": "Fatiguing 2\n<b>Response:</b> When you draw this card, attach it to your role.\n<b>[FIT] + [reason]: Treat [2]</b> <f>and bandage the injury to</f> return this card to your collection.",
     "spoiler": true,
-    "category_id": "ranger"
+    "category_id": "ranger",
+    "pack_id": "ebr"
   },
   {
     "name": "1322 aspect",
@@ -2785,7 +2925,8 @@
       10,
       10,
       7
-    ]
+    ],
+    "pack_id": "ebr"
   },
   {
     "name": "2312 aspect",
@@ -2804,7 +2945,8 @@
       11,
       10,
       7
-    ]
+    ],
+    "pack_id": "ebr"
   },
   {
     "name": "2321 aspect",
@@ -2823,7 +2965,8 @@
       9,
       10,
       7
-    ]
+    ],
+    "pack_id": "ebr"
   },
   {
     "name": "2213 aspect",
@@ -2842,7 +2985,8 @@
       5,
       10,
       7
-    ]
+    ],
+    "pack_id": "ebr"
   },
   {
     "name": "2123 aspect",
@@ -2861,7 +3005,8 @@
       4,
       10,
       7
-    ]
+    ],
+    "pack_id": "ebr"
   },
   {
     "name": "1223 aspect",
@@ -2880,7 +3025,8 @@
       3,
       10,
       7
-    ]
+    ],
+    "pack_id": "ebr"
   },
   {
     "name": "1232 aspect",
@@ -2899,7 +3045,8 @@
       0,
       10,
       7
-    ]
+    ],
+    "pack_id": "ebr"
   },
   {
     "name": "2231 aspect",
@@ -2918,7 +3065,8 @@
       1,
       10,
       7
-    ]
+    ],
+    "pack_id": "ebr"
   },
   {
     "name": "2132 aspect",
@@ -2937,7 +3085,8 @@
       2,
       10,
       7
-    ]
+    ],
+    "pack_id": "ebr"
   },
   {
     "name": "3212 aspect",
@@ -2956,7 +3105,8 @@
       7,
       10,
       7
-    ]
+    ],
+    "pack_id": "ebr"
   },
   {
     "name": "3221 aspect",
@@ -2975,7 +3125,8 @@
       8,
       10,
       7
-    ]
+    ],
+    "pack_id": "ebr"
   },
   {
     "name": "3122 aspect",
@@ -2994,7 +3145,8 @@
       6,
       10,
       7
-    ]
+    ],
+    "pack_id": "ebr"
   },
   {
     "name": "Wading Ursus",
@@ -3017,7 +3169,8 @@
       4,
       3
     ],
-    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500419219/AC30F6285D31E08A4E825E51620A1A2C2301E552/"
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500419219/AC30F6285D31E08A4E825E51620A1A2C2301E552/",
+    "pack_id": "ebr"
   },
   {
     "name": "Hydraworm",
@@ -3042,7 +3195,8 @@
       4,
       3
     ],
-    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500421808/5164EEC1DA1758643DDF683BA08637370EEE2A23/"
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500421808/5164EEC1DA1758643DDF683BA08637370EEE2A23/",
+    "pack_id": "ebr"
   },
   {
     "name": "Hanging Gardens",
@@ -3065,7 +3219,8 @@
       4,
       3
     ],
-    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500401324/41F346502E2BC93F5E31D244FAD3F5830CC14F7D/"
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500401324/41F346502E2BC93F5E31D244FAD3F5830CC14F7D/",
+    "pack_id": "ebr"
   },
   {
     "name": "Quisi Vos, Rascal",
@@ -3089,7 +3244,8 @@
       4,
       4
     ],
-    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500438803/B12B2361EE850A11CBB2D21CF77D958DF28CCCB7/"
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500438803/B12B2361EE850A11CBB2D21CF77D958DF28CCCB7/",
+    "pack_id": "ebr"
   },
   {
     "name": "Dozing Bearsloth",
@@ -3107,7 +3263,8 @@
     "presence": 2,
     "sun_challenge": "<b>If there is flora along the way,</b> <i>the bearsloth goes in search of food.</i> [right_arrow] <b>Move this being along the way.</b>",
     "mountain_challenge": "<b>If this predator is along the way,</b> <i>you feel a large presence looming over you.</i> [right_arrow] <b>Suffer 1 fatigue.</b>",
-    "crest_challenge": "<b>If you have 4 or more fatigue, exhaust this being.</b> [right_arrow] <b>Suffer 1 injury and move this being within reach.</b>"
+    "crest_challenge": "<b>If you have 4 or more fatigue, exhaust this being.</b> [right_arrow] <b>Suffer 1 injury and move this being within reach.</b>",
+    "pack_id": "ebr"
   },
   {
     "name": "Circling Irix",
@@ -3131,7 +3288,8 @@
       4,
       3
     ],
-    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500408373/F8D8780A3E146F7CC2B9F11DDF4992D35EAC1332/"
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500408373/F8D8780A3E146F7CC2B9F11DDF4992D35EAC1332/",
+    "pack_id": "ebr"
   },
   {
     "name": "Skittish Opilion",
@@ -3155,7 +3313,8 @@
       4,
       3
     ],
-    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500416402/780E597C8F43148676ACA47669E27FEE313ECF19/"
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500416402/780E597C8F43148676ACA47669E27FEE313ECF19/",
+    "pack_id": "ebr"
   },
   {
     "name": "Flood",
@@ -3177,7 +3336,8 @@
       1,
       1
     ],
-    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2283951908966699906/2F8B9500304AB4777B9F5B52FE6F73A4D46B88CE/"
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2283951908966699906/2F8B9500304AB4777B9F5B52FE6F73A4D46B88CE/",
+    "pack_id": "ebr"
   },
   {
     "name": "Flood Damage",
@@ -3200,7 +3360,8 @@
       4,
       4
     ],
-    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500386904/066B5A5E89BC49C57EF3E1F7B94B5CACE6969603/"
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500386904/066B5A5E89BC49C57EF3E1F7B94B5CACE6969603/",
+    "pack_id": "ebr"
   },
   {
     "name": "Reclaimer Grub",
@@ -3227,7 +3388,8 @@
       4,
       4
     ],
-    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500386904/066B5A5E89BC49C57EF3E1F7B94B5CACE6969603/"
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500386904/066B5A5E89BC49C57EF3E1F7B94B5CACE6969603/",
+    "pack_id": "ebr"
   },
   {
     "name": "Rotting Dolewood",
@@ -3250,7 +3412,8 @@
       4,
       3
     ],
-    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500412430/22A4C5F356243437774F8E478444230B5EA22FD2/"
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500412430/22A4C5F356243437774F8E478444230B5EA22FD2/",
+    "pack_id": "ebr"
   },
   {
     "name": "Rapids",
@@ -3273,7 +3436,8 @@
       4,
       3
     ],
-    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500419219/AC30F6285D31E08A4E825E51620A1A2C2301E552/"
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500419219/AC30F6285D31E08A4E825E51620A1A2C2301E552/",
+    "pack_id": "ebr"
   },
   {
     "name": "Strong Current",
@@ -3295,7 +3459,8 @@
       4,
       3
     ],
-    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500419219/AC30F6285D31E08A4E825E51620A1A2C2301E552/"
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500419219/AC30F6285D31E08A4E825E51620A1A2C2301E552/",
+    "pack_id": "ebr"
   },
   {
     "name": "Web Wall",
@@ -3318,7 +3483,8 @@
       4,
       3
     ],
-    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500416402/780E597C8F43148676ACA47669E27FEE313ECF19/"
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500416402/780E597C8F43148676ACA47669E27FEE313ECF19/",
+    "pack_id": "ebr"
   },
   {
     "name": "Sunberry Bramble",
@@ -3341,7 +3507,8 @@
       4,
       3
     ],
-    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500424604/8FBDBB1F73033A840EDC748B988BA5E9D665292B/"
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500424604/8FBDBB1F73033A840EDC748B988BA5E9D665292B/",
+    "pack_id": "ebr"
   },
   {
     "name": "Toxin Eater",
@@ -3365,7 +3532,8 @@
       4,
       3
     ],
-    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500419219/AC30F6285D31E08A4E825E51620A1A2C2301E552/"
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500419219/AC30F6285D31E08A4E825E51620A1A2C2301E552/",
+    "pack_id": "ebr"
   },
   {
     "name": "Kordo, Ranger Veteran",
@@ -3388,6 +3556,7 @@
       4,
       3
     ],
-    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500401324/41F346502E2BC93F5E31D244FAD3F5830CC14F7D/"
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500401324/41F346502E2BC93F5E31D244FAD3F5830CC14F7D/",
+    "pack_id": "ebr"
   }
 ]
