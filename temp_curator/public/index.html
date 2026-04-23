@@ -463,7 +463,8 @@
             fit_value: 0,
             foc_value: 0,
             challenge_icon: 'sun',
-            reshuffle: false
+            reshuffle: false,
+            image_rect: []
           };
           this.repoSearchResults = [];
           
@@ -544,9 +545,10 @@
           const toSave = { ...this.form };
           if (this.selected.deckInfo && this.selected.deckInfo.FaceURL) {
             toSave.imagesrc = this.selected.deckInfo.FaceURL;
+            toSave.image_rect = [this.selected.index, this.selected.deckInfo.NumWidth, this.selected.deckInfo.NumHeight];
           }
           
-          const identity = ['name', 'id', 'position', 'quantity', 'category_id', 'type_id', 'imagesrc', 'set_id', 'set_position', 'traits'];
+          const identity = ['name', 'id', 'position', 'quantity', 'category_id', 'type_id', 'imagesrc', 'image_rect', 'set_id', 'set_position', 'traits'];
           
           if (toSave.type_id === 'aspect') {
             Object.keys(toSave).forEach(k => {

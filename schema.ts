@@ -96,6 +96,7 @@ export const TABLES: { [key: string]: Table } = {
       'pivotal',
       'location_icon',
       'progress_threshold',
+      'image_rect',
       'awa_value',
       'spi_value',
       'fit_value',
