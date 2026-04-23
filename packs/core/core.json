@@ -3319,5 +3319,75 @@
       3
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500416402/780E597C8F43148676ACA47669E27FEE313ECF19/"
+  },
+  {
+    "name": "Sunberry Bramble",
+    "id": "01279",
+    "position": 279,
+    "quantity": 2,
+    "category_id": "path",
+    "type_id": "feature",
+    "area_id": "within_reach",
+    "set_id": "woods",
+    "set_position": "9-10",
+    "traits": "Flora / Food",
+    "text": "<b>[AWA] + [reason]: Pluck [2]</b> <f>the thorn-ringed fruit to</f> add 1[harm] to this feature and soothe 2 fatigue. If you fail, this feature fatigues you.",
+    "harm": "2",
+    "progress": "3",
+    "presence": 1,
+    "mountain_challenge": "If there is an active prey, exhaust it. [right_arrow] Add [progress] to it and [harm] to this feature, both equal to that prey's presence.",
+    "image_rect": [
+      8,
+      4,
+      3
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500424604/8FBDBB1F73033A840EDC748B988BA5E9D665292B/"
+  },
+  {
+    "name": "Toxin Eater",
+    "id": "01281",
+    "position": 281,
+    "quantity": 2,
+    "category_id": "path",
+    "type_id": "being",
+    "area_id": "along_the_way",
+    "set_id": "river",
+    "set_position": "4-5",
+    "traits": "Prey / Biomeld",
+    "text": "<b>Clear [harm]:</b> Add 2[harm] to each other card in this area. If this being is within reach of a Ranger, that Ranger suffers 1 injury.",
+    "harm": "4",
+    "progress": "5",
+    "presence": 2,
+    "sun_challenge": "Discard 1[progress] from an active water feature and exhaust this being. [right_arrow] Discard 1[harm] from this being.",
+    "mountain_challenge": "If there is an active predator, exhaust it. [right_arrow] Add 1[harm] to it, then add [harm] to this being equal to that predator's presence.",
+    "image_rect": [
+      3,
+      4,
+      3
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500419219/AC30F6285D31E08A4E825E51620A1A2C2301E552/"
+  },
+  {
+    "name": "Kordo, Ranger Veteran",
+    "id": "01283",
+    "position": 283,
+    "quantity": 1,
+    "category_id": "path",
+    "type_id": "being",
+    "area_id": "within_reach",
+    "set_id": "lone_tree_station",
+    "set_position": "2",
+    "traits": "Human / Ranger",
+    "text": "Friendly.\n<b>[FIT] + [conflict]: Hunt [2]</b> <f>with Kordo to</f> add 1[harm] to a being for every 2 effort. Then add an equal amount of [progress] to Kordo.\n<b>Clear [progress] or [harm]:</b> [guide] 44",
+    "harm": "4",
+    "progress": "3[per_ranger]",
+    "presence": 2,
+    "crest_challenge": "If there are 2 or more active predators, exhaust 1 of them. [right_arrow] Add [harm] to this being equal to that predator's presence.",
+    "image_rect": [
+      4,
+      4,
+      3
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500401324/41F346502E2BC93F5E31D244FAD3F5830CC14F7D/"
   }
 ]
