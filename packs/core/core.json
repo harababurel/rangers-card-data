@@ -3043,5 +3043,76 @@
       3
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500421808/5164EEC1DA1758643DDF683BA08637370EEE2A23/"
+  },
+  {
+    "name": "Hanging Gardens",
+    "id": "01262",
+    "position": 262,
+    "quantity": 1,
+    "category_id": "path",
+    "type_id": "feature",
+    "area_id": "within_reach",
+    "set_id": "lone_tree_station",
+    "set_position": "1",
+    "traits": "Flora / Structure",
+    "text": "<b>[AWA] + [reason]: Eat</b> <f>the abundant fruits to</f> add 1 [harm] to this feature, soothe 3 fatigue, and heal 1 injury.",
+    "harm": "4",
+    "progress": "4",
+    "presence": 1,
+    "mountain_challenge": "If there is an active human, exhaust them. [right_arrow] Add [progress] to them and [harm] to this feature, both equal to their presence.",
+    "image_rect": [
+      3,
+      4,
+      3
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500401324/41F346502E2BC93F5E31D244FAD3F5830CC14F7D/"
+  },
+  {
+    "name": "Quisi Vos, Rascal",
+    "id": "01263",
+    "position": 263,
+    "quantity": 1,
+    "category_id": "path",
+    "type_id": "being",
+    "area_id": "within_reach",
+    "set_id": "the_valley",
+    "set_position": "2",
+    "traits": "Human / Villager",
+    "text": "Fatiguing. Friendly. Persistent.\n<b>[FOC] + [connection]: Ask</b> <f>Quisi about her adventures in the Valley to</f> add [progress] to this being equal to your effort. Then exhaust this being. [guide] 80.4\n<b>Clear [progress] or [harm]</b>: [guide] 80",
+    "harm": "3",
+    "progress": "3[per_ranger]",
+    "presence": 1,
+    "sun_challenge": "Discard either 1[progress] or 1 token from a plant, insect, or gear.",
+    "crest_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
+    "image_rect": [
+      1,
+      4,
+      4
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500438803/B12B2361EE850A11CBB2D21CF77D958DF28CCCB7/"
+  },
+  {
+    "name": "Dozing Bearsloth",
+    "id": "01264",
+    "position": 264,
+    "quantity": 1,
+    "category_id": "path",
+    "type_id": "being",
+    "area_id": "within_reach",
+    "set_id": "old-growth",
+    "set_position": "1",
+    "traits": "Predator / Mammal",
+    "harm": "5",
+    "progress": "6",
+    "presence": 2,
+    "sun_challenge": "<b>If there is flora along the way,</b> <i>the bearsloth goes in search of food.</i> [right_arrow] <b>Move this being along the way.</b>",
+    "mountain_challenge": "<b>If this predator is along the way,</b> <i>you feel a large presence looming over you.</i> [right_arrow] <b>Suffer 1 fatigue.</b>",
+    "crest_challenge": "<b>If you have 4 or more fatigue, exhaust this being.</b> [right_arrow] <b>Suffer 1 injury and move this being within reach.</b>",
+    "image_rect": [
+      0,
+      4,
+      3
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500412430/22A4C5F356243437774F8E478444230B5EA22FD2/"
   }
 ]
