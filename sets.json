@@ -145,5 +145,11 @@
     "name": "White Sky",
     "type_id": "terrain",
     "size": 5
+  },
+  {
+    "id": "tumbledown",
+    "name": "Tumbledown",
+    "type_id": "terrain",
+    "size": 5
   }
 ]
