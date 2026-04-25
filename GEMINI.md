@@ -68,3 +68,45 @@ When picking up tasks in this repository:
 1. **Adding Encounter Cards:** Before adding new card types (e.g., Weather, Moments), verify that their corresponding IDs exist in `types.json` and the necessary campaign/day sets exist in `sets.json` or `subsets.json`.
 2. **Updating Schema:** If adding a card property that doesn't exist in `schema.ts` (e.g., a specific "Travel" requirement for paths), ensure `schema.ts` is updated to reflect it.
 3. **Ignore i18n Updates (Unless Prompted):** When adding new English cards or fixing typos, do not automatically attempt to generate or update translation `.po`/`.json` placeholders unless explicitly requested by the user. Focus purely on the primary JSON data structure.
+
+## Protocol: Encounter Card Integration
+Newly exported cards usually reside in `packs/core/new_encounter_cards.json`. Follow this rigorous workflow for integration:
+
+### 1. Pre-flight Checks
+- **New Tokens:** If a card uses a `token_id` not in `tokens.json`, register it first.
+- **New Sets:** If a card uses a `set_id` not in `sets.json`, register the set (Type: `terrain`, Size: based on physical cards).
+
+### 2. Standard Indexing Logic
+To maintain a continuous sequence in `core.json`, re-index all cards from the insertion point (usually the end):
+- **Next Position (`pos`):** `last_card.position + last_card.physical_slots`.
+- **Physical Slots:** 
+    - Ranger Cards (`category_id: "ranger"`): Always 1 slot.
+    - Encounter Cards (all other categories): `quantity` slots.
+- **Card ID:** `pack_prefix` (2 digits) + `pos` (3 digits, zero-padded). Example: `01` + `353` = `01353`.
+
+### 3. Automated Merge Script
+Always use a Python snippet for the merge to ensure JSON validity and correct indexing:
+
+```python
+import json
+with open("packs/core/core.json", "r") as f: core = json.load(f)
+with open("packs/core/new_encounter_cards.json", "r") as f: new_cards = json.load(f)
+
+# Find next position
+last = core[-1]
+current_pos = last["position"] + (1 if last["category_id"] == "ranger" else last["quantity"])
+
+for card in new_cards:
+    card["position"] = current_pos
+    card["id"] = f"01{current_pos:03d}" # Adjust pack prefix if not EBR
+    current_pos += (1 if card["category_id"] == "ranger" else card["quantity"])
+
+core.extend(new_cards)
+with open("packs/core/core.json", "w") as f:
+    json.dump(core, f, indent=2, ensure_ascii=False)
+```
+
+### 4. Submission
+- **Non-ASCII:** Always use `ensure_ascii=False` when saving JSON to preserve smart quotes and special characters.
+- **Cleanup:** Delete `new_encounter_cards.json` after a successful merge.
+- **Commit Message:** List all integrated card names and their final IDs.
