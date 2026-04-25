@@ -78,19 +78,19 @@
     "id": "woods",
     "name": "Woods",
     "type_id": "terrain",
-    "size": 5
+    "size": 12
   },
   {
     "id": "lakeshore",
     "name": "Lakeshore",
     "type_id": "terrain",
-    "size": 5
+    "size": 12
   },
   {
     "id": "mountain_pass",
     "name": "Mountain Pass",
     "type_id": "terrain",
-    "size": 5
+    "size": 12
   },
   {
     "id": "old_growth",
@@ -114,7 +114,7 @@
     "id": "ravine",
     "name": "Ravine",
     "type_id": "terrain",
-    "size": 5
+    "size": 12
   },
   {
     "id": "river",
@@ -138,24 +138,24 @@
     "id": "general",
     "name": "General",
     "type_id": "terrain",
-    "size": 5
+    "size": 15
   },
   {
     "id": "white_sky",
     "name": "White Sky",
     "type_id": "terrain",
-    "size": 5
+    "size": 4
   },
   {
     "id": "tumbledown",
     "name": "Tumbledown",
     "type_id": "terrain",
-    "size": 5
+    "size": 3
   },
   {
     "id": "spire",
     "name": "Spire",
     "type_id": "terrain",
-    "size": 5
+    "size": 6
   }
 ]
