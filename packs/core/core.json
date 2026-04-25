@@ -965,7 +965,7 @@
     "type_id": "feature",
     "traits": "Trail",
     "presence": 0,
-    "progress": 3,
+    "progress": "3[per_ranger]",
     "text": "<b>Response:</b> When you travel, if this trail is attached to the location, travel to a location up to two paths away. Use the terrain of the second path when building the path deck.\n<b>Clear [progress]:</b> Attach this trail to the location.",
     "approach_exploration": 2,
     "illustrator": "Banner & Simonet",
