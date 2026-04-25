@@ -157,5 +157,11 @@
     "name": "Spire",
     "type_id": "terrain",
     "size": 6
+  },
+  {
+    "id": "meadow",
+    "name": "Meadow",
+    "type_id": "terrain",
+    "size": 5
   }
 ]
