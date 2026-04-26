@@ -4838,5 +4838,30 @@
       3
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500424604/8FBDBB1F73033A840EDC748B988BA5E9D665292B/"
+  },
+  {
+    "name": "Hungry Scrof",
+    "id": "01362",
+    "position": 362,
+    "quantity": 2,
+    "pack_id": "ebr",
+    "category_id": "path",
+    "type_id": "being",
+    "area_id": "within_reach",
+    "set_id": "grassland",
+    "set_position": "6-7",
+    "traits": "Predator / Prey / Mammal",
+    "text": "<b>Response:</b> When you interact with this being, you may discard 1 token from an equipped food to commit 1 effort.",
+    "harm": "4",
+    "progress": "6",
+    "presence": 2,
+    "mountain_challenge": "If there is another active predator, exhaust it. [right_arrow] Add 2 [harm] to it and add 2 [harm] to this being.",
+    "crest_challenge": "If there is another active food, or you have food equipped, exhaust this being. [right_arrow] Suffer 1 injury.",
+    "image_rect": [
+      5,
+      4,
+      3
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500391793/CB6A9D706986CF6514D7D04F83C43753DFC1E851/"
   }
 ]
