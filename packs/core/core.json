@@ -4961,5 +4961,28 @@
       3
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500397880/6F6AD45D9D7B13027C3EF35B34E330C040A98B07/"
+  },
+  {
+    "name": "A Trick of the Light",
+    "id": "01372",
+    "position": 372,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "category_id": "path",
+    "type_id": "feature",
+    "area_id": "along_the_way",
+    "set_id": "northern_outpost",
+    "set_position": "2",
+    "traits": "???",
+    "text": "<b>Clear [progress]:</b> [guide] 39",
+    "progress": "8",
+    "presence": 0,
+    "sun_challenge": "If there is an odd number of [progress] on this feature, <f>the strange phenomenon vanishes.</f> [right_arrow] Shuffle it into the path deck.",
+    "image_rect": [
+      1,
+      4,
+      3
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500401324/41F346502E2BC93F5E31D244FAD3F5830CC14F7D/"
   }
 ]
