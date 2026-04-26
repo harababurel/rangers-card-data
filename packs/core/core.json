@@ -4863,5 +4863,103 @@
       3
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500391793/CB6A9D706986CF6514D7D04F83C43753DFC1E851/"
+  },
+  {
+    "name": "Artilope",
+    "id": "01364",
+    "position": 364,
+    "quantity": 3,
+    "pack_id": "ebr",
+    "category_id": "path",
+    "type_id": "being",
+    "area_id": "within_reach",
+    "set_id": "grassland",
+    "set_position": "3-5",
+    "traits": "Prey / Mammal",
+    "harm": "3",
+    "progress": "5",
+    "presence": 1,
+    "sun_challenge": "If there is an active card with 2 or more presence, shuffle this being into the path dec. [right_arrow] Draw 1 path card.",
+    "mountain_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
+    "crest_challenge": "If there is 1 or more [harm] on this being, exhaust each ready Artilope. [right_arrow] Add 1 [harm] to each being, and each Ranger suffers 1 injury.",
+    "image_rect": [
+      2,
+      4,
+      3
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500391793/CB6A9D706986CF6514D7D04F83C43753DFC1E851/"
+  },
+  {
+    "name": "Hanging Cherry Moss",
+    "id": "01367",
+    "position": 367,
+    "quantity": 2,
+    "pack_id": "ebr",
+    "category_id": "path",
+    "type_id": "feature",
+    "area_id": "within_reach",
+    "set_id": "old_growth",
+    "set_position": "8-9",
+    "traits": "Flora / Food",
+    "text": "<b>[FIT] + [reason]: Climb</b> <f>up to reach the sweetest of the insect-luring fruit to</f> add 1 [harm] to this feature, discard 1 token from an insect in play, and soothe 1 fatigue.",
+    "harm": "2",
+    "progress": "3",
+    "presence": 0,
+    "sun_challenge": "If there is an insect in play, exhaust this feature. [right_arrow] Ready an insect.",
+    "mountain_challenge": "If there is an active mammal, exhaust it. [right_arrow] Add [progress] to it and [harm] to this feature, both equal to that mammal's presence.",
+    "image_rect": [
+      7,
+      4,
+      3
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500412430/22A4C5F356243437774F8E478444230B5EA22FD2/"
+  },
+  {
+    "name": "Evergreen Hall",
+    "id": "01369",
+    "position": 369,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "category_id": "path",
+    "type_id": "feature",
+    "area_id": "along_the_way",
+    "set_id": "branch",
+    "set_position": "4",
+    "traits": "Structure",
+    "text": "<b>[SPI] + [connection]: Share</b> <f>stories with the locals to</f> search the Valley set for any 1 card and attach it facedown to the location. After you travel, put the attached card into play.",
+    "harm": "6",
+    "progress": "1[per_ranger]",
+    "presence": 0,
+    "mountain_challenge": "Ready each human in play.",
+    "image_rect": [
+      6,
+      4,
+      4
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500384079/5BF1100BCBB14D35C0FE69B4D5E1D1ECBE773404/"
+  },
+  {
+    "name": "Fresh Blue Kelpweed",
+    "id": "01370",
+    "position": 370,
+    "quantity": 2,
+    "pack_id": "ebr",
+    "category_id": "path",
+    "type_id": "feature",
+    "area_id": "within_reach",
+    "set_id": "lakeshore",
+    "set_position": "7-8",
+    "traits": "Flora / Water",
+    "text": "<b>[FOC] + [reason]: Wrap [2]</b> <f>the pungent leaves around a wound to</f> add 1 [harm] to this feature and either heal 1 injury from a Ranger, or discard 2 [harm] from a being.",
+    "harm": "2",
+    "progress": "3",
+    "presence": 0,
+    "mountain_challenge": "If there is a Romping Lutrinal within reach, <f>it escapes through the weeds.</f> [right_arrow] Move it along the way.",
+    "image_rect": [
+      6,
+      4,
+      3
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500397880/6F6AD45D9D7B13027C3EF35B34E330C040A98B07/"
   }
 ]
