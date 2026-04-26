@@ -4984,5 +4984,28 @@
       3
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500401324/41F346502E2BC93F5E31D244FAD3F5830CC14F7D/"
+  },
+  {
+    "name": "Ranger Cache",
+    "id": "01373",
+    "position": 373,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "category_id": "path",
+    "type_id": "feature",
+    "area_id": "along_the_way",
+    "set_id": "the_valley",
+    "set_position": "5",
+    "traits": "Supply",
+    "text": "<b>[AWA] + [exploration]: Search [2]</b> <f>the cache for useful gear to</f> move your [ranger] to this feature. Then you may search your deck for a gear and equip it. If you fail, move your [ranger] to this feature and you may add 1 token to one of your equipped gear.\n<b>Clear [ranger]:</b> Each Ranger shuffles 2 cards from their Ranger discard into their deck.",
+    "harm": "3",
+    "progress": "[ranger]",
+    "presence": 1,
+    "image_rect": [
+      4,
+      4,
+      4
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500438803/B12B2361EE850A11CBB2D21CF77D958DF28CCCB7/"
   }
 ]
