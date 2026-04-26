@@ -5007,5 +5007,78 @@
       4
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500438803/B12B2361EE850A11CBB2D21CF77D958DF28CCCB7/"
+  },
+  {
+    "name": "Elder Murtok Gral",
+    "id": "01374",
+    "position": 374,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "category_id": "path",
+    "type_id": "being",
+    "area_id": "within_reach",
+    "set_id": "white_sky",
+    "set_position": "4",
+    "traits": "Human / Villager",
+    "text": "Friendly.\n<b>[FOC] + [reason]: Listen [3]</b> <f>to the wisdom of the elders to</f> return a moment from your hand to your collection to choose a starting moment from your collection that you meet the aspect requirement for and add it to your hand. (This alteration to your deck is permanent.)\n<b>Clear [progress] or [harm]:</b> [guide] 51",
+    "harm": "2",
+    "progress": "2[per_ranger]",
+    "presence": 1,
+    "crest_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
+    "image_rect": [
+      11,
+      4,
+      3
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500401324/41F346502E2BC93F5E31D244FAD3F5830CC14F7D/"
+  },
+  {
+    "name": "Elder Jular Abel",
+    "id": "01375",
+    "position": 375,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "category_id": "path",
+    "type_id": "being",
+    "area_id": "within_reach",
+    "set_id": "meadow",
+    "set_position": "1",
+    "traits": "Human / Villager",
+    "text": "Friendly.\n<b>[FOC] + [reason]: Listen [3]</b> <f>to the wisdom of the elders to</f> return a moment from your hand to your collection to choose a starting moment from your collection that you meet the aspect requirement for and add it to your hand. (This alteration to your deck is permanent.)\n<b>Clear [progress] or [harm]:</b> [guide] 69",
+    "harm": "4",
+    "progress": "2[per_ranger]",
+    "presence": 2,
+    "crest_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
+    "image_rect": [
+      0,
+      4,
+      2
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500405059/DC6C402EB3F1786F95802183E5B47A4C8515BEAE/"
+  },
+  {
+    "name": "Carnivorous Naiad",
+    "id": "01376",
+    "position": 376,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "category_id": "path",
+    "type_id": "being",
+    "area_id": "along_the_way",
+    "set_id": "lakeshore",
+    "set_position": "6",
+    "traits": "Predator / Flora / Water",
+    "text": "You cannot remove your [ranger] except with the following test:\n<b>[FIT] + [conflict]: Pull [2]</b> <f>yourself free of the constricting lake weed to</f> add [harm] to this feature equal to your [FIT] aspect and remove your [ranger] from this feature.",
+    "harm": "6",
+    "progress": "9",
+    "presence": 2,
+    "sun_challenge": "The Ranger with the most fatigue must discard 1 AWA or move their [ranger] to this feature.",
+    "crest_challenge": "If your [ranger] is on a water feature, <f>the Naiad stabs you with its teeth.</f> [right_arrow] Suffer 1 injury.",
+    "image_rect": [
+      5,
+      4,
+      3
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500397880/6F6AD45D9D7B13027C3EF35B34E330C040A98B07/"
   }
 ]
