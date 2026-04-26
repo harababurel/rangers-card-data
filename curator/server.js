@@ -174,6 +174,21 @@ app.get('/api/cards', (req, res) => {
   res.json(uniqueCards);
 });
 
+const statePath = path.join(__dirname, 'state.json');
+
+app.get('/api/state', (req, res) => {
+  if (fs.existsSync(statePath)) {
+    res.json(JSON.parse(fs.readFileSync(statePath, 'utf8')));
+  } else {
+    res.json({ queue: [], completedCards: [] });
+  }
+});
+
+app.post('/api/state', (req, res) => {
+  fs.writeFileSync(statePath, JSON.stringify(req.body, null, 2));
+  res.json({ success: true });
+});
+
 app.post('/api/save', (req, res) => {
   const newCards = req.body;
   const outPath = path.join(__dirname, '../packs/core/new_encounter_cards.json');
@@ -185,6 +200,13 @@ app.post('/api/save', (req, res) => {
   
   existing = existing.concat(newCards);
   fs.writeFileSync(outPath, JSON.stringify(existing, null, 2));
+
+  // Also clear the queue in the state file since it has been flushed
+  if (fs.existsSync(statePath)) {
+    const state = JSON.parse(fs.readFileSync(statePath, 'utf8'));
+    state.queue = [];
+    fs.writeFileSync(statePath, JSON.stringify(state, null, 2));
+  }
   
   res.json({ success: true, count: newCards.length });
 });

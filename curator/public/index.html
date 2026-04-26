@@ -388,7 +388,7 @@
           types: [],
           areas: [],
           packs: [],
-          completedCards: JSON.parse(localStorage.getItem('completedCards') || '[]'),
+          completedCards: [],
           showCompleted: false
         };
       },
@@ -465,14 +465,28 @@
           fetch('/api/areas').then(r => r.json()),
           fetch('/api/cards').then(r => r.json()),
           fetch('/api/repo-cards').then(r => r.json()),
-          fetch('/api/packs').then(r => r.json())
-        ]).then(([tokens, categories, areas, cards, repoCards, packs]) => {
+          fetch('/api/packs').then(r => r.json()),
+          fetch('/api/state').then(r => r.json())
+        ]).then(([tokens, categories, areas, cards, repoCards, packs, state]) => {
           this.tokens = tokens;
           this.categories = categories;
           this.areas = areas;
           this.cards = cards;
           this.repoCards = repoCards;
           this.packs = packs;
+          this.queue = state.queue || [];
+          this.completedCards = state.completedCards || [];
+
+          // One-time migration from LocalStorage to Server
+          if (this.queue.length === 0 && this.completedCards.length === 0) {
+            const localCompleted = JSON.parse(localStorage.getItem('completedCards') || '[]');
+            if (localCompleted.length > 0) {
+              console.log('Migrating local storage state to server...');
+              this.completedCards = localCompleted;
+              this.syncState();
+            }
+          }
+
           this.loadingRepo = false;
           
           this.types = [
@@ -488,6 +502,16 @@
         });
       },
       methods: {
+        syncState() {
+          fetch('/api/state', {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({
+              queue: this.queue,
+              completedCards: this.completedCards
+            })
+          });
+        },
         selectCard(card) {
           this.selected = card;
           this.isLandscapeOverride = false;
@@ -672,7 +696,11 @@
           if (existingIdx !== -1) this.queue[existingIdx] = toSave;
           else this.queue.push(toSave);
           
-          if (!this.isCompleted(this.selected)) this.toggleComplete(this.selected);
+          if (!this.isCompleted(this.selected)) {
+             this.completedCards.push(this.getCardKey(this.selected));
+          }
+          
+          this.syncState();
 
           const idx = this.filteredCards.indexOf(this.selected);
           if (idx !== -1 && idx + 1 < this.filteredCards.length) {
@@ -681,6 +709,7 @@
         },
         removeFromQueue(id) {
           this.queue = this.queue.filter(q => q.id !== id);
+          this.syncState();
         },
         flushQueue() {
           fetch('/api/save', {
@@ -691,6 +720,7 @@
             if (res.success) {
               alert(`Saved ${res.count} cards!`);
               this.queue = [];
+              this.syncState();
             }
           })
         },
@@ -707,7 +737,7 @@
           } else {
             this.completedCards.push(key);
           }
-          localStorage.setItem('completedCards', JSON.stringify(this.completedCards));
+          this.syncState();
         }
       }
     }).mount('#app');

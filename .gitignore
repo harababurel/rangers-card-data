@@ -5,3 +5,4 @@
 # Curator Tool
 curator/node_modules/
 curator/cache/
+curator/state.json
