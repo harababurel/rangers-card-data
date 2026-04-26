@@ -211,6 +211,6 @@ app.post('/api/save', (req, res) => {
   res.json({ success: true, count: newCards.length });
 });
 
-const PORT = 3001;
-const HOST = 'smithers.c.googlers.com';
+const PORT = 3002;
+const HOST = '127.0.0.1';
 app.listen(PORT, '0.0.0.0', () => console.log(`Server running on http://${HOST}:${PORT}`));
