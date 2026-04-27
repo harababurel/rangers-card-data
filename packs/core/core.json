@@ -5129,5 +5129,80 @@
       4
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500384079/5BF1100BCBB14D35C0FE69B4D5E1D1ECBE773404/"
+  },
+  {
+    "name": "Harvester Anthill",
+    "id": "01379",
+    "position": 379,
+    "quantity": 2,
+    "pack_id": "ebr",
+    "category_id": "path",
+    "type_id": "feature",
+    "area_id": "along_the_way",
+    "set_id": "grassland",
+    "set_position": "10-11",
+    "traits": "Food / Obstacle",
+    "text": "Obstacle.\nX is equal to the number of [harm] on this feature.",
+    "harm": "4",
+    "progress": "6",
+    "presence": -2,
+    "sun_challenge": "If there is 1 or more [progress] on this feature, <f>the ground sinks under your feet.</f> [right_arrow] Discard 1 [progress] from and add 1 [harm] to this feature.",
+    "mountain_challenge": "If there is an active Hungry Scrof, exhaust it. [right_arrow] Add [progress] to it and [harm] to this feature, both equal to the Scrof's presence.",
+    "image_rect": [
+      9,
+      4,
+      3
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500391793/CB6A9D706986CF6514D7D04F83C43753DFC1E851/"
+  },
+  {
+    "name": "Grower's Assemblage",
+    "id": "01381",
+    "position": 381,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "category_id": "path",
+    "type_id": "feature",
+    "area_id": "within_reach",
+    "set_id": "meadow",
+    "set_position": "4",
+    "traits": "Structure",
+    "text": "<b>[FOC] + [connection]: Haggle [3]</b> <f>with the vendors of the market to</f> return a gear from your hand to your collection to choose a starting gear from your collection that you meet the aspect requirement for and add it to your hand. (This alteration to your deck is permanent.)",
+    "harm": "3",
+    "progress": "3[per_ranger]",
+    "presence": 2,
+    "image_rect": [
+      3,
+      4,
+      2
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500405059/DC6C402EB3F1786F95802183E5B47A4C8515BEAE/"
+  },
+  {
+    "name": "Kleptic Raccoon",
+    "id": "01382",
+    "position": 382,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "category_id": "path",
+    "type_id": "being",
+    "area_id": "within_reach",
+    "token_id": "loot",
+    "token_count": "0",
+    "set_id": "old_growth",
+    "set_position": "3",
+    "traits": "Prey / Mammal",
+    "text": "<b>[AWA] + [connection]: Keep</b> <f>one eye on the raccoon and the other on the path to</f> exhaust this being and add [progress] to it equal to your effort. If you fail, draw a path card.\n<b>Clear [progress]:</b> Search your Ranger discard for a gear and add it to your hand.",
+    "harm": "2",
+    "progress": "4",
+    "presence": 1,
+    "sun_challenge": "Discard an equipped gear. [right_arrow] Add 1 loot to this being. If there are 2 or more loot on this being, shuffle it into the path deck.",
+    "mountain_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
+    "image_rect": [
+      2,
+      4,
+      3
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500412430/22A4C5F356243437774F8E478444230B5EA22FD2/"
   }
 ]
