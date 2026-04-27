@@ -5106,5 +5106,28 @@
       3
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500397880/6F6AD45D9D7B13027C3EF35B34E330C040A98B07/"
+  },
+  {
+    "name": "The Hearty Brew",
+    "id": "01378",
+    "position": 378,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "category_id": "path",
+    "type_id": "feature",
+    "area_id": "along_the_way",
+    "set_id": "spire",
+    "set_position": "2",
+    "traits": "Structure",
+    "text": "<b>[SPI] + [connection]: Share</b> <f>stories with the locals to</f> search the Valley set for any 1 card and attach it facedown to the location. After you travel, put the attached card into play.",
+    "harm": "6",
+    "progress": "1[per_ranger]",
+    "presence": 0,
+    "image_rect": [
+      9,
+      4,
+      4
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500384079/5BF1100BCBB14D35C0FE69B4D5E1D1ECBE773404/"
   }
 ]
