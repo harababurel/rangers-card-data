@@ -5469,5 +5469,78 @@
       4
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500384079/5BF1100BCBB14D35C0FE69B4D5E1D1ECBE773404/"
+  },
+  {
+    "name": "Ren Kobo, Merchant",
+    "id": "01394",
+    "position": 394,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "category_id": "path",
+    "type_id": "being",
+    "area_id": "within_reach",
+    "set_id": "the_valley",
+    "set_position": "3",
+    "traits": "Human / Villager",
+    "text": "Friendly. Persistent.\n<b>Clear [progress] or [harm]:</b> [guide] 83",
+    "harm": "4",
+    "progress": "4[per_ranger]",
+    "presence": 1,
+    "sun_challenge": "Add 1 [progress] to the location <f>as Ren shares his usual routes with you.</f>",
+    "crest_challenge": "If there is an active predator exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
+    "image_rect": [
+      2,
+      4,
+      4
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500438803/B12B2361EE850A11CBB2D21CF77D958DF28CCCB7/"
+  },
+  {
+    "name": "Elder Cormak Wellers",
+    "id": "01395",
+    "position": 395,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "category_id": "path",
+    "type_id": "being",
+    "area_id": "within_reach",
+    "set_id": "tumbledown",
+    "set_position": "3",
+    "traits": "Human / Villager",
+    "text": "Friendly.\n<b>[FOC] + [reason]: Listen [3]</b> <f>to the wisdom of the elders to</f> return a moment from your hand to your collection to choose a starting moment from your collection that you meet the aspect requirement for and add it to your hand. (This alteration to your deck is permanent.)\n<b>Clear [progress] or [harm]:</b> [guide] 77",
+    "harm": "3",
+    "progress": "3[per_ranger]",
+    "presence": 1,
+    "crest_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
+    "image_rect": [
+      6,
+      4,
+      2
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500405059/DC6C402EB3F1786F95802183E5B47A4C8515BEAE/"
+  },
+  {
+    "name": "Elder Tesoral Hale",
+    "id": "01396",
+    "position": 396,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "category_id": "path",
+    "type_id": "being",
+    "area_id": "within_reach",
+    "set_id": "branch",
+    "set_position": "1",
+    "traits": "Human / Villager",
+    "text": "Friendly.\n<b>[FOC] + [reason]: Listen [3]</b> <f>to the wisdom of the elders to</f> return a moment from your hand to your collection to choose a starting moment from your collection that you meet the aspect requirement for and add it to your hand. (This alteration to your deck is permanent.)\n<b>Clear [progress] or [harm]:</b> [guide] 66",
+    "harm": "2",
+    "progress": "2[per_ranger]",
+    "presence": 1,
+    "crest_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
+    "image_rect": [
+      3,
+      4,
+      4
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500384079/5BF1100BCBB14D35C0FE69B4D5E1D1ECBE773404/"
   }
 ]
