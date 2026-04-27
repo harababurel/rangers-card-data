@@ -5542,5 +5542,78 @@
       4
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500384079/5BF1100BCBB14D35C0FE69B4D5E1D1ECBE773404/"
+  },
+  {
+    "name": "Jaris, Willful Youth",
+    "id": "01397",
+    "position": 397,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "category_id": "path",
+    "type_id": "being",
+    "area_id": "within_reach",
+    "set_id": "meadow",
+    "set_position": "2",
+    "traits": "Human / Villager",
+    "text": "Fatiguing. Friendly.\n<b>[FOC] + [connection]: Speak [2]</b> <f>with Jaris about your time in the Rangers to</f> soothe 1 fatigue for every 2 effort. Then add an equal amount of [progress] to Jaris.\n<b>Clear [progress] or [harm]:</b> [guide] 70",
+    "harm": "3",
+    "progress": "3[per_ranger]",
+    "presence": 1,
+    "sun_challenge": "If there is an exhausted predator, <f>Jaris stirs up trouble.</f> [right_arrow] Ready that predator unless you discard 2 [progress] from Jaris.",
+    "crest_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
+    "image_rect": [
+      1,
+      4,
+      2
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500405059/DC6C402EB3F1786F95802183E5B47A4C8515BEAE/"
+  },
+  {
+    "name": "Mourning Root",
+    "id": "01398",
+    "position": 398,
+    "quantity": 2,
+    "pack_id": "ebr",
+    "category_id": "path",
+    "type_id": "feature",
+    "area_id": "within_reach",
+    "set_id": "grassland",
+    "set_position": "8-9",
+    "traits": "Flora / Food",
+    "text": "<b>[FIT] + [reason]: Slice</b> <f>and share the tear-inducing vegetable to</f> add 1 [harm] to this feature, suffer 1 fatigue, and choose a Ranger. That Ranger soothes 3 fatigue.",
+    "harm": "2",
+    "progress": "3",
+    "presence": 0,
+    "mountain_challenge": "If there is an active prey, exhaust it. [right_arrow] Add [progress] to it and [harm] to this feature, both equal to that prey's presence.",
+    "image_rect": [
+      7,
+      4,
+      3
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500391793/CB6A9D706986CF6514D7D04F83C43753DFC1E851/"
+  },
+  {
+    "name": "The Deep Woods",
+    "id": "01400",
+    "position": 400,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "category_id": "path",
+    "type_id": "feature",
+    "area_id": "along_the_way",
+    "set_id": "northern_outpost",
+    "set_position": "3",
+    "traits": "Flora",
+    "text": "<b>[AWA] + [exploration]: Hide</b> <f>in the dense undergrowth to</f> move your [ranger] to this feature.\nWhile your [ranger] is on this feature, you can use the following response:\n<b>Response:</b> When a being fatigues you, you may add any number of [harm] to this feature to prevent an equal amount of fatigue.",
+    "harm": "6",
+    "progress": "4[per_ranger]",
+    "presence": 3,
+    "mountain_challenge": "Exhaust this feature. [right_arrow] Search the path deck for the next predator and put it into play.",
+    "image_rect": [
+      2,
+      4,
+      3
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500401324/41F346502E2BC93F5E31D244FAD3F5830CC14F7D/"
   }
 ]
