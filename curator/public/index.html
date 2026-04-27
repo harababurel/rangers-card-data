@@ -305,9 +305,9 @@
           <span class="text-[10px] text-gray-400">Ctrl+B = &lt;b&gt; &nbsp; Ctrl+F = &lt;f&gt;</span>
           <button @click="normalizeBrackets" class="text-[10px] bg-amber-100 hover:bg-amber-200 text-amber-800 border border-amber-300 px-2 py-0.5 rounded" title="Auto-bracket keywords in text fields">[ ] Fix Brackets</button>
         </div>
-        <div v-if="form.type_id !== 'aspect'"><label class="block font-bold">Rules Text</label><textarea v-model="form.text" @keydown="onTextareaKeydown($event, 'text')" class="w-full border p-1 rounded h-20 font-mono text-[10px]"></textarea></div>
-        <div v-if="form.category_id === 'location' && form.type_id !== 'aspect'"><label class="block font-bold text-stone-600">Setup Instructions (Back)</label><textarea v-model="form.setup" @keydown="onTextareaKeydown($event, 'setup')" class="w-full border p-1 rounded h-16 bg-stone-50 font-mono text-[10px]"></textarea></div>
-        <div v-else-if="form.type_id !== 'aspect'"><label class="block font-bold">Flavor Text</label><textarea v-model="form.flavor" @keydown="onTextareaKeydown($event, 'flavor')" class="w-full border p-1 rounded h-16 italic text-gray-600"></textarea></div>
+        <div v-if="form.type_id !== 'aspect'"><label class="block font-bold">Rules Text</label><textarea v-model="form.text" @keydown="onTextareaKeydown($event, 'text')" class="w-full border p-1 rounded h-20 font-mono text-xs"></textarea></div>
+        <div v-if="form.category_id === 'location' && form.type_id !== 'aspect'"><label class="block font-bold text-stone-600">Setup Instructions (Back)</label><textarea v-model="form.setup" @keydown="onTextareaKeydown($event, 'setup')" class="w-full border p-1 rounded h-16 bg-stone-50 font-mono text-xs"></textarea></div>
+        <div v-else-if="form.type_id !== 'aspect'"><label class="block font-bold">Flavor Text</label><textarea v-model="form.flavor" @keydown="onTextareaKeydown($event, 'flavor')" class="w-full border p-1 rounded h-16 italic text-gray-600 text-xs"></textarea></div>
         
         <!-- Aspect Cards specific (Attributes on aspect cards) -->
         <div v-if="form.type_id === 'aspect'" class="grid grid-cols-4 gap-2 bg-yellow-50 p-2 rounded border border-yellow-200">
@@ -322,15 +322,15 @@
           <div class="flex flex-col gap-2">
             <div>
               <label class="flex items-center gap-1 font-bold cursor-pointer select-none text-[10px]"><input type="checkbox" v-model="form.has_sun" class="w-3 h-3"><span class="core-icon core-sun"></span> Sun Challenge</label>
-              <textarea v-if="form.has_sun" v-model="form.sun_challenge" @keydown="onTextareaKeydown($event, 'sun_challenge')" class="w-full border p-1 rounded text-[10px] bg-orange-50/30 h-12 font-mono"></textarea>
+              <textarea v-if="form.has_sun" v-model="form.sun_challenge" @keydown="onTextareaKeydown($event, 'sun_challenge')" class="w-full border p-1 rounded text-xs bg-orange-50/30 h-12 font-mono"></textarea>
             </div>
             <div>
               <label class="flex items-center gap-1 font-bold cursor-pointer select-none text-[10px]"><input type="checkbox" v-model="form.has_mountain" class="w-3 h-3"><span class="core-icon core-mountain"></span> Mountain Challenge</label>
-              <textarea v-if="form.has_mountain" v-model="form.mountain_challenge" @keydown="onTextareaKeydown($event, 'mountain_challenge')" class="w-full border p-1 rounded text-[10px] bg-gray-50/50 h-12 font-mono"></textarea>
+              <textarea v-if="form.has_mountain" v-model="form.mountain_challenge" @keydown="onTextareaKeydown($event, 'mountain_challenge')" class="w-full border p-1 rounded text-xs bg-gray-50/50 h-12 font-mono"></textarea>
             </div>
             <div>
               <label class="flex items-center gap-1 font-bold cursor-pointer select-none text-[10px]"><input type="checkbox" v-model="form.has_crest" class="w-3 h-3"><span class="core-icon core-crest"></span> Crest Challenge</label>
-              <textarea v-if="form.has_crest" v-model="form.crest_challenge" @keydown="onTextareaKeydown($event, 'crest_challenge')" class="w-full border p-1 rounded text-[10px] bg-blue-50/30 h-12 font-mono"></textarea>
+              <textarea v-if="form.has_crest" v-model="form.crest_challenge" @keydown="onTextareaKeydown($event, 'crest_challenge')" class="w-full border p-1 rounded text-xs bg-blue-50/30 h-12 font-mono"></textarea>
             </div>
           </div>
         </div>
@@ -757,7 +757,8 @@
           const wrapped = `<${tag}>${selected}</${tag}>`;
           this.form[field] = val.slice(0, start) + wrapped + val.slice(end);
           this.$nextTick(() => {
-            const cursor = start + wrapped.length;
+            // Place cursor inside tags if no selection, after closing tag if text was selected
+            const cursor = selected.length ? start + wrapped.length : start + `<${tag}>`.length;
             el.setSelectionRange(cursor, cursor);
           });
         },
