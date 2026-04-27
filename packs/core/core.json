@@ -5080,5 +5080,31 @@
       3
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500397880/6F6AD45D9D7B13027C3EF35B34E330C040A98B07/"
+  },
+  {
+    "name": "Lutrinal Holt",
+    "id": "01377",
+    "position": 377,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "category_id": "path",
+    "type_id": "feature",
+    "area_id": "along_the_way",
+    "token_id": "lure",
+    "token_count": "0",
+    "set_id": "lakeshore",
+    "set_position": "1",
+    "traits": "Lair / Water",
+    "text": "<b>[FOC] + [connection]: Coax [2]</b> <f>the lutrinals back to their lair to</f> add 1 lure to this feature. You may discard 1 token from an equipped food to commit 1 effort.\n<b>Clear <progress>:</b> Shuffle a Romping Lutrinal into the path deck for each lure on this feature.",
+    "harm": "4",
+    "progress": "2[per_ranger]",
+    "presence": 2,
+    "mountain_challenge": "Exhaust this feature. [right_arrow] Search the path deck and discard for a Romping Lutrinal and put it into play.",
+    "image_rect": [
+      0,
+      4,
+      3
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500397880/6F6AD45D9D7B13027C3EF35B34E330C040A98B07/"
   }
 ]
