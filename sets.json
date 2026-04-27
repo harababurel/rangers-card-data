@@ -175,5 +175,17 @@
     "name": "Northern Outpost",
     "type_id": "terrain",
     "size": 3
+  },
+  {
+    "id": "marsh_of_rebirth",
+    "name": "Marsh of Rebirth",
+    "type_id": "terrain",
+    "size": 2
+  },
+  {
+    "id": "fractured_wall",
+    "name": "Fractured Wall",
+    "type_id": "terrain",
+    "size": 3
   }
 ]

@@ -5204,5 +5204,101 @@
       3
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500412430/22A4C5F356243437774F8E478444230B5EA22FD2/"
+  },
+  {
+    "name": "The Hornbranch",
+    "id": "01383",
+    "position": 383,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "category_id": "path",
+    "type_id": "feature",
+    "area_id": "along_the_way",
+    "set_id": "branch",
+    "set_position": "5",
+    "traits": "Structure / Ascent",
+    "text": "When this feature enters play, draw a path card.\n<b>[FOC] + [conflict]: Sound</b> <f>the alarm to</f> add 1 [progress] to this card and exhaust a number of beings equal to your effort.\n<b>Clear [progress]:</b> Search the path deck for the next human and put them into play.",
+    "harm": "6",
+    "progress": "1[per_ranger]",
+    "presence": 0,
+    "sun_challenge": "If there is an active human with any [harm], <f>they call out in distress.</f> [right_arrow] They fatigue you.",
+    "image_rect": [
+      7,
+      4,
+      4
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500384079/5BF1100BCBB14D35C0FE69B4D5E1D1ECBE773404/"
+  },
+  {
+    "name": "Sil Belai, Artist",
+    "id": "01384",
+    "position": 384,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "category_id": "path",
+    "type_id": "being",
+    "area_id": "within_reach",
+    "set_id": "the_valley",
+    "set_position": "4",
+    "traits": "Human / Villager",
+    "text": "Friendly.\n<b>[SPI] + [reason]: Pose [2]</b> <f>heroically to</f> add 4 [progress] to this being. If you fail, suffer 1 fatigue <f>as you pull something.</f>\n<b>Clear [progress] or [harm]:</b> [guide] 82",
+    "harm": "4",
+    "progress": "3[per_ranger]",
+    "presence": 1,
+    "crest_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
+    "image_rect": [
+      3,
+      4,
+      4
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500438803/B12B2361EE850A11CBB2D21CF77D958DF28CCCB7/"
+  },
+  {
+    "name": "Aell, Ambitious Shaper",
+    "id": "01385",
+    "position": 385,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "category_id": "path",
+    "type_id": "being",
+    "area_id": "within_reach",
+    "set_id": "marsh_of_rebirth",
+    "set_position": "1",
+    "traits": "Human / Exile",
+    "text": "Friendly.\n<b>Clear [progress] or [harm]:</b> [guide] 74",
+    "harm": "5",
+    "progress": "3[per_ranger]",
+    "presence": 1,
+    "mountain_challenge": "Add 1 token to the weather.",
+    "crest_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
+    "image_rect": [
+      14,
+      4,
+      4
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500384079/5BF1100BCBB14D35C0FE69B4D5E1D1ECBE773404/"
+  },
+  {
+    "name": "Megadam Ruins",
+    "id": "01386",
+    "position": 386,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "category_id": "path",
+    "type_id": "feature",
+    "area_id": "along_the_way",
+    "set_id": "fractured_wall",
+    "set_position": "3",
+    "traits": "Ruin / Obstacle",
+    "text": "Obstacle.\nWhen this feature enters play, each Ranger moves their [ranger] to it <f>as you make your way into the passages carved into the massive pieces of stone.</f>\n<b>[AWA] + [exploration]: Circumnavigate</b> <f>the detritus to</f> remove your [ranger] from this feature.",
+    "harm": "8",
+    "progress": "3[per_ranger]",
+    "presence": 1,
+    "image_rect": [
+      2,
+      4,
+      4
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500384079/5BF1100BCBB14D35C0FE69B4D5E1D1ECBE773404/"
   }
 ]
