@@ -109,7 +109,9 @@ app.get('/api/packs', (req, res) => {
 app.get('/api/tokens', (req, res) => {
   const tokensPath = path.join(__dirname, '../tokens.json');
   if (fs.existsSync(tokensPath)) {
-    res.json(JSON.parse(fs.readFileSync(tokensPath, 'utf8')));
+    const tokens = JSON.parse(fs.readFileSync(tokensPath, 'utf8'));
+    tokens.sort((a, b) => a.name.localeCompare(b.name));
+    res.json(tokens);
   } else {
     res.json([]);
   }
