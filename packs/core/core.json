@@ -5300,5 +5300,124 @@
       4
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500384079/5BF1100BCBB14D35C0FE69B4D5E1D1ECBE773404/"
+  },
+  {
+    "name": "Topside Mast",
+    "id": "01387",
+    "position": 387,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "category_id": "path",
+    "type_id": "feature",
+    "area_id": "along_the_way",
+    "set_id": "lone_tree_station",
+    "set_position": "3",
+    "traits": "Structure / Ascent",
+    "text": "If the weather is inclement, you cannot interact with this feature.\n<b>[FOC] + [connection]: Convince [3]</b> <f>the Swift's crew of the urgency of your mission to</f> move your [ranger] to this feature.\n<b>Clear [ranger]:</b> [guide] 42",
+    "harm": "6",
+    "progress": "[ranger]",
+    "presence": 0,
+    "image_rect": [
+      5,
+      4,
+      3
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500401324/41F346502E2BC93F5E31D244FAD3F5830CC14F7D/"
+  },
+  {
+    "name": "Heart of the Swamp",
+    "id": "01388",
+    "position": 388,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "category_id": "path",
+    "type_id": "feature",
+    "area_id": "along_the_way",
+    "set_id": "swamp",
+    "set_position": "12",
+    "traits": "Trail / Water",
+    "text": "<b>[SPI] + [exploration]: Imagine</b> <f>life as hydraworm to intuit the location of their lair to</f> add [progress] equal to your effort.\n\n<b>Clear [progress]:</b> Set this card aside. When you next travel, you may travel to The Marsh of Rebirth.",
+    "progress": "5[per_ranger]",
+    "presence": 0,
+    "sun_challenge": "If there is an odd number of [progress] on this feature, <f>you lose the trail.</f> [right_arrow] Discard it.",
+    "image_rect": [
+      11,
+      4,
+      3
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500421808/5164EEC1DA1758643DDF683BA08637370EEE2A23/"
+  },
+  {
+    "name": "Lyn Mira, Woodworker",
+    "id": "01389",
+    "position": 389,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "category_id": "path",
+    "type_id": "being",
+    "area_id": "within_reach",
+    "set_id": "branch",
+    "set_position": "2",
+    "traits": "Human / Villager",
+    "text": "Friendly.\n<b>[FIT] + [connection]: Gather [2]</b> <f>wood with Lyn to</f> add [progress] to a feature equal to your effort. Then add an equal amount of [progress] to Lyn.\n<b>Clear [progress] or [harm]:</b> [guide] 65",
+    "harm": "4",
+    "progress": "4[per_ranger]",
+    "presence": 2,
+    "crest_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
+    "image_rect": [
+      4,
+      4,
+      4
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500384079/5BF1100BCBB14D35C0FE69B4D5E1D1ECBE773404/"
+  },
+  {
+    "name": "The Green Guardian",
+    "id": "01390",
+    "position": 390,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "category_id": "path",
+    "type_id": "feature",
+    "area_id": "along_the_way",
+    "set_id": "fractured_wall",
+    "set_position": "2",
+    "traits": "Hazard / Machine",
+    "text": "<b>Response:</b> When you resolve a challenge effect on this machine, you may discard [progress] from it equal to a feature's presence to affect that feature instead of the feature noted in the challenge effect.",
+    "harm": "6",
+    "progress": "3[per_ranger]",
+    "presence": 3,
+    "sun_challenge": "Exhaust the active feature with the lowest presence.",
+    "crest_challenge": "Discard the exhausted feature with the lowest presence. Each Ranger whose [ranger] was on that feature suffers 1 injury.",
+    "image_rect": [
+      1,
+      4,
+      4
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500384079/5BF1100BCBB14D35C0FE69B4D5E1D1ECBE773404/"
+  },
+  {
+    "name": "Elder Mora Orlin",
+    "id": "01391",
+    "position": 391,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "category_id": "path",
+    "type_id": "being",
+    "area_id": "within_reach",
+    "set_id": "spire",
+    "set_position": "5",
+    "traits": "Human / Villager",
+    "text": "Friendly.\n<b>[FOC] + [reason]: Listen [3]</b> <f>to the wisdom of the elders to</f> return a moment from your hand to your collection to choose a starting moment from your collection that you meet the aspect requirement for and add it to your hand. (This alteration to your deck is permanent.)\n<b>Clear [progress] or [harm]:</b> [guide] 60",
+    "harm": "3",
+    "progress": "3[per_ranger]",
+    "presence": 2,
+    "crest_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
+    "image_rect": [
+      12,
+      4,
+      4
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500384079/5BF1100BCBB14D35C0FE69B4D5E1D1ECBE773404/"
   }
 ]
