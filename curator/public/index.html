@@ -302,7 +302,7 @@
         
         <div v-if="form.type_id !== 'aspect'"><label class="block font-bold">Traits</label><input v-model="form.traits" class="w-full border p-1 rounded"></div>
         <div v-if="form.type_id !== 'aspect'" class="flex justify-between items-center">
-          <span class="text-[10px] text-gray-400">Ctrl+B = &lt;b&gt; &nbsp; Ctrl+I = &lt;f&gt;</span>
+          <span class="text-[10px] text-gray-400">Ctrl+B = &lt;b&gt; &nbsp; Ctrl+F = &lt;f&gt;</span>
           <button @click="normalizeBrackets" class="text-[10px] bg-amber-100 hover:bg-amber-200 text-amber-800 border border-amber-300 px-2 py-0.5 rounded" title="Auto-bracket keywords in text fields">[ ] Fix Brackets</button>
         </div>
         <div v-if="form.type_id !== 'aspect'"><label class="block font-bold">Rules Text</label><textarea v-model="form.text" @keydown="onTextareaKeydown($event, 'text')" class="w-full border p-1 rounded h-20 font-mono text-[10px]"></textarea></div>
@@ -745,7 +745,7 @@
         },
         onTextareaKeydown(event, field) {
           const tag = event.ctrlKey && event.key === 'b' ? 'b'
-                    : event.ctrlKey && event.key === 'i' ? 'f'
+                    : event.ctrlKey && event.key === 'f' ? 'f'
                     : null;
           if (!tag) return;
           event.preventDefault();
