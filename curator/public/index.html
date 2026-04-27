@@ -301,6 +301,9 @@
         <div v-if="form.category_id === 'mission' && form.type_id !== 'aspect'"><label class="block font-bold">Key Locations</label><input v-model="form.key_locations" class="w-full border p-1 rounded"></div>
         
         <div v-if="form.type_id !== 'aspect'"><label class="block font-bold">Traits</label><input v-model="form.traits" class="w-full border p-1 rounded"></div>
+        <div v-if="form.type_id !== 'aspect'" class="flex justify-end">
+          <button @click="normalizeBrackets" class="text-[10px] bg-amber-100 hover:bg-amber-200 text-amber-800 border border-amber-300 px-2 py-0.5 rounded" title="Auto-bracket keywords in text fields">[ ] Fix Brackets</button>
+        </div>
         <div v-if="form.type_id !== 'aspect'"><label class="block font-bold">Rules Text</label><textarea v-model="form.text" class="w-full border p-1 rounded h-20 font-mono text-[10px]"></textarea></div>
         <div v-if="form.category_id === 'location' && form.type_id !== 'aspect'"><label class="block font-bold text-stone-600">Setup Instructions (Back)</label><textarea v-model="form.setup" class="w-full border p-1 rounded h-16 bg-stone-50 font-mono text-[10px]"></textarea></div>
         <div v-else-if="form.type_id !== 'aspect'"><label class="block font-bold">Flavor Text</label><textarea v-model="form.flavor" class="w-full border p-1 rounded h-16 italic text-gray-600"></textarea></div>
@@ -738,6 +741,27 @@
             this.completedCards.push(key);
           }
           this.syncState();
+        },
+        normalizeBrackets() {
+          const keywords = [
+            'per_ranger', 'right_arrow', 'aspiration', 'exploration', 'connection',
+            'conflict', 'progress', 'reason', 'ranger', 'guide', 'harm',
+            'AWA', 'SPI', 'FIT', 'FOC'
+          ];
+          const applyBrackets = (text) => {
+            if (!text) return text;
+            text = text.replace(/>>/g, '[right_arrow]');
+            for (const kw of keywords) {
+              const regex = new RegExp(`(?<!\\[)\\b${kw}\\b(?!\\])`, 'g');
+              text = text.replace(regex, `[${kw}]`);
+            }
+            return text;
+          };
+          this.form.text = applyBrackets(this.form.text);
+          this.form.flavor = applyBrackets(this.form.flavor);
+          this.form.sun_challenge = applyBrackets(this.form.sun_challenge);
+          this.form.mountain_challenge = applyBrackets(this.form.mountain_challenge);
+          this.form.crest_challenge = applyBrackets(this.form.crest_challenge);
         }
       }
     }).mount('#app');
