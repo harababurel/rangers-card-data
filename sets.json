@@ -187,5 +187,11 @@
     "name": "Fractured Wall",
     "type_id": "terrain",
     "size": 3
+  },
+  {
+    "id": "arcology",
+    "name": "Arcology",
+    "type_id": "terrain",
+    "size": 12
   }
 ]
