@@ -64,8 +64,9 @@
     }
 
     .card-image {
-      width: 300px;
-      height: 420px; 
+      width: min(300px, 85vw);
+      height: auto;
+      aspect-ratio: 5 / 7;
       background-repeat: no-repeat;
       border-radius: 12px;
       box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
@@ -73,10 +74,31 @@
     }
   </style>
 </head>
-<body class="bg-gray-100 p-4 font-sans text-sm">
-  <div id="app" class="flex h-screen gap-4">
+<body class="bg-gray-100 lg:p-4 font-sans text-sm">
+  <div id="app" class="flex flex-col lg:flex-row min-h-screen lg:h-screen lg:gap-4">
+    <!-- Mobile Tab Bar -->
+    <nav class="lg:hidden flex border-b bg-white sticky top-0 z-10">
+      <button @click="activePanel = 'list'"
+              :class="['flex-1 py-3 text-sm font-medium border-b-2 transition-colors',
+                       activePanel === 'list' ? 'border-blue-600 text-blue-600' : 'border-transparent text-gray-500']">
+        Cards ({{ filteredCards.length }})
+      </button>
+      <button @click="activePanel = 'editor'"
+              :class="['flex-1 py-3 text-sm font-medium border-b-2 transition-colors',
+                       activePanel === 'editor' ? 'border-blue-600 text-blue-600' : 'border-transparent text-gray-500']">
+        {{ selected ? selected.nickname.slice(0,14) + (selected.nickname.length > 14 ? '…' : '') : 'Editor' }}
+      </button>
+      <button @click="activePanel = 'queue'"
+              :class="['flex-1 py-3 text-sm font-medium border-b-2 transition-colors',
+                       activePanel === 'queue' ? 'border-blue-600 text-blue-600' : 'border-transparent text-gray-500']">
+        Queue ({{ queue.length }})
+      </button>
+    </nav>
+
     <!-- Sidebar -->
-    <div class="w-[15%] bg-white p-4 rounded shadow overflow-y-auto flex flex-col gap-2 text-xs">
+    <div :class="['bg-white overflow-y-auto flex flex-col gap-2 text-xs p-3',
+                  'lg:w-[15%] lg:p-4 lg:rounded lg:shadow flex-1 min-h-0',
+                  activePanel === 'list' ? 'flex lg:flex' : 'hidden lg:flex']">
       <div class="flex justify-between items-center mb-1">
         <h2 class="text-base font-bold">Cards ({{ filteredCards.length }})</h2>
         <label class="flex items-center gap-1 cursor-pointer select-none text-[10px] text-gray-500 hover:text-blue-600">
@@ -84,11 +106,11 @@
           Show All
         </label>
       </div>
-      <input type="text" v-model="search" placeholder="Search nickname..." class="w-full border p-2 rounded mb-2">
+      <input type="text" v-model="search" placeholder="Search nickname..." class="w-full border p-2 rounded mb-2 min-h-[44px]">
       <div class="flex-1 overflow-y-auto pr-2">
         <div v-for="card in filteredCards" :key="getCardKey(card)" 
              @click="selectCard(card)"
-             :class="['p-2 mb-1 cursor-pointer border rounded flex justify-between items-center', 
+             :class="['p-3 mb-1 cursor-pointer border rounded flex justify-between items-center min-h-[44px]',
                       selected === card ? 'bg-blue-100 border-blue-500 font-semibold' : 'hover:bg-gray-50',
                       isCompleted(card) ? 'opacity-50 line-through' : '']">
           <span class="truncate">{{ card.nickname }}</span>
@@ -98,16 +120,24 @@
     </div>
 
     <!-- Main Editor -->
-    <div class="w-2/3 bg-white p-4 rounded shadow flex overflow-y-auto" v-if="selected">
-      <div class="w-1/3 flex flex-col items-center gap-4">
+    <div :class="['bg-white overflow-y-auto flex-1 min-h-0 p-3',
+                  'lg:w-2/3 lg:p-4 lg:rounded lg:shadow',
+                  'flex flex-col lg:flex-row',
+                  activePanel === 'editor' ? 'flex lg:flex' : 'hidden lg:flex']"
+         v-if="selected">
+      <div class="flex flex-col items-center gap-4 lg:w-1/3">
         <h2 class="text-xl font-bold">{{ selected.nickname }}</h2>
-        <div class="card-image" :style="getCardStyle(selected)"></div>
-        <button @click="toggleAspect" class="mt-2 bg-gray-200 hover:bg-gray-300 text-gray-700 px-3 py-1 rounded text-xs border border-gray-400">
-          🔄 Toggle Aspect Ratio
-        </button>
-        
-        <div class="w-full mt-4 bg-gray-50 border rounded p-3 text-[10px] leading-relaxed overflow-y-auto flex-1">
-          <h3 class="font-bold mb-1 border-b pb-1 text-xs">Formatting Cheat Sheet</h3>
+        <details class="w-full lg:contents" open>
+          <summary class="lg:hidden text-sm text-gray-500 cursor-pointer py-2 text-center border-b mb-2">Card Preview (tap to hide)</summary>
+          <div class="card-image" :style="getCardStyle(selected)"></div>
+          <button @click="toggleAspect" class="mt-2 bg-gray-200 hover:bg-gray-300 text-gray-700 px-3 py-3 rounded text-xs border border-gray-400 min-h-[44px] w-full">
+            🔄 Toggle Aspect Ratio
+          </button>
+        </details>
+
+        <details class="w-full mt-4 bg-gray-50 border rounded text-[10px] leading-relaxed" open>
+          <summary class="font-bold px-3 py-2 cursor-pointer text-xs border-b select-none">Formatting Cheat Sheet</summary>
+          <div class="p-3 overflow-y-auto max-h-64 lg:max-h-none">
           <div class="grid grid-cols-2 gap-x-4 gap-y-2">
             <div>
               <p class="font-bold border-b mb-1">Tags</p>
@@ -162,10 +192,11 @@
               </ul>
             </div>
           </div>
-        </div>
+          </div>
+        </details>
       </div>
-      
-      <div class="w-2/3 flex flex-col gap-3 pl-4 overflow-y-auto">
+
+      <div class="flex flex-col gap-3 lg:pl-4 lg:w-2/3 overflow-y-auto">
         <h3 class="text-lg font-semibold border-b pb-1">Edit Metadata</h3>
         
         <!-- Repo Cross-reference -->
@@ -176,8 +207,8 @@
             <span v-else class="text-[10px] text-indigo-400">{{ repoCards.length }} cards indexed</span>
           </div>
           <div class="flex gap-2">
-            <input type="text" v-model="repoSearchTerm" @keyup.enter="searchRepo" placeholder="Search repo by name..." class="flex-1 border border-indigo-300 p-1 rounded">
-            <button @click="searchRepo" :disabled="loadingRepo" class="bg-indigo-600 text-white px-3 py-1 rounded hover:bg-indigo-700 disabled:opacity-50">Search</button>
+            <input type="text" v-model="repoSearchTerm" @keyup.enter="searchRepo" placeholder="Search repo by name..." class="flex-1 border border-indigo-300 p-1 rounded min-h-[44px]">
+            <button @click="searchRepo" :disabled="loadingRepo" class="bg-indigo-600 text-white px-3 py-1 rounded hover:bg-indigo-700 disabled:opacity-50 min-h-[44px]">Search</button>
           </div>
           <div v-if="repoSearchResults.length > 0" class="mt-2 text-xs bg-white border border-indigo-200 rounded max-h-32 overflow-y-auto">
             <div v-for="r in repoSearchResults" @click="populateFromRepo(r)" class="cursor-pointer hover:bg-indigo-100 p-2 border-b last:border-b-0 flex justify-between">
@@ -188,7 +219,7 @@
         </div>
 
         <!-- Basic Info -->
-        <div class="grid grid-cols-5 gap-2">
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-2">
           <div>
             <label class="block font-bold">Pack</label>
             <select v-model="form.pack_id" class="w-full border p-1 rounded bg-gray-50">
@@ -203,7 +234,7 @@
         <div><label class="block font-bold">Name</label><input v-model="form.name" class="w-full border p-1 rounded"></div>
 
         <!-- Hierarchical Classification -->
-        <div class="grid grid-cols-2 gap-2">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
           <div>
             <label class="block font-bold text-blue-600">Category (Back)</label>
             <select v-model="form.category_id" class="w-full border p-1 rounded bg-blue-50">
@@ -219,7 +250,7 @@
         </div>
 
         <!-- Conditional Fields: Ranger -->
-        <div v-if="form.category_id === 'ranger' && form.type_id !== 'aspect'" class="grid grid-cols-3 gap-2 bg-green-50 p-2 rounded border border-green-200">
+        <div v-if="form.category_id === 'ranger' && form.type_id !== 'aspect'" class="grid grid-cols-2 sm:grid-cols-3 gap-2 bg-green-50 p-2 rounded border border-green-200">
           <div><label class="block font-bold">Aspect Req</label>
             <select v-model="form.aspect_id" class="w-full border p-1 rounded">
               <option value="">None</option>
@@ -234,7 +265,7 @@
         </div>
 
         <!-- Conditional Fields: Path -->
-        <div v-if="form.category_id === 'path' && form.type_id !== 'aspect'" class="grid grid-cols-2 gap-2 bg-orange-50 p-2 rounded border border-orange-200">
+        <div v-if="form.category_id === 'path' && form.type_id !== 'aspect'" class="grid grid-cols-1 sm:grid-cols-2 gap-2 bg-orange-50 p-2 rounded border border-orange-200">
           <div><label class="block font-bold">Spawn Area (Arrow)</label>
             <select v-model="form.area_id" class="w-full border p-1 rounded">
               <option v-for="a in areas" :key="a.id" :value="a.id">{{a.name}}</option>
@@ -244,14 +275,14 @@
         </div>
 
         <!-- Conditional Fields: Location -->
-        <div v-if="form.category_id === 'location' && form.type_id !== 'aspect'" class="grid grid-cols-3 gap-2 bg-stone-100 p-2 rounded border border-stone-300">
-          <div class="flex items-center gap-2"><input type="checkbox" v-model="form.pivotal" id="pivotal"><label for="pivotal" class="font-bold">Pivotal</label></div>
+        <div v-if="form.category_id === 'location' && form.type_id !== 'aspect'" class="grid grid-cols-1 sm:grid-cols-3 gap-2 bg-stone-100 p-2 rounded border border-stone-300">
+          <label for="pivotal" class="flex items-center gap-2 min-h-[44px] cursor-pointer"><input type="checkbox" v-model="form.pivotal" id="pivotal"><span class="font-bold">Pivotal</span></label>
           <div><label class="block font-bold">Icon</label><input v-model="form.location_icon" class="w-full border p-1 rounded"></div>
           <div><label class="block font-bold">Prog. Threshold</label><input v-model.number="form.progress_threshold" type="number" class="w-full border p-1 rounded"></div>
         </div>
 
         <!-- Conditional Fields: Challenge Deck -->
-        <div v-if="form.category_id === 'challenge' && form.type_id !== 'aspect'" class="grid grid-cols-2 gap-2 bg-purple-50 p-2 rounded border border-purple-200">
+        <div v-if="form.category_id === 'challenge' && form.type_id !== 'aspect'" class="grid grid-cols-1 sm:grid-cols-2 gap-2 bg-purple-50 p-2 rounded border border-purple-200">
            <div class="grid grid-cols-2 gap-1">
              <div><label class="text-[10px] font-bold">AWA</label><input v-model.number="form.awa_value" type="number" class="w-full border p-0.5 rounded"></div>
              <div><label class="text-[10px] font-bold">SPI</label><input v-model.number="form.spi_value" type="number" class="w-full border p-0.5 rounded"></div>
@@ -270,7 +301,7 @@
         </div>
 
         <!-- Stats & Approaches (Shared by Path/Location/Weather/Mission) -->
-        <div v-if="['path', 'location', 'weather', 'mission', 'ranger'].includes(form.category_id) && form.type_id !== 'aspect'" class="grid grid-cols-2 gap-2">
+        <div v-if="['path', 'location', 'weather', 'mission', 'ranger'].includes(form.category_id) && form.type_id !== 'aspect'" class="grid grid-cols-1 sm:grid-cols-2 gap-2">
           <div class="grid grid-cols-2 gap-2">
             <div><label class="block font-bold"><span class="core-icon core-harm"></span> Harm</label><input v-model="form.harm" class="w-full border p-1 rounded"></div>
             <div><label class="block font-bold"><span class="core-icon core-progress"></span> Progress</label><input v-model="form.progress" class="w-full border p-1 rounded"></div>
@@ -284,7 +315,7 @@
         </div>
 
         <!-- Common Metadata -->
-        <div v-if="form.type_id !== 'aspect'" class="grid grid-cols-2 gap-2">
+        <div v-if="form.type_id !== 'aspect'" class="grid grid-cols-1 sm:grid-cols-2 gap-2">
           <div>
             <label class="block font-bold">Set ID</label>
             <select v-model="form.set_id" class="w-full border p-1 rounded bg-gray-50">
@@ -295,7 +326,7 @@
           <div><label class="block font-bold text-indigo-600 italic">Set Position (range ok)</label><input v-model="form.set_position" class="w-full border p-1 rounded border-indigo-200"></div>
         </div>
         
-        <div v-if="form.type_id !== 'aspect'" class="grid grid-cols-2 gap-2">
+        <div v-if="form.type_id !== 'aspect'" class="grid grid-cols-1 sm:grid-cols-2 gap-2">
           <div><label class="block font-bold">Token Type</label>
             <select v-model="form.token_id" class="w-full border p-1 rounded">
               <option value="">None</option>
@@ -310,14 +341,14 @@
         <div v-if="form.type_id !== 'aspect'"><label class="block font-bold">Traits</label><input v-model="form.traits" class="w-full border p-1 rounded"></div>
         <div v-if="form.type_id !== 'aspect'" class="flex justify-between items-center">
           <span class="text-[10px] text-gray-400">Ctrl+B = &lt;b&gt; &nbsp; Ctrl+F = &lt;f&gt;</span>
-          <button @click="normalizeBrackets" class="text-[10px] bg-amber-100 hover:bg-amber-200 text-amber-800 border border-amber-300 px-2 py-0.5 rounded" title="Auto-bracket keywords in text fields">[ ] Fix Brackets</button>
+          <button @click="normalizeBrackets" class="text-xs bg-amber-100 hover:bg-amber-200 text-amber-800 border border-amber-300 px-3 py-2 rounded min-h-[44px]" title="Auto-bracket keywords in text fields">[ ] Fix Brackets</button>
         </div>
-        <div v-if="form.type_id !== 'aspect'"><label class="block font-bold">Rules Text</label><textarea v-model="form.text" @keydown="onTextareaKeydown($event, 'text')" class="w-full border p-1 rounded h-20 font-mono text-xs"></textarea></div>
-        <div v-if="form.category_id === 'location' && form.type_id !== 'aspect'"><label class="block font-bold text-stone-600">Setup Instructions (Back)</label><textarea v-model="form.setup" @keydown="onTextareaKeydown($event, 'setup')" class="w-full border p-1 rounded h-16 bg-stone-50 font-mono text-xs"></textarea></div>
-        <div v-else-if="form.type_id !== 'aspect'"><label class="block font-bold">Flavor Text</label><textarea v-model="form.flavor" @keydown="onTextareaKeydown($event, 'flavor')" class="w-full border p-1 rounded h-16 italic text-gray-600 text-xs"></textarea></div>
+        <div v-if="form.type_id !== 'aspect'"><label class="block font-bold">Rules Text</label><textarea v-model="form.text" @keydown="onTextareaKeydown($event, 'text')" class="w-full border p-1 rounded h-24 sm:h-20 font-mono text-sm sm:text-xs"></textarea></div>
+        <div v-if="form.category_id === 'location' && form.type_id !== 'aspect'"><label class="block font-bold text-stone-600">Setup Instructions (Back)</label><textarea v-model="form.setup" @keydown="onTextareaKeydown($event, 'setup')" class="w-full border p-1 rounded h-20 sm:h-16 bg-stone-50 font-mono text-sm sm:text-xs"></textarea></div>
+        <div v-else-if="form.type_id !== 'aspect'"><label class="block font-bold">Flavor Text</label><textarea v-model="form.flavor" @keydown="onTextareaKeydown($event, 'flavor')" class="w-full border p-1 rounded h-20 sm:h-16 italic text-gray-600 text-sm sm:text-xs"></textarea></div>
         
         <!-- Aspect Cards specific (Attributes on aspect cards) -->
-        <div v-if="form.type_id === 'aspect'" class="grid grid-cols-4 gap-2 bg-yellow-50 p-2 rounded border border-yellow-200">
+        <div v-if="form.type_id === 'aspect'" class="grid grid-cols-2 sm:grid-cols-4 gap-2 bg-yellow-50 p-2 rounded border border-yellow-200">
           <div><label class="block font-bold text-xs"><span class="core-icon core-awa"></span> Awareness</label><input v-model.number="form.awareness" type="number" class="w-full border p-1 rounded"></div>
           <div><label class="block font-bold text-xs"><span class="core-icon core-spi"></span> Spirit</label><input v-model.number="form.spirit" type="number" class="w-full border p-1 rounded"></div>
           <div><label class="block font-bold text-xs"><span class="core-icon core-fit"></span> Fitness</label><input v-model.number="form.fitness" type="number" class="w-full border p-1 rounded"></div>
@@ -328,38 +359,41 @@
         <div v-if="form.category_id !== 'challenge' && form.type_id !== 'aspect'" class="space-y-1 bg-gray-50 p-2 rounded border">
           <div class="flex flex-col gap-2">
             <div>
-              <label class="flex items-center gap-1 font-bold cursor-pointer select-none text-[10px]"><input type="checkbox" v-model="form.has_sun" class="w-3 h-3"><span class="core-icon core-sun"></span> Sun Challenge</label>
-              <textarea v-if="form.has_sun" v-model="form.sun_challenge" @keydown="onTextareaKeydown($event, 'sun_challenge')" class="w-full border p-1 rounded text-xs bg-orange-50/30 h-12 font-mono"></textarea>
+              <label class="flex items-center gap-1 font-bold cursor-pointer select-none text-xs min-h-[44px]"><input type="checkbox" v-model="form.has_sun" class="w-4 h-4"><span class="core-icon core-sun"></span> Sun Challenge</label>
+              <textarea v-if="form.has_sun" v-model="form.sun_challenge" @keydown="onTextareaKeydown($event, 'sun_challenge')" class="w-full border p-1 rounded text-xs bg-orange-50/30 h-16 sm:h-12 font-mono"></textarea>
             </div>
             <div>
-              <label class="flex items-center gap-1 font-bold cursor-pointer select-none text-[10px]"><input type="checkbox" v-model="form.has_mountain" class="w-3 h-3"><span class="core-icon core-mountain"></span> Mountain Challenge</label>
-              <textarea v-if="form.has_mountain" v-model="form.mountain_challenge" @keydown="onTextareaKeydown($event, 'mountain_challenge')" class="w-full border p-1 rounded text-xs bg-gray-50/50 h-12 font-mono"></textarea>
+              <label class="flex items-center gap-1 font-bold cursor-pointer select-none text-xs min-h-[44px]"><input type="checkbox" v-model="form.has_mountain" class="w-4 h-4"><span class="core-icon core-mountain"></span> Mountain Challenge</label>
+              <textarea v-if="form.has_mountain" v-model="form.mountain_challenge" @keydown="onTextareaKeydown($event, 'mountain_challenge')" class="w-full border p-1 rounded text-xs bg-gray-50/50 h-16 sm:h-12 font-mono"></textarea>
             </div>
             <div>
-              <label class="flex items-center gap-1 font-bold cursor-pointer select-none text-[10px]"><input type="checkbox" v-model="form.has_crest" class="w-3 h-3"><span class="core-icon core-crest"></span> Crest Challenge</label>
-              <textarea v-if="form.has_crest" v-model="form.crest_challenge" @keydown="onTextareaKeydown($event, 'crest_challenge')" class="w-full border p-1 rounded text-xs bg-blue-50/30 h-12 font-mono"></textarea>
+              <label class="flex items-center gap-1 font-bold cursor-pointer select-none text-xs min-h-[44px]"><input type="checkbox" v-model="form.has_crest" class="w-4 h-4"><span class="core-icon core-crest"></span> Crest Challenge</label>
+              <textarea v-if="form.has_crest" v-model="form.crest_challenge" @keydown="onTextareaKeydown($event, 'crest_challenge')" class="w-full border p-1 rounded text-xs bg-blue-50/30 h-16 sm:h-12 font-mono"></textarea>
             </div>
           </div>
         </div>
         
         <div class="mt-4 flex gap-2 pb-8">
-          <button @click="saveCurrent" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 flex-1 font-bold">Save & Add to Queue</button>
-          <button @click="toggleComplete(selected)" 
-                  :class="['px-4 py-2 rounded border flex-1', isCompleted(selected) ? 'bg-green-100 text-green-700 border-green-300' : 'bg-white text-gray-700 border-gray-300 hover:bg-gray-50']">
+          <button @click="saveCurrent" class="bg-blue-600 text-white px-4 py-3 rounded hover:bg-blue-700 flex-1 font-bold min-h-[44px]">Save & Add to Queue</button>
+          <button @click="toggleComplete(selected)"
+                  :class="['px-4 py-3 rounded border flex-1 min-h-[44px]', isCompleted(selected) ? 'bg-green-100 text-green-700 border-green-300' : 'bg-white text-gray-700 border-gray-300 hover:bg-gray-50']">
             {{ isCompleted(selected) ? '✓ Completed' : 'Mark Done' }}
           </button>
         </div>
       </div>
     </div>
-    <div class="flex-1 bg-white p-4 rounded shadow flex items-center justify-center text-gray-500" v-else>
+    <div :class="['flex-1 bg-white p-4 lg:rounded lg:shadow flex items-center justify-center text-gray-500',
+                  activePanel === 'editor' ? 'flex lg:flex' : 'hidden lg:flex']" v-else>
       Select a card from the left to start editing
     </div>
     
     <!-- Output Queue -->
-    <div class="w-[15%] bg-white p-4 rounded shadow flex flex-col">
+    <div :class="['bg-white flex flex-col p-3 flex-1 min-h-0',
+                  'lg:w-[15%] lg:p-4 lg:rounded lg:shadow',
+                  activePanel === 'queue' ? 'flex lg:flex' : 'hidden lg:flex']">
       <div class="flex justify-between items-center mb-2">
         <h2 class="text-xl font-bold">Queue ({{ queue.length }})</h2>
-        <button v-if="queue.length > 0" @click="queue = []" class="text-[10px] text-red-500 hover:underline">Clear All</button>
+        <button v-if="queue.length > 0" @click="queue = []" class="text-xs text-red-500 hover:underline px-2 py-2 min-h-[44px]">Clear All</button>
       </div>
       <div class="flex-1 overflow-y-auto mb-2 border p-2 bg-gray-50 rounded">
         <div v-for="q in queue" :key="q.id" class="text-[10px] border-b pb-1 mb-1 flex justify-between items-start group">
@@ -367,12 +401,12 @@
             <span class="font-bold text-gray-800">{{ q.name }}</span>
             <span class="text-gray-400">{{ q.id }} ({{q.category_id}}:{{ q.type_id }})</span>
           </div>
-          <button @click="removeFromQueue(q.id)" class="text-gray-300 hover:text-red-500 font-bold px-1 rounded">
+          <button @click="removeFromQueue(q.id)" class="text-gray-300 hover:text-red-500 font-bold px-2 rounded min-h-[44px] min-w-[44px] flex items-center justify-center">
             &times;
           </button>
         </div>
       </div>
-      <button @click="flushQueue" class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 w-full mb-2 font-bold" :disabled="queue.length===0">Flush to File</button>
+      <button @click="flushQueue" class="bg-green-600 text-white px-4 py-3 rounded hover:bg-green-700 w-full mb-2 font-bold min-h-[44px]" :disabled="queue.length===0">Flush to File</button>
     </div>
   </div>
 
@@ -401,7 +435,8 @@
           packs: [],
           sets: [],
           completedCards: [],
-          showCompleted: false
+          showCompleted: false,
+          activePanel: 'list'
         };
       },
       watch: {
@@ -598,6 +633,7 @@
             this.form.position = this.nextPosition;
             this.updateId();
           }
+          this.activePanel = 'editor';
         },
         updateId() {
           if (this.form.position) {
@@ -640,8 +676,7 @@
           const isLandscape = this.isLandscapeOverride;
 
           return {
-            width: isLandscape ? '420px' : '300px',
-            height: isLandscape ? '300px' : '420px',
+            aspectRatio: isLandscape ? '7 / 5' : '5 / 7',
             backgroundImage: `url('/api/image?url=${encodeURIComponent(card.deckInfo.FaceURL)}')`,
             backgroundSize: `${sizeX}% ${sizeY}%`,
             backgroundPosition: `${posX}% ${posY}%`
