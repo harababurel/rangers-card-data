@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Awakened Apparatus",
+    "id": "06001",
+    "position": 1,
+    "quantity": 1,
+    "pack_id": "mop",
+    "category_id": "path",
+    "type_id": "feature",
+    "area_id": "along_the_way",
+    "token_id": "power",
+    "token_count": "4",
+    "set_id": "general",
+    "set_position": "2",
+    "traits": "Machine / Hazard",
+    "text": "<b>Refresh:</b> Discard 1 power from this machine. If it has no power on it, return it to the collection.",
+    "harm": "5",
+    "presence": 1,
+    "sun_challenge": "<f>Lights flicker on above.</f> Discard 1 power from this machine. [right_arrow] Until the end of the turn, all areas are illuminated.",
+    "mountain_challenge": "Move 1 power from this machine to the machine with the least power.",
+    "crest_challenge": "<f>Structural collapse!</f> Discard 1 power from this machine. [right_arrow] Suffer 1 fatigue.",
+    "image_rect": [
+      32,
+      10,
+      7
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/14242786027569264223/645F6C94380282943E8B374F665D9AB5B7E68552/"
+  }
+]
