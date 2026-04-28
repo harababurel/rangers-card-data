@@ -25,5 +25,32 @@
       7
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/14242786027569264223/645F6C94380282943E8B374F665D9AB5B7E68552/"
+  },
+  {
+    "name": "Campfire Remains",
+    "id": "06002",
+    "position": 2,
+    "quantity": 1,
+    "pack_id": "mop",
+    "category_id": "path",
+    "type_id": "feature",
+    "area_id": "along_the_way",
+    "token_id": "ember",
+    "token_count": "4",
+    "set_id": "general",
+    "set_position": "1",
+    "traits": "Hazard",
+    "text": "<b>Refresh:</b> Discard 1 ember from this feature. If it has no embers on it, return it to the collection.",
+    "harm": "3",
+    "presence": 0,
+    "sun_challenge": "<f>The wind douses some of the embers.</f> Discard 1 ember from this feature.",
+    "mountain_challenge": "Add 1 [harm] to a being. If this cleared that being, suffer 2 fatigue.",
+    "crest_challenge": "<f>You breathe in some of the residual smoke.</f> Suffer 1 fatigue and discard 1 ember from this feature.",
+    "image_rect": [
+      31,
+      10,
+      7
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/14242786027569264223/645F6C94380282943E8B374F665D9AB5B7E68552/"
   }
 ]
