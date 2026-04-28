@@ -318,7 +318,7 @@
         </div>
 
         <!-- Challenges (Global for most except challenge cards themselves) -->
-        <div v-if="form.category_id !== 'challenge' && form.category_id !== 'ranger' && form.type_id !== 'aspect'" class="space-y-1 bg-gray-50 p-2 rounded border">
+        <div v-if="form.category_id !== 'challenge' && form.type_id !== 'aspect'" class="space-y-1 bg-gray-50 p-2 rounded border">
           <div class="flex flex-col gap-2">
             <div>
               <label class="flex items-center gap-1 font-bold cursor-pointer select-none text-[10px]"><input type="checkbox" v-model="form.has_sun" class="w-3 h-3"><span class="core-icon core-sun"></span> Sun Challenge</label>
