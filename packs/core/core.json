@@ -5691,5 +5691,29 @@
       3
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500391793/CB6A9D706986CF6514D7D04F83C43753DFC1E851/"
+  },
+  {
+    "name": "The Carbon Forge",
+    "id": "01405",
+    "position": 405,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "category_id": "path",
+    "type_id": "feature",
+    "area_id": "along_the_way",
+    "set_id": "spire",
+    "set_position": "1",
+    "traits": "Machine",
+    "text": "<b>FOC + reason: Fabricate [2]</b> <f>a new item to</f> return a gear from your hand or discard to your collection to choose a starting gear from your collection that you meet the aspect requirement for and put it into play. (This alteration to your deck is permanent.)",
+    "harm": "6",
+    "progress": "1[per_ranger]",
+    "presence": 0,
+    "guide_entry": 56,
+    "image_rect": [
+      8,
+      4,
+      4
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500384079/5BF1100BCBB14D35C0FE69B4D5E1D1ECBE773404/"
   }
 ]
