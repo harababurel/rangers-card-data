@@ -27,5 +27,11 @@
     "name": "Shadow of the Storm",
     "short_name": "SOS",
     "position": 5
+  },
+  {
+    "id": "mop",
+    "name": "Moments on the Path",
+    "short_name": "MOP",
+    "position": 6
   }
 ]
