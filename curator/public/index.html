@@ -284,7 +284,13 @@
 
         <!-- Common Metadata -->
         <div v-if="form.type_id !== 'aspect'" class="grid grid-cols-2 gap-2">
-          <div><label class="block font-bold">Set ID</label><input v-model="form.set_id" class="w-full border p-1 rounded"></div>
+          <div>
+            <label class="block font-bold">Set ID</label>
+            <select v-model="form.set_id" class="w-full border p-1 rounded bg-gray-50">
+              <option value="">— None —</option>
+              <option v-for="s in sets" :key="s.id" :value="s.id">{{s.name}}</option>
+            </select>
+          </div>
           <div><label class="block font-bold text-indigo-600 italic">Set Position (range ok)</label><input v-model="form.set_position" class="w-full border p-1 rounded border-indigo-200"></div>
         </div>
         
@@ -392,6 +398,7 @@
           types: [],
           areas: [],
           packs: [],
+          sets: [],
           completedCards: [],
           showCompleted: false
         };
@@ -470,14 +477,16 @@
           fetch('/api/cards').then(r => r.json()),
           fetch('/api/repo-cards').then(r => r.json()),
           fetch('/api/packs').then(r => r.json()),
-          fetch('/api/state').then(r => r.json())
-        ]).then(([tokens, categories, areas, cards, repoCards, packs, state]) => {
+          fetch('/api/state').then(r => r.json()),
+          fetch('/api/sets').then(r => r.json())
+        ]).then(([tokens, categories, areas, cards, repoCards, packs, state, sets]) => {
           this.tokens = tokens;
           this.categories = categories;
           this.areas = areas;
           this.cards = cards;
           this.repoCards = repoCards;
           this.packs = packs;
+          this.sets = sets;
           this.queue = state.queue || [];
           this.completedCards = state.completedCards || [];
 

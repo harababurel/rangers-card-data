@@ -106,6 +106,17 @@ app.get('/api/packs', (req, res) => {
   }
 });
 
+app.get('/api/sets', (req, res) => {
+  const setsPath = path.join(__dirname, '../sets.json');
+  if (fs.existsSync(setsPath)) {
+    const sets = JSON.parse(fs.readFileSync(setsPath, 'utf8'));
+    sets.sort((a, b) => a.name.localeCompare(b.name));
+    res.json(sets);
+  } else {
+    res.json([]);
+  }
+});
+
 app.get('/api/tokens', (req, res) => {
   const tokensPath = path.join(__dirname, '../tokens.json');
   if (fs.existsSync(tokensPath)) {
