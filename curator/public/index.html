@@ -269,7 +269,7 @@
         </div>
 
         <!-- Stats & Approaches (Shared by Path/Location/Weather/Mission) -->
-        <div v-if="['path', 'location', 'weather', 'mission'].includes(form.category_id) && form.type_id !== 'aspect'" class="grid grid-cols-2 gap-2">
+        <div v-if="['path', 'location', 'weather', 'mission', 'ranger'].includes(form.category_id) && form.type_id !== 'aspect'" class="grid grid-cols-2 gap-2">
           <div class="grid grid-cols-2 gap-2">
             <div><label class="block font-bold"><span class="core-icon core-harm"></span> Harm</label><input v-model="form.harm" class="w-full border p-1 rounded"></div>
             <div><label class="block font-bold"><span class="core-icon core-progress"></span> Progress</label><input v-model="form.progress" class="w-full border p-1 rounded"></div>
