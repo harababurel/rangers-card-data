@@ -188,7 +188,7 @@
         </div>
 
         <!-- Basic Info -->
-        <div class="grid grid-cols-4 gap-2">
+        <div class="grid grid-cols-5 gap-2">
           <div>
             <label class="block font-bold">Pack</label>
             <select v-model="form.pack_id" class="w-full border p-1 rounded bg-gray-50">
@@ -198,6 +198,7 @@
           <div><label class="block font-bold">Position</label><input v-model.number="form.position" class="w-full border p-1 rounded bg-gray-100" readonly></div>
           <div><label class="block font-bold text-blue-800">Generated ID</label><input v-model="form.id" class="w-full border p-1 rounded bg-blue-50 border-blue-200" readonly></div>
           <div><label class="block font-bold text-red-800">Quantity</label><input v-model.number="form.quantity" type="number" class="w-full border p-1 rounded border-red-200"></div>
+          <div><label class="block font-bold text-amber-700">[guide] Entry</label><input v-model.number="form.guide_entry" type="number" class="w-full border p-1 rounded border-amber-200 bg-amber-50"></div>
         </div>
         <div><label class="block font-bold">Name</label><input v-model="form.name" class="w-full border p-1 rounded"></div>
 
@@ -576,6 +577,7 @@
             foc_value: 0,
             challenge_icon: 'sun',
             reshuffle: false,
+            guide_entry: null,
             image_rect: []
           };
           this.repoSearchResults = [];
@@ -690,7 +692,7 @@
           
           delete toSave.has_sun; delete toSave.has_mountain; delete toSave.has_crest;
 
-          const numericFields = ['position', 'quantity', 'presence', 'cost', 'equip', 'awareness', 'spirit', 'fitness', 'focus', 'approach_conflict', 'approach_reason', 'approach_exploration', 'approach_connection', 'progress_threshold', 'awa_value', 'spi_value', 'fit_value', 'foc_value'];
+          const numericFields = ['position', 'quantity', 'presence', 'cost', 'equip', 'awareness', 'spirit', 'fitness', 'focus', 'approach_conflict', 'approach_reason', 'approach_exploration', 'approach_connection', 'progress_threshold', 'awa_value', 'spi_value', 'fit_value', 'foc_value', 'guide_entry'];
           numericFields.forEach(f => {
             if (toSave[f] !== null && toSave[f] !== undefined && toSave[f] !== '') {
               toSave[f] = Number(toSave[f]);
