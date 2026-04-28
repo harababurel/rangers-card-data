@@ -80,13 +80,20 @@
     }
 
     .card-image {
-      width: min(300px, 85vw);
+      width: min(64px, 16vw);
       height: auto;
       aspect-ratio: 5 / 7;
       background-repeat: no-repeat;
-      border-radius: 12px;
+      border-radius: 6px;
       box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
       transition: all 0.3s ease;
+      flex-shrink: 0;
+    }
+    @media (min-width: 1024px) {
+      .card-image {
+        width: min(300px, 100%);
+        border-radius: 12px;
+      }
     }
   </style>
 </head>
@@ -141,15 +148,13 @@
                   'flex flex-col lg:flex-row',
                   activePanel === 'editor' ? 'flex lg:flex' : 'hidden lg:flex']"
          v-if="selected">
-      <div class="flex flex-col items-center gap-4 lg:w-1/3">
-        <h2 class="text-xl font-bold">{{ selected.nickname }}</h2>
-        <details class="w-full lg:contents" open>
-          <summary class="lg:hidden text-sm text-gray-500 cursor-pointer py-2 text-center border-b mb-2">Card Preview (tap to hide)</summary>
-          <div class="card-image" :style="getCardStyle(selected)"></div>
-          <button @click="toggleAspect" class="mt-2 bg-gray-200 hover:bg-gray-300 text-gray-700 px-3 py-3 rounded text-xs border border-gray-400 min-h-[44px] w-full">
-            🔄 Toggle Aspect Ratio
-          </button>
-        </details>
+      <div class="flex items-center gap-3 sticky top-0 z-10 bg-white border-b py-2 shrink-0
+                  lg:flex-col lg:items-center lg:gap-4 lg:w-1/3 lg:sticky lg:top-4 lg:self-start lg:border-b-0 lg:py-0">
+        <div class="card-image" :style="getCardStyle(selected)"></div>
+        <h2 class="text-sm font-bold flex-1 min-w-0 leading-tight lg:text-xl lg:flex-none lg:w-full lg:text-center">{{ selected.nickname }}</h2>
+        <button @click="toggleAspect" class="hidden lg:block mt-2 bg-gray-200 hover:bg-gray-300 text-gray-700 px-3 py-3 rounded text-xs border border-gray-400 min-h-[44px] w-full">
+          🔄 Toggle Aspect Ratio
+        </button>
 
         <details class="cheat-sheet w-full mt-2 text-[10px] leading-relaxed relative">
           <summary class="font-bold px-3 py-2 cursor-pointer text-xs bg-gray-100 border rounded select-none hover:bg-gray-200">Formatting Cheat Sheet ▾</summary>
