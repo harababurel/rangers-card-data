@@ -5836,5 +5836,33 @@
       4
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500384079/5BF1100BCBB14D35C0FE69B4D5E1D1ECBE773404/"
+  },
+  {
+    "name": "Crimson Guardian",
+    "position": 411,
+    "id": "01411",
+    "pack_id": "core",
+    "quantity": 1,
+    "category_id": "path",
+    "type_id": "being",
+    "area_id": "within_reach",
+    "token_id": "power",
+    "token_count": "4",
+    "set_id": "arcology",
+    "set_position": "11",
+    "traits": "Machine / Obstacle",
+    "text": "Obstacle. Disconnected.\n<b>Response:</b> When there is no power on this being, discard it.\n<b>[FIT] + [conflict]: Grapple [2]</b> <f>with the guardian to</f> move this machine and discard 1 power from it.",
+    "harm": "4",
+    "progress": "6",
+    "presence": 2,
+    "sun_challenge": "If this being has 1 or more [harm], <f>it repairs itself.</f> [right_arrow] Discard all [harm] and 1 power from it.",
+    "crest_challenge": "If you have 2 or more fatigue, exhaust this being. [right_arrow] Discard 1 power from this being and suffer 1 injury.",
+    "guide_entry": 154,
+    "image_rect": [
+      15,
+      10,
+      7
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/11231879069608868252/B31C879F6703E27F29B6A5C0A5B6F69A45D1371D/"
   }
 ]
