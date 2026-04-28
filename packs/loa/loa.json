@@ -421,7 +421,7 @@
     "id": "02218",
     "cost": 1,
     "position": 218,
-    "quantity": 1,
+    "quantity": 2,
     "deck_limit": 2,
     "set_id": "reward",
     "set_position": 49,
@@ -438,7 +438,13 @@
     "subset_id": "loa_reward",
     "subset_position": 18,
     "category_id": "ranger",
-    "pack_id": "loa"
+    "pack_id": "loa",
+    "image_rect": [
+      28,
+      10,
+      7
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/12217950538376606437/7F4E9A70C0A4E277C8AC61AFF30827E4A2ABB820/"
   },
   {
     "id": "02219",
@@ -670,7 +676,7 @@
     "id": "02228",
     "cost": 2,
     "position": 228,
-    "quantity": 1,
+    "quantity": 2,
     "deck_limit": 2,
     "set_id": "reward",
     "set_position": 59,
@@ -689,13 +695,19 @@
     "subset_id": "loa_reward",
     "subset_position": 28,
     "category_id": "ranger",
-    "pack_id": "loa"
+    "pack_id": "loa",
+    "image_rect": [
+      6,
+      10,
+      7
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15665141664316885892/0F74DA675EFAFC63EF6E6B1C9BC5201E410C7B5B/"
   },
   {
     "id": "02229",
     "cost": 2,
     "position": 229,
-    "quantity": 1,
+    "quantity": 2,
     "deck_limit": 2,
     "set_id": "reward",
     "set_position": 60,
@@ -716,7 +728,13 @@
     "subset_id": "loa_reward",
     "subset_position": 29,
     "category_id": "ranger",
-    "pack_id": "loa"
+    "pack_id": "loa",
+    "image_rect": [
+      7,
+      10,
+      7
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15665141664316885892/0F74DA675EFAFC63EF6E6B1C9BC5201E410C7B5B/"
   },
   {
     "name": "Crimson Guardian",
@@ -740,6 +758,29 @@
     "crest_challenge": "If you have 2 or more fatigue, exhaust this being. [right_arrow] Discard 1 power from this being and suffer 1 injury.",
     "image_rect": [
       69,
+      10,
+      7
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/14242786027569264223/645F6C94380282943E8B374F665D9AB5B7E68552/"
+  },
+  {
+    "name": "The Heart's Anger",
+    "id": "02234",
+    "position": 234,
+    "quantity": 1,
+    "pack_id": "loa",
+    "category_id": "path",
+    "type_id": "attachment",
+    "area_id": "within_reach",
+    "set_id": "general",
+    "set_position": "19",
+    "traits": "Emotion",
+    "text": "Attach to The Heart.\n<b>FIT + conflict: Release [2]</b> <f>the heart's anger to</f> attach this emotion to a different organ.",
+    "presence": 0,
+    "sun_challenge": "Discard 1 power from an attached organ, or attach this emotion to The Heart.",
+    "crest_challenge": "If this emotion is attached to The Heart, <f>it lashes out.</f> >> Each Ranger suffers 2 fatigue.",
+    "image_rect": [
+      67,
       10,
       7
     ],

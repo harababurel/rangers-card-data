@@ -5739,5 +5739,102 @@
       3
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500401324/41F346502E2BC93F5E31D244FAD3F5830CC14F7D/"
+  },
+  {
+    "name": "Lunn, Outpost Tender",
+    "id": "01407",
+    "position": 407,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "category_id": "path",
+    "type_id": "being",
+    "area_id": "within_reach",
+    "set_id": "northern_outpost",
+    "set_position": "1",
+    "traits": "Human / Ranger",
+    "text": "Friendly.\n<b>Clear progress or harm:</b> [guide] 41",
+    "harm": "3",
+    "progress": "4[per_ranger]",
+    "presence": 2,
+    "sun_challenge": "If Northern Outpost is the current location, <f>Lunn begrudgingly gets to work.</f> >> Discard 1 neglect from the location.",
+    "crest_challenge": "If there is an active predator, exhaust it. >> Add harm to this being equal to that predator's presence.",
+    "guide_entry": 41,
+    "image_rect": [
+      0,
+      4,
+      3
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500401324/41F346502E2BC93F5E31D244FAD3F5830CC14F7D/"
+  },
+  {
+    "name": "Spiderline Stanchion",
+    "id": "01408",
+    "position": 408,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "category_id": "path",
+    "type_id": "feature",
+    "area_id": "along_the_way",
+    "set_id": "mountain_pass",
+    "set_position": "12",
+    "traits": "Structure",
+    "text": "During your turn, if your [ranger] is on this feature, you may treat obstacles as if they did not have the obstacle keyword.\n\n<b>[SPI] + [reason]: Brace [3]</b> <f>yourself to the ride to</f> move your [ranger] to this feature.\n\n<b>Response:</b> When you travel, if all [ranger] are on this feature, you may travel to a location up to 2 paths away. Use the terrain of the second path when building the path deck.",
+    "presence": 0,
+    "image_rect": [
+      11,
+      4,
+      3
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500408373/F8D8780A3E146F7CC2B9F11DDF4992D35EAC1332/"
+  },
+  {
+    "name": "Tollin Lang, Sculptor",
+    "id": "01409",
+    "position": 409,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "category_id": "path",
+    "type_id": "being",
+    "area_id": "within_reach",
+    "set_id": "spire",
+    "set_position": "6",
+    "traits": "Human / Villager",
+    "text": "Friendly.\n<b>[SPI] + [conflict]: Distract [2]</b> <f>the local wildlife with Tollin's lifelike kinetic glass sculpture to</f> exhaust a being for every 2 effort.\n<b>Clear [progress] or [harm]:</b> [guide] 61",
+    "harm": "3",
+    "progress": "3[per_ranger]",
+    "presence": 1,
+    "crest_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
+    "guide_entry": 61,
+    "image_rect": [
+      13,
+      4,
+      4
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500384079/5BF1100BCBB14D35C0FE69B4D5E1D1ECBE773404/"
+  },
+  {
+    "name": "Dace, Ambitious Shaper",
+    "id": "01410",
+    "position": 410,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "category_id": "path",
+    "type_id": "being",
+    "area_id": "within_reach",
+    "set_id": "spire",
+    "set_position": "4",
+    "traits": "Human / Villager",
+    "text": "Friendly.\n<b>[AWA] + [reason]: Ride [2]</b> <f>the wind to</f> take another test after this one. When you perform that test, dodge all path cards. If you fail either test, suffer 1 injury.\n<b>Clear [progress] or [harm]:</b> [guide] 59",
+    "harm": "3",
+    "progress": "3[per_ranger]",
+    "presence": 1,
+    "crest_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
+    "guide_entry": 59,
+    "image_rect": [
+      11,
+      4,
+      4
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500384079/5BF1100BCBB14D35C0FE69B4D5E1D1ECBE773404/"
   }
 ]

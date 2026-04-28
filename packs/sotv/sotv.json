@@ -1684,7 +1684,13 @@
     "subset_id": "sotv_reward",
     "subset_position": 3,
     "category_id": "ranger",
-    "pack_id": "sotv"
+    "pack_id": "sotv",
+    "image_rect": [
+      7,
+      10,
+      7
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/12217950538376606437/7F4E9A70C0A4E277C8AC61AFF30827E4A2ABB820/"
   },
   {
     "id": "03204",
