@@ -5715,5 +5715,29 @@
       4
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500384079/5BF1100BCBB14D35C0FE69B4D5E1D1ECBE773404/"
+  },
+  {
+    "name": "The Bubble",
+    "id": "01406",
+    "position": 406,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "category_id": "path",
+    "type_id": "feature",
+    "area_id": "along_the_way",
+    "set_id": "white_sky",
+    "set_position": "1",
+    "traits": "Water / Structure",
+    "text": "<b>[FIT] + [exploration]: Swim [3]</b> <f>down to the underwater dome to</f> return all of your equipped gear to your hand and move your [ranger] to this feature. If you fail, suffer 1 injury.\nWhile your [ranger] is on this card, prevent all fatigue you would suffer from this weather.\n<b>Clear [ranger]:</b> [guide] 50",
+    "harm": "6",
+    "progress": "[ranger]",
+    "presence": 0,
+    "guide_entry": 50,
+    "image_rect": [
+      8,
+      4,
+      3
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500401324/41F346502E2BC93F5E31D244FAD3F5830CC14F7D/"
   }
 ]
