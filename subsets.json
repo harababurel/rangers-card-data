@@ -1,5 +1,12 @@
 [
   {
+    "id": "loa_general",
+    "name": "General",
+    "size": 28,
+    "set_id": "general",
+    "pack_id": "loa"
+  },
+  {
     "id": "loa_reward",
     "name": "Reward",
     "size": 29,
