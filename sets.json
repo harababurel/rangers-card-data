@@ -102,7 +102,7 @@
     "id": "grassland",
     "name": "Grassland",
     "type_id": "terrain",
-    "size": 5
+    "size": 12
   },
   {
     "id": "swamp",
