@@ -1968,5 +1968,29 @@
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15398307509714413278/2291314E51FBAC2CC94CBCBD4E6D8779C0DDB52A/",
     "pack_id": "sotv"
+  },
+  {
+    "name": "Gratitude of the Valley",
+    "id": "03218",
+    "position": 218,
+    "quantity": 2,
+    "pack_id": "sotv",
+    "category_id": "ranger",
+    "type_id": "moment",
+    "aspect_id": "AWA",
+    "level": 1,
+    "cost": 0,
+    "set_id": "reward",
+    "set_position": "1",
+    "traits": "Experience",
+    "text": "Reward <i>(Friendly Repair Service).</i>\n<b>Response:</b> After you arrive at a location, each Ranger may choose one:\nAdd 2 tokens to one of their equipped gear.\nEquip a gear from their hand without paying its energy cost.",
+    "approach_conflict": 2,
+    "approach_exploration": 1,
+    "image_rect": [
+      10,
+      10,
+      7
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/12217950538376606437/7F4E9A70C0A4E277C8AC61AFF30827E4A2ABB820/"
   }
 ]
