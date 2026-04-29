@@ -32,12 +32,18 @@
     "name": "Paths We’ve Roamed Before",
     "type_id": "moment",
     "traits": "Experience",
-    "text": "Choose up to 4 total moments or attributes from any number of Ranger discards. Place the chosen cards facedown on the top of their Ranger’s fatigue stack.",
+    "text": "Choose up to 4 total moments or attributes not named Paths We’ve Roamed Before from any number of Ranger discards. Place the chosen cards facedown on the top of their Ranger’s fatigue stack.",
     "flavor": "As you walk the Valley, you recall the wisdom gained during the seasonal wanderings of your youth.",
     "approach_exploration": 1,
     "illustrator": "Wayne O'Connor",
     "category_id": "ranger",
-    "pack_id": "ebr"
+    "pack_id": "ebr",
+    "image_rect": [
+      8,
+      10,
+      7
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/17350070611448352596/4CDDD0E069118A34ECA688CE12235EAC4035EBFF/"
   },
   {
     "id": "01003",
@@ -188,7 +194,13 @@
     "flavor": "You feel that quiet meditation is essential to daily life, and that the ability to enjoy moments of stillness is paramount to one's well-being.",
     "illustrator": "Banner & Simonet",
     "category_id": "ranger",
-    "pack_id": "ebr"
+    "pack_id": "ebr",
+    "image_rect": [
+      0,
+      10,
+      7
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/17350070611448352596/4CDDD0E069118A34ECA688CE12235EAC4035EBFF/"
   },
   {
     "id": "01010",
@@ -433,12 +445,18 @@
     "name": "A Gentle Nudge",
     "type_id": "moment",
     "traits": "Experience",
-    "text": "Each Ranger may discard 1[progress] from a being within reach of them to move that being.",
+    "text": "One at a time, each Ranger may move a being that is within reach of them. Add 1 [progress] to each being moved this way.",
     "approach_conflict": 1,
     "flavor": "You've spent countless days, year after year, in relative solitude, alone but for your flock. In that time you've learned that any being can be reasoned with. You just need to ask nicely (and put your back into it).",
     "illustrator": "Wayne O'Connor",
     "category_id": "ranger",
-    "pack_id": "ebr"
+    "pack_id": "ebr",
+    "image_rect": [
+      2,
+      10,
+      7
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/17350070611448352596/4CDDD0E069118A34ECA688CE12235EAC4035EBFF/"
   },
   {
     "id": "01022",
@@ -1411,7 +1429,13 @@
     "flavor": "For years you've preserved the harmony of your village by not only fostering love and compassion in your community, but by spending time in the surrounding mountains and forests, connecting with the natural world.",
     "illustrator": "Wayne O'Connor",
     "category_id": "ranger",
-    "pack_id": "ebr"
+    "pack_id": "ebr",
+    "image_rect": [
+      7,
+      10,
+      7
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/17350070611448352596/4CDDD0E069118A34ECA688CE12235EAC4035EBFF/"
   },
   {
     "id": "01070",
@@ -1708,7 +1732,13 @@
     "approach_conflict": 1,
     "illustrator": "Wayne O'Connor",
     "category_id": "ranger",
-    "pack_id": "ebr"
+    "pack_id": "ebr",
+    "image_rect": [
+      12,
+      10,
+      7
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/17350070611448352596/4CDDD0E069118A34ECA688CE12235EAC4035EBFF/"
   },
   {
     "id": "01085",

@@ -18,12 +18,18 @@
     "token_id": "flash",
     "token_count": 3,
     "traits": "Tech",
-    "text": "<b>Exhaust (use 1 flash)</b>: Choose a path card. That card gains illumination until the end of the turn.\n<b>[FOC] + [reason] (use 1 flash): Distract</b> <f>with a brilliant flash of light to</f> exhaust a being.",
+    "text": "<b>Exhaust (use 1 flash):</b> Choose a path card. That card gains illumination until the end of the turn.\n<b>[FOC] + [reason] (use 1 flash): Distract</b> <f>with a brilliant flash of light to</f> exhaust a being.",
     "spoiler": true,
     "subset_id": "loa_reward",
     "subset_position": 1,
     "category_id": "ranger",
-    "pack_id": "loa"
+    "pack_id": "loa",
+    "image_rect": [
+      20,
+      10,
+      7
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/12217950538376606437/7F4E9A70C0A4E277C8AC61AFF30827E4A2ABB820/"
   },
   {
     "id": "02202",
@@ -858,5 +864,29 @@
       7
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/11231879069608868252/B31C879F6703E27F29B6A5C0A5B6F69A45D1371D/"
+  },
+  {
+    "name": "The Heart",
+    "id": "02247",
+    "position": 247,
+    "quantity": 1,
+    "pack_id": "loa",
+    "category_id": "path",
+    "type_id": "feature",
+    "area_id": "along_the_way",
+    "set_id": "general",
+    "set_position": "27",
+    "traits": "Biomeld / Organ",
+    "text": "This feature cannot leave play except when you travel or it is discarded by the campaign [guide].\n<b>Response:</b> After this feature flips. exhaust it. Then resolve and discard each attached challenge card. Then ready this feature.\n<b>Clear [harm]:</b> [guide] 140",
+    "harm": "3[per_ranger]",
+    "progress": "/",
+    "presence": 2,
+    "sun_challenge": "Draw and attach 1 challenge card to this organ. If there are 3 or more, <f>it contracts.</f> [right_arrow] After all [sun] effects have resolved, flip this card.",
+    "image_rect": [
+      10,
+      10,
+      7
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/13209590082629795306/2AC3590689B68E8CC65A6F0FDBF4CBD01CED6BF2/"
   }
 ]
