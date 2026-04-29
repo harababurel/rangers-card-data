@@ -785,5 +785,31 @@
       7
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/14242786027569264223/645F6C94380282943E8B374F665D9AB5B7E68552/"
+  },
+  {
+    "name": "Fractal Frog",
+    "id": "02235",
+    "position": 235,
+    "quantity": 6,
+    "pack_id": "loa",
+    "category_id": "path",
+    "type_id": "being",
+    "area_id": "within_reach",
+    "set_id": "general",
+    "set_position": "8-13",
+    "traits": "Prey / Amphibian / Biomeld",
+    "text": "Ambush.\n<b>Clear [progress] or [harm]:</b> [guide] 150",
+    "harm": "1",
+    "progress": "5",
+    "presence": 1,
+    "sun_challenge": "<f>The frog hops away.</f> Shuffle this being into the path deck.",
+    "mountain_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
+    "crest_challenge": "<f>One frog becomes two!</f> Search the General set for a Fractal Frog and shuffle it into the path deck.",
+    "image_rect": [
+      4,
+      10,
+      7
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15074217340797571789/C1C75081481569E497A1800BE752EF11CA12A68A/"
   }
 ]
