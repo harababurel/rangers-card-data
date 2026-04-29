@@ -168,7 +168,7 @@
     "id": "branch",
     "name": "Branch",
     "type_id": "terrain",
-    "size": 4
+    "size": 5
   },
   {
     "id": "northern_outpost",
