@@ -811,5 +811,30 @@
       7
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15074217340797571789/C1C75081481569E497A1800BE752EF11CA12A68A/"
+  },
+  {
+    "name": "Shifting Rubble",
+    "id": "02241",
+    "position": 241,
+    "quantity": 4,
+    "pack_id": "loa",
+    "category_id": "path",
+    "type_id": "feature",
+    "area_id": "within_reach",
+    "set_id": "general",
+    "set_position": "4-7",
+    "traits": "Hazard / Ruin / Obstacle",
+    "text": "Obstacle.\nWhile this feature is attached to another card, [progress] cannot be added or moved to that card.",
+    "harm": "3",
+    "progress": "6",
+    "presence": 1,
+    "mountain_challenge": "If this feature isn't attached, <f>it collapses.</f> [right_arrow] Attach this feature to the path card with the highest presence. If you can't suffer 1 injury.",
+    "crest_challenge": "Add 1 [harm] to the attached card.",
+    "image_rect": [
+      8,
+      10,
+      7
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15074217340797571789/C1C75081481569E497A1800BE752EF11CA12A68A/"
   }
 ]
