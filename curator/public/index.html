@@ -369,6 +369,7 @@
               <option value="SPI">SPI</option>
             </select>
           </div>
+          <div><label class="block font-bold">Level</label><input v-model.number="form.level" type="number" class="w-full border p-1 rounded"></div>
           <div><label class="block font-bold">Cost</label><input v-model.number="form.cost" type="number" class="w-full border p-1 rounded"></div>
           <div><label class="block font-bold">Equip</label><input v-model.number="form.equip" type="number" class="w-full border p-1 rounded"></div>
         </div>
@@ -696,6 +697,7 @@
             type_id: 'being',
             area_id: '',
             aspect_id: '',
+            level: null,
             cost: null,
             equip: null,
             token_id: '',
@@ -848,7 +850,7 @@
           
           delete toSave.has_sun; delete toSave.has_mountain; delete toSave.has_crest;
 
-          const numericFields = ['position', 'quantity', 'presence', 'cost', 'equip', 'awareness', 'spirit', 'fitness', 'focus', 'approach_conflict', 'approach_reason', 'approach_exploration', 'approach_connection', 'progress_threshold', 'awa_value', 'spi_value', 'fit_value', 'foc_value', 'guide_entry'];
+          const numericFields = ['position', 'quantity', 'presence', 'level', 'cost', 'equip', 'awareness', 'spirit', 'fitness', 'focus', 'approach_conflict', 'approach_reason', 'approach_exploration', 'approach_connection', 'progress_threshold', 'awa_value', 'spi_value', 'fit_value', 'foc_value', 'guide_entry'];
           numericFields.forEach(f => {
             if (toSave[f] !== null && toSave[f] !== undefined && toSave[f] !== '') {
               toSave[f] = Number(toSave[f]);
