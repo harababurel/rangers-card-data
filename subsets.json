@@ -1,5 +1,12 @@
 [
   {
+    "id": "mop_general",
+    "name": "General",
+    "size": 2,
+    "set_id": "general",
+    "pack_id": "mop"
+  },
+  {
     "id": "loa_general",
     "name": "General",
     "size": 28,
