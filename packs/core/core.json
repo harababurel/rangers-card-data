@@ -5841,7 +5841,7 @@
     "name": "Crimson Guardian",
     "position": 411,
     "id": "01411",
-    "pack_id": "core",
+    "pack_id": "ebr",
     "quantity": 1,
     "category_id": "path",
     "type_id": "being",
@@ -5870,7 +5870,7 @@
     "id": "01412",
     "position": 412,
     "quantity": 1,
-    "pack_id": "core",
+    "pack_id": "ebr",
     "category_id": "path",
     "type_id": "being",
     "area_id": "within_reach",
@@ -5891,5 +5891,56 @@
       7
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/11231879069608868252/B31C879F6703E27F29B6A5C0A5B6F69A45D1371D/"
+  },
+  {
+    "name": "Trial of Ooze",
+    "id": "01413",
+    "position": 413,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "category_id": "path",
+    "type_id": "feature",
+    "area_id": "within_reach",
+    "set_id": "arcology",
+    "set_position": "10",
+    "traits": "Clue / Trail",
+    "text": "While this clue is attached to a being, that being gains persistent and [progress] cannot be added or moved to this clue.\n<b>Response:</b> When the attached being is cleared, [guide] 153.8\n<b>Clear [progress]:</b> [guide] 153",
+    "harm": "/",
+    "progress": "3[per_ranger]",
+    "presence": 0,
+    "crest_challenge": "If this clue is attached to a being, <f>it takes a new shape.</f> [right_arrow] [guide] 153.7",
+    "guide_entry": 153,
+    "image_rect": [
+      16,
+      10,
+      7
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/11231879069608868252/B31C879F6703E27F29B6A5C0A5B6F69A45D1371D/"
+  },
+  {
+    "name": "Reclaimer Seeker",
+    "id": "01414",
+    "position": 414,
+    "quantity": 5,
+    "pack_id": "ebr",
+    "category_id": "path",
+    "type_id": "being",
+    "area_id": "within_reach",
+    "set_id": "general",
+    "set_position": "4-8",
+    "traits": "Predator / Biomeld / Reclaimer",
+    "text": "Ambush.",
+    "harm": "4",
+    "progress": "9",
+    "presence": 2,
+    "sun_challenge": "Move this predator",
+    "mountain_challenge": "Add 1 mucus token to the location. If there are 3 or more, discard them. [right_arrow] Search the General set for a Reclaimer Polyp.",
+    "crest_challenge": "If you have 2 or more fatigue, exhaust this being. [right_arrow] Suffer 1 injury.",
+    "image_rect": [
+      3,
+      4,
+      4
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500386904/066B5A5E89BC49C57EF3E1F7B94B5CACE6969603/"
   }
 ]
