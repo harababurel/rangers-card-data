@@ -836,5 +836,27 @@
       7
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15074217340797571789/C1C75081481569E497A1800BE752EF11CA12A68A/"
+  },
+  {
+    "name": "Spore Cloud",
+    "id": "02245",
+    "position": 245,
+    "quantity": 2,
+    "pack_id": "loa",
+    "category_id": "path",
+    "type_id": "attachment",
+    "area_id": "within_reach",
+    "set_id": "general",
+    "set_position": "22-23",
+    "traits": "Spores",
+    "text": "<b>Response:</b> After you clear the attached card, attach it facedown to the Spore Specimens mission.\n<b>Response:</b> When there are no spores on this attachment, discard it.\nReplace all challenge effects on the attached card with the following:",
+    "sun_challenge": "Move this card and discard 1 spore from the attached Spore Cloud.",
+    "crest_challenge": "If you have 3 or more fatigue, exhaust this card. [right_arrow] Suffer 1 injury and discard 1 spore from the attached Spore Cloud.",
+    "image_rect": [
+      1,
+      10,
+      7
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/11231879069608868252/B31C879F6703E27F29B6A5C0A5B6F69A45D1371D/"
   }
 ]
