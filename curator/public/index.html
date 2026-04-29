@@ -359,8 +359,8 @@
         </div>
 
         <!-- Conditional Fields: Ranger -->
-        <div v-if="form.category_id === 'ranger' && form.type_id !== 'aspect'" class="grid grid-cols-2 sm:grid-cols-3 gap-2 bg-green-50 p-2 rounded border border-green-200">
-          <div><label class="block font-bold">Aspect Req</label>
+        <div v-if="form.category_id === 'ranger' && form.type_id !== 'aspect'" class="flex flex-wrap gap-2 bg-green-50 p-2 rounded border border-green-200">
+          <div class="w-20"><label class="block font-bold">Aspect Req</label>
             <select v-model="form.aspect_id" class="w-full border p-1 rounded">
               <option value="">None</option>
               <option value="AWA">AWA</option>
@@ -369,9 +369,9 @@
               <option value="SPI">SPI</option>
             </select>
           </div>
-          <div><label class="block font-bold">Level</label><input v-model.number="form.level" type="number" class="w-full border p-1 rounded"></div>
-          <div><label class="block font-bold">Cost</label><input v-model.number="form.cost" type="number" class="w-full border p-1 rounded"></div>
-          <div><label class="block font-bold">Equip</label><input v-model.number="form.equip" type="number" class="w-full border p-1 rounded"></div>
+          <div class="w-16"><label class="block font-bold">Level</label><input v-model.number="form.level" type="number" class="w-full border p-1 rounded"></div>
+          <div class="w-16"><label class="block font-bold">Cost</label><input v-model.number="form.cost" type="number" class="w-full border p-1 rounded"></div>
+          <div class="w-16"><label class="block font-bold">Equip</label><input v-model.number="form.equip" type="number" class="w-full border p-1 rounded"></div>
         </div>
 
         <!-- Conditional Fields: Path -->
