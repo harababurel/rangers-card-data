@@ -96,7 +96,7 @@
     "id": "old_growth",
     "name": "Old-Growth",
     "type_id": "terrain",
-    "size": 5
+    "size": 12
   },
   {
     "id": "grassland",
