@@ -2927,7 +2927,7 @@
     "quantity": 8,
     "deck_limit": 8,
     "set_id": "malady",
-    "set_position": 1,
+    "set_position": "1-8",
     "aspect_id": "FIT",
     "name": "Lingering Injury",
     "illustrator": "Rob Laskey",
