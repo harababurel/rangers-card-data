@@ -319,7 +319,7 @@
   },
   {
     "id": "03015",
-    "cost": -2,
+    "cost": "X",
     "equip": 2,
     "position": 15,
     "quantity": 2,
@@ -334,7 +334,7 @@
     "traits": "Book / Aid",
     "type_id": "gear",
     "token_id": "lesson",
-    "token_count": -2,
+    "token_count": "X",
     "text": "<b>[FOC] + [reason] (use 1 lesson): Absorb</b> <f>the botanical knowledge to</f> choose a nature card in your Ranger discard and place it on top of your fatigue stack.",
     "flavor": "Before she became a Ranger, Sirisana Mir wandered the Valley, documenting its plantlife in exhaustive detail.You're fortunate enough to have acquired a copy.",
     "subset_id": "sotv_forager",
