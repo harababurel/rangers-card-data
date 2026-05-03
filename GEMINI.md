@@ -63,6 +63,24 @@ Many Path and Location cards are identical in text and stats but have different 
 - **`id`**: Based on the starting position (e.g., `"01256"`).
 - **Curator Logic**: The UI automatically accounts for `quantity` when suggesting the next available position.
 
+### Double-Sided Card Modeling
+Physical cards that are printed on both sides fall into three distinct patterns, each modeled differently:
+
+#### Pattern 1: Location cards (inline back fields)
+The back of a location card is structural metadata — never interacted with independently. Both faces are stored in a single card entry using two dedicated text fields:
+- **`path_deck_assembly`** *(optional)*: Instructions for assembling the path deck for this location.
+- **`arrival_setup`** *(mandatory)*: Instructions shown when rangers arrive at this location.
+- The existing `guide_entry` field also lives on the location entry and refers to the back face.
+- Location cards do **not** use `back_card_id`.
+
+#### Pattern 2: Flip cards (same set position on both sides, both sides independently playable)
+Both faces are distinct playable card states sharing one physical slot (e.g., *Prototype (Expanded)* / *Prototype (Contracted)*). Model as two separate card entries:
+- **Front entry**: normal card with `back_card_id` pointing to the back entry's `id`. Carries `position`, `set_position`, and `quantity`.
+- **Back entry**: its own card entry with `back_card_id` pointing to the front. Its `id` uses a `b` suffix (e.g., front `"02028"` → back `"02028b"`). Does **not** have its own `position`, `set_position`, or `quantity` since it is never independently dealt.
+
+#### Pattern 3: Distinct-set-position double-sided cards (weather, missions, etc.)
+Each face carries its own set position (e.g., a physical weather card has position 1 on the front and position 2 on the back). Treat each face as a fully independent card entry with no cross-referencing. The physical co-printing is a production detail, not a data relationship.
+
 ## Guidelines for Future AI Agents
 When picking up tasks in this repository:
 1. **Adding Encounter Cards:** Before adding new card types (e.g., Weather, Moments), verify that their corresponding IDs exist in `types.json` and the necessary campaign/day sets exist in `sets.json` or `subsets.json`.

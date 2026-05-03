@@ -121,7 +121,8 @@ export const TABLES: { [key: string]: Table } = {
       'sun_challenge',
       'mountain_challenge',
       'crest_challenge',
-      'setup',
+      'path_deck_assembly',
+      'arrival_setup',
       'key_locations'
     ],
     foreignKeys: {

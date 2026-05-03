@@ -458,8 +458,13 @@
           <button @click="normalizeBrackets" class="text-xs bg-amber-100 hover:bg-amber-200 text-amber-800 border border-amber-300 px-3 py-2 rounded min-h-[44px]" title="Auto-bracket keywords in text fields">[ ] Fix Brackets</button>
         </div>
         <div v-if="form.type_id !== 'aspect'"><label class="block font-bold">Rules Text</label><textarea v-model="form.text" @keydown="onTextareaKeydown($event, 'text')" class="w-full border p-1 rounded h-24 sm:h-20 font-mono text-sm sm:text-xs"></textarea></div>
-        <div v-if="form.category_id === 'location' && form.type_id !== 'aspect'"><label class="block font-bold text-stone-600">Setup Instructions (Back)</label><textarea v-model="form.setup" @keydown="onTextareaKeydown($event, 'setup')" class="w-full border p-1 rounded h-20 sm:h-16 bg-stone-50 font-mono text-sm sm:text-xs"></textarea></div>
+        <div v-if="form.category_id === 'location' && form.type_id !== 'aspect'" class="space-y-2 bg-stone-50 p-2 rounded border border-stone-200">
+          <p class="text-xs font-bold text-stone-500 uppercase tracking-wide">Back of Card</p>
+          <div><label class="block font-bold text-stone-600">Path Deck Assembly <span class="font-normal text-xs text-stone-400">(optional)</span></label><textarea v-model="form.path_deck_assembly" @keydown="onTextareaKeydown($event, 'path_deck_assembly')" class="w-full border p-1 rounded h-20 sm:h-16 bg-white font-mono text-sm sm:text-xs"></textarea></div>
+          <div><label class="block font-bold text-stone-600">Arrival Setup</label><textarea v-model="form.arrival_setup" @keydown="onTextareaKeydown($event, 'arrival_setup')" class="w-full border p-1 rounded h-20 sm:h-16 bg-white font-mono text-sm sm:text-xs"></textarea></div>
+        </div>
         <div v-else-if="form.type_id !== 'aspect'"><label class="block font-bold">Flavor Text</label><textarea v-model="form.flavor" @keydown="onTextareaKeydown($event, 'flavor')" class="w-full border p-1 rounded h-20 sm:h-16 italic text-gray-600 text-sm sm:text-xs"></textarea></div>
+        <div v-if="form.category_id !== 'location' && form.type_id !== 'aspect'"><label class="block font-bold text-purple-700">Back Card ID <span class="font-normal text-xs text-gray-400">(flip cards only)</span></label><input v-model="form.back_card_id" class="w-full border p-1 rounded border-purple-200 bg-purple-50 font-mono text-sm"></div>
         
         <!-- Aspect Cards specific (Attributes on aspect cards) -->
         <div v-if="form.type_id === 'aspect'" class="grid grid-cols-2 sm:grid-cols-4 gap-2 bg-yellow-50 p-2 rounded border border-yellow-200">
@@ -731,7 +736,9 @@
             pivotal: false,
             location_icon: '',
             progress_threshold: null,
-            setup: '',
+            path_deck_assembly: '',
+            arrival_setup: '',
+            back_card_id: '',
             key_locations: '',
             awa_value: 0,
             spi_value: 0,
@@ -867,7 +874,11 @@
               delete toSave.area_id; delete toSave.presence;
             }
             if (toSave.category_id !== 'location') {
-              delete toSave.pivotal; delete toSave.location_icon; delete toSave.progress_threshold; delete toSave.setup;
+              delete toSave.pivotal; delete toSave.location_icon; delete toSave.progress_threshold;
+              delete toSave.path_deck_assembly; delete toSave.arrival_setup;
+            }
+            if (toSave.category_id === 'location') {
+              delete toSave.back_card_id;
             }
             if (toSave.category_id !== 'mission') {
               delete toSave.key_locations;
@@ -977,6 +988,8 @@
           this.form.sun_challenge = applyBrackets(this.form.sun_challenge);
           this.form.mountain_challenge = applyBrackets(this.form.mountain_challenge);
           this.form.crest_challenge = applyBrackets(this.form.crest_challenge);
+          this.form.path_deck_assembly = applyBrackets(this.form.path_deck_assembly);
+          this.form.arrival_setup = applyBrackets(this.form.arrival_setup);
         }
       }
     }).mount('#app');
