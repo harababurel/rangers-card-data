@@ -810,9 +810,7 @@
           };
         },
         hasBackFace(card) {
-          const back = card.deckInfo && card.deckInfo.BackURL;
-          const face = card.deckInfo && card.deckInfo.FaceURL;
-          return back && back !== face;
+          return !!(card.deckInfo && card.deckInfo.UniqueBack && card.deckInfo.BackURL);
         },
         getBackCardStyle(card) {
           const w = card.deckInfo.NumWidth;
