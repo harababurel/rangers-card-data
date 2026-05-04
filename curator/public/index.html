@@ -391,7 +391,7 @@
         <!-- Conditional Fields: Location -->
         <div v-if="form.category_id === 'location' && form.type_id !== 'aspect'" class="grid grid-cols-1 sm:grid-cols-3 gap-2 bg-stone-100 p-2 rounded border border-stone-300">
           <label for="pivotal" class="flex items-center gap-2 min-h-[44px] cursor-pointer"><input type="checkbox" v-model="form.pivotal" id="pivotal"><span class="font-bold">Pivotal</span></label>
-          <div><label class="block font-bold">Icon</label><input v-model="form.location_icon" class="w-full border p-1 rounded"></div>
+          <div><label class="block font-bold text-gray-400">Icon <span class="font-normal text-xs">(not supported yet)</span></label><input v-model="form.location_icon" disabled class="w-full border p-1 rounded bg-gray-100 text-gray-400 cursor-not-allowed"></div>
           <div><label class="block font-bold">Prog. Threshold</label><input v-model.number="form.progress_threshold" type="number" class="w-full border p-1 rounded"></div>
         </div>
 
