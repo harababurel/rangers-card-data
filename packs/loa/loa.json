@@ -887,7 +887,8 @@
       10,
       7
     ],
-    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/13209590082629795306/2AC3590689B68E8CC65A6F0FDBF4CBD01CED6BF2/"
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/13209590082629795306/2AC3590689B68E8CC65A6F0FDBF4CBD01CED6BF2/",
+    "back_card_id": "02247b"
   },
   {
     "name": "Crimson Guardian",
@@ -1015,6 +1016,30 @@
     "back_card_id": "02251",
     "image_rect": [
       21,
+      10,
+      7
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/11396028729878152841/B1A2532ABD1E83B95E4ABF57176BF62DD8946777/"
+  },
+  {
+    "name": "The Heart (Contracted)",
+    "id": "02247b",
+    "pack_id": "loa",
+    "category_id": "path",
+    "type_id": "feature",
+    "area_id": "along_the_way",
+    "set_id": "general",
+    "set_position": "27",
+    "traits": "Biomeld / Organ",
+    "text": "This feature cannot leave play except when you travel or it is discarded by the campaign [guide].\n<b>Response:</b> After this feature flips. exhaust it. Then resolve and discard each attached challenge card. Then ready this feature.\n<b>Clear [harm]:</b> [guide] 140",
+    "harm": "3[per_ranger]",
+    "progress": "/",
+    "presence": 2,
+    "sun_challenge": "Draw and attach 1 challenge card to this organ. If there are 3 or more, <f>it expands.</f> [right_arrow] After all [sun] effects have resolved, flip this card.",
+    "crest_challenge": "Move 1 power from one machine to another. Then add 1 [harm] to this feature. [right_arrow] Spend 1 [AWA] or suffer 1 injury.",
+    "back_card_id": "02247",
+    "image_rect": [
+      10,
       10,
       7
     ],
