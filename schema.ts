@@ -94,7 +94,6 @@ export const TABLES: { [key: string]: Table } = {
       'spoiler',
       'pivotal',
       'location_icon',
-      'progress_threshold',
       'image_rect',
       'awa_value',
       'spi_value',
@@ -123,7 +122,8 @@ export const TABLES: { [key: string]: Table } = {
       'crest_challenge',
       'path_deck_assembly',
       'arrival_setup',
-      'key_locations'
+      'key_locations',
+      'progress_threshold'
     ],
     foreignKeys: {
       category_id: 'category',

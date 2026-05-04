@@ -392,7 +392,7 @@
         <div v-if="form.category_id === 'location' && form.type_id !== 'aspect'" class="grid grid-cols-1 sm:grid-cols-3 gap-2 bg-stone-100 p-2 rounded border border-stone-300">
           <label for="pivotal" class="flex items-center gap-2 min-h-[44px] cursor-pointer"><input type="checkbox" v-model="form.pivotal" id="pivotal"><span class="font-bold">Pivotal</span></label>
           <div><label class="block font-bold text-gray-400">Icon <span class="font-normal text-xs">(not supported yet)</span></label><input v-model="form.location_icon" disabled class="w-full border p-1 rounded bg-gray-100 text-gray-400 cursor-not-allowed"></div>
-          <div><label class="block font-bold">Prog. Threshold</label><input v-model.number="form.progress_threshold" type="number" class="w-full border p-1 rounded"></div>
+          <div><label class="block font-bold">Prog. Threshold</label><input v-model="form.progress_threshold" class="w-full border p-1 rounded"></div>
         </div>
 
         <!-- Conditional Fields: Challenge Deck -->
@@ -735,7 +735,7 @@
             has_crest: false,
             pivotal: false,
             location_icon: '',
-            progress_threshold: null,
+            progress_threshold: '',
             path_deck_assembly: '',
             arrival_setup: '',
             back_card_id: '',
@@ -891,7 +891,7 @@
           
           delete toSave.has_sun; delete toSave.has_mountain; delete toSave.has_crest;
 
-          const numericFields = ['position', 'quantity', 'presence', 'level', 'cost', 'equip', 'awareness', 'spirit', 'fitness', 'focus', 'approach_conflict', 'approach_reason', 'approach_exploration', 'approach_connection', 'progress_threshold', 'awa_value', 'spi_value', 'fit_value', 'foc_value', 'guide_entry'];
+          const numericFields = ['position', 'quantity', 'presence', 'level', 'cost', 'equip', 'awareness', 'spirit', 'fitness', 'focus', 'approach_conflict', 'approach_reason', 'approach_exploration', 'approach_connection', 'awa_value', 'spi_value', 'fit_value', 'foc_value', 'guide_entry'];
           numericFields.forEach(f => {
             if (toSave[f] !== null && toSave[f] !== undefined && toSave[f] !== '') {
               toSave[f] = Number(toSave[f]);
