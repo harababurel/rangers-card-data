@@ -245,8 +245,8 @@
           🔄 Toggle Aspect Ratio
         </button>
         <h2 class="text-sm font-bold flex-1 min-w-0 leading-tight lg:text-xl lg:flex-none lg:w-full lg:text-center">{{ selected.nickname }}</h2>
-        <div class="card-image" :style="getCardStyle(selected)"></div>
-        <div v-if="hasBackFace(selected)" class="card-image mt-2 lg:mt-3" :style="getBackCardStyle(selected)"></div>
+        <div class="card-image" :style="isBackEntry ? getBackCardStyle(selected) : getCardStyle(selected)"></div>
+        <div v-if="hasBackFace(selected) && !isBackEntry" class="card-image mt-2 lg:mt-3" :style="getBackCardStyle(selected)"></div>
 
         <details class="cheat-sheet hidden lg:block w-full mt-2 text-[10px] leading-relaxed relative">
           <summary class="font-bold px-3 py-2 cursor-pointer text-xs bg-gray-100 border rounded select-none hover:bg-gray-200">Formatting Cheat Sheet ▾</summary>
@@ -331,6 +331,12 @@
           </div>
         </div>
 
+        <!-- Back Entry Banner -->
+        <div v-if="isBackEntry" class="flex items-center justify-between bg-purple-100 border border-purple-300 rounded px-3 py-2">
+          <span class="text-purple-700 font-bold text-sm">↔ Editing Back Face — <span class="font-normal">front fields pre-filled, adjust what differs</span></span>
+          <button @click="cancelBackEntry" class="text-xs text-purple-600 hover:text-purple-800 underline ml-3 shrink-0">Cancel</button>
+        </div>
+
         <!-- Basic Info -->
         <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-2">
           <div>
@@ -339,9 +345,9 @@
               <option v-for="p in packs" :key="p.id" :value="p.id">{{p.name}}</option>
             </select>
           </div>
-          <div><label class="block font-bold">Position</label><input v-model.number="form.position" class="w-full border p-1 rounded bg-gray-100" readonly></div>
-          <div><label class="block font-bold text-blue-800">Generated ID</label><input v-model="form.id" class="w-full border p-1 rounded bg-blue-50 border-blue-200" readonly></div>
-          <div><label class="block font-bold text-red-800">Quantity</label><input v-model.number="form.quantity" type="number" class="w-full border p-1 rounded border-red-200"></div>
+          <div v-if="!isBackEntry"><label class="block font-bold">Position</label><input v-model.number="form.position" class="w-full border p-1 rounded bg-gray-100" readonly></div>
+          <div><label class="block font-bold text-blue-800">Generated ID</label><input v-model="form.id" class="w-full border p-1 rounded bg-blue-50 border-blue-200" :readonly="!isBackEntry"></div>
+          <div v-if="!isBackEntry"><label class="block font-bold text-red-800">Quantity</label><input v-model.number="form.quantity" type="number" class="w-full border p-1 rounded border-red-200"></div>
           <div><label class="block font-bold text-amber-700"><span class="core-icon core-guide"></span> Entry</label><input v-model.number="form.guide_entry" type="number" class="w-full border p-1 rounded border-amber-200 bg-amber-50"></div>
         </div>
         <div><label class="block font-bold">Name</label><input v-model="form.name" class="w-full border p-1 rounded"></div>
@@ -492,8 +498,12 @@
           </div>
         </div>
         
-        <div class="mt-4 flex gap-2 pb-8">
+        <div class="mt-4 flex gap-2 pb-8 flex-wrap">
           <button @click="saveCurrent" class="bg-blue-600 text-white px-4 py-3 rounded hover:bg-blue-700 flex-1 font-bold min-h-[44px]">Save & Add to Queue</button>
+          <button v-if="hasBackFace(selected) && !isBackEntry && form.id" @click="startBackEntry"
+                  class="bg-purple-100 text-purple-700 border border-purple-300 hover:bg-purple-200 px-4 py-3 rounded font-bold min-h-[44px]">
+            ↔ Back Entry
+          </button>
           <button @click="toggleComplete(selected)"
                   :class="['px-4 py-3 rounded border flex-1 min-h-[44px]', isCompleted(selected) ? 'bg-green-100 text-green-700 border-green-300' : 'bg-white text-gray-700 border-gray-300 hover:bg-gray-50']">
             {{ isCompleted(selected) ? '✓ Completed' : 'Mark Done' }}
@@ -545,6 +555,7 @@
           selected: null,
           isLandscapeOverride: null,
           isRepoMatch: false,
+          isBackEntry: false,
           form: {},
           queue: [],
           tokens: [],
@@ -696,6 +707,7 @@
           this.selected = card;
           this.isLandscapeOverride = false;
           this.isRepoMatch = false;
+          this.isBackEntry = false;
           this.form = {
             name: card.nickname,
             id: '',
@@ -769,6 +781,7 @@
           this.activePanel = 'editor';
         },
         updateId() {
+          if (this.isBackEntry) return;
           if (this.form.position) {
             const padded = String(this.form.position).padStart(3, '0');
             this.form.id = `${this.packPrefix}${padded}`;
@@ -837,19 +850,41 @@
             backgroundPosition: `${posX}% ${posY}%`
           };
         },
+        startBackEntry() {
+          const frontId = this.form.id;
+          this.form = { ...this.form };
+          this.form.back_card_id = frontId;
+          this.form.id = frontId + 'b';
+          this.form.position = null;
+          this.form.quantity = null;
+          this.isBackEntry = true;
+        },
+        cancelBackEntry() {
+          this.isBackEntry = false;
+          this.selectCard(this.selected);
+        },
         toggleAspect() {
           this.isLandscapeOverride = !this.isLandscapeOverride;
         },
         saveCurrent() {
-          if (!this.form.position || !this.form.quantity || !this.form.name) {
-            alert('Position, Quantity, and Name are required!');
+          if (!this.form.name) {
+            alert('Name is required!');
+            return;
+          }
+          if (!this.isBackEntry && (!this.form.position || !this.form.quantity)) {
+            alert('Position and Quantity are required!');
             return;
           }
 
           const toSave = { ...this.form };
-          if (this.selected.deckInfo && this.selected.deckInfo.FaceURL) {
-            toSave.imagesrc = this.selected.deckInfo.FaceURL;
+          if (this.selected.deckInfo) {
+            const url = this.isBackEntry ? this.selected.deckInfo.BackURL : this.selected.deckInfo.FaceURL;
+            toSave.imagesrc = url;
             toSave.image_rect = [this.selected.index, this.selected.deckInfo.NumWidth, this.selected.deckInfo.NumHeight];
+          }
+          if (this.isBackEntry) {
+            delete toSave.position;
+            delete toSave.quantity;
           }
           
           const identity = ['name', 'id', 'position', 'quantity', 'pack_id', 'category_id', 'type_id', 'imagesrc', 'image_rect', 'set_id', 'set_position', 'traits'];
@@ -909,11 +944,13 @@
           const existingIdx = this.queue.findIndex(q => q.id === toSave.id);
           if (existingIdx !== -1) this.queue[existingIdx] = toSave;
           else this.queue.push(toSave);
-          
+
+          this.isBackEntry = false;
+
           if (!this.isCompleted(this.selected)) {
              this.completedCards.push(this.getCardKey(this.selected));
           }
-          
+
           this.syncState();
 
           const idx = this.filteredCards.indexOf(this.selected);
