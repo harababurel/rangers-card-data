@@ -852,6 +852,9 @@
         },
         startBackEntry() {
           const frontId = this.form.id;
+          // Set back_card_id on the front entry already in the queue
+          const frontIdx = this.queue.findIndex(q => q.id === frontId);
+          if (frontIdx !== -1) this.queue[frontIdx].back_card_id = frontId + 'b';
           this.form = { ...this.form };
           this.form.back_card_id = frontId;
           this.form.id = frontId + 'b';
