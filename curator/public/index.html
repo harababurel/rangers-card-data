@@ -417,10 +417,10 @@
         <!-- Stats & Approaches (Shared by Path/Location/Weather/Mission) -->
         <div v-if="['path', 'location', 'weather', 'mission', 'ranger'].includes(form.category_id) && form.type_id !== 'aspect'" class="grid grid-cols-1 sm:grid-cols-2 gap-2">
           <div class="grid grid-cols-2 gap-2">
-            <div><label class="block font-bold"><span class="core-icon core-harm"></span> Harm</label><input v-model="form.harm" class="w-full border p-1 rounded"></div>
+            <div><label :class="['block font-bold', form.category_id === 'location' ? 'text-gray-400' : '']"><span class="core-icon core-harm"></span> Harm</label><input v-model="form.harm" :disabled="form.category_id === 'location'" :class="['w-full border p-1 rounded', form.category_id === 'location' ? 'bg-gray-100 text-gray-400 cursor-not-allowed' : '']"></div>
             <div><label class="block font-bold"><span class="core-icon core-progress"></span> Progress</label><input v-model="form.progress" class="w-full border p-1 rounded"></div>
           </div>
-          <div class="grid grid-cols-4 gap-1">
+          <div v-if="form.category_id !== 'location'" class="grid grid-cols-4 gap-1">
             <div><label class="block text-[10px] font-bold text-center"><span class="core-icon core-conflict"></span></label><input v-model.number="form.approach_conflict" type="number" class="w-full border p-1 rounded text-center"></div>
             <div><label class="block text-[10px] font-bold text-center"><span class="core-icon core-reason"></span></label><input v-model.number="form.approach_reason" type="number" class="w-full border p-1 rounded text-center"></div>
             <div><label class="block text-[10px] font-bold text-center"><span class="core-icon core-exploration"></span></label><input v-model.number="form.approach_exploration" type="number" class="w-full border p-1 rounded text-center"></div>
@@ -440,7 +440,7 @@
           <div><label class="block font-bold text-indigo-600 italic">Set Position (range ok)</label><input v-model="form.set_position" class="w-full border p-1 rounded border-indigo-200"></div>
         </div>
         
-        <div v-if="form.type_id !== 'aspect'" class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+        <div v-if="form.type_id !== 'aspect' && form.category_id !== 'location'" class="grid grid-cols-1 sm:grid-cols-2 gap-2">
           <div><label class="block font-bold">Token Type</label>
             <select v-model="form.token_id" class="w-full border p-1 rounded">
               <option value="">None</option>
@@ -879,6 +879,10 @@
             }
             if (toSave.category_id === 'location') {
               delete toSave.back_card_id;
+              delete toSave.harm;
+              delete toSave.approach_conflict; delete toSave.approach_reason;
+              delete toSave.approach_exploration; delete toSave.approach_connection;
+              delete toSave.token_id; delete toSave.token_count;
             }
             if (toSave.category_id !== 'mission') {
               delete toSave.key_locations;
