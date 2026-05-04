@@ -5892,5 +5892,30 @@
       4
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500386904/066B5A5E89BC49C57EF3E1F7B94B5CACE6969603/"
+  },
+  {
+    "name": "The Spire",
+    "id": "01419",
+    "position": 419,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "category_id": "location",
+    "type_id": "location",
+    "set_id": "locations",
+    "set_position": "9",
+    "traits": "Pivotal / Trail",
+    "text": "<b>FIT + exploration: Enter [2]</b> <f>the bustling town of Spire to</f> move your ranger to this location and draw 1 card from the Spire deck.\nWhen you would draw 1 path card, if your ranger is in the Spire deck, you may draw 1 card from the Spire deck instead.",
+    "progress": "4[per_ranger]",
+    "presence": 1,
+    "pivotal": true,
+    "path_deck_assembly": "Do not add the Spire set to the path deck. Shuffle it separately and set it facedown next to the path deck. This is the Spire deck.",
+    "arrival_setup": "<b>Lead Ranger:</b> Draw 1 path card.\n<b>Next Ranger:</b> Draw 1 path card.",
+    "guide_entry": 5,
+    "image_rect": [
+      11,
+      4,
+      4
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500360984/DE1240C12C9A64122CBA00B24F10B0AB91362431/"
   }
 ]

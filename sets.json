@@ -193,5 +193,11 @@
     "name": "Arcology",
     "type_id": "terrain",
     "size": 12
+  },
+  {
+    "id": "locations",
+    "name": "Locations",
+    "type_id": "location",
+    "size": 37
   }
 ]

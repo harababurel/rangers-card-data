@@ -122,8 +122,7 @@ export const TABLES: { [key: string]: Table } = {
       'crest_challenge',
       'path_deck_assembly',
       'arrival_setup',
-      'key_locations',
-      'progress_threshold'
+      'key_locations'
     ],
     foreignKeys: {
       category_id: 'category',

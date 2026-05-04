@@ -392,7 +392,7 @@
         <div v-if="form.category_id === 'location' && form.type_id !== 'aspect'" class="grid grid-cols-1 sm:grid-cols-3 gap-2 bg-stone-100 p-2 rounded border border-stone-300">
           <label for="pivotal" class="flex items-center gap-2 min-h-[44px] cursor-pointer"><input type="checkbox" v-model="form.pivotal" id="pivotal"><span class="font-bold">Pivotal</span></label>
           <div><label class="block font-bold text-gray-400">Icon <span class="font-normal text-xs">(not supported yet)</span></label><input v-model="form.location_icon" disabled class="w-full border p-1 rounded bg-gray-100 text-gray-400 cursor-not-allowed"></div>
-          <div><label class="block font-bold">Prog. Threshold</label><input v-model="form.progress_threshold" class="w-full border p-1 rounded"></div>
+          <div><label class="block font-bold">Presence</label><input v-model.number="form.presence" type="number" class="w-full border p-1 rounded"></div>
         </div>
 
         <!-- Conditional Fields: Challenge Deck -->
@@ -735,7 +735,6 @@
             has_crest: false,
             pivotal: false,
             location_icon: '',
-            progress_threshold: '',
             path_deck_assembly: '',
             arrival_setup: '',
             back_card_id: '',
@@ -871,10 +870,11 @@
               delete toSave.aspect_id; delete toSave.cost; delete toSave.equip;
             }
             if (toSave.category_id !== 'path') {
-              delete toSave.area_id; delete toSave.presence;
+              delete toSave.area_id;
+              if (toSave.category_id !== 'location') delete toSave.presence;
             }
             if (toSave.category_id !== 'location') {
-              delete toSave.pivotal; delete toSave.location_icon; delete toSave.progress_threshold;
+              delete toSave.pivotal; delete toSave.location_icon;
               delete toSave.path_deck_assembly; delete toSave.arrival_setup;
             }
             if (toSave.category_id === 'location') {

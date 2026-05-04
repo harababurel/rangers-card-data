@@ -10,5 +10,9 @@
   {
     "id": "terrain",
     "name": "Terrain"
+  },
+  {
+    "id": "location",
+    "name": "Location"
   }
 ]
