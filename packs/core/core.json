@@ -5965,5 +5965,29 @@
       2
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500370661/99958E1C319D0076B16E59AE9AF6507A4F4C42BB/"
+  },
+  {
+    "name": "Sunken Outpost",
+    "id": "01422",
+    "position": 422,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "category_id": "location",
+    "type_id": "location",
+    "set_id": "locations",
+    "set_position": "33",
+    "traits": "Water / Ruin",
+    "text": "X is equal to the amount of water on this location.\n<b>[FOC] + [reason]: Divert</b> <f>the deepening water to</f> discard water equal to your effort.",
+    "progress": "X",
+    "presence": 2,
+    "mountain_challenge": "Add 1 water to this location",
+    "arrival_setup": "<b>Lead Ranger:</b> Search the path deck for the next water feature and put it into play.\n<b>Next Ranger:</b> Draw 1 path card.",
+    "guide_entry": 33,
+    "image_rect": [
+      0,
+      4,
+      2
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500370661/99958E1C319D0076B16E59AE9AF6507A4F4C42BB/"
   }
 ]
