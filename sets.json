@@ -199,5 +199,11 @@
     "name": "Locations",
     "type_id": "location",
     "size": 37
+  },
+  {
+    "id": "artery",
+    "name": "Artery",
+    "type_id": "terrain",
+    "size": 5
   }
 ]
