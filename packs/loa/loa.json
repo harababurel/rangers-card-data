@@ -996,6 +996,33 @@
     "back_card_id": "02251b"
   },
   {
+    "name": "Decrepit Station Platform",
+    "id": "02252",
+    "position": 252,
+    "quantity": 1,
+    "pack_id": "loa",
+    "category_id": "path",
+    "type_id": "feature",
+    "area_id": "along_the_way",
+    "token_id": "power",
+    "token_count": "0",
+    "set_id": "artery",
+    "set_position": "4",
+    "traits": "Ruin / Machine",
+    "text": "<b>Powered [4]:</b> This feature gains Illumination. Reduce its presence to 0.\n<b>[FOC] + [exploration]: Locate</b> <f>nearby landmarks on the station map to</f> search the Arcology or Artery set for any one card and attach it facedown to the location. After you travel, put the attached card into play.",
+    "harm": "4",
+    "progress": "3[per_ranger]",
+    "presence": 2,
+    "sun_challenge": "If this feature is illuminated, <f>the light reveals the tunnel ahead.</f> [right_arrow] Scout 1 path card.",
+    "guide_entry": 128,
+    "image_rect": [
+      39,
+      10,
+      7
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/14242786027569264223/645F6C94380282943E8B374F665D9AB5B7E68552/"
+  },
+  {
     "name": "Prototype (Contracted)",
     "id": "02251b",
     "pack_id": "loa",
