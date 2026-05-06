@@ -6505,5 +6505,29 @@
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500365655/B67536F8B711065712540268B8F8A04774B82D64/",
     "position": 443,
     "pack_id": "ebr"
+  },
+  {
+    "id": "01444",
+    "name": "Greenbriar Knoll",
+    "category_id": "location",
+    "type_id": "location",
+    "traits": "Field / Ruin / Trail",
+    "set_id": "locations",
+    "set_position": "19",
+    "presence": 1,
+    "progress": "3[per_ranger]",
+    "pivotal": false,
+    "quantity": 1,
+    "arrival_setup": "<b>Lead Ranger:</b> Draw 1 challenge card and do the following based on the challenge icon on that card:\n[sun] Scout 2 path cards, then draw 1 path card.\n[mountain] Draw 1 path card.\n[crest] Scout 3 path cards, then draw 2 path cards.",
+    "guide_entry": 24,
+    "image_rect": [
+      1,
+      4,
+      4
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500365655/B67536F8B711065712540268B8F8A04774B82D64/",
+    "position": 444,
+    "pack_id": "ebr",
+    "crest_challenge": "Scout 1 challenge card. If it has a [crest] icon, <f>troubling visions fill your mind.</f> [right_arrow] Suffer 2 fatigue."
   }
 ]
