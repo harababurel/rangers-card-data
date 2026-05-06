@@ -6432,5 +6432,29 @@
       4
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500365655/B67536F8B711065712540268B8F8A04774B82D64/"
+  },
+  {
+    "id": "01441",
+    "name": "Rings of the Moon",
+    "category_id": "location",
+    "type_id": "location",
+    "set_id": "locations",
+    "set_position": "24",
+    "traits": "Ruin",
+    "text": "<b>[AWA] + [exploration]: Peer [3]</b> <f>through the ancient guideposts</f> to search the Valley set for a feature and shuffle it into the path deck.",
+    "progress": "4[per_ranger]",
+    "presence": 1,
+    "pivotal": false,
+    "quantity": 1,
+    "arrival_setup": "<b>Lead Ranger:</b> Draw 1 path card.\n<b>Next Ranger:</b> Draw 1 path card.\n<b>Next Ranger:</b> Draw 1 path card.",
+    "guide_entry": 35,
+    "image_rect": [
+      4,
+      4,
+      4
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500365655/B67536F8B711065712540268B8F8A04774B82D64/",
+    "position": 441,
+    "pack_id": "ebr"
   }
 ]
