@@ -467,7 +467,7 @@
     "token_count": 3,
     "traits": "Food",
     "type_id": "gear",
-    "text": "<b>Use 1 slice:</b> After a being enters play, if it's the start of the round, add 1[progress] to that being. If it enters play during a Ranger's turn, add 2◭ to that being instead.",
+    "text": "<b>Use 1 slice:</b> After a being enters play, if it's the start of the round, add 1 [progress] to that being. If it enters play during a Ranger's turn, add 2 [progress] to that being instead.",
     "flavor": "After years in the wild, you've learned that nothing breaks the ice quite like a slice of freshly baked honey loaf, a traditional confection loved by all beings.",
     "subset_id": "sotv_explorer",
     "subset_position": 5,
@@ -1284,7 +1284,7 @@
     "approach_connection": 1,
     "traits": "Experience / Expert",
     "type_id": "moment",
-    "text": "Objective (9 feats: [aspiration]).<hr>Choose a Ranger to perform a test, doubling its difficulty. If they succeed, they soothe 2 fatigue. Then record feats equal to the test's original difficulty.",
+    "text": "Aspiration (9 feats: [aspiration]).<hr>Choose a Ranger to perform a test, doubling its difficulty. If they succeed, they soothe 2 fatigue. Then record feats equal to the test's original difficulty.",
     "flavor": "Sometimes a Ranger needs a little extra encouragement to achieve greatness.",
     "category_id": "ranger",
     "pack_id": "sotv"
