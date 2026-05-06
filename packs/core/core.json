@@ -6480,5 +6480,30 @@
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500365655/B67536F8B711065712540268B8F8A04774B82D64/",
     "position": 442,
     "pack_id": "ebr"
+  },
+  {
+    "id": "01443",
+    "name": "Headwaters Station",
+    "category_id": "location",
+    "type_id": "location",
+    "traits": "Water / Trail",
+    "set_id": "locations",
+    "set_position": "20",
+    "presence": 1,
+    "progress": "3[per_ranger]",
+    "pivotal": false,
+    "quantity": 1,
+    "text": "<b>[FIT] + [connection]: Dive [2]</b> <f>into the healing waters to</f> heal all of your injuries and soothe all of your fatigue. You may discard any number of [progress] from this location to commit an equal amount of effort. If your resulting effort is 8 or more: [guide] 23.1",
+    "path_deck_assembly": "Do not add cards from the Valley set to the path deck.",
+    "arrival_setup": "<b>Lead Ranger:</b> Search the path deck for a silverfin carp and put it into play.\n<b>Next Ranger:</b> Search the path deck for a silverfin carp and put it into play.",
+    "guide_entry": 23,
+    "image_rect": [
+      0,
+      4,
+      4
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500365655/B67536F8B711065712540268B8F8A04774B82D64/",
+    "position": 443,
+    "pack_id": "ebr"
   }
 ]
