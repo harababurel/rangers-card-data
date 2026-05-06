@@ -6456,5 +6456,29 @@
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500365655/B67536F8B711065712540268B8F8A04774B82D64/",
     "position": 441,
     "pack_id": "ebr"
+  },
+  {
+    "id": "01442",
+    "name": "Crossroads Station",
+    "category_id": "location",
+    "type_id": "location",
+    "traits": "Trail / Ranger Station",
+    "set_id": "locations",
+    "set_position": "23",
+    "presence": 1,
+    "progress": "3[per_ranger]",
+    "pivotal": false,
+    "quantity": 1,
+    "text": "<b>[FOC] + [connection]: Describe</b> <f>who you’re looking for to the villagers at the station to</f> search the Valley set for a human and shuffle them into the path deck.",
+    "arrival_setup": "<b>Lead Ranger:</b> Draw 1 path card.\n<b>Next Ranger:</b> Draw 1 path card.",
+    "guide_entry": 20,
+    "image_rect": [
+      5,
+      4,
+      4
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500365655/B67536F8B711065712540268B8F8A04774B82D64/",
+    "position": 442,
+    "pack_id": "ebr"
   }
 ]
