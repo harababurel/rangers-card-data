@@ -6199,7 +6199,7 @@
     "traits": "Water / Trail",
     "progress": "3[per_ranger]",
     "presence": 2,
-    "crest_challenge": "Discard 1 strut. If there are no struts on this location, <f>your section collapses.</f> >> Each Ranger suffers 1 injury. Proceed to the travel phase and travel to the Cypress Citadel.",
+    "crest_challenge": "Discard 1 strut. If there are no struts on this location, <f>your section collapses.</f> [right_arrow] Each Ranger suffers 1 injury. Proceed to the travel phase and travel to the Cypress Citadel.",
     "pivotal": false,
     "arrival_setup": "<b>Lead Ranger:</b> Draw 1 path card.\n<b>Next Ranger:</b> Draw 1 path card.\n<b>Next Ranger:</b> Draw 1 path card.",
     "guide_entry": 29,
