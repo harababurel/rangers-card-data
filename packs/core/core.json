@@ -5989,5 +5989,100 @@
       2
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500370661/99958E1C319D0076B16E59AE9AF6507A4F4C42BB/"
+  },
+  {
+    "name": "Branch",
+    "id": "01423",
+    "position": 423,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "category_id": "location",
+    "type_id": "location",
+    "set_id": "locations",
+    "set_position": "15",
+    "traits": "Pivotal / Forest / Trail / Ascent",
+    "text": "<b>[AWA] + [connection]: Search</b> <f>the treetop settlement to</f> scout path cards equal to your effort, then draw 1 path card.",
+    "progress": "4[per_ranger]",
+    "presence": 1,
+    "pivotal": true,
+    "arrival_setup": "<b>Lead Ranger:</b> Search the path deck for the next feature and put it into play.\n<b>Next Ranger:</b> Draw 1 path card.",
+    "guide_entry": 6,
+    "image_rect": [
+      13,
+      4,
+      4
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500360984/DE1240C12C9A64122CBA00B24F10B0AB91362431/"
+  },
+  {
+    "name": "Watcher's Rock",
+    "id": "01424",
+    "position": 424,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "category_id": "location",
+    "type_id": "location",
+    "set_id": "locations",
+    "set_position": "36",
+    "traits": "Mountain / Trail",
+    "text": "<b>[AWA] + [conflict]: Watch [3]</b> <f>for approaching threats to</f> shuffle each predator in play into the path deck.",
+    "progress": "4[per_ranger]",
+    "presence": 2,
+    "arrival_setup": "<b>Lead Ranger:</b> Draw 1 path card.\n<b>Next Ranger:</b> Draw 1 path card.",
+    "guide_entry": 38,
+    "image_rect": [
+      3,
+      4,
+      2
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500370661/99958E1C319D0076B16E59AE9AF6507A4F4C42BB/"
+  },
+  {
+    "name": "Bowl of the Sun",
+    "id": "01425",
+    "position": 425,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "category_id": "location",
+    "type_id": "location",
+    "set_id": "locations",
+    "set_position": "35",
+    "traits": "Mountain / Trail",
+    "text": "<b>[FOC] + [connection]: Meditate</b> <f>in the cultivated garden to</f> soothe fatigue equal to your effort.",
+    "progress": "3[per_ranger]",
+    "presence": 1,
+    "path_deck_assembly": "1 of the 3 cards added from the Valley set must be The Fundamentalist.",
+    "arrival_setup": "<b>Lead Ranger:</b> Draw 2 path cards.",
+    "guide_entry": 37,
+    "image_rect": [
+      2,
+      4,
+      2
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500370661/99958E1C319D0076B16E59AE9AF6507A4F4C42BB/"
+  },
+  {
+    "name": "The Alluvial Ruins",
+    "id": "01426",
+    "position": 426,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "category_id": "location",
+    "type_id": "location",
+    "set_id": "locations",
+    "set_position": "34",
+    "traits": "Ruin / Trail",
+    "progress": "4[per_ranger]",
+    "presence": 2,
+    "mountain_challenge": "If you are interacting with a water feature, <f>you see something from upriver.</f> [right_arrow] Place the top card of the detritus deck on top of the path deck.",
+    "path_deck_assembly": "Shuffle the Grassland, Lakeshore, and Old-Growth sets together and set them next to the path deck. This is the detritus deck.",
+    "arrival_setup": "<b>Lead Ranger:</b> Draw 1 card from the detritus deck.\n<b>Next Ranger:</b> Draw 1 card from the detritus deck.",
+    "guide_entry": 36,
+    "image_rect": [
+      1,
+      4,
+      2
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500370661/99958E1C319D0076B16E59AE9AF6507A4F4C42BB/"
   }
 ]
