@@ -5980,6 +5980,8 @@
     "text": "X is equal to the amount of water on this location.<hr><b>[FOC] + [reason]: Divert</b> <f>the deepening water to</f> discard water equal to your effort.",
     "progress": "X",
     "presence": 2,
+    "token_id": "water",
+    "token_count": "2[per_ranger]",
     "mountain_challenge": "Add 1 water to this location",
     "arrival_setup": "<b>Lead Ranger:</b> Search the path deck for the next water feature and put it into play.\n<b>Next Ranger:</b> Draw 1 path card.",
     "guide_entry": 33,
@@ -6084,5 +6086,104 @@
       2
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500370661/99958E1C319D0076B16E59AE9AF6507A4F4C42BB/"
+  },
+  {
+    "name": "Marsh of Rebirth",
+    "id": "01427",
+    "position": 427,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "category_id": "location",
+    "type_id": "location",
+    "set_id": "locations",
+    "set_position": "32",
+    "traits": "Pivotal / Water",
+    "text": "<b>Response:</b> When you travel, travel to any location connected to a swamp path. Use the swamp terrain when building the path deck.",
+    "progress": "5[per_ranger]",
+    "presence": 2,
+    "pivotal": true,
+    "path_deck_assembly": "Use the swamp terrain.",
+    "arrival_setup": "<b>Lead Ranger:</b> Search the path deck for the next Hydraworm and put it into play.\n<b>Next Ranger:</b> Draw 1 path card.",
+    "guide_entry": 9,
+    "image_rect": [
+      12,
+      4,
+      4
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500365655/B67536F8B711065712540268B8F8A04774B82D64/"
+  },
+  {
+    "name": "The Frowning Gate",
+    "id": "01428",
+    "position": 428,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "category_id": "location",
+    "type_id": "location",
+    "set_id": "locations",
+    "set_position": "31",
+    "traits": "Water / Trail",
+    "progress": "4[per_ranger]",
+    "presence": 3,
+    "mountain_challenge": "Remove 1 [progress] from a path card. If you cannot, suffer 1 injury.",
+    "pivotal": false,
+    "arrival_setup": "<b>Lead Ranger:</b> Draw 1 path card.\n<b>Next Ranger:</b> Draw 1 path card.",
+    "guide_entry": 32,
+    "image_rect": [
+      13,
+      4,
+      4
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500365655/B67536F8B711065712540268B8F8A04774B82D64/"
+  },
+  {
+    "name": "The Cypress Citadel",
+    "id": "01429",
+    "position": 429,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "category_id": "location",
+    "type_id": "location",
+    "set_id": "locations",
+    "set_position": "30",
+    "traits": "Forest / Water",
+    "progress": "5[per_ranger]",
+    "presence": 3,
+    "sun_challenge": "Ready a path card.",
+    "pivotal": false,
+    "arrival_setup": "<b>Lead Ranger:</b> Draw 1 path card.\n<b>Next Ranger:</b> Draw 1 path card.\n<b>Next Ranger:</b> Draw 1 path card.",
+    "guide_entry": 31,
+    "image_rect": [
+      14,
+      4,
+      4
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500365655/B67536F8B711065712540268B8F8A04774B82D64/"
+  },
+  {
+    "name": "Michael's Bog",
+    "id": "01430",
+    "position": 430,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "category_id": "location",
+    "type_id": "location",
+    "set_id": "locations",
+    "set_position": "29",
+    "traits": "Water",
+    "progress": "4[per_ranger]",
+    "presence": 3,
+    "mountain_challenge": "Add 1 toxin. If there are more toxins than rangers, <f>swamp gas fills the air.</f> [right_arrow] Discard all toxins and add an equal number of [harm] to a being.",
+    "pivotal": false,
+    "arrival_setup": "<b>Lead Ranger:</b> Search the path deck for a Fetid Bog and put it into play.\n<b>Next Ranger:</b> Draw 1 path card.",
+    "guide_entry": 30,
+    "image_rect": [
+      15,
+      4,
+      4
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500365655/B67536F8B711065712540268B8F8A04774B82D64/",
+    "token_id": "toxin",
+    "token_count": 0
   }
 ]
