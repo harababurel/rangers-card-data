@@ -1023,6 +1023,30 @@
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/14242786027569264223/645F6C94380282943E8B374F665D9AB5B7E68552/"
   },
   {
+    "name": "The Chimney",
+    "id": "02253",
+    "position": 253,
+    "quantity": 1,
+    "pack_id": "loa",
+    "category_id": "location",
+    "type_id": "location",
+    "set_id": "locations",
+    "set_position": "1",
+    "traits": "Pivotal / Trail / Ruin",
+    "text": "<b>Response:</b> When you interact with this location, dodge all illuminated cards.\n\nIf the <e>CHIMNEY IS SETTLED</e>, it gains:\n<b>[AWA] + [exploration]: Search</b> <f>the vaulted walkways to</f> scout path cards equal to your effort, then draw 1 path card.",
+    "progress": "4[per_ranger]",
+    "presence": 1,
+    "pivotal": true,
+    "arrival_setup": "<b>Lead Ranger:</b> If you traveled to this location from Spire, search the path deck for The Spiral Stairway and put it into play. Otherwise, search the path deck for The Plinth and put it into play. Then read the journal entry for that card.",
+    "guide_entry": 100,
+    "image_rect": [
+      0,
+      4,
+      5
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/17251827132961217651/E3A072C5038F0BA2D04B821F2C52E0648D34E117/"
+  },
+  {
     "name": "Prototype (Contracted)",
     "id": "02251b",
     "pack_id": "loa",
