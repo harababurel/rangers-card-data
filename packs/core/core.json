@@ -6381,5 +6381,30 @@
       4
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500360984/DE1240C12C9A64122CBA00B24F10B0AB91362431/"
+  },
+  {
+    "name": "Archaeological Outpost",
+    "id": "01439",
+    "position": 439,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "category_id": "location",
+    "type_id": "location",
+    "set_id": "locations",
+    "set_position": "25",
+    "traits": "Trail / Ranger Station",
+    "text": "<b>[AWA] + [reason]: Study [3]</b> <f>the archaeological records.</f> [guide] 34.1",
+    "progress": "4[per_ranger]",
+    "presence": 1,
+    "pivotal": false,
+    "path_deck_assembly": "1 of the 3 cards added from the Valley set must be Arcology Sinkhole.",
+    "arrival_setup": "<b>Lead Ranger:</b> Search the path deck for the next feature and put it into play.\n<b>Next Ranger:</b> Search the path deck for the next feature and put it into play.",
+    "guide_entry": 34,
+    "image_rect": [
+      11,
+      4,
+      4
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500365655/B67536F8B711065712540268B8F8A04774B82D64/"
   }
 ]
