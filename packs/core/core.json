@@ -6307,5 +6307,29 @@
       4
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500365655/B67536F8B711065712540268B8F8A04774B82D64/"
+  },
+  {
+    "name": "Lone Tree Station",
+    "id": "01436",
+    "position": 436,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "category_id": "location",
+    "type_id": "location",
+    "set_id": "locations",
+    "set_position": "2",
+    "traits": "Pivotal / Forest / Ranger Station",
+    "text": "<b>[AWA] + [connection]: Search</b> <f>beneath the comforting shade of your giga-redwood home to</f> scout path cards equal to your effort, then draw 1 path card.",
+    "progress": "3[per_ranger]",
+    "presence": 1,
+    "pivotal": true,
+    "arrival_setup": "Search the path deck for the next predator and discard it.\n<b>Lead Ranger:</b> Draw 1 path card.",
+    "guide_entry": 2,
+    "image_rect": [
+      2,
+      4,
+      4
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500360984/DE1240C12C9A64122CBA00B24F10B0AB91362431/"
   }
 ]
