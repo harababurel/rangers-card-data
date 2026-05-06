@@ -916,6 +916,7 @@
               delete toSave.pivotal; delete toSave.location_icon;
               delete toSave.path_deck_assembly; delete toSave.arrival_setup;
             }
+            if (!toSave.pivotal) delete toSave.pivotal;
             if (toSave.category_id === 'location') {
               delete toSave.back_card_id;
               delete toSave.harm;
