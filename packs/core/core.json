@@ -6331,5 +6331,29 @@
       4
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500360984/DE1240C12C9A64122CBA00B24F10B0AB91362431/"
+  },
+  {
+    "name": "The Philosopher's Garden",
+    "id": "01437",
+    "position": 437,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "category_id": "location",
+    "type_id": "location",
+    "set_id": "locations",
+    "set_position": "13",
+    "traits": "Forest / Trail",
+    "text": "<b>Refresh:</b> Flip 1 path card facedown. It keeps any attachments.<hr>Treat facedown cards as features with the obstacle keyword and a presence of 1. They gain the following test:\n<b>[AWA] + [reason]: Identify</b> <f>the true nature of the manifestation</f>\nBefore you [right_arrow] flip that card faceup.",
+    "progress": "4[per_ranger]",
+    "presence": 1,
+    "pivotal": false,
+    "arrival_setup": "<b>Lead Ranger:</b> Draw 1 path card. It comes into play facedown along the way.\n<b>Next Ranger:</b> Draw 1 path card.",
+    "guide_entry": 17,
+    "image_rect": [
+      15,
+      4,
+      4
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500360984/DE1240C12C9A64122CBA00B24F10B0AB91362431/"
   }
 ]
