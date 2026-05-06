@@ -5977,7 +5977,7 @@
     "set_id": "locations",
     "set_position": "33",
     "traits": "Water / Ruin",
-    "text": "X is equal to the amount of water on this location.\n<b>[FOC] + [reason]: Divert</b> <f>the deepening water to</f> discard water equal to your effort.",
+    "text": "X is equal to the amount of water on this location.<hr><b>[FOC] + [reason]: Divert</b> <f>the deepening water to</f> discard water equal to your effort.",
     "progress": "X",
     "presence": 2,
     "mountain_challenge": "Add 1 water to this location",
