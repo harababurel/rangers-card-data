@@ -1033,7 +1033,7 @@
     "set_id": "locations",
     "set_position": "1",
     "traits": "Pivotal / Trail / Ruin",
-    "text": "<b>Response:</b> When you interact with this location, dodge all illuminated cards.\nIf the <e>CHIMNEY IS SETTLED</e>, it gains:\n<b>[AWA] + [exploration]: Search</b> <f>the vaulted walkways to</f> scout path cards equal to your effort, then draw 1 path card.",
+    "text": "<b>Response:</b> When you interact with this location, dodge all illuminated cards.<hr>If the <e>CHIMNEY IS SETTLED</e>, it gains:\n<b>[AWA] + [exploration]: Search</b> <f>the vaulted walkways to</f> scout path cards equal to your effort, then draw 1 path card.",
     "progress": "4[per_ranger]",
     "presence": 1,
     "pivotal": true,
