@@ -6355,5 +6355,31 @@
       4
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500360984/DE1240C12C9A64122CBA00B24F10B0AB91362431/"
+  },
+  {
+    "name": "Northern Outpost",
+    "id": "01438",
+    "position": 438,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "category_id": "location",
+    "type_id": "location",
+    "set_id": "locations",
+    "set_position": "3",
+    "traits": "Pivotal / Ranger Station",
+    "text": "[FOC] + [reason]: <b>Tidy</b> <f>the remote outpost</f> to discard 1 neglect from this location. If you fail, it fatigues you.<hr>When there is no neglect on this location: [guide] 4.1",
+    "progress": "4[per_ranger]",
+    "presence": 2,
+    "pivotal": true,
+    "token_id": "neglect",
+    "token_count": "2[per_ranger]",
+    "arrival_setup": "<b>Lead Ranger:</b> Draw 1 path card.\n<b>Next Ranger:</b> Draw 1 path card.",
+    "guide_entry": 4,
+    "image_rect": [
+      1,
+      4,
+      4
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500360984/DE1240C12C9A64122CBA00B24F10B0AB91362431/"
   }
 ]
