@@ -6529,5 +6529,28 @@
     "position": 444,
     "pack_id": "ebr",
     "crest_challenge": "Scout 1 challenge card. If it has a [crest] icon, <f>troubling visions fill your mind.</f> [right_arrow] Suffer 2 fatigue."
+  },
+  {
+    "id": "01445",
+    "name": "Biological Outpost",
+    "category_id": "location",
+    "type_id": "location",
+    "traits": "Forest / Ranger Station",
+    "set_id": "locations",
+    "set_position": "17",
+    "presence": 1,
+    "progress": "4[per_ranger]",
+    "quantity": 1,
+    "arrival_setup": "<b>Lead Ranger:</b> Search the path deck for the next predator or prey and put it into play.\n<b>Next Ranger:</b> Search the path deck for the next predator or prey and put it into play.",
+    "guide_entry": 22,
+    "image_rect": [
+      3,
+      4,
+      4
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500365655/B67536F8B711065712540268B8F8A04774B82D64/",
+    "position": 445,
+    "pack_id": "ebr",
+    "mountain_challenge": "If there is no active predator or prey, <f>a nearby animal is drawn to the biologists’ lures.</f> [right_arrow] Search the path deck for the next predator or prey and put it into play."
   }
 ]
