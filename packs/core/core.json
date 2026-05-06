@@ -6406,5 +6406,31 @@
       4
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500365655/B67536F8B711065712540268B8F8A04774B82D64/"
+  },
+  {
+    "name": "Mound of the Navigator",
+    "id": "01440",
+    "position": 440,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "category_id": "location",
+    "type_id": "location",
+    "set_id": "locations",
+    "set_position": "26",
+    "traits": "Mountain / Trail",
+    "text": "<b>[FOC] + [exploration]: Analyze [2]</b> <f>the paths ahead to</f> add 1 route to this location.<hr><b>Response:</b> When you travel, add 2 [progress] to your destination for each route on this location.",
+    "progress": "4[per_ranger]",
+    "presence": 2,
+    "pivotal": false,
+    "token_id": "route",
+    "token_count": 0,
+    "arrival_setup": "<b>Lead Ranger:</b> Search the path deck for the next feature and put it into play.\n<b>Next Ranger:</b> Draw 1 path card.\n<b>Next Ranger:</b> Draw 1 path card.",
+    "guide_entry": 27,
+    "image_rect": [
+      10,
+      4,
+      4
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500365655/B67536F8B711065712540268B8F8A04774B82D64/"
   }
 ]
