@@ -1047,6 +1047,31 @@
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/17251827132961217651/E3A072C5038F0BA2D04B821F2C52E0648D34E117/"
   },
   {
+    "name": "Severed Artery",
+    "id": "02254",
+    "position": 254,
+    "quantity": 1,
+    "pack_id": "loa",
+    "category_id": "location",
+    "type_id": "location",
+    "set_id": "locations",
+    "set_position": "2",
+    "traits": "Pivotal / Trail / Ruin",
+    "progress": "3[per_ranger]",
+    "presence": 2,
+    "sun_challenge": "If within reach is not illuminated, <f>you lose track of your surroundings.</f> [right_arrow] Discard 1 [progress] from an active feature.",
+    "pivotal": true,
+    "path_deck_assembly": "Randomly choose and shuffle only 2 cards from the Artery set into the path deck.",
+    "arrival_setup": "<b>Lead Ranger:</b> Search the path deck for the next feature and put it into play.\n<b>Next Ranger:</b> Draw a path card.",
+    "guide_entry": 101,
+    "image_rect": [
+      1,
+      4,
+      5
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/17251827132961217651/E3A072C5038F0BA2D04B821F2C52E0648D34E117/"
+  },
+  {
     "name": "Prototype (Contracted)",
     "id": "02251b",
     "pack_id": "loa",
