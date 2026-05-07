@@ -6645,5 +6645,28 @@
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500360984/DE1240C12C9A64122CBA00B24F10B0AB91362431/",
     "position": 449,
     "pack_id": "ebr"
+  },
+  {
+    "id": "01450",
+    "name": "Kobo's Market",
+    "category_id": "location",
+    "type_id": "location",
+    "traits": "Water / Trail",
+    "set_id": "locations",
+    "set_position": "10",
+    "presence": 1,
+    "progress": "4[per_ranger]",
+    "quantity": 1,
+    "text": "<b>[FOC] + [connection]: Haggle [3]</b> <f>with the vendors at the market to</f> gain a gear from your hand to your collection. Choose a starting gear from your collection that you meet the aspect requirement for and add it to your hand. (This alteration to your deck is permanent.)",
+    "arrival_setup": "Lead Ranger: Search the path deck for the next feature and put it into play.",
+    "guide_entry": 16,
+    "image_rect": [
+      10,
+      4,
+      4
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500360984/DE1240C12C9A64122CBA00B24F10B0AB91362431/",
+    "position": 450,
+    "pack_id": "ebr"
   }
 ]
