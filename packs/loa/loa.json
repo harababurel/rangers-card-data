@@ -1241,5 +1241,29 @@
       5
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/17251827132961217651/E3A072C5038F0BA2D04B821F2C52E0648D34E117/"
+  },
+  {
+    "name": "Talpid's Squeeze",
+    "id": "02260",
+    "position": 260,
+    "quantity": 1,
+    "pack_id": "loa",
+    "category_id": "location",
+    "type_id": "location",
+    "set_id": "locations",
+    "set_position": "8",
+    "traits": "Ruin",
+    "text": "If there are 1 or more debris on this location, you cannot travel.<hr><b>[FOC] + [conflict]: Disassemble [2]</b> <f>the pile of collapsed rubble to</f> discard 1 debris from this location for every 2 effort.",
+    "progress": "3[per_ranger]",
+    "presence": 2,
+    "mountain_challenge": "If there is at least 1 debris on this location, <f>the debris shifts.</f> [right_arrow] Discard all [progress] from an active feature. If at least 2 [progress] was discarded, discard 1 debris.",
+    "arrival_setup": "<b>Lead Ranger:</b> Draw a path card.\n<b>Next Ranger:</b> Draw a path card.\n<b>Next Ranger:</b> Draw a path card.",
+    "guide_entry": 119,
+    "image_rect": [
+      7,
+      4,
+      5
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/17251827132961217651/E3A072C5038F0BA2D04B821F2C52E0648D34E117/"
   }
 ]
