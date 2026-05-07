@@ -6715,5 +6715,28 @@
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500360984/DE1240C12C9A64122CBA00B24F10B0AB91362431/",
     "position": 452,
     "pack_id": "ebr"
+  },
+  {
+    "id": "01453",
+    "name": "Mount Nim",
+    "category_id": "location",
+    "type_id": "location",
+    "traits": "Mountain / Ascent",
+    "set_id": "locations",
+    "set_position": "6",
+    "presence": 2,
+    "progress": "4[per_ranger]",
+    "quantity": 1,
+    "text": "<b>[FOC] + [exploration]: Overlook [3]</b> <f>the surrounding valley to</f> choose a nearby location. Attach 1 card from that location's set facedown to this location. After you travel, if you traveled to that location, put the attached card into play. Otherwise, return it to the collection.",
+    "arrival_setup": "<b>Lead Ranger:</b> Draw 2 path cards. Choose 1 to put into play and discard the other. If one of the cards has ambush, you must choose that card.\n<b>Next Ranger:</b> Draw 2 path cards. Choose 1 to put into play and discard the other. If one of the cards has ambush, you must choose that card.",
+    "guide_entry": 13,
+    "image_rect": [
+      6,
+      4,
+      4
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500360984/DE1240C12C9A64122CBA00B24F10B0AB91362431/",
+    "position": 453,
+    "pack_id": "ebr"
   }
 ]
