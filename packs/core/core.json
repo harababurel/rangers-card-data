@@ -6738,5 +6738,28 @@
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500360984/DE1240C12C9A64122CBA00B24F10B0AB91362431/",
     "position": 453,
     "pack_id": "ebr"
+  },
+  {
+    "id": "01454",
+    "name": "Golden Shore",
+    "category_id": "location",
+    "type_id": "location",
+    "traits": "Water / Trail",
+    "set_id": "locations",
+    "set_position": "5",
+    "presence": 1,
+    "progress": "3[per_ranger]",
+    "quantity": 1,
+    "text": "<b>[SPI] + [reason]: Contemplate [2]</b> <f>the rhythmic waves as they lap the glittering shoreline to</f> soothe 1 fatigue for every 2 effort.",
+    "arrival_setup": "<b>Lead Ranger:</b> Draw 1 path card.",
+    "guide_entry": 12,
+    "image_rect": [
+      7,
+      4,
+      4
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500360984/DE1240C12C9A64122CBA00B24F10B0AB91362431/",
+    "position": 454,
+    "pack_id": "ebr"
   }
 ]
