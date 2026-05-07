@@ -6575,5 +6575,28 @@
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500360984/DE1240C12C9A64122CBA00B24F10B0AB91362431/",
     "position": 446,
     "pack_id": "ebr"
+  },
+  {
+    "id": "01447",
+    "name": "The High Basin",
+    "category_id": "location",
+    "type_id": "location",
+    "traits": "Forest / Water / Trail",
+    "set_id": "locations",
+    "set_position": "14",
+    "presence": 1,
+    "progress": "5[per_ranger]",
+    "quantity": 1,
+    "text": "<b>[FIT] + [connection]: Swim</b> <f>in the crystal-clear waters of the high lake to</f> soothe fatigue equal to your effort.",
+    "arrival_setup": "<b>Lead Ranger:</b> Search the path deck for the next flora and put it into play.\n<b>Next Ranger:</b> Draw 1 path card.",
+    "guide_entry": 18,
+    "image_rect": [
+      14,
+      4,
+      4
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500360984/DE1240C12C9A64122CBA00B24F10B0AB91362431/",
+    "position": 447,
+    "pack_id": "ebr"
   }
 ]
