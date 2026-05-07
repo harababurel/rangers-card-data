@@ -6343,7 +6343,7 @@
     "set_id": "locations",
     "set_position": "13",
     "traits": "Forest / Trail",
-    "text": "<b>Refresh:</b> Flip 1 path card facedown. It keeps any attachments.<hr>Treat facedown cards as features with the obstacle keyword and a presence of 1. They gain the following test:\n<b>[AWA] + [reason]: Identify</b> <f>the true nature of the manifestation</f>\nBefore you [right_arrow] flip that card faceup.",
+    "text": "<b>Refresh:</b> Flip 1 path card facedown. It keeps any attachments.<hr>Treat facedown cards as features with the obstacle keyword and a presence of 1. They gain the following test:\n<b>[AWA] + [reason]: Identify</b> <f>the true nature of the manifestation before you to</f> flip that card faceup.",
     "progress": "4[per_ranger]",
     "presence": 1,
     "pivotal": false,
