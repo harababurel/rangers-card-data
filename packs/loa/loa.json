@@ -1120,5 +1120,126 @@
       7
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/11396028729878152841/B1A2532ABD1E83B95E4ABF57176BF62DD8946777/"
+  },
+  {
+    "name": "Branching Artery",
+    "id": "02255",
+    "position": 255,
+    "quantity": 1,
+    "pack_id": "loa",
+    "category_id": "location",
+    "type_id": "location",
+    "set_id": "locations",
+    "set_position": "3",
+    "traits": "Pivotal / Trail / Ruin",
+    "progress": "3[per_ranger]",
+    "presence": 2,
+    "sun_challenge": "If along the way is not illuminated, <f>you lose your way.</f> [right_arrow] Discard 2 [progress] from the location. If you cannot, suffer 1 fatigue.",
+    "pivotal": true,
+    "arrival_setup": "<b>Lead Ranger:</b> Search the path deck for the next feature and put it into play.\n<b>Next Ranger:</b> Draw a path card.",
+    "guide_entry": 129,
+    "image_rect": [
+      2,
+      4,
+      5
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/17251827132961217651/E3A072C5038F0BA2D04B821F2C52E0648D34E117/"
+  },
+  {
+    "name": "Terminal Artery",
+    "id": "02256",
+    "position": 256,
+    "quantity": 1,
+    "pack_id": "loa",
+    "category_id": "location",
+    "type_id": "location",
+    "set_id": "locations",
+    "set_position": "4",
+    "traits": "Pivotal / Trail / Ruin",
+    "text": "<b>Refresh:</b> Randomly choose 1 of the remaining cards from the Artery set and shuffle it into the path deck.",
+    "progress": "3[per_ranger]",
+    "presence": 2,
+    "pivotal": true,
+    "path_deck_assembly": "Randomly choose and shuffle only 1 card from the Artery set into the path deck.",
+    "arrival_setup": "<b>Lead Ranger:</b> Draw a path card.\n<b>Next Ranger:</b> Draw a path card.",
+    "guide_entry": 103,
+    "image_rect": [
+      3,
+      4,
+      5
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/17251827132961217651/E3A072C5038F0BA2D04B821F2C52E0648D34E117/"
+  },
+  {
+    "name": "Mycelial Conclave",
+    "id": "02257",
+    "position": 257,
+    "quantity": 1,
+    "pack_id": "loa",
+    "category_id": "location",
+    "type_id": "location",
+    "set_id": "locations",
+    "set_position": "5",
+    "traits": "Pivotal / Forest",
+    "progress": "4[per_ranger]",
+    "presence": 3,
+    "sun_challenge": "Discard 1 [harm] or 1 [progress] from an active flora.",
+    "pivotal": true,
+    "arrival_setup": "<b>Lead Ranger:</b> Search the path deck for the next flora and put it into play.\n<b>Next Ranger:</b> Draw a path card.",
+    "guide_entry": 104,
+    "image_rect": [
+      4,
+      4,
+      5
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/17251827132961217651/E3A072C5038F0BA2D04B821F2C52E0648D34E117/"
+  },
+  {
+    "name": "The Verdant Sphere",
+    "id": "02258",
+    "position": 258,
+    "quantity": 1,
+    "pack_id": "loa",
+    "category_id": "location",
+    "type_id": "location",
+    "set_id": "locations",
+    "set_position": "7",
+    "traits": "Pivotal / Ruin",
+    "text": "All Snapping Maws gain the Obstacle keyword and trait.",
+    "progress": "5[per_ranger]",
+    "presence": 2,
+    "pivotal": true,
+    "arrival_setup": "<b>Lead Ranger:</b> Search the path deck for the next flora and put it into play.\n<b>NExt Ranger:</b> Search the path deck for the next machine and put it into play.",
+    "guide_entry": 106,
+    "image_rect": [
+      6,
+      4,
+      5
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/17251827132961217651/E3A072C5038F0BA2D04B821F2C52E0648D34E117/"
+  },
+  {
+    "name": "Arboretum of Memory",
+    "id": "02259",
+    "position": 259,
+    "quantity": 1,
+    "pack_id": "loa",
+    "category_id": "location",
+    "type_id": "location",
+    "set_id": "locations",
+    "set_position": "6",
+    "traits": "Pivotal / Forest / Ruin",
+    "text": "<b>[SPI] + [reason]: Reflect [2]</b> <f>on your memories and experiences to</f> return a card from your hand to your collection. Choose a starting moment or attachment from your collection that you meet the aspect requirement for and add it to your hand. (This alteration to your deck is permanent.)",
+    "progress": "5[per_ranger]",
+    "presence": 2,
+    "pivotal": true,
+    "arrival_setup": "<b>Lead Ranger:</b> Search the path deck for the next flora and put it into play.\n<b>Next Ranger:</b> Draw a path card.",
+    "guide_entry": 105,
+    "image_rect": [
+      5,
+      4,
+      5
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/17251827132961217651/E3A072C5038F0BA2D04B821F2C52E0648D34E117/"
   }
 ]
