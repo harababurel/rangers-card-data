@@ -6622,5 +6622,28 @@
     "position": 448,
     "quantity": 1,
     "pack_id": "ebr"
+  },
+  {
+    "id": "01449",
+    "name": "Stoneweaver Bridge",
+    "category_id": "location",
+    "type_id": "location",
+    "traits": "Water / Trail",
+    "set_id": "locations",
+    "set_position": "11",
+    "presence": 1,
+    "progress": "3[per_ranger]",
+    "quantity": 1,
+    "text": "<b>Refresh:</b> You may choose a path card to remain exhausted.",
+    "arrival_setup": "Search the path deck for the next feature and discard it.\n<b>Lead Ranger:</b> Draw 1 path card.\n<b>Next Ranger:</b> Draw 1 path card.",
+    "guide_entry": 26,
+    "image_rect": [
+      9,
+      4,
+      4
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500360984/DE1240C12C9A64122CBA00B24F10B0AB91362431/",
+    "position": 449,
+    "pack_id": "ebr"
   }
 ]
