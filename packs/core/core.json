@@ -6668,5 +6668,28 @@
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500360984/DE1240C12C9A64122CBA00B24F10B0AB91362431/",
     "position": 450,
     "pack_id": "ebr"
+  },
+  {
+    "id": "01451",
+    "name": "Ancestor's Grove",
+    "category_id": "location",
+    "type_id": "location",
+    "traits": "Forest / Trail",
+    "set_id": "locations",
+    "set_position": "8",
+    "presence": 1,
+    "quantity": 1,
+    "arrival_setup": "Search the path deck for the next card with a presence of 3 and discard it.\n<b>Lead Ranger:</b> Search the path deck for the next prey and put it into play.\n<b>Next Ranger:</b> Search the path deck for the next prey and put it into play.",
+    "guide_entry": 15,
+    "image_rect": [
+      4,
+      4,
+      4
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500360984/DE1240C12C9A64122CBA00B24F10B0AB91362431/",
+    "position": 451,
+    "pack_id": "ebr",
+    "progress": "4[per_ranger]",
+    "sun_challenge": "Choose a card from your ranger discard. Place it on top of your fatigue stack."
   }
 ]
