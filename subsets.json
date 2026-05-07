@@ -14,6 +14,13 @@
     "pack_id": "loa"
   },
   {
+    "id": "loa_locations",
+    "name": "Locations",
+    "size": 20,
+    "set_id": "locations",
+    "pack_id": "loa"
+  },
+  {
     "id": "loa_reward",
     "name": "Reward",
     "size": 29,
