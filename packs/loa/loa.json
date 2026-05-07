@@ -1267,5 +1267,28 @@
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/17251827132961217651/E3A072C5038F0BA2D04B821F2C52E0648D34E117/",
     "token_id": "debris",
     "token_count": "2[per_ranger]"
+  },
+  {
+    "name": "Drenching Chamber",
+    "id": "02261",
+    "position": 261,
+    "quantity": 1,
+    "pack_id": "loa",
+    "category_id": "location",
+    "type_id": "location",
+    "set_id": "locations",
+    "set_position": "9",
+    "traits": "Water / Ruin",
+    "text": "<b>Response:</b> When a ranger performs a <b>Traverse</b> test on this location, they may spend 1 energy of any type <f>and trudge through the waist-deep water</f> to commit 1 effort.",
+    "progress": "3[per_ranger]",
+    "presence": 1,
+    "arrival_setup": "<b>Lead Ranger:</b> Search the path deck for the next feature and put it into play.\n<b>Next Ranger:</b> Search the path deck for the next feature and put it into play.",
+    "guide_entry": 108,
+    "image_rect": [
+      8,
+      4,
+      5
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/17251827132961217651/E3A072C5038F0BA2D04B821F2C52E0648D34E117/"
   }
 ]
