@@ -6552,5 +6552,28 @@
     "position": 445,
     "pack_id": "ebr",
     "mountain_challenge": "If there is no active predator or prey, <f>a nearby animal is drawn to the biologists’ lures.</f> [right_arrow] Search the path deck for the next predator or prey and put it into play."
+  },
+  {
+    "id": "01446",
+    "name": "The Furrow",
+    "category_id": "location",
+    "type_id": "location",
+    "traits": "Mountain / Trail",
+    "set_id": "locations",
+    "set_position": "16",
+    "presence": 2,
+    "progress": "4[per_ranger]",
+    "quantity": 1,
+    "text": "When you perform a <b>Traverse</b> test that interacts with this location, reduce the [progress] added by 1.",
+    "arrival_setup": "<b>Lead Ranger:</b> Draw 1 path card. Then, if it's along the way, move it within reach.\n<b>Next Ranger:</b> Draw 1 path card. Then, if it's along the way, move it within reach.",
+    "guide_entry": 21,
+    "image_rect": [
+      12,
+      4,
+      4
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500360984/DE1240C12C9A64122CBA00B24F10B0AB91362431/",
+    "position": 446,
+    "pack_id": "ebr"
   }
 ]
