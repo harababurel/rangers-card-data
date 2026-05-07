@@ -6598,5 +6598,29 @@
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500360984/DE1240C12C9A64122CBA00B24F10B0AB91362431/",
     "position": 447,
     "pack_id": "ebr"
+  },
+  {
+    "id": "01448",
+    "name": "The Fractured Wall",
+    "category_id": "location",
+    "type_id": "location",
+    "traits": "Pivotal / Ruin / Water / Ascent",
+    "pivotal": true,
+    "set_position": "12",
+    "presence": 2,
+    "progress": "[ranger]",
+    "text": "<b>[FOC] + [exploration]: Chart [4]</b> <f>a course up the sundered ruin to</f> move your [ranger] to this location. You may discard up to 2 [progress] from this location to commit an equal amount of effort.",
+    "mountain_challenge": "Ready the feature with the highest presence.",
+    "guide_entry": 7,
+    "arrival_setup": "<b>Lead Ranger:</b> Search the path deck for the next obstacle and put it into play.\n<b>Next Ranger:</b> Search the path deck for the next obstacle and put it into play.",
+    "image_rect": [
+      8,
+      4,
+      4
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500360984/DE1240C12C9A64122CBA00B24F10B0AB91362431/",
+    "position": 448,
+    "quantity": 1,
+    "pack_id": "ebr"
   }
 ]
