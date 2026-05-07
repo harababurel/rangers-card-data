@@ -6761,5 +6761,28 @@
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500360984/DE1240C12C9A64122CBA00B24F10B0AB91362431/",
     "position": 454,
     "pack_id": "ebr"
+  },
+  {
+    "id": "01455",
+    "name": "Atrox Mountain",
+    "category_id": "location",
+    "type_id": "location",
+    "traits": "Mountain / Ascent",
+    "set_id": "locations",
+    "set_position": "4",
+    "presence": 2,
+    "progress": "5[per_ranger]",
+    "quantity": 1,
+    "text": "<b>[FIT] + [reason]: Climb</b> <f>the steep and perilous route to</f> add 2 [progress] to this location for every effort. Then, it fatigues you.",
+    "arrival_setup": "<b>Lead Ranger:</b> Search the path deck for the next obstacle and put it into play.\n<b>Next Ranger:</b> Search the path deck for the next obstacle and put it into play.",
+    "guide_entry": 11,
+    "image_rect": [
+      0,
+      4,
+      4
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500360984/DE1240C12C9A64122CBA00B24F10B0AB91362431/",
+    "position": 455,
+    "pack_id": "ebr"
   }
 ]
