@@ -217,5 +217,11 @@
     "name": "Ancient Ruins",
     "type_id": "terrain",
     "size": 12
+  },
+  {
+    "id": "cave_system",
+    "name": "Cave System",
+    "type_id": "terrain",
+    "size": 12
   }
 ]
