@@ -1544,5 +1544,30 @@
       5
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/17251827132961217651/E3A072C5038F0BA2D04B821F2C52E0648D34E117/"
+  },
+  {
+    "name": "Saber Beetles",
+    "id": "02273",
+    "position": 273,
+    "quantity": 2,
+    "pack_id": "loa",
+    "category_id": "path",
+    "type_id": "being",
+    "area_id": "within_reach",
+    "token_id": "beetle",
+    "token_count": "2",
+    "set_id": "fungal_forest",
+    "set_position": "2-3",
+    "traits": "Predator / Insect / Swarm",
+    "text": "<b>Response:</b> When this swarm is exhausted by a prey's [mountain] effect, add 1 beetle to it.<hr>You can add a maximum of 1 [harm] per test to this swarm.<hr>X is equal to the number of beetles on this swarm.",
+    "harm": "X",
+    "progress": "8",
+    "crest_challenge": "If you have less <b>FOC</b> energy than this swarm's presence, exhaust it. [right_arrow] Suffer 1 injury.",
+    "image_rect": [
+      65,
+      10,
+      7
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/11231879069608868252/B31C879F6703E27F29B6A5C0A5B6F69A45D1371D/"
   }
 ]
