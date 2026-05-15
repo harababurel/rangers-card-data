@@ -1864,6 +1864,7 @@
     "presence": 1,
     "mountain_challenge": "If your [ranger] is on this feature, <f>you reroute the connections.</f> [right_arrow] Move 1 power from one machine to another.",
     "crest_challenge": "If your [ranger] is on this feature, <f>it shocks you!</f> [right_arrow] Suffer 1 injury unless you discard [per_ranger] power from this feature.",
-    "guide_entry": 143
+    "guide_entry": 143,
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/14242786027569264223/645F6C94380282943E8B374F665D9AB5B7E68552/"
   }
 ]
