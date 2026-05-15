@@ -223,5 +223,11 @@
     "name": "Cave System",
     "type_id": "terrain",
     "size": 12
+  },
+  {
+    "id": "deep_roots",
+    "name": "Deep Roots",
+    "type_id": "terrain",
+    "size": 12
   }
 ]
