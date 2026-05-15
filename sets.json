@@ -211,5 +211,11 @@
     "name": "Fungal Forest",
     "type_id": "terrain",
     "size": 12
+  },
+  {
+    "id": "ancient_ruins",
+    "name": "Ancient Ruins",
+    "type_id": "terrain",
+    "size": 12
   }
 ]
