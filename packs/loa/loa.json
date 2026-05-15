@@ -1112,7 +1112,7 @@
     "progress": "/",
     "presence": 2,
     "sun_challenge": "Draw and attach 1 challenge card to this organ. If there are 3 or more, <f>it expands.</f> [right_arrow] After all [sun] effects have resolved, flip this card.",
-    "crest_challenge": "Move 1 power from one machine to another. Then add 1 [harm] to this feature. [right_arrow] Spend 1 [AWA] or suffer 1 injury.",
+    "crest_challenge": "Move 1 power from one machine to another. Then add 1 [harm] to this feature. [right_arrow] Spend 1 <b>AWA</b> or suffer 1 injury.",
     "back_card_id": "02247",
     "image_rect": [
       10,
