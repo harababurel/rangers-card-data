@@ -1855,7 +1855,7 @@
     "area_id": "within_reach",
     "token_id": "power",
     "token_count": "3[per_ranger]",
-    "set_id": "the_cave",
+    "set_id": "the_cage",
     "set_position": "3",
     "traits": "Machine / Organ",
     "text": "<b>[FIT] + [reason]: Climb</b> <f>up to the capacitor's connectors to</f> move your [ranger] to this feature and add power to it equal to your effort.",
