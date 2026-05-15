@@ -205,5 +205,11 @@
     "name": "Artery",
     "type_id": "terrain",
     "size": 5
+  },
+  {
+    "id": "fungal_forest",
+    "name": "Fungal Forest",
+    "type_id": "terrain",
+    "size": 12
   }
 ]
