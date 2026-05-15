@@ -229,5 +229,11 @@
     "name": "Deep Roots",
     "type_id": "terrain",
     "size": 12
+  },
+  {
+    "id": "the_cave",
+    "name": "The Cave",
+    "type_id": "terrain",
+    "size": 3
   }
 ]

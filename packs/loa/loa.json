@@ -1844,5 +1844,26 @@
       7
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/11231879069608868252/B31C879F6703E27F29B6A5C0A5B6F69A45D1371D/"
+  },
+  {
+    "name": "Vagus Capacitor",
+    "id": "02296",
+    "position": 296,
+    "quantity": 1,
+    "category_id": "path",
+    "type_id": "feature",
+    "area_id": "within_reach",
+    "token_id": "power",
+    "token_count": "3[per_ranger]",
+    "set_id": "the_cave",
+    "set_position": "3",
+    "traits": "Machine / Organ",
+    "text": "<b>[FIT] + [reason]: Climb</b> <f>up to the capacitor's connectors to</f> move your [ranger] to this feature and add power to it equal to your effort.",
+    "harm": "3[per_ranger]",
+    "progress": "6",
+    "presence": 1,
+    "mountain_challenge": "If your [ranger] is on this feature, <f>you reroute the connections.</f> [right_arrow] Move 1 power from one machine to another.",
+    "crest_challenge": "If your [ranger] is on this feature, <f>it shocks you!</f> [right_arrow] Suffer 1 injury unless you discard [per_ranger] power from this feature.",
+    "guide_entry": 143
   }
 ]
