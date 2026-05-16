@@ -235,5 +235,11 @@
     "name": "The Cage",
     "type_id": "terrain",
     "size": 3
+  },
+  {
+    "id": "the_chimney",
+    "name": "The Chimney",
+    "type_id": "terrain",
+    "size": 5
   }
 ]

@@ -1896,5 +1896,42 @@
       7
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/14242786027569264223/645F6C94380282943E8B374F665D9AB5B7E68552/"
+  },
+  {
+    "id": "02298",
+    "position": 298,
+    "quantity": 1,
+    "set_id": "general",
+    "set_position": "18",
+    "name": "The Heart's Confusion",
+    "traits": "Emotion",
+    "category_id": "path",
+    "type_id": "attachment",
+    "area_id": "within_reach",
+    "presence": 0,
+    "text": "Attach to The Heart.<hr><b>[FOC] + [connection]: Guide [2]</b> <f>the heart past its shock to</f> attach this emotion to a different organ.",
+    "sun_challenge": "Discard 1 power from an attached organ, or attach this emotion to The Heart.",
+    "crest_challenge": "If this emotion is attached to The Heart, <f>confusion reigns.</f> [right_arrow] Shuffle 2 random cards from the path discard into the path deck.",
+    "guide_entry": 160,
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/14242786027569264223/645F6C94380282943E8B374F665D9AB5B7E68552/"
+  },
+  {
+    "id": "02299",
+    "position": 299,
+    "quantity": 1,
+    "set_id": "the_chimney",
+    "set_position": "1",
+    "name": "The Plinth",
+    "traits": "Ruin",
+    "category_id": "path",
+    "type_id": "feature",
+    "area_id": "along_the_way",
+    "harm": "6",
+    "progress": "4[per_ranger]",
+    "presence": 1,
+    "text": "<b>Response:</b> When 1 or more [progress] is added to this feature, if it is illuminated, double that [progress].<hr>[ranger] cannot be moved to this feature except by its test.<hr>If the <e>CHIMNEY IS SETTLED</e>, this feature gains the following test.\n<b>[AWA] + [exploration]: Browse</b> <f>the available equipment to</f> move your [ranger] to this feature.<hr><b>Clear [progress]:</b> [guide] 120",
+    "sun_challenge": "If within reach is not illuminated, <f>you stumble in the dark.</f> [right_arrow] Suffer 1 fatigue.",
+    "guide_entry": 120,
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/14242786027569264223/645F6C94380282943E8B374F665D9AB5B7E68552/"
   }
 ]
