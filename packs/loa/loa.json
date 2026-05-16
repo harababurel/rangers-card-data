@@ -1872,5 +1872,29 @@
       7
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/14242786027569264223/645F6C94380282943E8B374F665D9AB5B7E68552/"
+  },
+  {
+    "name": "The Heart's Sorrow",
+    "id": "02297",
+    "position": 297,
+    "quantity": 1,
+    "pack_id": "loa",
+    "category_id": "path",
+    "type_id": "attachment",
+    "area_id": "within_reach",
+    "set_id": "general",
+    "set_position": "20",
+    "traits": "Emotion",
+    "text": "Attach to The Heart.<hr><b>[SPI] + [reason]: Reflect [2]</b> <f>on the heart's trauma to</f> attach this emotion to a different organ.",
+    "presence": 0,
+    "sun_challenge": "Discard 1 power from an attached organ, or attach this emotion to The Heart.",
+    "crest_challenge": "If this emotion is attached to The Heart, <f>it's grief is draining.</f> [right_arrow] Discard 1 power from each card in play.",
+    "guide_entry": 162,
+    "image_rect": [
+      66,
+      10,
+      7
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/14242786027569264223/645F6C94380282943E8B374F665D9AB5B7E68552/"
   }
 ]
