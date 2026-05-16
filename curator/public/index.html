@@ -308,6 +308,15 @@
           </div>
           </div>
         </details>
+
+        <!-- Image Info -->
+        <div class="hidden lg:block mt-2 text-[10px] w-full">
+          <div class="flex justify-between items-center mb-1">
+            <span class="font-bold text-gray-600">Image Info</span>
+            <button @click="copyImageInfo" class="text-xs bg-gray-100 hover:bg-gray-200 text-gray-600 border border-gray-300 px-2 py-1 rounded leading-none">Copy</button>
+          </div>
+          <textarea readonly :value="cardImageInfo" class="w-full border p-2 rounded bg-gray-50 font-mono text-[10px] h-16 resize-none leading-relaxed"></textarea>
+        </div>
       </div>
 
       <div class="flex flex-col gap-3 lg:pl-4 lg:w-2/3 overflow-y-auto flex-1 min-h-0 mt-3 lg:mt-0">
@@ -635,6 +644,12 @@
              return this.types.filter(t => t.id === this.form.category_id);
           }
           return this.types;
+        },
+        cardImageInfo() {
+          if (!this.selected || !this.selected.deckInfo) return '';
+          const url = this.isBackEntry ? this.selected.deckInfo.BackURL : this.selected.deckInfo.FaceURL;
+          const rect = [this.selected.index, this.selected.deckInfo.NumWidth, this.selected.deckInfo.NumHeight];
+          return `"imagesrc": "${url}",\n"image_rect": ${JSON.stringify(rect)}`;
         }
       },
       mounted() {
@@ -1013,6 +1028,9 @@
             const cursor = selected.length ? start + wrapped.length : start + `<${tag}>`.length;
             el.setSelectionRange(cursor, cursor);
           });
+        },
+        copyImageInfo() {
+          navigator.clipboard.writeText(this.cardImageInfo);
         },
         normalizeBrackets() {
           const keywords = [
