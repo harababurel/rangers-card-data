@@ -24,7 +24,7 @@ This document outlines the procedure for extracting metadata from card images an
 *   **Bottom Label**: Contains the `pack_id` (e.g., `LOA`), the `set_id` (e.g., `GENERAL`), and the `set_position` (e.g., `20/28`).
 
 ### Text & Content Rules
-*   **Subtitle/Header**: The first word is the `category_id`. Any subsequent words separated by `/` are `traits`. For path cards, `category_id` should generally be `"path"`.
+*   **Subtitle/Header**: The first word is the `type_id`. Any subsequent words separated by `/` are `traits`. For path cards, the `category_id` should always be set to `"path"`.
 *   **Type ID**: The `type_id` should be set to the first word in the card subtitle (e.g., "attachment").
 *   **Attributes**: Attribute names must be enclosed in brackets, e.g., `[SPI]`, `[AWA]`.
 *   **Icons & Symbols**:
