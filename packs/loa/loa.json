@@ -1933,5 +1933,43 @@
     "sun_challenge": "If within reach is not illuminated, <f>you stumble in the dark.</f> [right_arrow] Suffer 1 fatigue.",
     "guide_entry": 120,
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/14242786027569264223/645F6C94380282943E8B374F665D9AB5B7E68552/"
+  },
+  {
+    "id": "02300",
+    "position": 300,
+    "quantity": 3,
+    "set_id": "cave_system",
+    "set_position": "2-4",
+    "name": "Juvenile Spindlescuttler",
+    "traits": "Predator / Biomeld",
+    "category_id": "path",
+    "type_id": "being",
+    "area_id": "within_reach",
+    "harm": "4",
+    "progress": "3",
+    "presence": 2,
+    "text": "Disconnected.<hr>If this predator is illuminated, it loses Disconnected.",
+    "sun_challenge": "Add 2 [harm] to the active feature with the highest presence. If that feature is a flora, add 2 [progress] to this being.",
+    "crest_challenge": "If this being is illuminated or if you have 3 or more fatigue, exhaust this being. [right_arrow] Suffer 1 fatigue.",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/11231879069608868252/B31C879F6703E27F29B6A5C0A5B6F69A45D1371D/"
+  },
+  {
+    "id": "02303",
+    "position": 303,
+    "quantity": 1,
+    "set_id": "cave_system",
+    "set_position": "1",
+    "name": "Spindlescuttler Matron",
+    "traits": "Predator / Biomeld",
+    "category_id": "path",
+    "type_id": "being",
+    "area_id": "within_reach",
+    "harm": "6",
+    "progress": "6",
+    "presence": 3,
+    "text": "Disconnected.<hr>If this predator is illuminated, it loses Disconnected.<hr><b>Clear [harm]:</b> Search the path deck and discard for the next Juvenile Spindlescuttler and place it on top of the path deck.",
+    "sun_challenge": "Add 3 [harm] to the active feature with the highest presence. If that feature is a flora, add 2 [progress] to this being.",
+    "crest_challenge": "If this being is illuminated or if you have 2 or more fatigue, exhaust this being. [right_arrow] Suffer 1 injury.",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/11231879069608868252/B31C879F6703E27F29B6A5C0A5B6F69A45D1371D/"
   }
 ]
