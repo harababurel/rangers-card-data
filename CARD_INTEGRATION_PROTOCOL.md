@@ -21,7 +21,7 @@ This document outlines the procedure for extracting metadata from card images an
     *   Up(ward) pointing: `area_id: "along_the_way"`
 *   **Top Right (Book Icon)**: The number following the icon is the `guide_entry`.
 *   **Top Right (Number)**: Represents the card's **presence** (not cost). For path cards, this is typically `0`.
-*   **Bottom Label**: Contains the `pack_id` (e.g., `LOA`), the `set_id` (e.g., `GENERAL`), and the `set_position` (e.g., `20/28`).
+*   **Bottom Label**: Contains the `pack_id` (e.g., `LOA`), the `set_id` (e.g., `GENERAL`), and the `set_position` (e.g., `"20"`).
 
 ### Text & Content Rules
 *   **Subtitle/Header**: The first word is the `type_id`. Any subsequent words separated by `/` are `traits`. For path cards, the `category_id` should always be set to `"path"`.
@@ -41,6 +41,11 @@ This document outlines the procedure for extracting metadata from card images an
     *   Red/Crimson background: `crest_challenge` field.
     *   Blue background: `mountain_challenge` field.
 *   **Formatting**: Use `<hr>` for horizontal lines separating text blocks instead of `\n\n`.
+
+### Common Pitfalls
+*   **Category ID**: For path cards, always use `"path"`, even if the subtitle suggests otherwise.
+*   **Type vs Traits**: Do not include the `type_id` in the `traits` string.
+*   **Set Position**: Use only the starting position (e.g., `"20"`), not the range or fraction (e.g., `"20/28"`).
 
 ### Card Properties & Logic
 *   **Quantity**: User must explicitly provide the number of physical copies.
