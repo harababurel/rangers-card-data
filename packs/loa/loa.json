@@ -2328,5 +2328,31 @@
       7
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/11231879069608868252/B31C879F6703E27F29B6A5C0A5B6F69A45D1371D/"
+  },
+  {
+    "name": "Archivist Spirit",
+    "id": "02320",
+    "position": 320,
+    "quantity": 1,
+    "pack_id": "loa",
+    "category_id": "path",
+    "type_id": "being",
+    "area_id": "within_reach",
+    "set_id": "arboretum_of_memory",
+    "set_position": "5",
+    "traits": "Spirit / Estian",
+    "text": "Friendly. Spirit.<hr><b>[SPI] + [connection]: Listen [2]</b> <f>to the spirit's faint whispers to</f> move all [progress] from the location to this being.\n<b>Clear [progress]:</b> [guide] 135",
+    "harm": "/",
+    "progress": "2[per_ranger]",
+    "presence": 2,
+    "sun_challenge": "Move 1 [progress] from the location to an active being.",
+    "mountain_challenge": "Move 1 [progress] from the location to an active feature.",
+    "guide_entry": 135,
+    "image_rect": [
+      48,
+      10,
+      7
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/14242786027569264223/645F6C94380282943E8B374F665D9AB5B7E68552/"
   }
 ]
