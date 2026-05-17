@@ -2443,7 +2443,7 @@
     "set_id": "fungal_forest",
     "set_position": "8",
     "traits": "Flora / Fungus / Obstacle",
-    "text": "Obstacle. Mycelial.<hr><b>[AWA] + [connection]: Sneak [2]</b> <f>under the veils to</f> exhaust a flora for every 2 effort. Then add 1[harm] to any one flora.",
+    "text": "Obstacle. Mycelial.<hr><b>[AWA] + [exploration]: Sneak [2]</b> <f>under the veils to</f> exhaust a flora for every 2 effort. Then add 1[harm] to any one flora.",
     "harm": "3",
     "progress": "4",
     "presence": 2,
