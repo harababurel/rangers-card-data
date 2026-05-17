@@ -245,21 +245,18 @@
   {
     "id": "arboretum_of_memory",
     "name": "Arboretum of Memory",
-    "pack_id": "loa",
     "type_id": "terrain",
     "size": 6
   },
   {
     "id": "mycelial_conclave",
     "name": "Mycelial Conclave",
-    "pack_id": "loa",
     "type_id": "terrain",
     "size": 3
   },
   {
     "id": "flooded_ruins",
     "name": "Flooded Ruins",
-    "pack_id": "loa",
     "type_id": "terrain",
     "size": 12
   }
