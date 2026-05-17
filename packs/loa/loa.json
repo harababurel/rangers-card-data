@@ -2226,5 +2226,30 @@
       7
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/14242786027569264223/645F6C94380282943E8B374F665D9AB5B7E68552/"
+  },
+  {
+    "name": "Pitch Black Passage",
+    "id": "02316",
+    "position": 316,
+    "quantity": 1,
+    "pack_id": "loa",
+    "category_id": "path",
+    "type_id": "feature",
+    "area_id": "along_the_way",
+    "set_id": "arcology",
+    "set_position": "6",
+    "traits": "Ruin / Obstacle",
+    "text": "Obstacle.<hr><b>Response:</b> When 1 or more [progress] is added to this feature, if it is illuminated, double that [progress].<hr><b>[SPI] + [conflict]: Venture [3]</b> <f>into the darkness to</f> move your [ranger] to this feature.<hr><b>Clear [progress]:</b> [guide] 149",
+    "harm": "5",
+    "progress": "10",
+    "presence": 2,
+    "sun_challenge": "If this feature is not illuminated, <f>you're unnerved by the darkness.</f> [right_arrow] It fatigues you.",
+    "guide_entry": 149,
+    "image_rect": [
+      9,
+      10,
+      7
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/11231879069608868252/B31C879F6703E27F29B6A5C0A5B6F69A45D1371D/"
   }
 ]
