@@ -2354,5 +2354,31 @@
       7
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/14242786027569264223/645F6C94380282943E8B374F665D9AB5B7E68552/"
+  },
+  {
+    "name": "Gardener Spirit",
+    "id": "02321",
+    "position": 321,
+    "quantity": 1,
+    "pack_id": "loa",
+    "category_id": "path",
+    "type_id": "being",
+    "area_id": "within_reach",
+    "set_id": "mycelial_conclave",
+    "set_position": "2",
+    "traits": "Spirit / Estian",
+    "text": "Friendly. Spirit.<hr><b>[FIT] + [connection]: Tend [2]</b> <f>the mushrooms alongside this spirit to</f> add [progress] to a flora equal to your effort. If this clears that flora, when you discard it, move all [progress] from it to this being.<hr><b>Clear [progress]:</b> [guide] 131",
+    "harm": "/",
+    "progress": "4[per_ranger]",
+    "presence": 2,
+    "sun_challenge": "Discard 1[harm] from an active flora.",
+    "mountain_challenge": "Move this being to another area with a flora.",
+    "guide_entry": 131,
+    "image_rect": [
+      51,
+      10,
+      7
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/14242786027569264223/645F6C94380282943E8B374F665D9AB5B7E68552/"
   }
 ]
