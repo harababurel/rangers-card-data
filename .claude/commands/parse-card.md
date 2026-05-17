@@ -123,7 +123,11 @@ Conditionally include: everything else only when it's actually on the card. Omit
 
 `image_rect` and `imagesrc` were captured in Step 1 — include them in the entry. If for some reason they weren't provided yet, leave them out and note they can be added later.
 
-Present the full proposed JSON entry. Explicitly call out any field that was unclear in the scan or that you guessed. Repeat the proposal until the user explicitly approves it. **Do not write to disk yet.**
+Present the proposal in two forms:
+1. A markdown table with one row per field (Field | Value) — this is the primary reading format the user prefers.
+2. The full JSON entry below the table.
+
+Explicitly call out any field that was unclear in the scan or that you guessed. Repeat the proposal until the user explicitly approves it. **Do not write to disk yet.**
 
 ## Step 6 — Write and commit
 Once approved, append the entry to the target pack JSON. Use Python with `indent=2, ensure_ascii=False` to preserve smart quotes and special characters.

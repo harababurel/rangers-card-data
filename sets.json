@@ -241,5 +241,12 @@
     "name": "The Chimney",
     "type_id": "terrain",
     "size": 5
+  },
+  {
+    "id": "arboretum_of_memory",
+    "name": "Arboretum of Memory",
+    "pack_id": "loa",
+    "type_id": "terrain",
+    "size": 6
   }
 ]
