@@ -5,8 +5,37 @@ This skill is scoped to **path cards only** (`category_id: "path"`). Other categ
 ## Target pack
 If `$ARGUMENTS` names a pack (e.g. "loa", "sotv", or `packs/loa/loa.json`), use that file. Otherwise default to `packs/loa/loa.json` — that's where active work is happening. The pack prefix for IDs is the 2-digit zero-padded `position` of that pack in `packs.json` (e.g. loa → `02`).
 
-## Step 1 — Request images
-Ask the user for the card image(s) — pasted screenshots or paths on disk. Most path cards are single-sided; ask for a back face only if they mention one (rare for path cards). Wait for the response.
+## Step 1 — Load card image
+Ask the user for:
+- `imagesrc`: the Steam CDN URL of the card sprite sheet
+- `image_rect`: the three-element array `[card_index, grid_cols, grid_rows]`
+
+(If the user already pasted both values in the `/parse-card` invocation message, use them directly — do not ask again.)
+
+Once you have both values, fetch and crop the card using the Bash tool:
+
+```python
+from PIL import Image
+import urllib.request
+
+imagesrc = "<URL>"
+idx, cols, rows = <image_rect>
+
+urllib.request.urlretrieve(imagesrc, "/tmp/card_sheet.jpg")
+img = Image.open("/tmp/card_sheet.jpg")
+W, H = img.size
+card_w = W // cols
+card_h = H // rows
+col = idx % cols
+row = idx // cols
+cropped = img.crop((col * card_w, row * card_h, (col + 1) * card_w, (row + 1) * card_h))
+cropped.save("/tmp/card_crop.png")
+print(f"Sheet {W}x{H}, cell {idx}: col={col} row={row}, crop {card_w}x{card_h}")
+```
+
+Then use the Read tool on `/tmp/card_crop.png` to view the cropped card image and proceed to extraction.
+
+Most path cards are single-sided. If the user mentions a back face, ask for its `imagesrc` + `image_rect` too.
 
 ## Step 2 — Pre-flight checks
 Before extracting, identify these from the image and verify they exist in the data files. If anything is missing, **stop and ask the user how to register it** before proceeding:
@@ -92,7 +121,7 @@ Always include: `name`, `id`, `position`, `quantity`, `pack_id`, `category_id: "
 
 Conditionally include: everything else only when it's actually on the card. Omit zero-valued or absent stats entirely.
 
-Ask the user for `image_rect` and `imagesrc` — they'll supply both inline (curator export). If they're not ready, leave `image_rect` and `imagesrc` out of the entry; they can be added later.
+`image_rect` and `imagesrc` were captured in Step 1 — include them in the entry. If for some reason they weren't provided yet, leave them out and note they can be added later.
 
 Present the full proposed JSON entry. Explicitly call out any field that was unclear in the scan or that you guessed. Repeat the proposal until the user explicitly approves it. **Do not write to disk yet.**
 
