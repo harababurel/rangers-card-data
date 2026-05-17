@@ -1,57 +1,104 @@
-Parse a card from images and integrate it into the card database, step by step.
+Parse a path card from images and integrate it into the card database, step by step.
+
+This skill is scoped to **path cards only** (`category_id: "path"`). Other categories (location, weather, mission, challenge, ranger) are out of scope — refuse and ask the user to switch tools if they hand you something else.
 
 ## Target pack
-If `$ARGUMENTS` specifies a pack (e.g. "legacy" or "packs/legacy/legacy.json"), use that file. Otherwise default to `packs/core/core.json`. The pack prefix for IDs is the 2-digit zero-padded index of that pack in `packs.json`.
+If `$ARGUMENTS` names a pack (e.g. "loa", "sotv", or `packs/loa/loa.json`), use that file. Otherwise default to `packs/loa/loa.json` — that's where active work is happening. The pack prefix for IDs is the 2-digit zero-padded `position` of that pack in `packs.json` (e.g. loa → `02`).
 
 ## Step 1 — Request images
-Ask the user to provide card image(s): either paste screenshot(s) directly into the chat, or provide the path(s) to image file(s) on disk. Wait for their response before proceeding.
+Ask the user for the card image(s) — pasted screenshots or paths on disk. Most path cards are single-sided; ask for a back face only if they mention one (rare for path cards). Wait for the response.
 
-## Step 2 — Extract metadata
-Read the provided image(s). Extract all of the following:
+## Step 2 — Pre-flight checks
+Before extracting, identify these from the image and verify they exist in the data files. If anything is missing, **stop and ask the user how to register it** before proceeding:
 
-**From the front face:**
-- `name`
-- Type line: `category_id` (first segment, lowercased), `type_id` (for location cards always `"location"`; check `types.json` for others), `traits` (remaining segments joined with ` / `)
-- `pivotal: true` if "Pivotal" appears in the type line (also keep it in `traits`)
-- `set_position` (e.g. "2 OF 37" → `"2"`)
-- `presence` (the purple icon value)
-- `progress` (the cyan badge value; suffix `R` → `[per_ranger]`, e.g. `3R` → `"3[per_ranger]"`)
-- `text` — card ability text with:
-  - Stat icons: `[AWA]`, `[FIT]`, `[SPI]`, `[FOC]`
-  - Approach icons: black heart → `[connection]`, compass/boot → `[exploration]`, sword/shield → `[conflict]`, book/lightbulb → `[reason]`
-  - Other tokens: `[progress]`, `[harm]`, `[ranger]`, `[right_arrow]`, `[per_ranger]`
-  - Italic flavor text wrapped in `<f>...</f>`
-  - Bold keywords wrapped in `<b>...</b>`
-  - Section breaks as `<hr>`
+- **Set**: bottom label shows the set name (e.g. "ANCIENT RUINS"). The corresponding entry must exist in `sets.json` with an `id` like `ancient_ruins`. New path sets are usually `type_id: "terrain"`, `size` = total physical cards in that set.
+- **Token**: if the card has a "Powered [N]" header or any "[token]" icon in the text, the matching entry must exist in `tokens.json`.
 
-**From the back face:**
-- `guide_entry` (the book icon number)
-- `arrival_setup` (full text under "Arrival Setup", bold keywords as `<b>...</b>`, newlines as `\n`)
-- `path_deck_assembly` (if a "Path Deck Assembly" section is present)
+## Step 3 — Extract metadata
 
-## Step 3 — Determine position and ID
-Read the target pack JSON. Find the last card:
-- `next_pos = last.position + (1 if last.category_id == "ranger" else last.quantity)`
-- `id = f"{pack_prefix}{next_pos:03d}"`
+### Visual zones on a path card
+- **Top-left corner**: orange spawn arrow.
+  - Downward triangle → `area_id: "within_reach"`
+  - Upward triangle → `area_id: "along_the_way"`
+- **Top-right area**: large purple gem with a number → `presence` (integer).
+  - A book icon with a number alongside → top-level `guide_entry` (integer). Present only on path cards that reference the campaign guide.
+- **Title block**: card name (`name`) and beneath it the type line.
+- **Type line**: format is `Type — Trait / Trait / Trait` (e.g. "Being — Predator / Reptile").
+  - First segment (lowercased) → `type_id`. For path cards this is almost always `"being"` or `"feature"`. Verify it exists in `types.json`.
+  - Remaining segments joined with ` / ` → `traits` (preserve original casing).
+  - **Never** include the `type_id` word in `traits`.
+  - If "Pivotal" appears anywhere in the type line, add `"pivotal": true` and keep "Pivotal" in `traits`.
+- **Powered header** (under the title, if present): "Powered [N]" → set `token_id` to the token shown (e.g. `"power"`) and `token_count` to the number as a **string** (`"1"`, `"3"`, `"0"`).
+- **Body text**: see "Text formatting" below → `text`.
+- **Challenge bands** (colored stripes near the bottom): each band corresponds to one challenge field.
+  - Yellow sun band → `sun_challenge`
+  - Blue mountain band → `mountain_challenge`
+  - Red/crimson crest band → `crest_challenge`
+  - Omit any band that's absent. The triggering icon itself is not duplicated in the text (the field name encodes which band it is).
+- **Bottom-left stat badges** (read whatever is shown; omit entirely if absent — do **not** include zero defaults):
+  - Red shield with sword → `harm` (string, may have `[per_ranger]` suffix, e.g. `"3"`, `"2[per_ranger]"`).
+  - Green/cyan flag → `progress` (string, same suffix rules; `"3R"` printed on card → `"3[per_ranger]"`).
+- **Bottom label**: pack code, set name, and set position like `"5 OF 12"` → `set_position` is the leading number as a string (`"5"`).
 
-Check that no card with this `name` already exists in the pack.
+### Identical card grouping
+If multiple physical printings share the same name, text, and stats but different set indices (e.g. "1 OF 12" and "2 OF 12"), model them as **one entry**:
+- `quantity` = total number of physical copies.
+- `set_position` = range string (`"1-2"`) or comma list (`"1, 5"`).
+- `position` and `id` are based on the **starting** set index.
 
-## Step 4 — Propose JSON and iterate
-Show the full proposed card entry with `"image_rect": []` and `"imagesrc": ""` as placeholders. Explicitly call out any fields you could not read clearly or that are ambiguous, and ask the user to supply or confirm them. Repeat until the user explicitly approves the entry — do not write anything yet.
+Ask the user how many physical copies exist if it's not obvious from the images.
 
-## Step 5 — Write to pack file
-Append the confirmed card to the pack JSON and save with `indent=2, ensure_ascii=False`.
+### Text formatting (`text`, and the same rules for the three challenge fields)
 
-Then tell the user: "Written. Please match this card in the curator tool, fill in the image crop, and re-export. Let me know when you're done."
+Icon replacements:
+- Stat icons: `[AWA]`, `[FIT]`, `[SPI]`, `[FOC]`
+- Approach icons: black heart → `[connection]`; compass/boot → `[exploration]`; sword/shield → `[conflict]`; book/lightbulb → `[reason]`
+- Game tokens used inline: `[progress]`, `[harm]`, `[ranger]`, `[right_arrow]` (for the `>>` symbol), `[guide]` (the book icon used for guide-entry references like `[guide] 124`)
+- Per-ranger suffix: `[per_ranger]` (the small ranger silhouette next to a number)
+- For any other depicted token, use `[<token_id>]` matching `tokens.json`
 
-## Step 6 — Apply curator image data
-Wait for the user to confirm they've re-exported. Then check for `new_encounter_cards.json` in the target pack directory. Diff it against the entry written in Step 5:
-- Report any differences found.
-- Warn the user if there are unexpected differences beyond `image_rect` and `imagesrc`.
-- Apply `image_rect` and `imagesrc` from the curator export to the card in the pack JSON.
-- Delete `new_encounter_cards.json`.
+Structure:
+- Section breaks (the horizontal rule between rules-text blocks) → `<hr>`. Never use `\n\n`.
+- A literal newline within a single block → `\n`.
+- Italic flavor text → wrap in `<f>...</f>`.
+- Bold ability test headers → wrap in `<b>...</b>`. The bold span covers the full test header: `[ASPECT] + [approach]` plus any parenthetical cost plus `: Verb` plus the optional `[difficulty]`. The descriptive "to …" tail that follows is in `<f>...</f>`, then the actual mechanical effect is plain. Worked examples:
+  - `<b>[SPI] + [conflict]: Venture</b> <f>into the rift to</f> move your [ranger] to this feature.`
+  - `<b>[FOC] + [conflict] (use 1 power): Stimulate</b> <f>the heart to</f> discard 1 challenge card attached to The Heart.`
+  - `<b>[AWA] + [reason]: Investigate [2]</b> <f>archaeological wonders with Silaro to</f> add [progress] to a ruin or machine equal to your effort.`
+- Standalone bold keywords like `Clear [harm]:`, `Response:`, `Enters Play:`, `Powered [1]:` → wrap in `<b>...</b>`.
 
-## Step 7 — Commit and push
-Ask: "Commit? Push too?" and act on what they say.
+Within a challenge field, a leading italicized phrase (the dramatic description) is wrapped in `<f>...</f>` before the mechanical effect. Example:
+- `crest_challenge: "If you have 1 or more fatigue, <f>the archelon snaps at you.</f> [right_arrow] Suffer 1 injury."`
 
-When committing, the message format is: `Add <category> card <Name> (<id>)` (e.g. `Add location card The Philosopher's Garden (01437)`).
+## Step 4 — Position and ID
+Read the target pack JSON and find the highest existing `position` (typically the last entry):
+- `next_pos = last.position + last.quantity` (path cards always use `quantity`; `+1` only applies to ranger cards, which are out of scope here)
+- `id = f"{pack_prefix}{next_pos:03d}"` (e.g. loa, position 315 → `"02315"`)
+
+Confirm the resulting `name` does not already exist in the pack file.
+
+## Step 5 — Propose JSON and iterate
+
+Field order convention (match neighboring entries in the pack file):
+```
+name, id, position, quantity, pack_id, category_id, type_id, area_id,
+token_id, token_count, set_id, set_position, traits,
+text, harm, progress, presence,
+sun_challenge, mountain_challenge, crest_challenge,
+guide_entry, image_rect, imagesrc
+```
+
+Always include: `name`, `id`, `position`, `quantity`, `pack_id`, `category_id: "path"`, `type_id`, `area_id`, `set_id`, `set_position`, `presence`.
+
+Conditionally include: everything else only when it's actually on the card. Omit zero-valued or absent stats entirely.
+
+Ask the user for `image_rect` and `imagesrc` — they'll supply both inline (curator export). If they're not ready, leave `image_rect` and `imagesrc` out of the entry; they can be added later.
+
+Present the full proposed JSON entry. Explicitly call out any field that was unclear in the scan or that you guessed. Repeat the proposal until the user explicitly approves it. **Do not write to disk yet.**
+
+## Step 6 — Write and commit
+Once approved, append the entry to the target pack JSON. Use Python with `indent=2, ensure_ascii=False` to preserve smart quotes and special characters.
+
+Then ask: "Commit? Push too?" — act on the answer.
+
+Commit message format: `Add path card <Name> (<id>)`. For multiple cards added in one session: `Add path cards <Name1> (<id1>), <Name2> (<id2>), ...`. Do not include co-author trailers.
