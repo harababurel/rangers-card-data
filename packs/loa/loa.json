@@ -2301,5 +2301,32 @@
       7
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/11231879069608868252/B31C879F6703E27F29B6A5C0A5B6F69A45D1371D/"
+  },
+  {
+    "name": "Flowsteel Controls",
+    "id": "02319",
+    "position": 319,
+    "quantity": 1,
+    "pack_id": "loa",
+    "category_id": "path",
+    "type_id": "feature",
+    "area_id": "along_the_way",
+    "token_id": "power",
+    "token_count": "1",
+    "set_id": "arcology",
+    "set_position": "3",
+    "traits": "Machine",
+    "text": "<b>Powered [1]:</b> This feature gains Illumination.<hr><b>[FOC] + [reason]: Manipulate</b> <f>the liquid metal control panel to</f> add [progress] to this feature equal to your effort.<hr><b>Clear [progress]:</b> [guide] 146",
+    "harm": "3",
+    "progress": "6",
+    "presence": 1,
+    "mountain_challenge": "<b>Powered [1]:</b> Discard 1 unique token from a machine or tech to add 1 unique token to another machine or tech.",
+    "guide_entry": 146,
+    "image_rect": [
+      7,
+      10,
+      7
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/11231879069608868252/B31C879F6703E27F29B6A5C0A5B6F69A45D1371D/"
   }
 ]
