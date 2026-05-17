@@ -2215,7 +2215,7 @@
     "set_id": "arboretum_of_memory",
     "set_position": "6",
     "traits": "Machine",
-    "text": "<b>Enters Play:</b> Attach to the flora with the highest presence. If there is no flora in play, search the path deck and discard for the next flora and attach this machine to it. Either way, ready that flora.<hr><b>Response:</b> When attached flora is cleared, unattach this machine <f>(it remains in play).</f><hr><b>[FOC] + [exploration]: Interpret [3]</b> <f>the stream of information to</f> read [guide] 136.2 and add 2[progress] to the attached flora.<hr><b>[FIT] + [connection]: Carry</b> <f>the grovetender to</f> attach this machine to another flora. Ready that flora.",
+    "text": "<b>Enters Play:</b> Attach to the flora with the highest presence. If there is no flora in play, search the path deck and discard for the next flora and attach this machine to it. Either way, ready that flora.<hr><b>Response:</b> When attached flora is cleared, unattach this machine <f>(it remains in play).</f><hr><b>[FOC] + [reason]: Interpret [3]</b> <f>the stream of information to</f> read [guide] 136.2 and add 2[progress] to the attached flora.<hr><b>[FIT] + [conflict]: Carry</b> <f>the grovetender to</f> attach this machine to another flora. Ready that flora.",
     "harm": "3",
     "progress": "3[per_ranger]",
     "presence": 1,
