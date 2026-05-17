@@ -35,6 +35,8 @@ print(f"Sheet {W}x{H}, cell {idx}: col={col} row={row}, crop {card_w}x{card_h}")
 
 Then use the Read tool on `/tmp/card_crop.png` to view the cropped card image and proceed to extraction.
 
+**Important:** The cropped image is typically ~400×560 px — fully legible. Read all text fields directly from the image. Do not claim the resolution is too low or ask the user to type out text that is visible in the image. Only ask for clarification when something is genuinely ambiguous (e.g. a partially obscured icon, a word cut off at the edge).
+
 Most path cards are single-sided. If the user mentions a back face, ask for its `imagesrc` + `image_rect` too.
 
 ## Step 2 — Pre-flight checks
