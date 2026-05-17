@@ -16,24 +16,29 @@ Once you have both values, fetch and crop the card using the Bash tool:
 
 ```python
 from PIL import Image
-import urllib.request
+import urllib.request, hashlib
 
 imagesrc = "<URL>"
 idx, cols, rows = <image_rect>
 
-urllib.request.urlretrieve(imagesrc, "/tmp/card_sheet.jpg")
-img = Image.open("/tmp/card_sheet.jpg")
+# Unique paths per (imagesrc, idx) so parallel agents don't collide
+token = hashlib.md5(f"{imagesrc}{idx}".encode()).hexdigest()[:8]
+sheet_path = f"/tmp/card_sheet_{token}.jpg"
+crop_path = f"/tmp/card_crop_{token}.png"
+
+urllib.request.urlretrieve(imagesrc, sheet_path)
+img = Image.open(sheet_path)
 W, H = img.size
 card_w = W // cols
 card_h = H // rows
 col = idx % cols
 row = idx // cols
 cropped = img.crop((col * card_w, row * card_h, (col + 1) * card_w, (row + 1) * card_h))
-cropped.save("/tmp/card_crop.png")
-print(f"Sheet {W}x{H}, cell {idx}: col={col} row={row}, crop {card_w}x{card_h}")
+cropped.save(crop_path)
+print(f"Sheet {W}x{H}, cell {idx}: col={col} row={row}, crop {card_w}x{card_h}, crop_path={crop_path}")
 ```
 
-Then use the Read tool on `/tmp/card_crop.png` to view the cropped card image and proceed to extraction.
+Then use the Read tool on the `crop_path` printed above to view the cropped card image and proceed to extraction.
 
 **Important:** The cropped image is typically ~400×560 px — fully legible. Read all text fields directly from the image. Do not claim the resolution is too low or ask the user to type out text that is visible in the image. Only ask for clarification when something is genuinely ambiguous (e.g. a partially obscured icon, a word cut off at the edge).
 
@@ -107,12 +112,14 @@ Structure:
 Within a challenge field, a leading italicized phrase (the dramatic description) is wrapped in `<f>...</f>` before the mechanical effect. Example:
 - `crest_challenge: "If you have 1 or more fatigue, <f>the archelon snaps at you.</f> [right_arrow] Suffer 1 injury."`
 
-## Step 4 — Position and ID
+## Step 4 — Position and ID (estimated)
 Read the target pack JSON and find the highest existing `position` (typically the last entry):
 - `next_pos = last.position + last.quantity` (path cards always use `quantity`; `+1` only applies to ranger cards, which are out of scope here)
 - `id = f"{pack_prefix}{next_pos:03d}"` (e.g. loa, position 315 → `"02315"`)
 
 Confirm the resulting `name` does not already exist in the pack file.
+
+**Note:** This position is an estimate for the proposal. Because multiple agents may run in parallel, the actual position is recalculated at write time (Step 6) from the live file state.
 
 ## Step 5 — Propose JSON and iterate
 
@@ -138,7 +145,9 @@ Present the proposal in two forms:
 Explicitly call out any field that was unclear in the scan or that you guessed. Repeat the proposal until the user explicitly approves it. **Do not write to disk yet.**
 
 ## Step 6 — Write and commit
-Once approved, append the entry to the target pack JSON. Use Python with `indent=2, ensure_ascii=False` to preserve smart quotes and special characters.
+Once approved, **re-read the pack JSON immediately before writing** to get the current last position — another agent may have written since Step 4. Recompute `position` and `id` from the live file state, then append the entry. Use Python with `indent=2, ensure_ascii=False` to preserve smart quotes and special characters.
+
+If the recomputed `id` differs from the one shown in the proposal, note the change to the user.
 
 Then ask: "Commit? Push too?" — act on the answer.
 
