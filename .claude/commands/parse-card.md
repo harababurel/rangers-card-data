@@ -81,8 +81,14 @@ Ask the user how many physical copies exist if it's not obvious from the images.
 
 Icon replacements:
 - Stat icons: `[AWA]`, `[FIT]`, `[SPI]`, `[FOC]`
-- Approach icons: black heart → `[connection]`; compass/boot → `[exploration]`; sword/shield → `[conflict]`; book/lightbulb → `[reason]`
+- Approach icons — read the shape carefully at small sizes before mapping:
+  - `[conflict]` — two black shapes arranged in a circle separated by a mirrored-S gap, like a yin-yang symbol or two koi fish swimming in opposite directions.
+  - `[exploration]` — a black circle with a vertical rhomboid needle inside, like a compass face (similar to the NATO logo but with only the vertical element, no cross).
+  - `[connection]` — a plain black heart.
+  - `[reason]` — an equilateral triangle pointing upward with stylized 3D edges drawn inside it, resembling an impossible geometric solid.
 - Game tokens used inline: `[progress]`, `[harm]`, `[ranger]`, `[right_arrow]` (for the `>>` symbol), `[guide]` (the book icon used for guide-entry references like `[guide] 124`)
+  - `[progress]` inline — an upside-down V / tent shape, with a small hollow triangle cutout at its base representing the tent entrance.
+  - `[harm]` inline — a spiky star shape formed by two overlapping equilateral triangles (one flipped), like the Star of David, with a hollow triangular cutout in the center.
 - Per-ranger suffix: `[per_ranger]` (the small ranger silhouette next to a number)
 - For any other depicted token, use `[<token_id>]` matching `tokens.json`
 
