@@ -76,7 +76,7 @@ The back of a location card is structural metadata — never interacted with ind
 #### Pattern 2: Flip cards (same set position on both sides, both sides independently playable)
 Both faces are distinct playable card states sharing one physical slot (e.g., *Prototype (Expanded)* / *Prototype (Contracted)*). Model as two separate card entries:
 - **Front entry**: normal card with `back_card_id` pointing to the back entry's `id`. Carries `position`, `set_position`, and `quantity`.
-- **Back entry**: its own card entry with `back_card_id` pointing to the front. Its `id` uses a `b` suffix (e.g., front `"02028"` → back `"02028b"`). Does **not** have its own `position`, `set_position`, or `quantity` since it is never independently dealt.
+- **Back entry**: its own card entry with `back_card_id` pointing to the front. Its `id` uses a `b` suffix (e.g., front `"02028"` → back `"02028b"`). **It must share the same `set_position` as the front entry so that rendering tools like earthborne.build display it correctly.** It does **not** have its own `position` or `quantity` since it is never independently dealt.
 
 #### Pattern 3: Distinct-set-position double-sided cards (weather, missions, etc.)
 Each face carries its own set position (e.g., a physical weather card has position 1 on the front and position 2 on the back). Treat each face as a fully independent card entry with no cross-referencing. The physical co-printing is a production detail, not a data relationship.
