@@ -87,6 +87,14 @@ When picking up tasks in this repository:
 2. **Updating Schema:** If adding a card property that doesn't exist in `schema.ts` (e.g., a specific "Travel" requirement for paths), ensure `schema.ts` is updated to reflect it.
 3. **Ignore i18n Updates (Unless Prompted):** When adding new English cards or fixing typos, do not automatically attempt to generate or update translation `.po`/`.json` placeholders unless explicitly requested by the user. Focus purely on the primary JSON data structure.
 
+## Custom Commands & Repo-Local Skills
+This repository contains custom, repo-local skills/commands designed to automate complex tasks for AI agents:
+
+- **Path Card Parser (`parse-card`)**:
+  - **Claude version**: Defined in [`.claude/commands/parse-card.md`](.claude/commands/parse-card.md).
+  - **Gemini/Jetski version**: Defined in [`.gemini/commands/parse-card.md`](.gemini/commands/parse-card.md).
+  - **Usage**: If the user asks you to parse a path card from an image (providing `imagesrc` and `image_rect`), you **must** read and follow the instructions in the relevant version of the `parse-card.md` file. It outlines the exact visual zones, text formatting rules, and integration steps.
+
 ## Protocol: Encounter Card Integration
 Newly exported cards usually reside in `packs/core/new_encounter_cards.json`. Follow this rigorous workflow for integration:
 
