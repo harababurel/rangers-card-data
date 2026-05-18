@@ -259,5 +259,11 @@
     "name": "Flooded Ruins",
     "type_id": "terrain",
     "size": 12
+  },
+  {
+    "id": "verdant_sphere",
+    "name": "Verdant Sphere",
+    "type_id": "terrain",
+    "size": 3
   }
 ]
