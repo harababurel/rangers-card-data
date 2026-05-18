@@ -2454,5 +2454,29 @@
       7
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/11573483131427683720/67516244353B1810152D629674FB32D60F6EFB7B/"
+  },
+  {
+    "name": "Progenitor Mushroom",
+    "id": "02329",
+    "position": 329,
+    "quantity": 1,
+    "pack_id": "loa",
+    "category_id": "path",
+    "type_id": "feature",
+    "area_id": "along_the_way",
+    "set_id": "mycelial_conclave",
+    "set_position": "1",
+    "traits": "Flora / Fungus",
+    "text": "Mycelial.<hr><b>Response:</b> After a flora is cleared, move all [progress] and [harm] from it to this feature. Then, search the path deck and discard for the next flora and put it into play.<hr><b>[AWA] + [conflict]: Grab [2]</b> <f>a handful of the ancient fungus and cautiously eat it to</f> add 1 [harm] to a flora. Then draw 1 Ranger card for every 2 effort.<hr><b>Clear [progress] or [harm]:</b> [guide] 130",
+    "harm": "4[per_ranger]",
+    "progress": "5[per_ranger]",
+    "presence": 3,
+    "guide_entry": 130,
+    "image_rect": [
+      43,
+      10,
+      7
+    ],
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/14242786027569264223/645F6C94380282943E8B374F665D9AB5B7E68552/"
   }
 ]
