@@ -1559,6 +1559,7 @@
     "traits": "Predator / Insect / Swarm",
     "harm": "X",
     "progress": "8",
+    "presence": "X",
     "text": "<b>Response:</b> When this swarm is exhausted by a prey's [mountain] effect, add 1 beetle to it.<hr>You can add a maximum of 1 [harm] per test to this swarm.<hr>X is equal to the number of beetles on this swarm.",
     "crest_challenge": "If you have less <b>FOC</b> energy than this swarm's presence, exhaust it. [right_arrow] Suffer 1 injury.",
     "image_rect": [
