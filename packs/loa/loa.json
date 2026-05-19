@@ -782,6 +782,7 @@
     "set_position": "19",
     "traits": "Emotion",
     "presence": 0,
+    "guide_entry": 161,
     "text": "Attach to The Heart.<hr><b>[FIT] + [conflict]: Release [2]</b> <f>the heart's anger to</f> attach this emotion to a different organ.",
     "sun_challenge": "Discard 1 power from an attached organ, or attach this emotion to The Heart.",
     "crest_challenge": "If this emotion is attached to The Heart, <f>it lashes out.</f> >> Each Ranger suffers 2 fatigue.",
