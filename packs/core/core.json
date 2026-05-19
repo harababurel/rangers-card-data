@@ -4840,6 +4840,7 @@
     "presence": 1,
     "mountain_challenge": "If there is another active flora, exhaust it. [right_arrow] Shuffle this being into the path deck as it disappears in a geometric tangle of vines.",
     "crest_challenge": "If there is an active prey, exhaust it. [right_arrow] Add [harm] to this being equal to that prey's presence.",
+    "guide_entry": 90,
     "image_rect": [
       1,
       4,
@@ -4964,6 +4965,7 @@
     "progress": "1[per_ranger]",
     "presence": 0,
     "mountain_challenge": "Ready each human in play.",
+    "guide_entry": 63,
     "image_rect": [
       6,
       4,
@@ -5255,6 +5257,7 @@
     "progress": "1[per_ranger]",
     "presence": 0,
     "sun_challenge": "If there is an active human with any [harm], <f>they call out in distress.</f> [right_arrow] They fatigue you.",
+    "guide_entry": 62,
     "image_rect": [
       7,
       4,
@@ -5327,6 +5330,7 @@
     "harm": "8",
     "progress": "3[per_ranger]",
     "presence": 1,
+    "guide_entry": 55,
     "image_rect": [
       2,
       4,
@@ -5397,6 +5401,7 @@
     "progress": "4[per_ranger]",
     "presence": 2,
     "crest_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
+    "guide_entry": 65,
     "image_rect": [
       4,
       4,
@@ -5422,6 +5427,7 @@
     "presence": 3,
     "sun_challenge": "Exhaust the active feature with the lowest presence.",
     "crest_challenge": "Discard the exhausted feature with the lowest presence. Each Ranger whose [ranger] was on that feature suffers 1 injury.",
+    "guide_entry": 54,
     "image_rect": [
       1,
       4,
@@ -5496,6 +5502,7 @@
     "progress": "3[per_ranger]",
     "presence": 2,
     "crest_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
+    "guide_entry": 53,
     "image_rect": [
       0,
       4,
