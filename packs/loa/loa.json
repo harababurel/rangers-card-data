@@ -3168,7 +3168,6 @@
     "text": "[progress] cannot be added or moved to this feature except by a Ranger with an equipped Lunn's Door Opener.<hr><b>Clear [progress]:</b> You will be able to travel from this location along routes locked by the [lock] icon. [guide] 158",
     "progress": "4",
     "presence": 0,
-    "guide_entry": 158,
     "image_rect": [
       0,
       10,
