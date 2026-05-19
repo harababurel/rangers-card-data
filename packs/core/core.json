@@ -5569,6 +5569,7 @@
     "progress": "2[per_ranger]",
     "presence": 1,
     "crest_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
+    "guide_entry": 66,
     "image_rect": [
       3,
       4,
