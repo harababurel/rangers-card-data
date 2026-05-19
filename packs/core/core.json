@@ -3489,7 +3489,7 @@
     "traits": "Water",
     "text": "X is equal to the number of water features in play.",
     "progress": "4",
-    "presence": -2,
+    "presence": "X",
     "sun_challenge": "Choose the card along the way with the highest presence and move it within reach. If it's this card, it fatigues you.",
     "image_rect": [
       7,
@@ -3760,7 +3760,7 @@
     "text": "<b>Response:</b> After a being is cleared by [harm], attach it facedown to this feature.<hr><b>Refresh:</b> Discard 1 facedown card attached to this feature.<hr>X is equal to twice the number of facedown cards attached to this feature.",
     "harm": "6",
     "progress": "6",
-    "presence": -2,
+    "presence": "X",
     "mountain_challenge": "You may exhaust your role. If you do not, this feature fatigues you.",
     "image_rect": [
       6,
@@ -4616,7 +4616,7 @@
     "text": "<b>Refresh:</b> Add 1 bee to this swarm.<hr>You can add a maximum of 1 [harm] per test to this swarm.<hr>X is equal to the number of bees on this swarm.",
     "harm": "X",
     "progress": "7",
-    "presence": -2,
+    "presence": "X",
     "crest_challenge": "If X is greater than or equal to your FIT aspect, exhaust this swarm. [right_arrow] Suffer 1 injury.",
     "image_rect": [
       4,
@@ -5128,7 +5128,7 @@
     "set_id": "lakeshore",
     "set_position": "1",
     "traits": "Lair / Water",
-    "text": "<b>[FOC] + [connection]: Coax [2]</b> <f>the lutrinals back to their lair to</f> add 1 lure to this feature. You may discard 1 token from an equipped food to commit 1 effort.<hr><b>Clear <progress>:</b> Shuffle a Romping Lutrinal into the path deck for each lure on this feature.",
+    "text": "<b>[FOC] + [connection]: Coax [2]</b> <f>the lutrinals back to their lair to</f> add 1 lure to this feature. You may discard 1 token from an equipped food to commit 1 effort.<hr><b>Clear [progress]:</b> Shuffle a Romping Lutrinal into the path deck for each lure on this feature.",
     "harm": "4",
     "progress": "2[per_ranger]",
     "presence": 2,
@@ -5178,7 +5178,7 @@
     "text": "Obstacle.<hr>X is equal to the number of [harm] on this feature.",
     "harm": "4",
     "progress": "6",
-    "presence": -2,
+    "presence": "X",
     "sun_challenge": "If there is 1 or more [progress] on this feature, <f>the ground sinks under your feet.</f> [right_arrow] Discard 1 [progress] from and add 1 [harm] to this feature.",
     "mountain_challenge": "If there is an active Hungry Scrof, exhaust it. [right_arrow] Add [progress] to it and [harm] to this feature, both equal to the Scrof's presence.",
     "image_rect": [
@@ -5711,9 +5711,9 @@
     "set_id": "grassland",
     "set_position": "12",
     "traits": "Flora / Trail",
-    "text": "<b>Response:</b> When you would draw a path card, instead attach it facedown to this feature.<hr>When this feature enters play, draw a path card.<hr>X is equal to the twice the number of facedown cards attached to this feature.<hr><b>AWA + connection: Sense</b> <f>the movement in the tall grass to</f> choose a number of attached facedown cards at random equal to your effort and look at them. Choose 1 to put into play. If it has the ambush keyword, treat it as if it does not.",
+    "text": "<b>Response:</b> When you would draw a path card, instead attach it facedown to this feature.<hr>When this feature enters play, draw a path card.<hr>X is equal to the twice the number of facedown cards attached to this feature.<hr><b>[AWA] + [connection]: Sense</b> <f>the movement in the tall grass to</f> choose a number of attached facedown cards at random equal to your effort and look at them. Choose 1 to put into play. If it has the ambush keyword, treat it as if it does not.",
     "harm": "6",
-    "presence": -2,
+    "presence": "X",
     "sun_challenge": "Put a random attached facedown card into play. >> If it has the ambush keyword, suffer 1 injury instead of the fatigue.",
     "image_rect": [
       11,
