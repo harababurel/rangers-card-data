@@ -3120,7 +3120,6 @@
     "text": "[progress] cannot be added or moved to this feature except by a Ranger with an equipped Rebreather.<hr><b>Clear [progress]:</b> You will be able to travel from this location along routes locked by the [swim] icon. [guide] 156",
     "progress": "4",
     "presence": 0,
-    "guide_entry": 156,
     "image_rect": [
       57,
       10,
