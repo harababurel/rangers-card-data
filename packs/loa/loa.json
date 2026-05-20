@@ -3496,7 +3496,7 @@
     "pack_id": "loa",
     "token_id": "echo",
     "token_count": 0,
-    "sun_challenge": "Each Ranger may discard 1 energy to stay quiet. If a Ranger does not, add echoes equal to your effort (min. 1) and flip this card.",
+    "sun_challenge": "Each Ranger may discard 1 energy <f>to stay quiet</f>. If a Ranger does not, add echoes equal to your effort (min. 1) and flip this card.",
     "back_card_id": "02378",
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/13209590082629795306/2AC3590689B68E8CC65A6F0FDBF4CBD01CED6BF2/",
     "image_rect": [
