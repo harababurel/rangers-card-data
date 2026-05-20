@@ -21,6 +21,13 @@
     "pack_id": "loa"
   },
   {
+    "id": "loa_weather",
+    "name": "Weather",
+    "size": 6,
+    "set_id": "weather",
+    "pack_id": "loa"
+  },
+  {
     "id": "loa_reward",
     "name": "Reward",
     "size": 29,

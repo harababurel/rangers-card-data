@@ -3436,5 +3436,143 @@
       7
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/14242786027569264223/645F6C94380282943E8B374F665D9AB5B7E68552/"
+  },
+  {
+    "id": "02375",
+    "name": "A Preserved Day",
+    "category_id": "weather",
+    "type_id": "weather",
+    "traits": "Underground",
+    "set_id": "weather",
+    "set_position": 1,
+    "position": 375,
+    "quantity": 1,
+    "pack_id": "loa",
+    "token_id": "crack",
+    "token_count": 0,
+    "text": "<b>Refresh:</b> Add 1 crack to this card. If there are 3 or more cracks, flip this card.",
+    "mountain_challenge": "Add 1 [progress] to the location.",
+    "back_card_id": "02376",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/13209590082629795306/2AC3590689B68E8CC65A6F0FDBF4CBD01CED6BF2/",
+    "image_rect": [
+      31,
+      10,
+      7
+    ]
+  },
+  {
+    "id": "02376",
+    "name": "Fractured Sky",
+    "category_id": "weather",
+    "type_id": "weather",
+    "traits": "Underground",
+    "set_id": "weather",
+    "set_position": 2,
+    "position": 376,
+    "quantity": 1,
+    "pack_id": "loa",
+    "token_id": "crack",
+    "token_count": 3,
+    "text": "<b>[FOC] + [reason]: Repair [2]</b> <f>rents in the forged reality to</f> discard 1 crack for every 2 effort. If there are no cracks remaining, flip this card.",
+    "sun_challenge": "Move 1 [progress] from the location to each path card within reach. Discard 1 crack. If there are no cracks remaining, flip this card.",
+    "back_card_id": "02375",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/11396028729878152841/B1A2532ABD1E83B95E4ABF57176BF62DD8946777/",
+    "image_rect": [
+      31,
+      10,
+      7
+    ]
+  },
+  {
+    "id": "02377",
+    "name": "Enveloping Silence",
+    "category_id": "weather",
+    "type_id": "weather",
+    "traits": "Underground",
+    "set_id": "weather",
+    "set_position": 3,
+    "position": 377,
+    "quantity": 1,
+    "pack_id": "loa",
+    "token_id": "echo",
+    "token_count": 0,
+    "sun_challenge": "Each Ranger may discard 1 energy to stay quiet. If a Ranger does not, add echoes equal to your effort (min. 1) and flip this card.",
+    "back_card_id": "02378",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/13209590082629795306/2AC3590689B68E8CC65A6F0FDBF4CBD01CED6BF2/",
+    "image_rect": [
+      42,
+      10,
+      7
+    ]
+  },
+  {
+    "id": "02378",
+    "name": "Reverberating Echo",
+    "category_id": "weather",
+    "type_id": "weather",
+    "traits": "Underground",
+    "set_id": "weather",
+    "set_position": 4,
+    "position": 378,
+    "quantity": 1,
+    "pack_id": "loa",
+    "token_id": "echo",
+    "token_count": 0,
+    "text": "<b>[FOC] + [reason]: Wait</b> <f>out the ringing sound to</f> discard echoes equal to your effort. Then, if there are no remaining echoes, flip this card.",
+    "sun_challenge": "Each ranger suffers 1 fatigue. Discard one echo. If there are no remaining echoes, flip this card.",
+    "mountain_challenge": "Ready a predator or prey. Discard one echo. If there are no remaining echoes, flip this card.",
+    "back_card_id": "02377",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/11396028729878152841/B1A2532ABD1E83B95E4ABF57176BF62DD8946777/",
+    "image_rect": [
+      42,
+      10,
+      7
+    ]
+  },
+  {
+    "id": "02379",
+    "name": "Glitterain",
+    "category_id": "weather",
+    "type_id": "weather",
+    "traits": "Underground / Inclement",
+    "set_id": "weather",
+    "set_position": 5,
+    "position": 379,
+    "quantity": 1,
+    "pack_id": "loa",
+    "token_id": "runoff",
+    "token_count": 0,
+    "sun_challenge": "Add 1 runoff to this card. [right_arrow] Each ranger suffers 1 fatigue. If there is 5 or more runoff, flip this card.",
+    "mountain_challenge": "For the remainder of this test, all areas are illuminated.",
+    "back_card_id": "02380",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/13209590082629795306/2AC3590689B68E8CC65A6F0FDBF4CBD01CED6BF2/",
+    "image_rect": [
+      51,
+      10,
+      7
+    ]
+  },
+  {
+    "id": "02380",
+    "name": "Shimmering Runoff",
+    "category_id": "weather",
+    "type_id": "weather",
+    "traits": "Underground / Inclement",
+    "set_id": "weather",
+    "set_position": 6,
+    "position": 380,
+    "quantity": 1,
+    "pack_id": "loa",
+    "token_id": "runoff",
+    "token_count": 5,
+    "text": "Along the way is illuminated.",
+    "sun_challenge": "Move 1 feature or being and discard runoff equal to its presence (minimum 1). If there is no remaining runoff, flip this card.",
+    "back_card_id": "02379",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/11396028729878152841/B1A2532ABD1E83B95E4ABF57176BF62DD8946777/",
+    "image_rect": [
+      51,
+      10,
+      7
+    ]
   }
 ]
