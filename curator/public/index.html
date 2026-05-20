@@ -240,7 +240,7 @@
                   activePanel === 'editor' ? 'flex lg:flex' : 'hidden lg:flex']"
          v-if="selected">
       <div class="flex items-center gap-3 border-b pb-2 shrink-0
-                  lg:flex-col lg:items-center lg:gap-4 lg:w-1/3 lg:border-b-0 lg:pb-0">
+                  lg:flex-col lg:items-center lg:gap-4 lg:w-1/3 lg:border-b-0 lg:pb-0 lg:overflow-y-auto lg:min-h-0">
         <button @click="toggleAspect" class="hidden lg:block bg-gray-200 hover:bg-gray-300 text-gray-700 px-3 py-3 rounded text-xs border border-gray-400 min-h-[44px] w-full">
           🔄 Toggle Aspect Ratio
         </button>
@@ -311,11 +311,25 @@
 
         <!-- Image Info -->
         <div class="hidden lg:block mt-2 text-[10px] w-full">
-          <div class="flex justify-between items-center mb-1">
-            <span class="font-bold text-gray-600">Image Info</span>
-            <button @click="copyImageInfo" class="text-xs bg-gray-100 hover:bg-gray-200 text-gray-600 border border-gray-300 px-2 py-1 rounded leading-none">Copy</button>
-          </div>
-          <textarea readonly :value="cardImageInfo" class="w-full border p-2 rounded bg-gray-50 font-mono text-[10px] h-16 resize-none leading-relaxed"></textarea>
+          <template v-if="hasBackFace(selected) && !isBackEntry">
+            <div class="flex justify-between items-center mb-1">
+              <span class="font-bold text-gray-600">Front Image</span>
+              <button @click="copyText(frontCardImageInfo)" class="text-xs bg-gray-100 hover:bg-gray-200 text-gray-600 border border-gray-300 px-2 py-1 rounded leading-none">Copy</button>
+            </div>
+            <textarea readonly :value="frontCardImageInfo" class="w-full border p-2 rounded bg-gray-50 font-mono text-[10px] h-16 resize-none leading-relaxed"></textarea>
+            <div class="flex justify-between items-center mb-1 mt-2">
+              <span class="font-bold text-gray-600">Back Image</span>
+              <button @click="copyText(backCardImageInfo)" class="text-xs bg-gray-100 hover:bg-gray-200 text-gray-600 border border-gray-300 px-2 py-1 rounded leading-none">Copy</button>
+            </div>
+            <textarea readonly :value="backCardImageInfo" class="w-full border p-2 rounded bg-gray-50 font-mono text-[10px] h-16 resize-none leading-relaxed"></textarea>
+          </template>
+          <template v-else>
+            <div class="flex justify-between items-center mb-1">
+              <span class="font-bold text-gray-600">{{ isBackEntry ? 'Back Image' : 'Image Info' }}</span>
+              <button @click="copyImageInfo" class="text-xs bg-gray-100 hover:bg-gray-200 text-gray-600 border border-gray-300 px-2 py-1 rounded leading-none">Copy</button>
+            </div>
+            <textarea readonly :value="cardImageInfo" class="w-full border p-2 rounded bg-gray-50 font-mono text-[10px] h-16 resize-none leading-relaxed"></textarea>
+          </template>
         </div>
       </div>
 
@@ -650,6 +664,16 @@
           const url = this.isBackEntry ? this.selected.deckInfo.BackURL : this.selected.deckInfo.FaceURL;
           const rect = [this.selected.index, this.selected.deckInfo.NumWidth, this.selected.deckInfo.NumHeight];
           return `"imagesrc": "${url}",\n"image_rect": ${JSON.stringify(rect)}`;
+        },
+        frontCardImageInfo() {
+          if (!this.selected || !this.selected.deckInfo) return '';
+          const rect = [this.selected.index, this.selected.deckInfo.NumWidth, this.selected.deckInfo.NumHeight];
+          return `"imagesrc": "${this.selected.deckInfo.FaceURL}",\n"image_rect": ${JSON.stringify(rect)}`;
+        },
+        backCardImageInfo() {
+          if (!this.selected || !this.selected.deckInfo || !this.hasBackFace(this.selected)) return '';
+          const rect = [this.selected.index, this.selected.deckInfo.NumWidth, this.selected.deckInfo.NumHeight];
+          return `"imagesrc": "${this.selected.deckInfo.BackURL}",\n"image_rect": ${JSON.stringify(rect)}`;
         }
       },
       mounted() {
@@ -1031,6 +1055,9 @@
         },
         copyImageInfo() {
           navigator.clipboard.writeText(this.cardImageInfo);
+        },
+        copyText(text) {
+          navigator.clipboard.writeText(text);
         },
         normalizeBrackets() {
           const keywords = [
