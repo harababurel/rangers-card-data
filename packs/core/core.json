@@ -6996,7 +6996,7 @@
     "quantity": 1,
     "pack_id": "ebr",
     "text": "<b>Refresh:</b> Flip this card.",
-    "sun_challenge": "Remove 1 [progress] from each path card and the location.",
+    "sun_challenge": "Remove 1 [progress] from each path card.",
     "crest_challenge": "<f>A lightning strike startles a creature to alertness.</f> Ready 1 predator or prey.",
     "back_card_id": "01460",
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500485812/2786E4C0F701026D62287C7C12C41E1134D2B71E/",
