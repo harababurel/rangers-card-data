@@ -780,7 +780,13 @@
     "text": "<b>Exhaust:</b> When you perform a test, dodge 1 card.",
     "illustrator": "Evan Simonet",
     "category_id": "ranger",
-    "pack_id": "ebr"
+    "pack_id": "ebr",
+    "alt_imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15665141664316885892/0F74DA675EFAFC63EF6E6B1C9BC5201E410C7B5B/",
+    "alt_image_rect": [
+      29,
+      10,
+      7
+    ]
   },
   {
     "id": "01038",
@@ -793,7 +799,13 @@
     "text": "<b>Exhaust:</b> Move your [ranger] to a feature. That feature fatigues you.",
     "illustrator": "Evan Simonet",
     "category_id": "ranger",
-    "pack_id": "ebr"
+    "pack_id": "ebr",
+    "alt_imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15665141664316885892/0F74DA675EFAFC63EF6E6B1C9BC5201E410C7B5B/",
+    "alt_image_rect": [
+      28,
+      10,
+      7
+    ]
   },
   {
     "id": "01039",
@@ -1062,7 +1074,13 @@
     "text": "<b>Exhaust:</b> Ready a tech.",
     "illustrator": "Evan Simonet",
     "category_id": "ranger",
-    "pack_id": "ebr"
+    "pack_id": "ebr",
+    "alt_imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15665141664316885892/0F74DA675EFAFC63EF6E6B1C9BC5201E410C7B5B/",
+    "alt_image_rect": [
+      30,
+      10,
+      7
+    ]
   },
   {
     "id": "01052",
@@ -1075,7 +1093,13 @@
     "text": "<b>Exhaust:</b> Spend 1 energy to add 1 token to a tech.",
     "illustrator": "Evan Simonet",
     "category_id": "ranger",
-    "pack_id": "ebr"
+    "pack_id": "ebr",
+    "alt_imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15665141664316885892/0F74DA675EFAFC63EF6E6B1C9BC5201E410C7B5B/",
+    "alt_image_rect": [
+      31,
+      10,
+      7
+    ]
   },
   {
     "id": "01053",
@@ -1353,7 +1377,13 @@
     "text": "<b>Exhaust:</b> Reduce a being’s presence to 0 until the end of the turn.",
     "illustrator": "Evan Simonet",
     "category_id": "ranger",
-    "pack_id": "ebr"
+    "pack_id": "ebr",
+    "alt_imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15665141664316885892/0F74DA675EFAFC63EF6E6B1C9BC5201E410C7B5B/",
+    "alt_image_rect": [
+      34,
+      10,
+      7
+    ]
   },
   {
     "id": "01066",
@@ -1366,7 +1396,9 @@
     "text": "<b>Exhaust:</b> Spend 1 energy to add 1 token to an aid card.",
     "illustrator": "Evan Simonet",
     "category_id": "ranger",
-    "pack_id": "ebr"
+    "pack_id": "ebr",
+    "alt_imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15665141664316885892/0F74DA675EFAFC63EF6E6B1C9BC5201E410C7B5B/",
+    "alt_image_rect": [33, 10, 7]
   },
   {
     "id": "01067",
@@ -1639,7 +1671,13 @@
     "text": "<b>Exhaust:</b> Scout 1 challenge card.",
     "illustrator": "Evan Simonet",
     "category_id": "ranger",
-    "pack_id": "ebr"
+    "pack_id": "ebr",
+    "alt_imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15665141664316885892/0F74DA675EFAFC63EF6E6B1C9BC5201E410C7B5B/",
+    "alt_image_rect": [
+      1,
+      10,
+      7
+    ]
   },
   {
     "id": "01080",
@@ -1652,7 +1690,13 @@
     "text": "<b>Exhaust:</b> Choose a manifestation in your discard, and add it to your hand.",
     "illustrator": "Evan Simonet",
     "category_id": "ranger",
-    "pack_id": "ebr"
+    "pack_id": "ebr",
+    "alt_imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15665141664316885892/0F74DA675EFAFC63EF6E6B1C9BC5201E410C7B5B/",
+    "alt_image_rect": [
+      5,
+      10,
+      7
+    ]
   },
   {
     "id": "01081",

@@ -377,7 +377,13 @@
     "subset_id": "sotv_explorer",
     "subset_position": 1,
     "category_id": "ranger",
-    "pack_id": "sotv"
+    "pack_id": "sotv",
+    "alt_imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15665141664316885892/0F74DA675EFAFC63EF6E6B1C9BC5201E410C7B5B/",
+    "alt_image_rect": [
+      36,
+      10,
+      7
+    ]
   },
   {
     "id": "03018",
@@ -487,7 +493,13 @@
     "subset_id": "sotv_artificer",
     "subset_position": 1,
     "category_id": "ranger",
-    "pack_id": "sotv"
+    "pack_id": "sotv",
+    "alt_imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15665141664316885892/0F74DA675EFAFC63EF6E6B1C9BC5201E410C7B5B/",
+    "alt_image_rect": [
+      32,
+      10,
+      7
+    ]
   },
   {
     "id": "03023",
@@ -592,7 +604,13 @@
     "subset_id": "sotv_conciliator",
     "subset_position": 1,
     "category_id": "ranger",
-    "pack_id": "sotv"
+    "pack_id": "sotv",
+    "alt_imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15665141664316885892/0F74DA675EFAFC63EF6E6B1C9BC5201E410C7B5B/",
+    "alt_image_rect": [
+      35,
+      10,
+      7
+    ]
   },
   {
     "id": "03028",
@@ -699,7 +717,13 @@
     "subset_id": "sotv_shaper",
     "subset_position": 1,
     "category_id": "ranger",
-    "pack_id": "sotv"
+    "pack_id": "sotv",
+    "alt_imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15665141664316885892/0F74DA675EFAFC63EF6E6B1C9BC5201E410C7B5B/",
+    "alt_image_rect": [
+      0,
+      10,
+      7
+    ]
   },
   {
     "id": "03033",
@@ -801,7 +825,13 @@
     "type_id": "role",
     "text": "<b>Exhaust:</b> Before your first turn of the round, add 2[progress] to a spirit. Then, <b>spiritspeak</b>.",
     "category_id": "ranger",
-    "pack_id": "sotv"
+    "pack_id": "sotv",
+    "alt_imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15665141664316885892/0F74DA675EFAFC63EF6E6B1C9BC5201E410C7B5B/",
+    "alt_image_rect": [
+      4,
+      10,
+      7
+    ]
   },
   {
     "id": "03038",
@@ -814,7 +844,13 @@
     "type_id": "role",
     "text": "<b>Exhaust:</b> Spend 1 energy to <b>spiritspeak</b>.",
     "category_id": "ranger",
-    "pack_id": "sotv"
+    "pack_id": "sotv",
+    "alt_imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15665141664316885892/0F74DA675EFAFC63EF6E6B1C9BC5201E410C7B5B/",
+    "alt_image_rect": [
+      3,
+      10,
+      7
+    ]
   },
   {
     "id": "03039",
@@ -827,7 +863,13 @@
     "type_id": "role",
     "text": "<b>Exhaust:</b> Perform a spirit speaker test.",
     "category_id": "ranger",
-    "pack_id": "sotv"
+    "pack_id": "sotv",
+    "alt_imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15665141664316885892/0F74DA675EFAFC63EF6E6B1C9BC5201E410C7B5B/",
+    "alt_image_rect": [
+      2,
+      10,
+      7
+    ]
   },
   {
     "id": "03040",
