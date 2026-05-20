@@ -7005,5 +7005,51 @@
       2,
       2
     ]
+  },
+  {
+    "id": "01462",
+    "name": "Electric Fog",
+    "category_id": "weather",
+    "type_id": "weather",
+    "traits": "Inclement",
+    "set_id": "weather",
+    "set_position": 7,
+    "position": 462,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "token_id": "fog",
+    "token_count": 4,
+    "text": "<b>Arrival Setup:</b> Search the General set for a Ball Lightning and shuffle it into the path deck.<hr><b>Response:</b> When you perform an <b>Avoid</b> test, you may <f>pass through the fog to</f> discard 1 fog to commit 1 effort. If you fail, suffer 1 injury.",
+    "sun_challenge": "Discard 1 fog from this card. Each ranger suffers 1 fatigue. If there is no fog remaining, flip this card.",
+    "back_card_id": "01463",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500484289/E88066805A23B475F17B473822B5213C8760902A/",
+    "image_rect": [
+      0,
+      2,
+      2
+    ]
+  },
+  {
+    "id": "01463",
+    "name": "Clinging Mist",
+    "category_id": "weather",
+    "type_id": "weather",
+    "traits": "Inclement",
+    "set_id": "weather",
+    "set_position": 8,
+    "position": 463,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "token_id": "fog",
+    "token_count": 0,
+    "text": "Increase the difficulty of all tests by 1.<hr><b>Refresh:</b> Add 2 fog to this card. If there is 4 or more fog on this card, flip it.",
+    "sun_challenge": "<f>The wet ground is difficult to navigate.</f> Discard 1 energy.",
+    "back_card_id": "01462",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500485812/2786E4C0F701026D62287C7C12C41E1134D2B71E/",
+    "image_rect": [
+      0,
+      2,
+      2
+    ]
   }
 ]
