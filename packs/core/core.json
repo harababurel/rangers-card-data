@@ -6917,5 +6917,46 @@
       2,
       2
     ]
+  },
+  {
+    "id": "01458",
+    "name": "Downpour",
+    "category_id": "weather",
+    "type_id": "weather",
+    "traits": "Inclement",
+    "set_id": "weather",
+    "set_position": 3,
+    "position": 458,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "token_id": "rain",
+    "token_count": 4,
+    "sun_challenge": "Discard 1 rain from this card. [right_arrow] Each ranger suffers 1 fatigue. If there is no rain remaining, flip this card.",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500484289/E88066805A23B475F17B473822B5213C8760902A/",
+    "image_rect": [
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "id": "01459",
+    "name": "Gathering Storm",
+    "category_id": "weather",
+    "type_id": "weather",
+    "set_id": "weather",
+    "set_position": 4,
+    "position": 459,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "token_id": "rain",
+    "token_count": 0,
+    "text": "<b>[FOC] + [reason]: Shelter [2]</b> <f>from the threatening clouds overhead to</f> discard 1 rain from this card for every 2 effort.<hr><b>Refresh:</b> Add 2 rain to this card. If there are 4 or more rain tokens <f>a peal of thunder fills the air, and a heavy rain begins.</f> Move all prey to along the way. Then, each ranger exhausts their role. Flip this card.",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500485812/2786E4C0F701026D62287C7C12C41E1134D2B71E/",
+    "image_rect": [
+      2,
+      2,
+      2
+    ]
   }
 ]
