@@ -6872,5 +6872,50 @@
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500360984/DE1240C12C9A64122CBA00B24F10B0AB91362431/",
     "position": 455,
     "pack_id": "ebr"
+  },
+  {
+    "id": "01456",
+    "name": "A Perfect Day",
+    "category_id": "weather",
+    "type_id": "weather",
+    "set_id": "weather",
+    "set_position": 1,
+    "position": 456,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "token_id": "cloud",
+    "token_count": 3,
+    "text": "<b>Refresh:</b> Discard 1 cloud from this card. If there are no clouds remaining, flip this card.",
+    "mountain_challenge": "If this test added [progress], add 1 additional [progress].",
+    "back_card_id": "01457",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500484289/E88066805A23B475F17B473822B5213C8760902A/",
+    "image_rect": [
+      3,
+      2,
+      2
+    ]
+  },
+  {
+    "id": "01457",
+    "name": "Midday Sun",
+    "category_id": "weather",
+    "type_id": "weather",
+    "traits": "Hot",
+    "set_id": "weather",
+    "set_position": 2,
+    "position": 457,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "token_id": "cloud",
+    "token_count": 0,
+    "text": "<b>Refresh:</b> Add 1 cloud to this card. If there are 3 or more clouds, flip this card.<hr><b>[FOC] + [reason]: Locate [2]</b> <f>shade to wait out the blaring sun to</f> add 1 cloud to this card and soothe 1 fatigue.",
+    "sun_challenge": "Suffer 1 fatigue.",
+    "back_card_id": "01456",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500485812/2786E4C0F701026D62287C7C12C41E1134D2B71E/",
+    "image_rect": [
+      3,
+      2,
+      2
+    ]
   }
 ]

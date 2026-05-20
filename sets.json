@@ -265,5 +265,10 @@
     "name": "Verdant Sphere",
     "type_id": "terrain",
     "size": 3
+  },
+  {
+    "id": "weather",
+    "name": "Weather",
+    "size": 8
   }
 ]
