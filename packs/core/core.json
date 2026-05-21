@@ -7095,5 +7095,85 @@
       4,
       4
     ]
+  },
+  {
+    "id": "01466",
+    "name": "Helping Hand",
+    "category_id": "mission",
+    "type_id": "mission",
+    "traits": "Side",
+    "set_id": "mission",
+    "set_position": "3",
+    "position": 466,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "back_card_id": "01467",
+    "text": "<f>You have agreed to help this person complete an important task.</f><hr>Do not add this mission to the campaign tracker. If you do not help this person before the end of the day, the opportunity is lost for now.<hr>The attached being gains Persistent.",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500341524/4D8A01466B60D9B5DFC4F14FFC6CA18493376F47/",
+    "image_rect": [
+      1,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "01467",
+    "name": "Helping Hand",
+    "category_id": "mission",
+    "type_id": "mission",
+    "traits": "Side",
+    "set_id": "mission",
+    "set_position": "4",
+    "position": 467,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "back_card_id": "01466",
+    "text": "<f>You have agreed to help this person complete an important task.</f><hr>Do not add this mission to the campaign tracker. If you do not help this person before the end of the day, the opportunity is lost for now.<hr>The attached being gains Persistent.",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500342575/3F7D39355037C3E5C429417FA4773DEEECE4B2A6/",
+    "image_rect": [
+      1,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "01468",
+    "name": "Helping Hand",
+    "category_id": "mission",
+    "type_id": "mission",
+    "traits": "Side",
+    "set_id": "mission",
+    "set_position": "5",
+    "position": 468,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "back_card_id": "01469",
+    "text": "<f>You have agreed to help this person complete an important task.</f><hr>Do not add this mission to the campaign tracker. If you do not help this person before the end of the day, the opportunity is lost for now.<hr>The attached being gains Persistent.",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500341524/4D8A01466B60D9B5DFC4F14FFC6CA18493376F47/",
+    "image_rect": [
+      2,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "01469",
+    "name": "Helping Hand",
+    "category_id": "mission",
+    "type_id": "mission",
+    "traits": "Side",
+    "set_id": "mission",
+    "set_position": "6",
+    "position": 469,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "back_card_id": "01468",
+    "text": "<f>You have agreed to help this person complete an important task.</f><hr>Do not add this mission to the campaign tracker. If you do not help this person before the end of the day, the opportunity is lost for now.<hr>The attached being gains Persistent.",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500342575/3F7D39355037C3E5C429417FA4773DEEECE4B2A6/",
+    "image_rect": [
+      2,
+      4,
+      4
+    ]
   }
 ]
