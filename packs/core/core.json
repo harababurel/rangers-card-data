@@ -7227,5 +7227,45 @@
       4,
       4
     ]
+  },
+  {
+    "id": "01472",
+    "name": "Accommodation",
+    "category_id": "mission",
+    "type_id": "mission",
+    "set_id": "mission",
+    "set_position": "9",
+    "position": 472,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "back_card_id": "01473",
+    "text": "<f>You've agreed to help Spiritspeaker Nal investigate the Caustic Mulcher's purpose in the ecosystem.</f>\n<f>Explore the woodlands of the Valley, where Caustic Mulchers can be found.</f>\nWhen a [ranger] is removed from a Caustic Mulcher, place it on this card. It cannot be moved from here by the Mulcher's effects.<hr>At any point, the group can choose to change their mind and help Kordo instead. If they do, remove all [ranger] from this card and flip it. Replace Accommodation with Intervention on the campaign tracker.<hr><o><b>Have all [ranger] on this card:</b> [guide] 1.40</o>",
+    "objective": "Have all [ranger] on this card: [guide] 1.40",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500341524/4D8A01466B60D9B5DFC4F14FFC6CA18493376F47/",
+    "image_rect": [
+      4,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "01473",
+    "name": "Intervention",
+    "category_id": "mission",
+    "type_id": "mission",
+    "set_id": "mission",
+    "set_position": "10",
+    "position": 473,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "back_card_id": "01472",
+    "text": "<f>You've agreed to help Kordo remove the unnatural biomeld Caustic Mulcher from the ecosystem.</f>\n<f>Explore the woodlands of the Valley, where Caustic Mulchers can be found.</f>\nAt any point, the group can choose to change their mind and help Nal instead. If they do, flip this card. Replace Intervention with Accommodation on the campaign tracker.<hr><o><b>Clear a Caustic Mulcher with [harm]:</b> [guide] 1.41</o>",
+    "objective": "Clear a Caustic Mulcher with [harm]: [guide] 1.41",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500342575/3F7D39355037C3E5C429417FA4773DEEECE4B2A6/",
+    "image_rect": [
+      4,
+      4,
+      4
+    ]
   }
 ]
