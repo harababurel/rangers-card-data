@@ -1118,6 +1118,7 @@
     "traits": "Spirit",
     "type_id": "being",
     "presence": 0,
+    "harm": "/",
     "text": "Persistent. Spirit.<hr><b>Response:</b> When you travel, discard 2[progress] from this spirit to treat all Circling Irix as if they did not have persistent.",
     "mountain_challenge": "You may either exhaust this spirit or discard 1[progress] from it. If you do, resolve a challenge effect on another being in the same area.",
     "category_id": "ranger",
