@@ -7051,5 +7051,49 @@
       2,
       2
     ]
+  },
+  {
+    "id": "01464",
+    "name": "Journey",
+    "category_id": "mission",
+    "type_id": "mission",
+    "traits": "Interlude",
+    "set_id": "mission",
+    "set_position": "1",
+    "position": 464,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "back_card_id": "01465",
+    "text": "<f>You must venture to a specific location to progress the story.</f><hr><b>Arrive at the attached location:</b> [guide] 1.50",
+    "objective": "Arrive at the attached location: [guide] 1.50",
+    "key_locations": "1.50",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500341524/4D8A01466B60D9B5DFC4F14FFC6CA18493376F47/",
+    "image_rect": [
+      0,
+      4,
+      4
+    ]
+  },
+  {
+    "id": "01465",
+    "name": "Journey",
+    "category_id": "mission",
+    "type_id": "mission",
+    "traits": "Interlude",
+    "set_id": "mission",
+    "set_position": "2",
+    "position": 465,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "back_card_id": "01464",
+    "text": "<f>You must venture to a specific location to progress the story.</f><hr><b>Arrive at the attached location:</b> [guide] 1.50",
+    "objective": "Arrive at the attached location: [guide] 1.50",
+    "key_locations": "1.50",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500342575/3F7D39355037C3E5C429417FA4773DEEECE4B2A6/",
+    "image_rect": [
+      0,
+      4,
+      4
+    ]
   }
 ]

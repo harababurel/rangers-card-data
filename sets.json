@@ -270,5 +270,10 @@
     "id": "weather",
     "name": "Weather",
     "size": 8
+  },
+  {
+    "id": "mission",
+    "name": "Mission",
+    "size": 34
   }
 ]
