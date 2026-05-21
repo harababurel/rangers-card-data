@@ -947,6 +947,7 @@
     "traits": "Spirit",
     "type_id": "being",
     "presence": 0,
+    "harm": "/",
     "text": "Persistent. Spirit.<hr><b>Response:</b> Before a Sitka Buck would resolve a challenge effect, discard 2[progress] from this spirit to exhaust the Buck.",
     "crest_challenge": "You may discard 1 or more [progress] from this spirit to exhaust a being in the same area with presence equal to the number of [progress] discarded.",
     "category_id": "ranger",
