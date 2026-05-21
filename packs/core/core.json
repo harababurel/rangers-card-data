@@ -189,6 +189,10 @@
     "text": "[FOC] + [connection]<b> (use 1 session): Meditate</b> <f>on your journey</f> to shuffle a number of cards from your fatigue stack into your Ranger deck equal to your effort.",
     "approach_connection": 1,
     "approach_reason": 1,
+    "approach_icons": [
+      "connection",
+      "reason"
+    ],
     "token_id": "session",
     "token_count": 3,
     "flavor": "You feel that quiet meditation is essential to daily life, and that the ability to enjoy moments of stillness is paramount to one's well-being.",
@@ -474,6 +478,10 @@
     "text": "Move all [progress] from a being to a feature.",
     "approach_conflict": 1,
     "approach_connection": 1,
+    "approach_icons": [
+      "connection",
+      "conflict"
+    ],
     "flavor": "Your uncle loves to regale any who'll listen with the Tale of the Shepherd and the Relgerbeast. The shepherd in the tale saves his flock not by harming the beast, but by riding it back to the village. It then becomes a valued member of the community, rooting out Scrofs in the field.",
     "illustrator": "Wayne O'Connor",
     "category_id": "ranger",
@@ -874,6 +882,10 @@
     "text": "Exhaust each obstacle. Suffer fatigue equal to the number of obstacles exhausted this way.",
     "approach_connection": 1,
     "approach_exploration": 1,
+    "approach_icons": [
+      "connection",
+      "exploration"
+    ],
     "flavor": "Your mentor once took you into the hills beyond Lone Tree, blindfolded, and had you lead the way home in the night, with only the stars to guide you.",
     "illustrator": "Wayne O'Connor",
     "category_id": "ranger",
@@ -983,6 +995,10 @@
     "text": "<b>Response:</b> When you rest, add entries equal to the number of [FOC] in your energy pool.<hr><b>Use 1 entry:</b> When a Ranger interacts with a feature, commit 1 effort.",
     "approach_connection": 1,
     "approach_reason": 1,
+    "approach_icons": [
+      "connection",
+      "reason"
+    ],
     "token_id": "entry",
     "token_count": 0,
     "illustrator": "Banner & Simonet",
@@ -1178,6 +1194,10 @@
     "text": "Discard this gear from play to exhaust beings equal to the number of charges on this gear.<hr><b>Response:</b> After you succeed at an <b>Avoid</b> test, add 1 charge to this gear.",
     "approach_reason": 1,
     "approach_conflict": 1,
+    "approach_icons": [
+      "reason",
+      "conflict"
+    ],
     "token_id": "charge",
     "token_count": 1,
     "illustrator": "Chris Beck",
@@ -1242,6 +1262,10 @@
     "text": "<b>[FOC] + [conflict] (use 1 dart): Shoot</b> <f>one of the featherlight darts to</f> add [harm] to a being equal to your effort. Whether you succeed or fail, dodge all cards between you and that being.",
     "approach_conflict": 1,
     "approach_reason": 1,
+    "approach_icons": [
+      "reason",
+      "conflict"
+    ],
     "token_id": "dart",
     "token_count": 3,
     "illustrator": "Chris Beck",
@@ -1265,6 +1289,10 @@
     "text": "When you play this gear, choose an aspect (you may place a spare energy token here as a reminder).<hr><b>Exhaust (use 1 sip):</b> Gain 1 energy matching the chosen aspect.",
     "approach_exploration": 1,
     "approach_reason": 1,
+    "approach_icons": [
+      "exploration",
+      "reason"
+    ],
     "token_id": "sip",
     "token_count": 3,
     "illustrator": "Chris Beck",
@@ -1288,6 +1316,10 @@
     "text": "<b>Response:</b> After a path card is cleared, add 1 inkrill to this gear.<hr><b>Use 1 inkrill:</b> When a Ranger interacts with a feature, commit 1 effort.",
     "approach_exploration": 1,
     "approach_connection": 1,
+    "approach_icons": [
+      "connection",
+      "exploration"
+    ],
     "token_id": "inkrill",
     "token_count": 0,
     "illustrator": "Chris Beck",
@@ -1311,6 +1343,10 @@
     "text": "<b>Exhaust (use 1 charge):</b> When you perform a <b>Traverse</b> test, use [FOC] instead of [FIT].",
     "approach_conflict": 1,
     "approach_reason": 1,
+    "approach_icons": [
+      "reason",
+      "conflict"
+    ],
     "token_id": "charge",
     "token_count": 3,
     "flavor": "With each step, your trekking poles spring upward, easing your burden as they provide buoyancy to your limbs.",
@@ -1569,6 +1605,10 @@
     "text": "<b>Exhaust (use 1 charge):</b> When a Ranger performs a <b>Connect</b> test, commit 1 effort.",
     "approach_connection": 1,
     "approach_reason": 1,
+    "approach_icons": [
+      "connection",
+      "reason"
+    ],
     "token_id": "charge",
     "token_count": 3,
     "flavor": "When this device is activated, you feel somehow incapable of misunderstanding those around you. Each word and gesture conveys a purity of thought perceivable by only the most empathetic of beings.",
@@ -1656,6 +1696,10 @@
     "text": "Friendly. Persistent. Unique.<hr><b>Exhaust:</b> Discard 1[progress] from this being to add 1 token to an aid card and 2[progress] to another being.",
     "approach_exploration": 1,
     "approach_conflict": 1,
+    "approach_icons": [
+      "exploration",
+      "conflict"
+    ],
     "flavor": "Pokodo is unswervingly loyal and adored by all who meet her.",
     "illustrator": "Chris Beck",
     "category_id": "ranger",
@@ -1775,6 +1819,10 @@
     "token_count": 1,
     "approach_exploration": 1,
     "approach_reason": 1,
+    "approach_icons": [
+      "exploration",
+      "reason"
+    ],
     "illustrator": "Banner & Simonet",
     "category_id": "ranger",
     "pack_id": "ebr"
@@ -1840,6 +1888,10 @@
     "text": "Conduit. Setup.<hr><b>Response:</b> After you succeed at a <b>Traverse</b> test, add 1 stride to this conduit.<hr><b>Exhaust (use X strides):</b> Add X[progress] to a trail.",
     "approach_conflict": 1,
     "approach_connection": 1,
+    "approach_icons": [
+      "connection",
+      "conflict"
+    ],
     "token_id": "stride",
     "token_count": 1,
     "illustrator": "Banner & Simonet",
@@ -1862,6 +1914,10 @@
     "text": "Manifestation. <f>(To play a manifestation, discard 1 token from a conduit.)</f><hr><b>Response:</b> When a Ranger reveals a challenge card during a test, choose which modifier to use from that card. Then choose an additional challenge icon to resolve for this test.",
     "approach_conflict": 1,
     "approach_connection": 1,
+    "approach_icons": [
+      "connection",
+      "conflict"
+    ],
     "illustrator": "Wayne O'Connor",
     "category_id": "ranger",
     "pack_id": "ebr"
@@ -1943,6 +1999,10 @@
     "text": "Manifestation. <f>(To play a manifestation, discard 1 token from a conduit.)</f><hr>Choose a being in play, and shuffle it into the path deck. Then search the path deck and discard for a being and put it into play.",
     "approach_reason": 1,
     "approach_exploration": 1,
+    "approach_icons": [
+      "exploration",
+      "reason"
+    ],
     "illustrator": "Wayne O'Connor",
     "category_id": "ranger",
     "pack_id": "ebr"
@@ -1964,6 +2024,10 @@
     "text": "Conduit. Setup.<hr><b>Response:</b> After you perform a test in which no challenge effects were resolved, add 1 song to this conduit.<hr><b>Exhaust (use X songs):</b> Add X[progress] to a being.",
     "approach_conflict": 1,
     "approach_reason": 1,
+    "approach_icons": [
+      "reason",
+      "conflict"
+    ],
     "token_id": "song",
     "token_count": 1,
     "illustrator": "Banner & Simonet",
@@ -2289,6 +2353,11 @@
     "flavor": "Let this cloak serve as a reminder that no life can be taken without consequence. Each of us, great and small, are woven into the tapestry of existence, and no thread may be pulled without harm being done.",
     "approach_conflict": 2,
     "approach_exploration": 1,
+    "approach_icons": [
+      "exploration",
+      "conflict",
+      "conflict"
+    ],
     "spoiler": true,
     "category_id": "ranger",
     "pack_id": "ebr"
@@ -2333,6 +2402,11 @@
     "flavor": "Kordo has imparted to you the wisdom of his years in the wilderness, tracking predators and dangerous biomelds in the name of protecting the balance of nature and the lives of the people he loves.",
     "approach_connection": 1,
     "approach_conflict": 2,
+    "approach_icons": [
+      "connection",
+      "conflict",
+      "conflict"
+    ],
     "spoiler": true,
     "category_id": "ranger",
     "pack_id": "ebr"
@@ -2357,6 +2431,11 @@
     "token_count": 2,
     "approach_connection": 2,
     "approach_reason": 1,
+    "approach_icons": [
+      "connection",
+      "connection",
+      "reason"
+    ],
     "spoiler": true,
     "category_id": "ranger",
     "pack_id": "ebr"
@@ -2379,6 +2458,11 @@
     "flavor": "Inspired by Dace's fall from the Plummet, you've learned to briefly harness the wind, allowing it to carry you short distances.",
     "approach_exploration": 2,
     "approach_reason": 1,
+    "approach_icons": [
+      "exploration",
+      "exploration",
+      "reason"
+    ],
     "spoiler": true,
     "category_id": "ranger",
     "pack_id": "ebr"
@@ -2405,6 +2489,11 @@
     "approach_conflict": 1,
     "approach_connection": 1,
     "approach_reason": 1,
+    "approach_icons": [
+      "connection",
+      "reason",
+      "conflict"
+    ],
     "spoiler": true,
     "category_id": "ranger",
     "pack_id": "ebr"
@@ -2426,6 +2515,11 @@
     "text": "Attach to a path card.<hr>Reduce the attached card's presence by 2.<hr><b>Response:</b> When the attached card fatigues a Ranger, add 1[harm] to it.",
     "approach_conflict": 2,
     "approach_reason": 1,
+    "approach_icons": [
+      "reason",
+      "conflict",
+      "conflict"
+    ],
     "spoiler": true,
     "category_id": "ranger",
     "pack_id": "ebr"
@@ -2451,6 +2545,11 @@
     "token_count": 2,
     "approach_exploration": 1,
     "approach_reason": 2,
+    "approach_icons": [
+      "exploration",
+      "reason",
+      "reason"
+    ],
     "spoiler": true,
     "category_id": "ranger",
     "pack_id": "ebr"
@@ -2475,6 +2574,11 @@
     "harm": 3,
     "approach_connection": 1,
     "approach_conflict": 2,
+    "approach_icons": [
+      "connection",
+      "conflict",
+      "conflict"
+    ],
     "spoiler": true,
     "category_id": "ranger",
     "pack_id": "ebr"
@@ -2523,6 +2627,11 @@
     "approach_reason": 1,
     "approach_exploration": 1,
     "approach_conflict": 1,
+    "approach_icons": [
+      "exploration",
+      "reason",
+      "conflict"
+    ],
     "spoiler": true,
     "category_id": "ranger",
     "pack_id": "ebr"
@@ -2611,6 +2720,11 @@
     "approach_conflict": 1,
     "approach_exploration": 1,
     "approach_reason": 1,
+    "approach_icons": [
+      "exploration",
+      "reason",
+      "conflict"
+    ],
     "spoiler": true,
     "category_id": "ranger",
     "pack_id": "ebr"
@@ -2633,6 +2747,11 @@
     "flavor": "Thanks to you, Tala has found a home after years of wandering in exile. In exchange, she shared with you the climbing techniques employed by her people.",
     "approach_conflict": 1,
     "approach_exploration": 2,
+    "approach_icons": [
+      "exploration",
+      "exploration",
+      "conflict"
+    ],
     "spoiler": true,
     "category_id": "ranger",
     "pack_id": "ebr"
@@ -2655,6 +2774,11 @@
     "flavor": "You curl your tongue and let loose a clarion whistle. Within moments, Umbra appears in the sky, and all below flee before her shadow.",
     "approach_conflict": 2,
     "approach_exploration": 1,
+    "approach_icons": [
+      "exploration",
+      "conflict",
+      "conflict"
+    ],
     "spoiler": true,
     "category_id": "ranger",
     "pack_id": "ebr"
@@ -2680,6 +2804,11 @@
     "token_count": 4,
     "approach_exploration": 1,
     "approach_reason": 2,
+    "approach_icons": [
+      "exploration",
+      "reason",
+      "reason"
+    ],
     "spoiler": true,
     "category_id": "ranger",
     "pack_id": "ebr"
@@ -2705,6 +2834,11 @@
     "token_count": 3,
     "approach_exploration": 2,
     "approach_reason": 1,
+    "approach_icons": [
+      "exploration",
+      "exploration",
+      "reason"
+    ],
     "spoiler": true,
     "category_id": "ranger",
     "pack_id": "ebr"
