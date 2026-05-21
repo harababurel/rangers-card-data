@@ -7311,5 +7311,47 @@
       4,
       4
     ]
+  },
+  {
+    "id": "01476",
+    "name": "Sensor Network",
+    "category_id": "mission",
+    "type_id": "mission",
+    "traits": "Story",
+    "set_id": "mission",
+    "set_position": "13",
+    "position": 476,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "text": "<f>Deploy sensors to try to detect reclaimers.</f>\n<l>The Plummet</l><l>High Basin</l><l>Mound of the Navigator</l>\nWhen a feature comes into play at one of these locations, you may attach this mission to it.<hr>When a feature with this mission attached is cleared, place 1[progress] on this mission.<hr><o><b>Have 3[progress] on this mission:</b> [guide] 1.09</o>",
+    "objective": "Have 3[progress] on this mission: [guide] 1.09",
+    "key_locations": "The Plummet, High Basin, Mound of the Navigator",
+    "crest_challenge": "If this mission is attached, exhaust a non-human being. [right_arrow] Unattach this mission unless a ranger spends 1 <b>FOC</b> energy.",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2283951908966791735/3FE917BD16A50D3DB1638C49C51EB859019204E0/",
+    "image_rect": [
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "id": "01477",
+    "name": "Secret Invasion",
+    "category_id": "mission",
+    "type_id": "mission",
+    "traits": "Story",
+    "set_id": "mission",
+    "set_position": "14",
+    "position": 477,
+    "quantity": 1,
+    "pack_id": "ebr",
+    "text": "<f>Search for signs of reclaimers to figure out how many are present in the Valley.</f><hr><b>Path Deck Assembly:</b> At any non-pivotal location, search the General set for 5 Reclaimer Seekers and shuffle them into the Valley set before adding those cards to the path deck.<hr>While at a non-pivotal location this mission gains the following test:\n<b>[AWA] + [exploration]: Search</b> <f>for signs of these strange biomelds to</f> scout a number of path cards equal to twice your effort. Put each Reclaimer card you look at into play.<hr><o><b>Clear a Reclaimer Seeker:</b> [guide] 1.10</o>",
+    "objective": "Clear a Reclaimer Seeker: [guide] 1.10",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2283951908966781803/97BCD63E81E3B68F90D136F87E4782C9C82C6037/",
+    "image_rect": [
+      0,
+      1,
+      1
+    ]
   }
 ]
