@@ -2910,6 +2910,11 @@
     "flavor": "The sensor blinks with warms dots of light, pulsing with the heartbeat of each nearby being.",
     "approach_exploration": 2,
     "approach_reason": 1,
+    "approach_icons": [
+      "exploration",
+      "exploration",
+      "reason"
+    ],
     "spoiler": true,
     "category_id": "ranger",
     "pack_id": "ebr"
@@ -3006,6 +3011,11 @@
     "flavor": "The complex flavors of the stew blend perfectly--rich but not overpowering, fresh but hearty, warm and soothing yet light and effervescent.",
     "approach_connection": 1,
     "approach_reason": 2,
+    "approach_icons": [
+      "connection",
+      "reason",
+      "reason"
+    ],
     "spoiler": true,
     "category_id": "ranger",
     "pack_id": "ebr"
@@ -3032,6 +3042,11 @@
     "approach_connection": 1,
     "approach_exploration": 1,
     "approach_conflict": 1,
+    "approach_icons": [
+      "connection",
+      "exploration",
+      "conflict"
+    ],
     "spoiler": true,
     "category_id": "ranger",
     "pack_id": "ebr"
@@ -3128,6 +3143,11 @@
     "flavor": "Calypsa's training, and her confidence in your abilities, helped you to believe in yourself, and to push beyond your perceived limitations.",
     "approach_exploration": 2,
     "approach_reason": 1,
+    "approach_icons": [
+      "exploration",
+      "exploration",
+      "reason"
+    ],
     "token_id": "xp",
     "token_count": 3,
     "spoiler": true,
@@ -7386,8 +7406,6 @@
     "token_id": "biscuit",
     "token_count": 3,
     "text": "<b>[SPI] + [connection]: Give [2]</b> <f>a biscuit to</f> move 1 biscuit to a human that does not have a biscuit on them and add 4[progress] to them.<hr><b>[AWA] + [reason]: Sneak</b> <f>a biscuit to</f> soothe 3 fatigue and move 1 biscuit to your role.<hr><o><b>Have 0 biscuits on this gear:</b> [guide] 1.02</o>",
-    "approach_connection": 1,
-    "approach_reason": 1,
     "illustrator": "Evan Simonet",
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/2155595510500342575/3F7D39355037C3E5C429417FA4773DEEECE4B2A6/",
     "image_rect": [

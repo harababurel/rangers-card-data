@@ -25,6 +25,10 @@
     "illustrator": "Evan Simonet",
     "approach_connection": 1,
     "approach_conflict": 1,
+    "approach_icons": [
+      "connection",
+      "conflict"
+    ],
     "token_id": "flash",
     "token_count": 3,
     "spoiler": true,
@@ -51,6 +55,10 @@
     "illustrator": "Evan Simonet",
     "approach_conflict": 1,
     "approach_exploration": 1,
+    "approach_icons": [
+      "exploration",
+      "conflict"
+    ],
     "spoiler": true,
     "subset_id": "loa_reward",
     "subset_position": 2
@@ -98,6 +106,10 @@
     "illustrator": "Evan Simonet",
     "approach_conflict": 1,
     "approach_reason": 1,
+    "approach_icons": [
+      "reason",
+      "conflict"
+    ],
     "spoiler": true,
     "subset_id": "loa_reward",
     "subset_position": 4
@@ -151,6 +163,11 @@
     "approach_connection": 1,
     "approach_exploration": 1,
     "approach_reason": 1,
+    "approach_icons": [
+      "exploration",
+      "connection",
+      "reason"
+    ],
     "spoiler": true,
     "subset_id": "loa_reward",
     "subset_position": 6
@@ -225,6 +242,11 @@
     "illustrator": "Evan Simonet",
     "approach_conflict": 2,
     "approach_exploration": 1,
+    "approach_icons": [
+      "exploration",
+      "conflict",
+      "conflict"
+    ],
     "spoiler": true,
     "subset_id": "loa_reward",
     "subset_position": 9
@@ -248,6 +270,10 @@
     "illustrator": "Rob Laskey",
     "approach_exploration": 1,
     "approach_reason": 1,
+    "approach_icons": [
+      "exploration",
+      "reason"
+    ],
     "flavor": "You took this device from Orlin's Vault not knowing how truly useful it would be.",
     "spoiler": true,
     "subset_id": "loa_reward",
@@ -275,6 +301,10 @@
     "illustrator": "Evan Simonet",
     "approach_conflict": 1,
     "approach_exploration": 1,
+    "approach_icons": [
+      "exploration",
+      "conflict"
+    ],
     "spoiler": true,
     "subset_id": "loa_reward",
     "subset_position": 11
@@ -298,6 +328,10 @@
     "illustrator": "Evan Simonet",
     "approach_exploration": 1,
     "approach_reason": 1,
+    "approach_icons": [
+      "exploration",
+      "reason"
+    ],
     "equip": 1,
     "token_id": "entry",
     "token_count": 3,
@@ -324,6 +358,11 @@
     "illustrator": "Wayne O'Connor",
     "approach_conflict": 1,
     "approach_exploration": 2,
+    "approach_icons": [
+      "exploration",
+      "exploration",
+      "conflict"
+    ],
     "flavor": "The Estian's vision for their arcology was grand. Not only could it house hundreds of thousands, but its inhabitants were tasked with inventing new technologies that would preserve their legacy.",
     "spoiler": true,
     "subset_id": "loa_reward",
@@ -453,6 +492,11 @@
     "illustrator": "Rob Laskey",
     "approach_conflict": 1,
     "approach_exploration": 2,
+    "approach_icons": [
+      "exploration",
+      "exploration",
+      "conflict"
+    ],
     "spoiler": true,
     "subset_id": "loa_reward",
     "subset_position": 18
@@ -480,6 +524,11 @@
     "approach_connection": 1,
     "approach_exploration": 1,
     "approach_reason": 1,
+    "approach_icons": [
+      "exploration",
+      "reason",
+      "connection"
+    ],
     "spoiler": true,
     "subset_id": "loa_reward",
     "subset_position": 19
@@ -531,6 +580,11 @@
     "illustrator": "Evan Simonet",
     "approach_conflict": 1,
     "approach_connection": 2,
+    "approach_icons": [
+      "connection",
+      "connection",
+      "conflict"
+    ],
     "equip": 2,
     "token_id": "gleam",
     "token_count": 2,
@@ -556,10 +610,14 @@
     "aspect_id": "FOC",
     "level": 1,
     "illustrator": "Rob Laskey",
-    "approach_conflict": 1,
     "approach_connection": 1,
     "approach_reason": 1,
     "approach_exploration": 1,
+    "approach_icons": [
+      "exploration",
+      "connection",
+      "reason"
+    ],
     "flavor": "You can sense the presence of the Estians all around you, their hands shaping the present through the medium of the past.",
     "spoiler": true,
     "subset_id": "loa_reward",
@@ -663,6 +721,11 @@
     "approach_conflict": 1,
     "approach_connection": 1,
     "approach_reason": 1,
+    "approach_icons": [
+      "reason",
+      "connection",
+      "conflict"
+    ],
     "spoiler": true,
     "subset_id": "loa_reward",
     "subset_position": 27
@@ -689,6 +752,10 @@
     "illustrator": "Evan Simonet",
     "approach_connection": 1,
     "approach_reason": 1,
+    "approach_icons": [
+      "connection",
+      "reason"
+    ],
     "spoiler": true,
     "subset_id": "loa_reward",
     "subset_position": 27
@@ -719,6 +786,11 @@
     "approach_conflict": 1,
     "approach_connection": 1,
     "approach_reason": 1,
+    "approach_icons": [
+      "connection",
+      "reason",
+      "conflict"
+    ],
     "flavor": "The Estians feared no limitation and heeded no boundary; as evidenced by the biomelds that yet roam the Arcology ruin.",
     "spoiler": true,
     "subset_id": "loa_reward",
@@ -749,6 +821,10 @@
     "illustrator": "Evan Simonet",
     "approach_connection": 1,
     "approach_reason": 1,
+    "approach_icons": [
+      "connection",
+      "reason"
+    ],
     "equip": 2,
     "token_id": "tune",
     "token_count": 3,

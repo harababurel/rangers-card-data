@@ -14,6 +14,10 @@
     "illustrator": "Chris Beck",
     "approach_exploration": 1,
     "approach_reason": 1,
+    "approach_icons": [
+      "exploration",
+      "reason"
+    ],
     "type_id": "gear",
     "traits": "Tool",
     "text": "<b>[FIT] + [exploration] (use 1 piton): Climb</b> <f>the terrain to</f> choose an ascent. Then choose options equal to your effort (you may choose an option multiple times):<hr>Add 2[progress] to that ascent.<hr>Exhaust that ascent if it is a feature.<hr>Move your [ranger] to that ascent.",
@@ -40,6 +44,11 @@
     "illustrator": "Chris Beck",
     "approach_exploration": 2,
     "approach_reason": 1,
+    "approach_icons": [
+      "exploration",
+      "exploration",
+      "reason"
+    ],
     "equip": 1,
     "type_id": "gear",
     "traits": "Clothing / Tech",
@@ -67,6 +76,11 @@
     "approach_connection": 1,
     "approach_conflict": 1,
     "approach_reason": 1,
+    "approach_icons": [
+      "conflict",
+      "connection",
+      "reason"
+    ],
     "type_id": "being",
     "traits": "Spirit",
     "presence": 1,
@@ -94,6 +108,10 @@
     "illustrator": "Rob Laskey",
     "approach_connection": 1,
     "approach_conflict": 1,
+    "approach_icons": [
+      "connection",
+      "conflict"
+    ],
     "type_id": "attachment",
     "traits": "Spiritual",
     "text": "Attach to a spirit or companion.<hr><b>Exhaust:</b> Ready the attached being or add 2[progress] to it.",
@@ -119,6 +137,11 @@
     "illustrator": "Chris Beck",
     "approach_conflict": 1,
     "approach_reason": 2,
+    "approach_icons": [
+      "reason",
+      "reason",
+      "conflict"
+    ],
     "type_id": "gear",
     "traits": "Otherworldly",
     "text": "<b>Response:</b> After the weather flips, add 1 shift to this gear.<hr><b>Use 1 shift:</b> Before a challenge effect on the weather would resolve, cancel that effect.",

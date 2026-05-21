@@ -39,6 +39,11 @@
     "illustrator": "Wayne O'Connor",
     "approach_connection": 2,
     "approach_reason": 1,
+    "approach_icons": [
+      "connection",
+      "connection",
+      "reason"
+    ],
     "type_id": "moment",
     "traits": "Experience",
     "text": "If there is a human in play, add 3 [progress] to that human or add 3 [progress] to the location. If Helping Hand is attached to that human, do both instead.",
@@ -89,6 +94,11 @@
     "illustrator": "Chris Beck",
     "approach_reason": 2,
     "approach_conflict": 1,
+    "approach_icons": [
+      "reason",
+      "reason",
+      "conflict"
+    ],
     "type_id": "gear",
     "traits": "Tech",
     "text": "<b>Exhaust (use 1 spray):</b> Discard 1 [harm] from a flora and either exhaust it or resolve its [mountain] effect.",
@@ -116,6 +126,11 @@
     "approach_connection": 1,
     "approach_exploration": 1,
     "approach_reason": 1,
+    "approach_icons": [
+      "connection",
+      "exploration",
+      "reason"
+    ],
     "type_id": "moment",
     "traits": "Skill / Tale",
     "text": "Each Ranger may spend any amount of energy of one aspect to gain that much energy of another aspect.",

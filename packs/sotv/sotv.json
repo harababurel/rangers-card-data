@@ -13,6 +13,11 @@
     "approach_conflict": 1,
     "approach_exploration": 1,
     "approach_reason": 1,
+    "approach_icons": [
+      "conflict",
+      "exploration",
+      "reason"
+    ],
     "traits": "Innate",
     "type_id": "attribute",
     "text": "After you commit this attribute, search your Ranger deck for the next attribute that you can commit to this test and commit it. If this test is successful, place that attribute on top of your fatigue stack.",
@@ -468,6 +473,10 @@
     "illustrator": "The Creation Studio",
     "approach_connection": 1,
     "approach_reason": 1,
+    "approach_icons": [
+      "connection",
+      "reason"
+    ],
     "equip": 2,
     "token_id": "slice",
     "token_count": 3,
@@ -514,6 +523,10 @@
     "illustrator": "Wayne O'Connor",
     "approach_exploration": 1,
     "approach_reason": 1,
+    "approach_icons": [
+      "exploration",
+      "reason"
+    ],
     "traits": "Innate",
     "type_id": "attribute",
     "text": "After you succeed at a test in which you committed this attribute, choose a gear in your Ranger discard and place it on top of your fatigue stack. If your total effort was 3 or more, add it to your hand instead.",
@@ -670,6 +683,10 @@
     "illustrator": "Wayne O'Connor",
     "approach_connection": 1,
     "approach_reason": 1,
+    "approach_icons": [
+      "connection",
+      "reason"
+    ],
     "traits": "Skill",
     "type_id": "attribute",
     "text": "If you commited this attribute while interacting with a being, and the test is successful, you may decide which, if any, of that being's challenge effects resolve.",
@@ -803,6 +820,10 @@
     "illustrator": "The Creation Studio",
     "approach_connection": 1,
     "approach_reason": 1,
+    "approach_icons": [
+      "connection",
+      "reason"
+    ],
     "traits": "Book",
     "type_id": "gear",
     "token_id": "vision",
@@ -1202,6 +1223,10 @@
     "illustrator": "Evan Simonet",
     "approach_conflict": 1,
     "approach_connection": 1,
+    "approach_icons": [
+      "connection",
+      "conflict"
+    ],
     "traits": "Spirit / Major",
     "type_id": "being",
     "presence": 1,
@@ -1646,6 +1671,10 @@
     "type_id": "attribute",
     "approach_conflict": 1,
     "approach_connection": 1,
+    "approach_icons": [
+      "connection",
+      "conflict"
+    ],
     "traits": "Innate",
     "text": "Before you commit this attribute, you may suffer 1 fatigue. If you do, this attribute gains [connection] [conflict].",
     "flavor": "You believe firmly that the key to life is to be generous of spirit; for an abundant spirit is ever-blooming and a joy to behold. You make fast friends, and wherever you go you are treated like family.",
@@ -1692,6 +1721,11 @@
     "illustrator": "Jajang Sopandi",
     "approach_conflict": 1,
     "approach_exploration": 2,
+    "approach_icons": [
+      "exploration",
+      "exploration",
+      "conflict"
+    ],
     "type_id": "feature",
     "traits": "Trail",
     "presence": 0,
@@ -1748,6 +1782,11 @@
     "illustrator": "Jajang Sopandi",
     "approach_connection": 2,
     "approach_reason": 1,
+    "approach_icons": [
+      "connection",
+      "connection",
+      "reason"
+    ],
     "type_id": "feature",
     "traits": "Flora",
     "presence": 0,
@@ -1773,6 +1812,10 @@
     "illustrator": "Rob Laskey",
     "approach_conflict": 1,
     "approach_connection": 1,
+    "approach_icons": [
+      "connection",
+      "conflict"
+    ],
     "type_id": "attachment",
     "traits": "Tale",
     "text": "Personal Reward <i>(Go Forth, Fearless Ranger)</i>.<hr>Attach to a Ranger's role without The Bravest Ranger attached.<hr><b>Exhaust:</b> When you would suffer 1 or more fatigue, you may instead place that many cards from your hand on top of your fatigue stack.",
