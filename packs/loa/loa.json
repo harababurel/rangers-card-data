@@ -498,6 +498,11 @@
     "illustrator": "Wayne O'Connor",
     "approach_connection": 1,
     "approach_exploration": 2,
+    "approach_icons": [
+      "exploration",
+      "exploration",
+      "connection"
+    ],
     "spoiler": true,
     "subset_id": "loa_reward",
     "subset_position": 20

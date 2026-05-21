@@ -2799,6 +2799,11 @@
     "approach_connection": 1,
     "approach_exploration": 1,
     "approach_reason": 1,
+    "approach_icons": [
+      "connection",
+      "exploration",
+      "reason"
+    ],
     "spoiler": true,
     "category_id": "ranger",
     "pack_id": "ebr"

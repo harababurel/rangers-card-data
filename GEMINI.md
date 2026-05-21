@@ -35,7 +35,8 @@ The primary focus of this fork shifts away from pure localization and towards **
 
 ### Schema Insights
 The existing `schema.ts` already shows foresight for encounter cards, even if the data isn't populated yet. 
-- **Card Fields:** The `card` collection supports fields like `harm`, `progress`, `approach_conflict`, `approach_reason`, `approach_exploration`, `approach_connection`.
+- **Card Fields:** The `card` collection supports fields like `harm`, `progress`, `approach_conflict`, `approach_reason`, `approach_exploration`, `approach_connection`, and optional `approach_icons`.
+- **Approach Icon Order:** The numeric `approach_*` fields store icon counts for compatibility and filtering. The optional `approach_icons` array stores the printed left-to-right order using `conflict`, `reason`, `exploration`, and `connection`. When present, it is the canonical rendering order and must match the numeric counts, including duplicate icons.
 - **Encounter Specifics:** The schema explicitly supports `sun_challenge`, `mountain_challenge`, and `crest_challenge` as text fields, which are strictly required for generating Challenge, Path, and Location cards.
 - **Formatting Conventions:** 
   - Standard italics are generally replaced by the `<f>` tag for flavor text (e.g., `<f>Flavor text here</f>`).

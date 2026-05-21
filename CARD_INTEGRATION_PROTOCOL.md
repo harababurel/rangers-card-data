@@ -27,6 +27,11 @@ This document outlines the procedure for extracting metadata from card images an
 *   **Subtitle/Header**: The first word is the `type_id`. Any subsequent words separated by `/` are `traits`. For path cards, the `category_id` should always be set to `"path"`.
 *   **Type ID**: The `type_id` should be set to the first word in the card subtitle (e.g., "attachment").
 *   **Attributes**: Attribute names must be enclosed in brackets, e.g., `[SPI]`, `[AWA]`. If `harm`, `progress`, or any `approach` values are 0, do not include them in the JSON object.
+*   **Approach Icon Counts and Order**:
+    *   Continue recording approach icon totals in the numeric fields: `approach_conflict`, `approach_reason`, `approach_exploration`, and `approach_connection`.
+    *   If the printed icon order is known, also include `approach_icons` as a left-to-right array using only `conflict`, `reason`, `exploration`, and `connection`.
+    *   `approach_icons` is rendering metadata. It must agree with the numeric approach counts, including duplicates.
+    *   Example: printed icons `reason, exploration` should be modeled as `"approach_reason": 1`, `"approach_exploration": 1`, and `"approach_icons": ["reason", "exploration"]`.
 *   **Icons & Symbols**:
     *   The triangle symbol in text maps to `[reason]`.
     *   The ">>" symbol maps to `[right_arrow]`.

@@ -72,6 +72,7 @@ export const TABLES: { [key: string]: Table } = {
       'equip',
       'presence',
       'token_id',
+      'approach_icons',
       'approach_conflict',
       'approach_reason',
       'approach_exploration',
