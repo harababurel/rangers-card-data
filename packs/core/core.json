@@ -2881,12 +2881,12 @@
     "text": "<b>Response:</b> When a Ranger performs a test, commit X effort.",
     "flavor": "After spending a harrowing night with Jaris atop Greenbriar Knoll, you feel there is nothing you can't do. Fear is but a construct of the mind, a fiction with precious little basis in fact, that courage may swiftly overcome.",
     "approach_connection": 1,
-    "approach_exploration": 1,
+    "approach_conflict": 1,
     "approach_reason": 1,
     "approach_icons": [
       "connection",
       "reason",
-      "exploration"
+      "conflict"
     ],
     "spoiler": true,
     "category_id": "ranger",
