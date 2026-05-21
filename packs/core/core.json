@@ -518,6 +518,10 @@
     "text": "Choose a being. Move [progress] from the chosen being to each other card in play, up to 1[progress] per card.",
     "approach_conflict": 1,
     "approach_connection": 1,
+    "approach_icons": [
+      "connection",
+      "conflict"
+    ],
     "flavor": "In your solitude, you once observed the wind describing its course across the plain and came to a place of peace. You saw your life as the wind, ephemeral and beautiful, and you were grateful for it.",
     "illustrator": "Wayne O'Connor",
     "category_id": "ranger",
@@ -657,6 +661,10 @@
     "text": "Add 1 [harm] to a flora to add 3 [progress] to a trail.",
     "approach_exploration": 1,
     "approach_reason": 1,
+    "approach_icons": [
+      "exploration",
+      "reason"
+    ],
     "flavor": "During family foraging excursions, your parents would call your attention to subtle passages created by sitka deer. These convenient shortcuts led to many fruit-bearing plants like sunberry brambles and cherry moss.",
     "illustrator": "Wayne O'Connor",
     "category_id": "ranger",
@@ -1038,6 +1046,10 @@
     "text": "<b>Response:</b> When you perform a test, discard any number of cards from your fatigue stack to commit 1 effort to that test for every 2 cards discarded this way.",
     "approach_connection": 1,
     "approach_conflict": 1,
+    "approach_icons": [
+      "connection",
+      "conflict"
+    ],
     "illustrator": "Wayne O'Connor",
     "category_id": "ranger",
     "pack_id": "ebr"
@@ -1058,6 +1070,10 @@
     "text": "Choose a trail. Soothe fatigue equal to the number of [progress] on that trail. This fatigue may be divided as you choose between all Rangers.",
     "approach_connection": 1,
     "approach_exploration": 1,
+    "approach_icons": [
+      "connection",
+      "exploration"
+    ],
     "flavor": "You lie back and breathe deep. In this moment you are keenly aware of your connection to the earth and to all living things.",
     "illustrator": "Wayne O'Connor",
     "category_id": "ranger",
@@ -1318,6 +1334,10 @@
     "text": "<b>Response:</b> After you succeed at an <b>Avoid</b> test, exhaust 1 additional being",
     "approach_exploration": 1,
     "approach_reason": 1,
+    "approach_icons": [
+      "exploration",
+      "reason"
+    ],
     "flavor": "Whether in your workshop or in nature, you are able to reach a state of being where you are at one with with your surroundings, moving with an ease that suggests an intrinsic understanding of creation.",
     "illustrator": "Wayne O'Connor",
     "category_id": "ranger",
@@ -2726,9 +2746,14 @@
     "traits": "Experience",
     "text": "<b>Response:</b> When a Ranger performs a test, commit X effort.",
     "flavor": "After spending a harrowing night with Jaris atop Greenbriar Knoll, you feel there is nothing you can't do. Fear is but a construct of the mind, a fiction with precious little basis in fact, that courage may swiftly overcome.",
-    "approach_conflict": 1,
     "approach_connection": 1,
+    "approach_exploration": 1,
     "approach_reason": 1,
+    "approach_icons": [
+      "connection",
+      "reason",
+      "exploration"
+    ],
     "spoiler": true,
     "category_id": "ranger",
     "pack_id": "ebr"
@@ -2942,6 +2967,11 @@
     "approach_connection": 1,
     "approach_exploration": 1,
     "approach_reason": 1,
+    "approach_icons": [
+      "connection",
+      "exploration",
+      "reason"
+    ],
     "spoiler": true,
     "category_id": "ranger",
     "pack_id": "ebr"

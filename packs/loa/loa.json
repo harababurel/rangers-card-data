@@ -122,6 +122,11 @@
     "approach_conflict": 1,
     "approach_exploration": 1,
     "approach_reason": 1,
+    "approach_icons": [
+      "exploration",
+      "reason",
+      "conflict"
+    ],
     "spoiler": true,
     "subset_id": "loa_reward",
     "subset_position": 5
@@ -604,6 +609,11 @@
     "illustrator": "Wayne O'Connor",
     "approach_conflict": 1,
     "approach_connection": 2,
+    "approach_icons": [
+      "connection",
+      "connection",
+      "conflict"
+    ],
     "flavor": "Ever since you delivered the mysterious seed to its destination, you have discovered a new kinship with the Valley's plant life, and a new source of wisdom.",
     "spoiler": true,
     "subset_id": "loa_reward",
