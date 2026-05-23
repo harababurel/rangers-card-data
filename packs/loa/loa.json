@@ -3665,5 +3665,49 @@
       10,
       7
     ]
+  },
+  {
+    "id": "02381",
+    "name": "The Descent",
+    "category_id": "mission",
+    "type_id": "mission",
+    "traits": "Story",
+    "set_id": "mission",
+    "set_position": 1,
+    "position": 381,
+    "quantity": 1,
+    "pack_id": "loa",
+    "back_card_id": "02382",
+    "text": "<f>You must journey into the dark to lend aid to Silaro's expedition. You can either descend to the Chimney from the Arcology Threshold in Spire, or find an Arcology Sinkhole, and descend from there. Once at the Chimney, you'll need to find and talk to Silaro.</f><hr><o><b>Arrive at the Chimney:</b> [guide] 1.101</o>",
+    "objective": "Arrive at the Chimney: [guide] 1.101",
+    "key_locations": "The Chimney",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/13209590082629795306/2AC3590689B68E8CC65A6F0FDBF4CBD01CED6BF2/",
+    "image_rect": [
+      6,
+      10,
+      7
+    ]
+  },
+  {
+    "id": "02382",
+    "name": "An Urgent Request",
+    "category_id": "mission",
+    "type_id": "mission",
+    "traits": "Interlude",
+    "set_id": "mission",
+    "set_position": 2,
+    "position": 382,
+    "quantity": 1,
+    "pack_id": "loa",
+    "back_card_id": "02381",
+    "text": "<f>Silaro has requested that you meet him at the Concordant Ziggurats. You can either head to the surface via the Spiral Stairway in the Chimney or find an Elevated Passage to ascend to the surface.</f><hr><o><b>Arrive at the Concordant Ziggurats:</b> [guide] 1.107</o>",
+    "objective": "Arrive at the Concordant Ziggurats: [guide] 1.107",
+    "key_locations": "Concordant Ziggurats",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/11396028729878152841/B1A2532ABD1E83B95E4ABF57176BF62DD8946777/",
+    "image_rect": [
+      6,
+      10,
+      7
+    ]
   }
 ]
