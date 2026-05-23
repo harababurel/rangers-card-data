@@ -28,6 +28,13 @@
     "pack_id": "loa"
   },
   {
+    "id": "loa_mission",
+    "name": "Mission",
+    "size": 42,
+    "set_id": "mission",
+    "pack_id": "loa"
+  },
+  {
     "id": "loa_reward",
     "name": "Reward",
     "size": 29,
