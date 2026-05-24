@@ -19,6 +19,7 @@
     "sun_challenge": "<f>Lights flicker on above.</f> Discard 1 power from this machine. [right_arrow] Until the end of the turn, all areas are illuminated.",
     "mountain_challenge": "Move 1 power from this machine to the machine with the least power.",
     "crest_challenge": "<f>Structural collapse!</f> Discard 1 power from this machine. [right_arrow] Suffer 1 fatigue.",
+    "illustrator": "Banner & Simonet",
     "image_rect": [
       32,
       10,
@@ -46,6 +47,7 @@
     "sun_challenge": "<f>The wind douses some of the embers.</f> Discard 1 ember from this feature.",
     "mountain_challenge": "Add 1 [harm] to a being. If this cleared that being, suffer 2 fatigue.",
     "crest_challenge": "<f>You breathe in some of the residual smoke.</f> Suffer 1 fatigue and discard 1 ember from this feature.",
+    "illustrator": "Banner & Simonet",
     "image_rect": [
       31,
       10,

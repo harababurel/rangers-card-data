@@ -3428,6 +3428,7 @@
     "presence": 2,
     "mountain_challenge": "If there is a fish in play, <g>the ursus has found its fishing spot</f>. right_arrow] Move this predator to the same area as that fish.",
     "crest_challenge": "If this being is within reach, exhaust it. [right_arrow] Suffer 1 injury.",
+    "illustrator": "Chris Beck",
     "image_rect": [
       0,
       4,
@@ -3453,6 +3454,7 @@
     "sun_challenge": "<b>If this being has 1 or more [harm]</b>, <i>the swamp churns.</i> [right_arrow] <b>Search the path deck and discard for a Hydraworm and put it into play.</b>",
     "mountain_challenge": "<b>If there is another Hydraworm in the same area as this one</b>, <i>they spread out.</i> [right_arrow] <b>Move this being.</b>",
     "crest_challenge": "Exhaust this being. [right_arrow] <b>Suffer 1 injury.</b>",
+    "illustrator": "Chris Beck",
     "image_rect": [
       1,
       4,
@@ -3477,6 +3479,7 @@
     "progress": "4",
     "presence": 1,
     "mountain_challenge": "If there is an active human, exhaust them. [right_arrow] Add [progress] to them and [harm] to this feature, both equal to their presence.",
+    "illustrator": "Angus R. Hayes",
     "image_rect": [
       3,
       4,
@@ -3504,6 +3507,7 @@
     "sun_challenge": "Discard either 1[progress] or 1 token from a plant, insect, or gear.",
     "crest_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
     "guide_entry": 80,
+    "illustrator": "Evan Simonet",
     "image_rect": [
       1,
       4,
@@ -3530,6 +3534,7 @@
     "sun_challenge": "If there is flora along the way, <f>the bearsloth goes in search of food.</f> [right_arrow] Move this being along the way.",
     "mountain_challenge": "If this predator is along the way, <f>you feel a large presence looming over you.</f> [right_arrow] Suffer 1 fatigue.",
     "crest_challenge": "If you have 4 or more fatigue, exhaust this being. [right_arrow] Suffer 1 injury and move this being within reach.",
+    "illustrator": "Banner & Simonet",
     "image_rect": [
       0,
       4,
@@ -3554,6 +3559,7 @@
     "presence": 2,
     "sun_challenge": "If this being is along the way, move it within reach. [right_arrow] It fatigues you.",
     "crest_challenge": "If this being is within reach, and you have 3 or more fatigue, exhaust it. [right_arrow] Suffer 1 injury.",
+    "illustrator": "Banner & Simonet",
     "image_rect": [
       0,
       4,
@@ -3579,6 +3585,7 @@
     "sun_challenge": "If there is no Web Wall in play, exhaust this being. [right_arrow] Search the path deck and discard for a Web Wall and put it into play.",
     "mountain_challenge": "If there is no hazard in play. [right_arrow] Shuffle this being into the path deck.",
     "crest_challenge": "If you have 3 or more fatigue, exhaust this being. [right_arrow] Suffer 1 injury.",
+    "illustrator": "Anders Carlson",
     "image_rect": [
       0,
       4,
@@ -3602,6 +3609,7 @@
     "presence": 1,
     "sun_challenge": "Add a flood token to the attached card.",
     "crest_challenge": "If the number of flood tokens on the attached card is greater than its presence. [right_arrow] Discard it. Each Ranger suffers 3 fatigue.",
+    "illustrator": "Evan Simonet",
     "image_rect": [
       0,
       1,
@@ -3626,6 +3634,7 @@
     "text": "<b>Response:</b> When there is no damage on this feature: [guide] 95<hr><b>[FIT] + [reason]: Repair [2]</b> <f>the damage caused by the raging waters to</f> discard 1 damage.",
     "progress": "6",
     "presence": 2,
+    "illustrator": "Evan Simonet",
     "image_rect": [
       13,
       4,
@@ -3654,6 +3663,7 @@
     "sun_challenge": "Add 1 growth. If there are 3 or more, <f>it grows</f>. [right_arrow] Discard this prey and search the General set for a Reclaimer Seeker.",
     "mountain_challenge": "If you suffered fatigue during this test, <f>you touch the grub's corrosive slime.</f> [right_arrow] Suffer 1 injury.",
     "crest_challenge": "If there is an active predator, discard it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
+    "illustrator": "Banner & Simonet",
     "image_rect": [
       9,
       4,
@@ -3678,6 +3688,7 @@
     "progress": "4",
     "presence": 2,
     "mountain_challenge": "Add 1[harm] to this feature. If the weather is inclement, increase the number of [harm] added by 1.",
+    "illustrator": "Evan Simonet",
     "image_rect": [
       9,
       4,
@@ -3702,6 +3713,7 @@
     "presence": 3,
     "mountain_challenge": "Choose the card along the way with the highest presence and move it within reach.",
     "crest_challenge": "If this feature is within reach, <f>you must act quickly or crash into a rock!</f> [right_arrow] Discard 2[progress] from this feature or suffer 1 injury.",
+    "illustrator": "Angus R. Hayes",
     "image_rect": [
       10,
       4,
@@ -3725,6 +3737,7 @@
     "progress": "4",
     "presence": "X",
     "sun_challenge": "Choose the card along the way with the highest presence and move it within reach. If it's this card, it fatigues you.",
+    "illustrator": "Angus R. Hayes",
     "image_rect": [
       7,
       4,
@@ -3749,6 +3762,7 @@
     "progress": "2",
     "presence": 1,
     "crest_challenge": "Move your [ranger] to this feature. [right_arrow] Move this feature within reach.",
+    "illustrator": "Anders Carlson",
     "image_rect": [
       8,
       4,
@@ -3773,6 +3787,7 @@
     "progress": "3",
     "presence": 1,
     "mountain_challenge": "If there is an active prey, exhaust it. [right_arrow] Add [progress] to it and [harm] to this feature, both equal to that prey's presence.",
+    "illustrator": "Banner & Simonet",
     "image_rect": [
       8,
       4,
@@ -3798,6 +3813,7 @@
     "presence": 2,
     "sun_challenge": "Discard 1[progress] from an active water feature and exhaust this being. [right_arrow] Discard 1[harm] from this being.",
     "mountain_challenge": "If there is an active predator, exhaust it. [right_arrow] Add 1[harm] to it, then add [harm] to this being equal to that predator's presence.",
+    "illustrator": "Navaro & Simonet",
     "image_rect": [
       3,
       4,
@@ -3822,6 +3838,7 @@
     "progress": "3[per_ranger]",
     "presence": 2,
     "crest_challenge": "If there are 2 or more active predators, exhaust 1 of them. [right_arrow] Add [harm] to this being equal to that predator's presence.",
+    "illustrator": "Evan Simonet",
     "image_rect": [
       4,
       4,
@@ -3849,6 +3866,7 @@
     "presence": 2,
     "mountain_challenge": "If there is an active Hydraworm, <f>it damages the foundation.</f> [right_arrow] Add 1[harm] to this feature.",
     "crest_challenge": "If there is a water feature within reach of 1 or more Rangers, <f>they feel a jolt</f>. [right_arrow] Those Rangers suffer 1 injury.",
+    "illustrator": "Stephen Somers",
     "image_rect": [
       10,
       4,
@@ -3873,6 +3891,7 @@
     "progress": "3",
     "presence": 0,
     "mountain_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
+    "illustrator": "Chris Beck",
     "image_rect": [
       5,
       4,
@@ -3898,6 +3917,7 @@
     "presence": 2,
     "mountain_challenge": "Move this feature. If you move it to an area with no other cards, add 1 strength to it.",
     "crest_challenge": "Move a card in the same area as this feature. If you move it within reach of a Ranger, it fatigues that Ranger.",
+    "illustrator": "Evan Simonet",
     "image_rect": [
       0,
       4,
@@ -3923,6 +3943,7 @@
     "presence": 1,
     "sun_challenge": "If there are Nycta Bats in play, <f>fluttering shadows emerge to join the swarm</f>. [right_arrow] Add 1 bat to each Nycta Bats.",
     "mountain_challenge": "If there is no active being, exhaust this feature. [right_arrow] Search the path deck for the next being and put it into play.",
+    "illustrator": "Jajang Sopandi",
     "image_rect": [
       11,
       4,
@@ -3948,6 +3969,7 @@
     "presence": 2,
     "sun_challenge": "If there is another active predator, <f>the atrox pounces.</f> [right_arrow] Add 2[harm] to that predator and 1[harm] to this being.",
     "crest_challenge": "If you have 2 or more fatigue, exhaust this being. [right_arrow] Suffer 1 injury.",
+    "illustrator": "Evan Simonet",
     "image_rect": [
       2,
       4,
@@ -3973,6 +3995,7 @@
     "presence": 1,
     "crest_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
     "guide_entry": 81,
+    "illustrator": "Allie Preswick",
     "image_rect": [
       6,
       4,
@@ -3997,6 +4020,7 @@
     "progress": "6",
     "presence": "X",
     "mountain_challenge": "You may exhaust your role. If you do not, this feature fatigues you.",
+    "illustrator": "Stephen Somers",
     "image_rect": [
       6,
       4,
@@ -4022,6 +4046,7 @@
     "presence": 3,
     "sun_challenge": "If there is another active predator, <f>Quiet defends her hunting ground.</f> [right_arrow] Add 3 [harm] to that predator and 1 [harm] to this being.",
     "crest_challenge": "Suffer 1 injury.",
+    "illustrator": "Chris Beck",
     "image_rect": [
       12,
       4,
@@ -4049,6 +4074,7 @@
     "progress": "5",
     "presence": 2,
     "mountain_challenge": "If there is an active Web Wall, <f>the bats become entangled in it.</f> [right_arrow] Add 1[harm] to this swarm.",
+    "illustrator": "Anders Carlson",
     "image_rect": [
       2,
       4,
@@ -4075,6 +4101,7 @@
     "sun_challenge": "If there is another Romping Lutrinal in play, <f>it frolicks among the reeds.</f> [right_arrow] Move it within reach.",
     "mountain_challenge": "If there is an active predator other than a Romping Lutrinal, exhaust it. [right_arrow] Add [harm] equal to its presence to this being.",
     "crest_challenge": "If there are other active Romping Lutrinals, exhaust each of them and this being. [right_arrow] Suffer 1 injury.",
+    "illustrator": "Evan Simonet",
     "image_rect": [
       1,
       4,
@@ -4099,6 +4126,7 @@
     "progress": "[ranger]",
     "presence": 2,
     "sun_challenge": "Add 1[harm] to this feature.",
+    "illustrator": "Jajang Sopandi",
     "image_rect": [
       10,
       4,
@@ -4123,6 +4151,7 @@
     "progress": "2[per_ranger]",
     "presence": 1,
     "crest_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
+    "illustrator": "Chris Beck",
     "image_rect": [
       9,
       4,
@@ -4148,6 +4177,7 @@
     "progress": "6",
     "presence": 3,
     "crest_challenge": "Add 1 [harm] to this feature.",
+    "illustrator": "Banner & Simonet",
     "image_rect": [
       8,
       4,
@@ -4172,6 +4202,7 @@
     "progress": "6",
     "presence": 2,
     "mountain_challenge": "Add 1 [harm] to each being within reach.",
+    "illustrator": "Evan Simonet",
     "image_rect": [
       7,
       4,
@@ -4196,6 +4227,7 @@
     "progress": "3",
     "presence": 0,
     "mountain_challenge": "If there is an active prey, exhaust it. [right_arrow] Add [progress] to it and [harm] to this feature equal to that prey's presence.",
+    "illustrator": "Anders Carlson",
     "image_rect": [
       4,
       4,
@@ -4221,6 +4253,7 @@
     "presence": 3,
     "sun_challenge": "Add 3 [harm] to the active feature with the lowest presence. If that feature is food, add 1 [progress] to this being.",
     "crest_challenge": "Suffer 1 injury.",
+    "illustrator": "Chris Beck",
     "image_rect": [
       13,
       4,
@@ -4247,6 +4280,7 @@
     "presence": 1,
     "sun_challenge": "If there are no predators in play, exhaust this being. [right_arrow] Draw a path card.",
     "mountain_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
+    "illustrator": "Chris Beck",
     "image_rect": [
       4,
       4,
@@ -4270,6 +4304,7 @@
     "harm": "4",
     "progress": "[ranger]",
     "presence": 1,
+    "illustrator": "Jajang Sopandi",
     "image_rect": [
       10,
       4,
@@ -4294,6 +4329,7 @@
     "progress": "2[per_ranger]",
     "presence": 2,
     "crest_challenge": "If there is an active predator. exhaust if. [right_arrow] Add [harm] to this being equal to that predator's presence.",
+    "illustrator": "Allie Preswick",
     "image_rect": [
       7,
       4,
@@ -4319,6 +4355,7 @@
     "progress": "[ranger]",
     "presence": 1,
     "crest_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
+    "illustrator": "Robynn Frauhn",
     "image_rect": [
       10,
       4,
@@ -4344,6 +4381,7 @@
     "progress": "[ranger]",
     "presence": 0,
     "sun_challenge": "Each Ranger whose [ranger] is on a human must move their [ranger] to another human with no [ranger] and that human within reach of themselves.",
+    "illustrator": "Angus R. Hayes",
     "image_rect": [
       2,
       4,
@@ -4370,6 +4408,7 @@
     "progress": "4",
     "presence": 1,
     "sun_challenge": "If the weather is inclement, <f>the waterspinner accelerates.</f> [right_arrow] Add 1 charge to this feature.",
+    "illustrator": "Rob Laskey",
     "image_rect": [
       4,
       4,
@@ -4396,6 +4435,7 @@
     "presence": 3,
     "sun_challenge": "If there is another active being, exhaust it and attach it to this biomeld. If not, move your [ranger] to this biomeld.",
     "crest_challenge": "Add 1 [harm] to each being attached to this biomeld. Each Ranger with their [ranger] on this biomeld suffers 1 injury.",
+    "illustrator": "Banner & Beck",
     "image_rect": [
       7,
       4,
@@ -4419,6 +4459,7 @@
     "progress": "3[per_ranger]",
     "presence": 2,
     "sun_challenge": "Move this feature.",
+    "illustrator": "Navaro & Simonet",
     "image_rect": [
       0,
       4,
@@ -4444,6 +4485,7 @@
     "progress": "3",
     "presence": 1,
     "mountain_challenge": "Exhaust your role.",
+    "illustrator": "Banner & Simonet",
     "image_rect": [
       7,
       4,
@@ -4468,6 +4510,7 @@
     "progress": "3[per_ranger]",
     "presence": 2,
     "crest_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
+    "illustrator": "Allie Preswick",
     "image_rect": [
       6,
       4,
@@ -4494,6 +4537,7 @@
     "presence": 2,
     "mountain_challenge": "</f>The fauna flee before Tala the Red.</f> Move a being.",
     "crest_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
+    "illustrator": "Robynn Frauhn",
     "image_rect": [
       7,
       4,
@@ -4519,6 +4563,7 @@
     "progress": "3[per_ranger]",
     "presence": 2,
     "crest_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
+    "illustrator": "Chris Beck",
     "image_rect": [
       10,
       4,
@@ -4545,6 +4590,7 @@
     "presence": 3,
     "sun_challenge": "If this being is along the way, move it within reach. [right_arrow] It fatigues you.",
     "crest_challenge": "If this being is within reach, exhaust it. [right_arrow] Suffer 1 injury.",
+    "illustrator": "Chris Beck",
     "image_rect": [
       11,
       4,
@@ -4571,6 +4617,7 @@
     "presence": 2,
     "mountain_challenge": "Add 1 [progress] to a path card <f>as Calypsa lends you a hand.</f>",
     "crest_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
+    "illustrator": "Robynn Frauhn",
     "image_rect": [
       8,
       4,
@@ -4596,6 +4643,7 @@
     "presence": 2,
     "mountain_challenge": "Move this card within reach. [right_arrow] It fatigues you. Move each being that is within reach to another area.",
     "crest_challenge": "If this feature is within reach, shuffle it into the path deck. [right_arrow] Suffer 1 injury.",
+    "illustrator": "Banner & Simonet",
     "image_rect": [
       9,
       4,
@@ -4621,6 +4669,7 @@
     "presence": 2,
     "sun_challenge": "If the weather is inclement, <f>the rocks begin to shift.</f> [right_arrow] Add 1 [harm] to this feature.",
     "crest_challenge": "Add 1 [harm] to this feature.",
+    "illustrator": "Jajang Sopandi",
     "image_rect": [
       6,
       4,
@@ -4645,6 +4694,7 @@
     "progress": "3[per_ranger]",
     "presence": 2,
     "mountain_challenge": "<f>The sinkhole widens.</f> Discard 1 [progress] from a feature. If you cannot, this card fatigues you.",
+    "illustrator": "Slagbjorn",
     "image_rect": [
       5,
       4,
@@ -4669,6 +4719,7 @@
     "harm": "6",
     "progress": "[ranger]",
     "presence": 0,
+    "illustrator": "Sampo Jumisko",
     "image_rect": [
       10,
       4,
@@ -4695,6 +4746,7 @@
     "presence": 3,
     "sun_challenge": "If your [ranger] is not on this feature, exhaust this feature. [right_arrow] Search the path deck for the next predator and put it into play.",
     "mountain_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this feature equal to that predator's presence.",
+    "illustrator": "Banner & Simonet",
     "image_rect": [
       6,
       4,
@@ -4719,6 +4771,7 @@
     "progress": "5",
     "presence": 2,
     "mountain_challenge": "If there is an active Hydraworm, <f>it damages the foundation.</f> [right_arrow] Add 1 [harm] to this feature.",
+    "illustrator": "Stephen Somers",
     "image_rect": [
       9,
       4,
@@ -4743,6 +4796,7 @@
     "progress": "2[per_ranger]",
     "presence": 1,
     "mountain_challenge": "Discard 1 [progress] from this feature. [right_arrow] It fatigues you.",
+    "illustrator": "Evan Simonet",
     "image_rect": [
       10,
       4,
@@ -4767,6 +4821,7 @@
     "progress": "[ranger]",
     "presence": 0,
     "sun_challenge": "Exhaust 1 of your equipped gear.",
+    "illustrator": "Angus R. Hayes",
     "image_rect": [
       9,
       4,
@@ -4792,6 +4847,7 @@
     "sun_challenge": "If there is another active Sitka Buck, exhaust this being. [right_arrow] Add 2 [harm] to both this and the other Sitka Buck.",
     "mountain_challenge": "If there is an active predator, exhaust it. [right_arrow] Add 2 [harm] to it, then add [harm] to this being equal to that predator's presence.",
     "crest_challenge": "If there is an active Sitka Doe, <f>the buck charges.</f> [right_arrow] Suffer 1 injury.",
+    "illustrator": "Evan Simonet",
     "image_rect": [
       3,
       4,
@@ -4816,6 +4872,7 @@
     "progress": "2[per_ranger]",
     "presence": 1,
     "sun_challenge": "A Ranger may remove their [ranger] from this feature.",
+    "illustrator": "Evan Simonet",
     "image_rect": [
       11,
       4,
@@ -4841,6 +4898,7 @@
     "presence": 2,
     "sun_challenge": "Ready another Prowling Wolhund.",
     "crest_challenge": "If you have 3 or more fatigue, exhaust this being. [right_arrow] Suffer 1 injury.",
+    "illustrator": "Evan Simonet",
     "image_rect": [
       0,
       4,
@@ -4867,6 +4925,7 @@
     "progress": "7",
     "presence": "X",
     "crest_challenge": "If X is greater than or equal to your FIT aspect, exhaust this swarm. [right_arrow] Suffer 1 injury.",
+    "illustrator": "Evan Simonet",
     "image_rect": [
       4,
       4,
@@ -4891,6 +4950,7 @@
     "presence": 1,
     "sun_challenge": "Move this feature.",
     "crest_challenge": "Add 1 [harm] to this feature.",
+    "illustrator": "Evan Simonet",
     "image_rect": [
       14,
       4,
@@ -4916,6 +4976,7 @@
     "presence": 1,
     "sun_challenge": "If there are no Cloudhive Swarms in play. [right_arrow] Search the path discard and deck for the next Cloudhive Swarm.",
     "mountain_challenge": "If there is an active mammal, exhaust it. [right_arrow] Add [progress] to it and [harm] to this feature, both equal to the mammal's presence.",
+    "illustrator": "Evan Simonet",
     "image_rect": [
       3,
       4,
@@ -4940,6 +5001,7 @@
     "progress": "3",
     "presence": 1,
     "mountain_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
+    "illustrator": "Banner & Simonet",
     "image_rect": [
       4,
       4,
@@ -4965,6 +5027,7 @@
     "presence": 2,
     "sun_challenge": "If this biomeld is attached to a being, add 1 [harm] to that being equal to your effort. If you fail, attach it to your role.",
     "crest_challenge": "If this being is attached to your role, suffer 1 injury. If it is not attached, attach it to your role.",
+    "illustrator": "Joe Banner",
     "image_rect": [
       6,
       4,
@@ -4989,6 +5052,7 @@
     "progress": "3[per_ranger]",
     "presence": 1,
     "crest_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
+    "illustrator": "Banner & Simonet",
     "image_rect": [
       2,
       4,
@@ -5015,6 +5079,7 @@
     "presence": 2,
     "mountain_challenge": "If this being has 1 or more [harm], <f>he chews on an herb harvested from his backpack.</f> [right_arrow] Remove 1 [harm] from this being.",
     "crest_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
+    "illustrator": "Allie Preswick",
     "image_rect": [
       9,
       4,
@@ -5041,6 +5106,7 @@
     "presence": 0,
     "sun_challenge": "If there is an exhausted predator, ready it. [right_arrow] Exhaust this being.",
     "mountain_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
+    "illustrator": "Banner & Simonet",
     "image_rect": [
       8,
       4,
@@ -5066,6 +5132,7 @@
     "presence": 3,
     "mountain_challenge": "If there is an active predator, exhaust this being. [right_arrow] Add 3 [harm] to that predator and 3 [progress] to Kasende.",
     "crest_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
+    "illustrator": "Robynn Frauhn",
     "image_rect": [
       5,
       4,
@@ -5093,6 +5160,7 @@
     "mountain_challenge": "If there is another active flora, exhaust it. [right_arrow] Shuffle this being into the path deck as it disappears in a geometric tangle of vines.",
     "crest_challenge": "If there is an active prey, exhaust it. [right_arrow] Add [harm] to this being equal to that prey's presence.",
     "guide_entry": 90,
+    "illustrator": "Banner & Simonet",
     "image_rect": [
       1,
       4,
@@ -5118,6 +5186,7 @@
     "presence": 1,
     "sun_challenge": "If there are 1 or more Sitka Bucks in play, <f>they're drawn to the doe.</f> [right_arrow] Move each Sitka Buck within reach.",
     "mountain_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
+    "illustrator": "Evan Simonet",
     "image_rect": [
       6,
       4,
@@ -5143,6 +5212,7 @@
     "presence": 2,
     "mountain_challenge": "If there is another active predator, exhaust it. [right_arrow] Add 2 [harm] to it and add 2 [harm] to this being.",
     "crest_challenge": "If there is another active food, or you have food equipped, exhaust this being. [right_arrow] Suffer 1 injury.",
+    "illustrator": "Chris Beck",
     "image_rect": [
       5,
       4,
@@ -5168,6 +5238,7 @@
     "sun_challenge": "If there is an active card with 2 or more presence, shuffle this being into the path dec. [right_arrow] Draw 1 path card.",
     "mountain_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
     "crest_challenge": "If there is 1 or more [harm] on this being, exhaust each ready Artilope. [right_arrow] Add 1 [harm] to each being, and each Ranger suffers 1 injury.",
+    "illustrator": "Chris Beck",
     "image_rect": [
       2,
       4,
@@ -5193,6 +5264,7 @@
     "presence": 0,
     "sun_challenge": "If there is an insect in play, exhaust this feature. [right_arrow] Ready an insect.",
     "mountain_challenge": "If there is an active mammal, exhaust it. [right_arrow] Add [progress] to it and [harm] to this feature, both equal to that mammal's presence.",
+    "illustrator": "Evan Simonet",
     "image_rect": [
       7,
       4,
@@ -5218,6 +5290,7 @@
     "presence": 0,
     "mountain_challenge": "Ready each human in play.",
     "guide_entry": 63,
+    "illustrator": "Angus R. Hayes",
     "image_rect": [
       6,
       4,
@@ -5242,6 +5315,7 @@
     "progress": "3",
     "presence": 0,
     "mountain_challenge": "If there is a Romping Lutrinal within reach, <f>it escapes through the weeds.</f> [right_arrow] Move it along the way.",
+    "illustrator": "Banner & Simonet",
     "image_rect": [
       6,
       4,
@@ -5265,6 +5339,7 @@
     "progress": "8",
     "presence": 0,
     "sun_challenge": "If there is an odd number of [progress] on this feature, <f>the strange phenomenon vanishes.</f> [right_arrow] Shuffle it into the path deck.",
+    "illustrator": "Evan Simonet",
     "image_rect": [
       1,
       4,
@@ -5289,6 +5364,7 @@
     "harm": "3",
     "progress": "[ranger]",
     "presence": 1,
+    "illustrator": "Slagbjorn",
     "image_rect": [
       4,
       4,
@@ -5314,6 +5390,7 @@
     "progress": "2[per_ranger]",
     "presence": 1,
     "crest_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
+    "illustrator": "Chris Beck",
     "image_rect": [
       11,
       4,
@@ -5339,6 +5416,7 @@
     "progress": "2[per_ranger]",
     "presence": 2,
     "crest_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
+    "illustrator": "Allie Preswick",
     "image_rect": [
       0,
       4,
@@ -5365,6 +5443,7 @@
     "presence": 2,
     "sun_challenge": "The Ranger with the most fatigue must discard 1 AWA or move their [ranger] to this feature.",
     "crest_challenge": "If your [ranger] is on a water feature, <f>the Naiad stabs you with its teeth.</f> [right_arrow] Suffer 1 injury.",
+    "illustrator": "Banner & Simonet",
     "image_rect": [
       5,
       4,
@@ -5391,6 +5470,7 @@
     "progress": "2[per_ranger]",
     "presence": 2,
     "mountain_challenge": "Exhaust this feature. [right_arrow] Search the path deck and discard for a Romping Lutrinal and put it into play.",
+    "illustrator": "Banner & Simonet",
     "image_rect": [
       0,
       4,
@@ -5414,6 +5494,7 @@
     "harm": "6",
     "progress": "1[per_ranger]",
     "presence": 0,
+    "illustrator": "Sampo Jumisko",
     "image_rect": [
       9,
       4,
@@ -5440,6 +5521,7 @@
     "presence": "X",
     "sun_challenge": "If there is 1 or more [progress] on this feature, <f>the ground sinks under your feet.</f> [right_arrow] Discard 1 [progress] from and add 1 [harm] to this feature.",
     "mountain_challenge": "If there is an active Hungry Scrof, exhaust it. [right_arrow] Add [progress] to it and [harm] to this feature, both equal to the Scrof's presence.",
+    "illustrator": "Banner & Simonet",
     "image_rect": [
       9,
       4,
@@ -5463,6 +5545,7 @@
     "harm": "3",
     "progress": "3[per_ranger]",
     "presence": 2,
+    "illustrator": "Angus R. Hayes",
     "image_rect": [
       3,
       4,
@@ -5491,6 +5574,7 @@
     "presence": 1,
     "sun_challenge": "Discard an equipped gear. [right_arrow] Add 1 loot to this being. If there are 2 or more loot on this being, shuffle it into the path deck.",
     "mountain_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
+    "illustrator": "Evan Simonet",
     "image_rect": [
       2,
       4,
@@ -5516,6 +5600,7 @@
     "presence": 0,
     "sun_challenge": "If there is an active human with any [harm], <f>they call out in distress.</f> [right_arrow] They fatigue you.",
     "guide_entry": 62,
+    "illustrator": "Angus R. Hayes",
     "image_rect": [
       7,
       4,
@@ -5540,6 +5625,7 @@
     "progress": "3[per_ranger]",
     "presence": 1,
     "crest_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
+    "illustrator": "Allie Preswick",
     "image_rect": [
       3,
       4,
@@ -5566,6 +5652,7 @@
     "presence": 1,
     "mountain_challenge": "Add 1 token to the weather.",
     "crest_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
+    "illustrator": "Allie Preswick",
     "image_rect": [
       14,
       4,
@@ -5591,6 +5678,7 @@
     "progress": "3[per_ranger]",
     "presence": 1,
     "guide_entry": 55,
+    "illustrator": "Sampo Jumisko",
     "image_rect": [
       2,
       4,
@@ -5614,6 +5702,7 @@
     "harm": "6",
     "progress": "[ranger]",
     "presence": 0,
+    "illustrator": "Angus R. Hayes",
     "image_rect": [
       5,
       4,
@@ -5638,6 +5727,7 @@
     "progress": "5[per_ranger]",
     "presence": 0,
     "sun_challenge": "If there is an odd number of [progress] on this feature, <f>you lose the trail.</f> [right_arrow] Discard it.",
+    "illustrator": "Stephen Somers",
     "image_rect": [
       11,
       4,
@@ -5664,6 +5754,7 @@
     "presence": 2,
     "crest_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
     "guide_entry": 65,
+    "illustrator": "Allie Preswick",
     "image_rect": [
       4,
       4,
@@ -5690,6 +5781,7 @@
     "sun_challenge": "Exhaust the active feature with the lowest presence.",
     "crest_challenge": "Discard the exhausted feature with the lowest presence. Each Ranger whose [ranger] was on that feature suffers 1 injury.",
     "guide_entry": 54,
+    "illustrator": "Sampo Jumisko",
     "image_rect": [
       1,
       4,
@@ -5714,6 +5806,7 @@
     "progress": "3[per_ranger]",
     "presence": 2,
     "crest_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
+    "illustrator": "Allie Preswick",
     "image_rect": [
       12,
       4,
@@ -5741,6 +5834,7 @@
     "sun_challenge": "If this being has 1 or more [harm], <f>the swamp churns.</f> [right_arrow] Search the path deck and discard for a Hydraworm and put it into play.",
     "mountain_challenge": "If there is a Hydraworm in the same area as this being, <f>they spread out.</f> [right_arrow] Move this being.",
     "crest_challenge": "Exhaust this being. [right_arrow] Suffer 1 injury.",
+    "illustrator": "Stephen Somers",
     "image_rect": [
       15,
       4,
@@ -5767,6 +5861,7 @@
     "presence": 2,
     "crest_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
     "guide_entry": 53,
+    "illustrator": "Allie Preswick",
     "image_rect": [
       0,
       4,
@@ -5792,6 +5887,7 @@
     "presence": 1,
     "sun_challenge": "Add 1 [progress] to the location <f>as Ren shares his usual routes with you.</f>",
     "crest_challenge": "If there is an active predator exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
+    "illustrator": "Evan Simonet",
     "image_rect": [
       2,
       4,
@@ -5817,6 +5913,7 @@
     "progress": "3[per_ranger]",
     "presence": 1,
     "crest_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
+    "illustrator": "Allie Preswick",
     "image_rect": [
       6,
       4,
@@ -5843,6 +5940,7 @@
     "presence": 1,
     "crest_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
     "guide_entry": 66,
+    "illustrator": "Allie Preswick",
     "image_rect": [
       3,
       4,
@@ -5868,6 +5966,7 @@
     "presence": 1,
     "sun_challenge": "If there is an exhausted predator, <f>Jaris stirs up trouble.</f> [right_arrow] Ready that predator unless you discard 2 [progress] from Jaris.",
     "crest_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
+    "illustrator": "Robynn Frauhn",
     "image_rect": [
       1,
       4,
@@ -5893,6 +5992,7 @@
     "progress": "3",
     "presence": 0,
     "mountain_challenge": "If there is an active prey, exhaust it. [right_arrow] Add [progress] to it and [harm] to this feature, both equal to that prey's presence.",
+    "illustrator": "Evan Simonet",
     "image_rect": [
       7,
       4,
@@ -5917,6 +6017,7 @@
     "progress": "4[per_ranger]",
     "presence": 3,
     "mountain_challenge": "Exhaust this feature. [right_arrow] Search the path deck for the next predator and put it into play.",
+    "illustrator": "Slagbjorn",
     "image_rect": [
       2,
       4,
@@ -5943,6 +6044,7 @@
     "presence": 2,
     "mountain_challenge": "If there is no active prey and the Whispering Fields is in play, <f>the velox bolts.</f> [right_arrow] Attach this being facedown to it.",
     "crest_challenge": "If a Ranger is injured, exhaust this being. [right_arrow] Suffer 1 injury.",
+    "illustrator": "Chris Beck",
     "image_rect": [
       0,
       4,
@@ -5968,6 +6070,7 @@
     "presence": 1,
     "crest_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
     "guide_entry": 64,
+    "illustrator": "Allie Preswick",
     "image_rect": [
       5,
       4,
@@ -5991,6 +6094,7 @@
     "harm": "6",
     "presence": "X",
     "sun_challenge": "Put a random attached facedown card into play. >> If it has the ambush keyword, suffer 1 injury instead of the fatigue.",
+    "illustrator": "Jajang Sopandi",
     "image_rect": [
       11,
       4,
@@ -6015,6 +6119,7 @@
     "progress": "1[per_ranger]",
     "presence": 0,
     "guide_entry": 56,
+    "illustrator": "Sampo Jumisko",
     "image_rect": [
       8,
       4,
@@ -6039,6 +6144,7 @@
     "progress": "[ranger]",
     "presence": 0,
     "guide_entry": 50,
+    "illustrator": "Rob Laskey",
     "image_rect": [
       8,
       4,
@@ -6065,6 +6171,7 @@
     "sun_challenge": "If Northern Outpost is the current location, <f>Lunn begrudgingly gets to work.</f> >> Discard 1 neglect from the location.",
     "crest_challenge": "If there is an active predator, exhaust it. >> Add harm to this being equal to that predator's presence.",
     "guide_entry": 41,
+    "illustrator": "Chris Beck",
     "image_rect": [
       0,
       4,
@@ -6086,6 +6193,7 @@
     "traits": "Structure",
     "text": "During your turn, if your [ranger] is on this feature, you may treat obstacles as if they did not have the obstacle keyword.<hr><hr><b>[SPI] + [reason]: Brace [3]</b> <f>yourself to the ride to</f> move your [ranger] to this feature.<hr><hr><b>Response:</b> When you travel, if all [ranger] are on this feature, you may travel to a location up to 2 paths away. Use the terrain of the second path when building the path deck.",
     "presence": 0,
+    "illustrator": "Evan Simonet",
     "image_rect": [
       11,
       4,
@@ -6111,6 +6219,7 @@
     "presence": 1,
     "crest_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
     "guide_entry": 61,
+    "illustrator": "Allie Preswick",
     "image_rect": [
       13,
       4,
@@ -6136,6 +6245,7 @@
     "presence": 1,
     "crest_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [harm] to this being equal to that predator's presence.",
     "guide_entry": 59,
+    "illustrator": "Allie Preswick",
     "image_rect": [
       11,
       4,
@@ -6162,6 +6272,7 @@
     "sun_challenge": "Move this predator",
     "mountain_challenge": "Add 1 mucus token to the location. If there are 3 or more, discard them. [right_arrow] Search the General set for a Reclaimer Polyp.",
     "crest_challenge": "If you have 2 or more fatigue, exhaust this being. [right_arrow] Suffer 1 injury.",
+    "illustrator": "Banner & Simonet",
     "image_rect": [
       3,
       4,
@@ -6187,6 +6298,7 @@
     "path_deck_assembly": "Do not add the Spire set to the path deck. Shuffle it separately and set it facedown next to the path deck. This is the Spire deck.",
     "arrival_setup": "<b>Lead Ranger:</b> Draw 1 path card.\n<b>Next Ranger:</b> Draw 1 path card.",
     "guide_entry": 5,
+    "illustrator": "Evan Simonet",
     "image_rect": [
       11,
       4,
@@ -6211,6 +6323,7 @@
     "pivotal": true,
     "arrival_setup": "<b>Lead Ranger:</b> Draw 1 path card.",
     "guide_entry": 3,
+    "illustrator": "Rob Laskey",
     "image_rect": [
       3,
       4,
@@ -6235,6 +6348,7 @@
     "pivotal": true,
     "arrival_setup": "<b>Lead Ranger:</b> Draw 1 path card.",
     "guide_entry": 10,
+    "illustrator": "Rob Laskey",
     "image_rect": [
       4,
       4,
@@ -6261,6 +6375,7 @@
     "mountain_challenge": "Add 1 water to this location",
     "arrival_setup": "<b>Lead Ranger:</b> Search the path deck for the next water feature and put it into play.\n<b>Next Ranger:</b> Draw 1 path card.",
     "guide_entry": 33,
+    "illustrator": "Banner & Simonet",
     "image_rect": [
       0,
       4,
@@ -6285,6 +6400,7 @@
     "pivotal": true,
     "arrival_setup": "<b>Lead Ranger:</b> Search the path deck for the next feature and put it into play.\n<b>Next Ranger:</b> Draw 1 path card.",
     "guide_entry": 6,
+    "illustrator": "Angus R. Hayes",
     "image_rect": [
       13,
       4,
@@ -6308,6 +6424,7 @@
     "presence": 2,
     "arrival_setup": "<b>Lead Ranger:</b> Draw 1 path card.\n<b>Next Ranger:</b> Draw 1 path card.",
     "guide_entry": 38,
+    "illustrator": "Jajang Sopandi",
     "image_rect": [
       3,
       4,
@@ -6332,6 +6449,7 @@
     "path_deck_assembly": "1 of the 3 cards added from the Valley set must be The Fundamentalist.",
     "arrival_setup": "<b>Lead Ranger:</b> Draw 2 path cards.",
     "guide_entry": 37,
+    "illustrator": "Jajang Sopandi",
     "image_rect": [
       2,
       4,
@@ -6356,6 +6474,7 @@
     "path_deck_assembly": "Shuffle the Grassland, Lakeshore, and Old-Growth sets together and set them next to the path deck. This is the detritus deck.",
     "arrival_setup": "<b>Lead Ranger:</b> Draw 1 card from the detritus deck.\n<b>Next Ranger:</b> Draw 1 card from the detritus deck.",
     "guide_entry": 36,
+    "illustrator": "Jajang Sopandi",
     "image_rect": [
       1,
       4,
@@ -6381,6 +6500,7 @@
     "path_deck_assembly": "Use the swamp terrain.",
     "arrival_setup": "<b>Lead Ranger:</b> Search the path deck for the next Hydraworm and put it into play.\n<b>Next Ranger:</b> Draw 1 path card.",
     "guide_entry": 9,
+    "illustrator": "Stephen Somers",
     "image_rect": [
       12,
       4,
@@ -6405,6 +6525,7 @@
     "pivotal": false,
     "arrival_setup": "<b>Lead Ranger:</b> Draw 1 path card.\n<b>Next Ranger:</b> Draw 1 path card.",
     "guide_entry": 32,
+    "illustrator": "Stephen Somers",
     "image_rect": [
       13,
       4,
@@ -6429,6 +6550,7 @@
     "pivotal": false,
     "arrival_setup": "<b>Lead Ranger:</b> Draw 1 path card.\n<b>Next Ranger:</b> Draw 1 path card.\n<b>Next Ranger:</b> Draw 1 path card.",
     "guide_entry": 31,
+    "illustrator": "Jajang Sopandi",
     "image_rect": [
       14,
       4,
@@ -6453,6 +6575,7 @@
     "pivotal": false,
     "arrival_setup": "<b>Lead Ranger:</b> Search the path deck for a Fetid Bog and put it into play.\n<b>Next Ranger:</b> Draw 1 path card.",
     "guide_entry": 30,
+    "illustrator": "Stephen Somers",
     "image_rect": [
       15,
       4,
@@ -6479,6 +6602,7 @@
     "pivotal": false,
     "arrival_setup": "<b>Lead Ranger:</b> Draw 1 path card.\n<b>Next Ranger:</b> Draw 1 path card.\n<b>Next Ranger:</b> Draw 1 path card.",
     "guide_entry": 29,
+    "illustrator": "Jajang Sopandi",
     "image_rect": [
       0,
       1,
@@ -6505,6 +6629,7 @@
     "pivotal": false,
     "arrival_setup": "Search the path deck for the next feature and attach it to this location.\n<b>Lead Ranger:</b> Draw 1 path card.\n<b>Next Ranger:</b> Draw 1 path card.",
     "guide_entry": 28,
+    "illustrator": "Navaro & Sopandi",
     "image_rect": [
       9,
       4,
@@ -6529,6 +6654,7 @@
     "pivotal": true,
     "arrival_setup": "<b>Lead Ranger:</b> Search the path deck for The Whispering Fields and put it into play.\n<b>Next Ranger:</b> Draw 1 path card.",
     "guide_entry": 8,
+    "illustrator": "Slagbjorn",
     "image_rect": [
       7,
       4,
@@ -6553,6 +6679,7 @@
     "pivotal": false,
     "arrival_setup": "<b>Lead Ranger:</b> Draw 1 path card.\n<b>Next Ranger:</b> Draw 1 path card.\n<b>Next Ranger:</b> Draw 1 path card.",
     "guide_entry": 19,
+    "illustrator": "Jajang Sopandi",
     "image_rect": [
       2,
       4,
@@ -6577,6 +6704,7 @@
     "pivotal": false,
     "arrival_setup": "<b>Lead Ranger:</b> Search the path deck for the next obstacle and put it into play.\n<b>Next Ranger:</b> Search the path deck for the next predator and put it into play.",
     "guide_entry": 25,
+    "illustrator": "Evan Simonet",
     "image_rect": [
       6,
       4,
@@ -6601,6 +6729,7 @@
     "pivotal": true,
     "arrival_setup": "Search the path deck for the next predator and discard it.\n<b>Lead Ranger:</b> Draw 1 path card.",
     "guide_entry": 2,
+    "illustrator": "Evan Simonet",
     "image_rect": [
       2,
       4,
@@ -6625,6 +6754,7 @@
     "pivotal": false,
     "arrival_setup": "<b>Lead Ranger:</b> Draw 1 path card. It comes into play facedown along the way.\n<b>Next Ranger:</b> Draw 1 path card.",
     "guide_entry": 17,
+    "illustrator": "Jajang Sopandi",
     "image_rect": [
       15,
       4,
@@ -6651,6 +6781,7 @@
     "token_count": "2[per_ranger]",
     "arrival_setup": "<b>Lead Ranger:</b> Draw 1 path card.\n<b>Next Ranger:</b> Draw 1 path card.",
     "guide_entry": 4,
+    "illustrator": "Angus R. Hayes",
     "image_rect": [
       1,
       4,
@@ -6676,6 +6807,7 @@
     "path_deck_assembly": "1 of the 3 cards added from the Valley set must be Arcology Sinkhole.",
     "arrival_setup": "<b>Lead Ranger:</b> Search the path deck for the next feature and put it into play.\n<b>Next Ranger:</b> Search the path deck for the next feature and put it into play.",
     "guide_entry": 34,
+    "illustrator": "Keen",
     "image_rect": [
       11,
       4,
@@ -6702,6 +6834,7 @@
     "token_count": 0,
     "arrival_setup": "<b>Lead Ranger:</b> Search the path deck for the next feature and put it into play.\n<b>Next Ranger:</b> Draw 1 path card.\n<b>Next Ranger:</b> Draw 1 path card.",
     "guide_entry": 27,
+    "illustrator": "Jajang Sopandi",
     "image_rect": [
       10,
       4,
@@ -6724,6 +6857,7 @@
     "quantity": 1,
     "arrival_setup": "<b>Lead Ranger:</b> Draw 1 path card.\n<b>Next Ranger:</b> Draw 1 path card.\n<b>Next Ranger:</b> Draw 1 path card.",
     "guide_entry": 35,
+    "illustrator": "Evan Simonet",
     "image_rect": [
       4,
       4,
@@ -6748,6 +6882,7 @@
     "text": "<b>[FOC] + [connection]: Describe</b> <f>who you’re looking for to the villagers at the station to</f> search the Valley set for a human and shuffle them into the path deck.",
     "arrival_setup": "<b>Lead Ranger:</b> Draw 1 path card.\n<b>Next Ranger:</b> Draw 1 path card.",
     "guide_entry": 20,
+    "illustrator": "Jajang Sopandi",
     "image_rect": [
       5,
       4,
@@ -6773,6 +6908,7 @@
     "path_deck_assembly": "Do not add cards from the Valley set to the path deck.",
     "arrival_setup": "<b>Lead Ranger:</b> Search the path deck for a silverfin carp and put it into play.\n<b>Next Ranger:</b> Search the path deck for a silverfin carp and put it into play.",
     "guide_entry": 23,
+    "illustrator": "Angus R. Hayes",
     "image_rect": [
       0,
       4,
@@ -6796,6 +6932,7 @@
     "quantity": 1,
     "arrival_setup": "<b>Lead Ranger:</b> Draw 1 challenge card and do the following based on the challenge icon on that card:\n[sun] Scout 2 path cards, then draw 1 path card.\n[mountain] Draw 1 path card.\n[crest] Scout 3 path cards, then draw 2 path cards.",
     "guide_entry": 24,
+    "illustrator": "Jajang Sopandi",
     "image_rect": [
       1,
       4,
@@ -6819,6 +6956,7 @@
     "quantity": 1,
     "arrival_setup": "<b>Lead Ranger:</b> Search the path deck for the next predator or prey and put it into play.\n<b>Next Ranger:</b> Search the path deck for the next predator or prey and put it into play.",
     "guide_entry": 22,
+    "illustrator": "Evan Simonet",
     "image_rect": [
       3,
       4,
@@ -6843,6 +6981,7 @@
     "text": "When you perform a <b>Traverse</b> test that interacts with this location, reduce the [progress] added by 1.",
     "arrival_setup": "<b>Lead Ranger:</b> Draw 1 path card. Then, if it's along the way, move it within reach.\n<b>Next Ranger:</b> Draw 1 path card. Then, if it's along the way, move it within reach.",
     "guide_entry": 21,
+    "illustrator": "Jajang Sopandi",
     "image_rect": [
       12,
       4,
@@ -6866,6 +7005,7 @@
     "text": "<b>[FIT] + [connection]: Swim</b> <f>in the crystal-clear waters of the high lake to</f> soothe fatigue equal to your effort.",
     "arrival_setup": "<b>Lead Ranger:</b> Search the path deck for the next flora and put it into play.\n<b>Next Ranger:</b> Draw 1 path card.",
     "guide_entry": 18,
+    "illustrator": "Jajang Sopandi",
     "image_rect": [
       14,
       4,
@@ -6889,6 +7029,7 @@
     "mountain_challenge": "Ready the feature with the highest presence.",
     "guide_entry": 7,
     "arrival_setup": "<b>Lead Ranger:</b> Search the path deck for the next obstacle and put it into play.\n<b>Next Ranger:</b> Search the path deck for the next obstacle and put it into play.",
+    "illustrator": "Sampo Jumisko",
     "image_rect": [
       8,
       4,
@@ -6914,6 +7055,7 @@
     "text": "<b>Refresh:</b> You may choose a path card to remain exhausted.",
     "arrival_setup": "Search the path deck for the next feature and discard it.\n<b>Lead Ranger:</b> Draw 1 path card.\n<b>Next Ranger:</b> Draw 1 path card.",
     "guide_entry": 26,
+    "illustrator": "Jajang Sopandi",
     "image_rect": [
       9,
       4,
@@ -6937,6 +7079,7 @@
     "text": "<b>[FOC] + [connection]: Haggle [3]</b> <f>with the vendors at the market to</f> gain a gear from your hand to your collection. Choose a starting gear from your collection that you meet the aspect requirement for and add it to your hand. (This alteration to your deck is permanent.)",
     "arrival_setup": "Lead Ranger: Search the path deck for the next feature and put it into play.",
     "guide_entry": 16,
+    "illustrator": "Jajang Sopandi",
     "image_rect": [
       10,
       4,
@@ -6958,6 +7101,7 @@
     "quantity": 1,
     "arrival_setup": "Search the path deck for the next card with a presence of 3 and discard it.\n<b>Lead Ranger:</b> Search the path deck for the next prey and put it into play.\n<b>Next Ranger:</b> Search the path deck for the next prey and put it into play.",
     "guide_entry": 15,
+    "illustrator": "Jajang Sopandi",
     "image_rect": [
       4,
       4,
@@ -6984,6 +7128,7 @@
     "text": "Reduce the presence of all beings in play by 1.",
     "arrival_setup": "<b>Lead Ranger:</b> Draw 1 challenge card and do the following based on the challenge icon on that card:\n[sun] Scout 2 path cards, then draw 1 path card.\n[mountain] Draw 1 path card.\n[crest] Scout 3 path cards, then draw 2 path cards.",
     "guide_entry": 14,
+    "illustrator": "Jajang Sopandi",
     "image_rect": [
       5,
       4,
@@ -7007,6 +7152,7 @@
     "text": "<b>[FOC] + [exploration]: Overlook [3]</b> <f>the surrounding valley to</f> choose a nearby location. Attach 1 card from that location's set facedown to this location. After you travel, if you traveled to that location, put the attached card into play. Otherwise, return it to the collection.",
     "arrival_setup": "<b>Lead Ranger:</b> Draw 2 path cards. Choose 1 to put into play and discard the other. If one of the cards has ambush, you must choose that card.\n<b>Next Ranger:</b> Draw 2 path cards. Choose 1 to put into play and discard the other. If one of the cards has ambush, you must choose that card.",
     "guide_entry": 13,
+    "illustrator": "Jajang Sopandi",
     "image_rect": [
       6,
       4,
@@ -7030,6 +7176,7 @@
     "text": "<b>[SPI] + [reason]: Contemplate [2]</b> <f>the rhythmic waves as they lap the glittering shoreline to</f> soothe 1 fatigue for every 2 effort.",
     "arrival_setup": "<b>Lead Ranger:</b> Draw 1 path card.",
     "guide_entry": 12,
+    "illustrator": "Jajang Sopandi",
     "image_rect": [
       7,
       4,
@@ -7053,6 +7200,7 @@
     "text": "<b>[FIT] + [reason]: Climb</b> <f>the steep and perilous route to</f> add 2 [progress] to this location for every effort. Then, it fatigues you.",
     "arrival_setup": "<b>Lead Ranger:</b> Search the path deck for the next obstacle and put it into play.\n<b>Next Ranger:</b> Search the path deck for the next obstacle and put it into play.",
     "guide_entry": 11,
+    "illustrator": "Jajang Sopandi",
     "image_rect": [
       0,
       4,
