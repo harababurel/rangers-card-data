@@ -8565,15 +8565,14 @@
     "awa_value": 1,
     "spi_value": 0,
     "fit_value": 0,
-    "foc_value": -2,
+    "foc_value": -1,
     "challenge_icon": "sun",
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/1825653570817820212/62D64FA768717587CF04EB314674A38412BB2D2A/",
     "image_rect": [
       22,
       10,
       7
-    ],
-    "reshuffle": true
+    ]
   },
   {
     "id": "01521",
