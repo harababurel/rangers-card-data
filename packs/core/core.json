@@ -4694,7 +4694,7 @@
     "progress": "3[per_ranger]",
     "presence": 2,
     "mountain_challenge": "<f>The sinkhole widens.</f> Discard 1 [progress] from a feature. If you cannot, this card fatigues you.",
-    "illustrator": "Slagbjorn",
+    "illustrator": "Slagbjörn",
     "image_rect": [
       5,
       4,
@@ -5364,7 +5364,7 @@
     "harm": "3",
     "progress": "[ranger]",
     "presence": 1,
-    "illustrator": "Slagbjorn",
+    "illustrator": "Slagbjörn",
     "image_rect": [
       4,
       4,
@@ -6017,7 +6017,7 @@
     "progress": "4[per_ranger]",
     "presence": 3,
     "mountain_challenge": "Exhaust this feature. [right_arrow] Search the path deck for the next predator and put it into play.",
-    "illustrator": "Slagbjorn",
+    "illustrator": "Slagbjörn",
     "image_rect": [
       2,
       4,
@@ -6654,7 +6654,7 @@
     "pivotal": true,
     "arrival_setup": "<b>Lead Ranger:</b> Search the path deck for The Whispering Fields and put it into play.\n<b>Next Ranger:</b> Draw 1 path card.",
     "guide_entry": 8,
-    "illustrator": "Slagbjorn",
+    "illustrator": "Slagbjörn",
     "image_rect": [
       7,
       4,
