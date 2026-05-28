@@ -1454,7 +1454,11 @@
     "category_id": "ranger",
     "pack_id": "ebr",
     "alt_imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15665141664316885892/0F74DA675EFAFC63EF6E6B1C9BC5201E410C7B5B/",
-    "alt_image_rect": [33, 10, 7]
+    "alt_image_rect": [
+      33,
+      10,
+      7
+    ]
   },
   {
     "id": "01067",
@@ -8127,6 +8131,467 @@
       0,
       1,
       1
+    ]
+  },
+  {
+    "id": "01498",
+    "position": 498,
+    "quantity": 1,
+    "category_id": "challenge",
+    "type_id": "challenge",
+    "pack_id": "ebr",
+    "awa_value": 0,
+    "spi_value": 1,
+    "fit_value": 0,
+    "foc_value": -1,
+    "challenge_icon": "mountain",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/1825653570817820212/62D64FA768717587CF04EB314674A38412BB2D2A/",
+    "image_rect": [
+      0,
+      10,
+      7
+    ]
+  },
+  {
+    "id": "01499",
+    "position": 499,
+    "quantity": 1,
+    "category_id": "challenge",
+    "type_id": "challenge",
+    "pack_id": "ebr",
+    "awa_value": 1,
+    "spi_value": 0,
+    "fit_value": -1,
+    "foc_value": 0,
+    "challenge_icon": "mountain",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/1825653570817820212/62D64FA768717587CF04EB314674A38412BB2D2A/",
+    "image_rect": [
+      1,
+      10,
+      7
+    ]
+  },
+  {
+    "id": "01500",
+    "position": 500,
+    "quantity": 1,
+    "category_id": "challenge",
+    "type_id": "challenge",
+    "pack_id": "ebr",
+    "awa_value": 0,
+    "spi_value": 0,
+    "fit_value": -1,
+    "foc_value": 1,
+    "challenge_icon": "mountain",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/1825653570817820212/62D64FA768717587CF04EB314674A38412BB2D2A/",
+    "image_rect": [
+      2,
+      10,
+      7
+    ]
+  },
+  {
+    "id": "01501",
+    "position": 501,
+    "quantity": 1,
+    "category_id": "challenge",
+    "type_id": "challenge",
+    "pack_id": "ebr",
+    "awa_value": -1,
+    "spi_value": 1,
+    "fit_value": 1,
+    "foc_value": -1,
+    "challenge_icon": "mountain",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/1825653570817820212/62D64FA768717587CF04EB314674A38412BB2D2A/",
+    "image_rect": [
+      3,
+      10,
+      7
+    ]
+  },
+  {
+    "id": "01502",
+    "position": 502,
+    "quantity": 1,
+    "category_id": "challenge",
+    "type_id": "challenge",
+    "pack_id": "ebr",
+    "awa_value": 1,
+    "spi_value": -1,
+    "fit_value": 0,
+    "foc_value": 0,
+    "challenge_icon": "mountain",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/1825653570817820212/62D64FA768717587CF04EB314674A38412BB2D2A/",
+    "image_rect": [
+      4,
+      10,
+      7
+    ]
+  },
+  {
+    "id": "01503",
+    "position": 503,
+    "quantity": 1,
+    "category_id": "challenge",
+    "type_id": "challenge",
+    "pack_id": "ebr",
+    "awa_value": -1,
+    "spi_value": 0,
+    "fit_value": 0,
+    "foc_value": -1,
+    "challenge_icon": "mountain",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/1825653570817820212/62D64FA768717587CF04EB314674A38412BB2D2A/",
+    "image_rect": [
+      5,
+      10,
+      7
+    ]
+  },
+  {
+    "id": "01504",
+    "position": 504,
+    "quantity": 1,
+    "category_id": "challenge",
+    "type_id": "challenge",
+    "pack_id": "ebr",
+    "awa_value": 0,
+    "spi_value": -1,
+    "fit_value": -1,
+    "foc_value": 0,
+    "challenge_icon": "mountain",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/1825653570817820212/62D64FA768717587CF04EB314674A38412BB2D2A/",
+    "image_rect": [
+      6,
+      10,
+      7
+    ]
+  },
+  {
+    "id": "01505",
+    "position": 505,
+    "quantity": 1,
+    "category_id": "challenge",
+    "type_id": "challenge",
+    "pack_id": "ebr",
+    "awa_value": 1,
+    "spi_value": -1,
+    "fit_value": -1,
+    "foc_value": 1,
+    "challenge_icon": "mountain",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/1825653570817820212/62D64FA768717587CF04EB314674A38412BB2D2A/",
+    "image_rect": [
+      7,
+      10,
+      7
+    ]
+  },
+  {
+    "id": "01506",
+    "position": 506,
+    "quantity": 1,
+    "category_id": "challenge",
+    "type_id": "challenge",
+    "pack_id": "ebr",
+    "awa_value": -1,
+    "spi_value": 0,
+    "fit_value": -1,
+    "foc_value": 0,
+    "challenge_icon": "crest",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/1825653570817820212/62D64FA768717587CF04EB314674A38412BB2D2A/",
+    "image_rect": [
+      8,
+      10,
+      7
+    ]
+  },
+  {
+    "id": "01507",
+    "position": 507,
+    "quantity": 1,
+    "category_id": "challenge",
+    "type_id": "challenge",
+    "pack_id": "ebr",
+    "awa_value": 0,
+    "spi_value": 0,
+    "fit_value": 1,
+    "foc_value": -1,
+    "challenge_icon": "crest",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/1825653570817820212/62D64FA768717587CF04EB314674A38412BB2D2A/",
+    "image_rect": [
+      9,
+      10,
+      7
+    ]
+  },
+  {
+    "id": "01508",
+    "position": 508,
+    "quantity": 1,
+    "category_id": "challenge",
+    "type_id": "challenge",
+    "pack_id": "ebr",
+    "awa_value": 0,
+    "spi_value": -1,
+    "fit_value": 0,
+    "foc_value": 1,
+    "challenge_icon": "crest",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/1825653570817820212/62D64FA768717587CF04EB314674A38412BB2D2A/",
+    "image_rect": [
+      10,
+      10,
+      7
+    ]
+  },
+  {
+    "id": "01509",
+    "position": 509,
+    "quantity": 1,
+    "category_id": "challenge",
+    "type_id": "challenge",
+    "pack_id": "ebr",
+    "awa_value": 1,
+    "spi_value": 1,
+    "fit_value": 0,
+    "foc_value": -2,
+    "challenge_icon": "crest",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/1825653570817820212/62D64FA768717587CF04EB314674A38412BB2D2A/",
+    "image_rect": [
+      11,
+      10,
+      7
+    ],
+    "reshuffle": true
+  },
+  {
+    "id": "01510",
+    "position": 510,
+    "quantity": 1,
+    "category_id": "challenge",
+    "type_id": "challenge",
+    "pack_id": "ebr",
+    "awa_value": -1,
+    "spi_value": -1,
+    "fit_value": 0,
+    "foc_value": 0,
+    "challenge_icon": "crest",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/1825653570817820212/62D64FA768717587CF04EB314674A38412BB2D2A/",
+    "image_rect": [
+      12,
+      10,
+      7
+    ]
+  },
+  {
+    "id": "01511",
+    "position": 511,
+    "quantity": 1,
+    "category_id": "challenge",
+    "type_id": "challenge",
+    "pack_id": "ebr",
+    "awa_value": -1,
+    "spi_value": 0,
+    "fit_value": 0,
+    "foc_value": 1,
+    "challenge_icon": "crest",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/1825653570817820212/62D64FA768717587CF04EB314674A38412BB2D2A/",
+    "image_rect": [
+      13,
+      10,
+      7
+    ]
+  },
+  {
+    "id": "01512",
+    "position": 512,
+    "quantity": 1,
+    "category_id": "challenge",
+    "type_id": "challenge",
+    "pack_id": "ebr",
+    "awa_value": 1,
+    "spi_value": -2,
+    "fit_value": 1,
+    "foc_value": 0,
+    "challenge_icon": "crest",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/1825653570817820212/62D64FA768717587CF04EB314674A38412BB2D2A/",
+    "image_rect": [
+      14,
+      10,
+      7
+    ],
+    "reshuffle": true
+  },
+  {
+    "id": "01513",
+    "position": 513,
+    "quantity": 1,
+    "category_id": "challenge",
+    "type_id": "challenge",
+    "pack_id": "ebr",
+    "awa_value": 0,
+    "spi_value": 1,
+    "fit_value": -1,
+    "foc_value": 0,
+    "challenge_icon": "crest",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/1825653570817820212/62D64FA768717587CF04EB314674A38412BB2D2A/",
+    "image_rect": [
+      15,
+      10,
+      7
+    ]
+  },
+  {
+    "id": "01514",
+    "position": 514,
+    "quantity": 1,
+    "category_id": "challenge",
+    "type_id": "challenge",
+    "pack_id": "ebr",
+    "awa_value": 0,
+    "spi_value": -1,
+    "fit_value": 0,
+    "foc_value": -1,
+    "challenge_icon": "sun",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/1825653570817820212/62D64FA768717587CF04EB314674A38412BB2D2A/",
+    "image_rect": [
+      16,
+      10,
+      7
+    ]
+  },
+  {
+    "id": "01515",
+    "position": 515,
+    "quantity": 1,
+    "category_id": "challenge",
+    "type_id": "challenge",
+    "pack_id": "ebr",
+    "awa_value": 0,
+    "spi_value": 1,
+    "fit_value": -2,
+    "foc_value": 1,
+    "challenge_icon": "sun",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/1825653570817820212/62D64FA768717587CF04EB314674A38412BB2D2A/",
+    "image_rect": [
+      17,
+      10,
+      7
+    ],
+    "reshuffle": true
+  },
+  {
+    "id": "01516",
+    "position": 516,
+    "quantity": 1,
+    "category_id": "challenge",
+    "type_id": "challenge",
+    "pack_id": "ebr",
+    "awa_value": 0,
+    "spi_value": 0,
+    "fit_value": -1,
+    "foc_value": -1,
+    "challenge_icon": "sun",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/1825653570817820212/62D64FA768717587CF04EB314674A38412BB2D2A/",
+    "image_rect": [
+      18,
+      10,
+      7
+    ]
+  },
+  {
+    "id": "01517",
+    "position": 517,
+    "quantity": 1,
+    "category_id": "challenge",
+    "type_id": "challenge",
+    "pack_id": "ebr",
+    "awa_value": -2,
+    "spi_value": 0,
+    "fit_value": 1,
+    "foc_value": 1,
+    "challenge_icon": "sun",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/1825653570817820212/62D64FA768717587CF04EB314674A38412BB2D2A/",
+    "image_rect": [
+      19,
+      10,
+      7
+    ],
+    "reshuffle": true
+  },
+  {
+    "id": "01518",
+    "position": 518,
+    "quantity": 1,
+    "category_id": "challenge",
+    "type_id": "challenge",
+    "pack_id": "ebr",
+    "awa_value": -1,
+    "spi_value": 1,
+    "fit_value": 0,
+    "foc_value": 0,
+    "challenge_icon": "sun",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/1825653570817820212/62D64FA768717587CF04EB314674A38412BB2D2A/",
+    "image_rect": [
+      20,
+      10,
+      7
+    ]
+  },
+  {
+    "id": "01519",
+    "position": 519,
+    "quantity": 1,
+    "category_id": "challenge",
+    "type_id": "challenge",
+    "pack_id": "ebr",
+    "awa_value": 0,
+    "spi_value": -1,
+    "fit_value": 1,
+    "foc_value": 0,
+    "challenge_icon": "sun",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/1825653570817820212/62D64FA768717587CF04EB314674A38412BB2D2A/",
+    "image_rect": [
+      21,
+      10,
+      7
+    ]
+  },
+  {
+    "id": "01520",
+    "position": 520,
+    "quantity": 1,
+    "category_id": "challenge",
+    "type_id": "challenge",
+    "pack_id": "ebr",
+    "awa_value": 1,
+    "spi_value": 0,
+    "fit_value": 0,
+    "foc_value": -2,
+    "challenge_icon": "sun",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/1825653570817820212/62D64FA768717587CF04EB314674A38412BB2D2A/",
+    "image_rect": [
+      22,
+      10,
+      7
+    ],
+    "reshuffle": true
+  },
+  {
+    "id": "01521",
+    "position": 521,
+    "quantity": 1,
+    "category_id": "challenge",
+    "type_id": "challenge",
+    "pack_id": "ebr",
+    "awa_value": -1,
+    "spi_value": 0,
+    "fit_value": 1,
+    "foc_value": 0,
+    "challenge_icon": "sun",
+    "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/1825653570817820212/62D64FA768717587CF04EB314674A38412BB2D2A/",
+    "image_rect": [
+      23,
+      10,
+      7
     ]
   }
 ]
