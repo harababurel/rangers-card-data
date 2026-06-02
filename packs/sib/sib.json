@@ -975,7 +975,7 @@
     "set_position": "3",
     "traits": "Festival",
     "back_card_id": "04243",
-    "text": "<f>Head to the Festival Grounds in Brookside to join the celebration!</f>\nPath Deck Assembly: If you are arriving at Brookside, use the Thoroughfare terrain set.<hr>While Festival Grounds has no tasks remaining on it, it gains the following test:<hr><b>[SPI] + [connection]: Attend [2]</b> <f>the festival to</f> move your [ranger] to this feature.<hr><o><b>Have all [ranger] on Festival Grounds:</b> [guide] 1.209</o>",
+    "text": "<f>Head to the Festival Grounds in Brookside to join the celebration!</f>\n<l>Brookside</l>\nPath Deck Assembly: If you are arriving at Brookside, use the Thoroughfare terrain set.<hr>While Festival Grounds has no tasks remaining on it, it gains the following test:<b>[SPI] + [exploration]: Attend [2]</b> <f>the festival to</f> move your [ranger] to this feature.<hr><o><b>Have all [ranger] on Festival Grounds:</b> [guide] 1.209</o>",
     "objective": "Have all [ranger] on Festival Grounds: [guide] 1.209",
     "key_locations": "Brookside",
     "imagesrc": "http://localhost:8765/scan16.webp",
