@@ -813,6 +813,12 @@
       1
     ],
     "imagesrc": "http://localhost:8765/scan00.webp",
+    "back_image_rect": [
+      0,
+      1,
+      1
+    ],
+    "back_imagesrc": "http://localhost:8765/scan04.webp",
     "id": "04236",
     "position": 236
   },
@@ -839,6 +845,12 @@
       1
     ],
     "imagesrc": "http://localhost:8765/scan01.webp",
+    "back_image_rect": [
+      0,
+      1,
+      1
+    ],
+    "back_imagesrc": "http://localhost:8765/scan05.webp",
     "id": "04237",
     "position": 237
   },
@@ -865,6 +877,12 @@
       1
     ],
     "imagesrc": "http://localhost:8765/scan02.webp",
+    "back_image_rect": [
+      0,
+      1,
+      1
+    ],
+    "back_imagesrc": "http://localhost:8765/scan06.webp",
     "id": "04238",
     "position": 238
   },
@@ -891,6 +909,12 @@
       1
     ],
     "imagesrc": "http://localhost:8765/scan03.webp",
+    "back_image_rect": [
+      0,
+      1,
+      1
+    ],
+    "back_imagesrc": "http://localhost:8765/scan07.webp",
     "id": "04239",
     "position": 239
   },
