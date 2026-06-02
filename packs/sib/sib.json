@@ -954,7 +954,7 @@
     "back_card_id": "04240",
     "text": "<f>You have to find a way to get rid of this Cloudhive, or there won't be much of a festival!</f>\n<b>Response:</b> When you travel, the day ends, or there is no mirth in play: [guide] 1.211A<hr>Use [guide] 215 instead of the normal entries for each human (if they have a [guide]).<hr>Each Cloudhive Swarm gains the predator trait and enters play with 1 additional bee on it.<hr>Cloudhive gets +2[per_ranger] [harm] and +4[per_ranger] [progress] thresholds.<hr><b>Refresh:</b> Discard 1 mirth from a card.<hr><o><b>Clear Cloudhive with [harm]:</b> [guide] 1.211B\n<b>Clear Cloudhive with [progress]:</b> [guide] 1.211C</o>",
     "objective": "Clear Cloudhive with [harm]: [guide] 1.211B; Clear Cloudhive with [progress]: [guide] 1.211C",
-    "sun_challenge": "Ready a Cloudhive or Cloudhive Swarm.",
+    "mountain_challenge": "Ready a Cloudhive or Cloudhive Swarm.",
     "token_id": "mirth",
     "imagesrc": "http://localhost:8765/scan13.webp",
     "image_rect": [
