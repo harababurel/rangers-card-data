@@ -1089,7 +1089,7 @@
     "set_position": "8",
     "traits": "Festival",
     "back_card_id": "04246",
-    "text": "<f>Tiella wants you to collect pollen so she can determine the source of this unexpected season of rebirth.</f>\nEach card with 1 or more pollen gains the following test:<hr><b>[FOC] + [reason]: Collect</b> <f>the tiny motes of pollen to</f> move 1 pollen from this card to the Pollen Collection mission. If your effort is 3 or more, move 2 pollen instead.<hr><o><b>Arrive at Brookside with 2+2[per_ranger] or more pollen on this mission:</b> [guide] 1.207</o>",
+    "text": "<f>Tiella wants you to collect pollen so she can determine the source of this unexpected season of rebirth.</f>\nEach card with 1 or more pollen gains the following test:\n<b>[FOC] + [conflict]: Collect</b> <f>the tiny motes of pollen to</f> move 1 pollen from this card to the Pollen Collection mission. If your effort is 3 or more, move 2 pollen instead.<hr><o><b>Arrive at Brookside with 2+2[per_ranger] or more pollen on this mission:</b> [guide] 1.207</o>",
     "objective": "Arrive at Brookside with 2+2[per_ranger] or more pollen on this mission: [guide] 1.207",
     "key_locations": "Brookside",
     "mountain_challenge": "If Wild Growth is in play, <f>a brisk wind carries the pollen away.</f> [right_arrow] Move 1 pollen from a flora to Wild Growth.",
