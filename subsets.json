@@ -141,6 +141,13 @@
     "pack_id": "sib"
   },
   {
+    "id": "sib_mission",
+    "name": "Mission",
+    "size": 12,
+    "set_id": "mission",
+    "pack_id": "sib"
+  },
+  {
     "id": "sib_locations",
     "name": "Locations",
     "size": 4,
