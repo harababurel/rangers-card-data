@@ -120,6 +120,34 @@
     "pack_id": "sotv"
   },
   {
+    "id": "sib_general",
+    "name": "General",
+    "size": 9,
+    "set_id": "general",
+    "pack_id": "sib"
+  },
+  {
+    "id": "sib_lone_tree_station",
+    "name": "Lone Tree Station",
+    "size": 1,
+    "set_id": "lone_tree_station",
+    "pack_id": "sib"
+  },
+  {
+    "id": "sib_the_valley",
+    "name": "The Valley",
+    "size": 2,
+    "set_id": "the_valley",
+    "pack_id": "sib"
+  },
+  {
+    "id": "sib_locations",
+    "name": "Locations",
+    "size": 4,
+    "set_id": "locations",
+    "pack_id": "sib"
+  },
+  {
     "id": "sib_reward",
     "name": "Reward",
     "size": 5,
