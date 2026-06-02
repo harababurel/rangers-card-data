@@ -317,6 +317,7 @@
     "text": "<b>Response:</b> When there is no pollen on this card, flip it.",
     "token_id": "pollen",
     "token_count": 4,
+    "back_card_id": "04252",
     "crest_challenge": "<f>Ah-choo!</f> Discard 1 pollen from this card. [right_arrow] Each Ranger discards 1 energy and suffers 1 fatigue.",
     "image_rect": [
       0,
@@ -1202,6 +1203,7 @@
     "traits": "Environment",
     "token_id": "pollen",
     "token_count": 0,
+    "back_card_id": "04212",
     "text": "<b>Response:</b> After a flora enters play, add 1 pollen to it.<hr><b>Response:</b> When there is 4 or more pollen on this card and/or among flora in play, move them to this card and flip it.",
     "sun_challenge": "Add 1 pollen to a flora in play. [right_arrow] Discard 1[progress] or 1[harm] from that flora.",
     "image_rect": [

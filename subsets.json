@@ -148,6 +148,13 @@
     "pack_id": "sib"
   },
   {
+    "id": "sib_weather",
+    "name": "Weather",
+    "size": 2,
+    "set_id": "weather",
+    "pack_id": "sib"
+  },
+  {
     "id": "sib_reward",
     "name": "Reward",
     "size": 5,
