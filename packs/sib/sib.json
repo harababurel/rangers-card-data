@@ -1159,9 +1159,9 @@
     "set_position": "11",
     "traits": "Side",
     "back_card_id": "04251",
-    "text": "<f>Throughout the wilds, you occasionally spot evidence of Deadfall's rampage--fallen trees, trampled fields, and the like. You are sure you can locate Deadfall if you follow these signs.</f>\nPath Deck Assembly: If you are arriving at a non-pivotal location, shuffle Deadfall into the path deck.<hr><b>Response:</b> Before Deadfall would enter play, discard her. Then, add 1[harm] to a feature and attach this mission to that feature.<hr>When the attached feature is cleared by [progress], set it aside instead of discarding it. <f>(Unattach this mission and return it to the surroundings.)</f><hr><o><b>Have 2 features set aside:</b> [guide] 1.218</o>",
+    "text": "<f>Throughout the wilds, you occasionally spot evidence of Deadfall's rampage--fallen trees, trampled fields, and the like. You are sure you can locate Deadfall if you follow these signs.</f>\n<b>Path Deck Assembly:</b> If you are arriving at a non-pivotal location, shuffle Deadfall into the path deck.<hr><b>Response:</b> Before Deadfall would enter play, discard her. Then, add 1[harm] to a feature and attach this mission to that feature.<hr>When the attached feature is cleared by [progress], set it aside instead of discarding it. <f>(Unattach this mission and return it to the surroundings.)</f><hr><o><b>Have 2 features set aside:</b> [guide] 1.218</o>",
     "objective": "Have 2 features set aside: [guide] 1.218",
-    "crest_challenge": "If this mission is attached, <f>you lose the trail.</f> [right_arrow] Unattach this mission unless a Ranger discards 1 AWA energy.",
+    "crest_challenge": "If this mission is attached, <f>you lose the trail.</f> [right_arrow] Unattach this mission unless a Ranger discards 1 <b>AWA</b> energy.",
     "imagesrc": "http://localhost:8765/scan14.webp",
     "image_rect": [
       0,
