@@ -1135,7 +1135,7 @@
     "set_position": "10",
     "traits": "Festival",
     "back_card_id": "04248",
-    "text": "<f>You are escorting Raemon back to the festival grounds. Be careful not to lose any supplies!</f>\nPath Deck Assembly: Search the Old Growth set for 2 Cloudhive Swarms and 1 Cloudhive and shuffle them into the path deck.<hr>Raemon, Caravaneer gains persistent.<hr>When Raemon is cleared by [harm], read [guide] 1.204 instead of his normal entry.<hr>When a feature with 1 or more supplies on it is cleared, move those supplies to Raemon.<hr><o><b>Arrive at Brookside with Raemon in play:</b> [guide] 1.205</o>",
+    "text": "<f>You are escorting Raemon back to the festival grounds. Be careful not to lose any supplies!</f>\n<b>Path Deck Assembly:</b> Search the Old Growth set for 2 Cloudhive Swarms and 1 Cloudhive and shuffle them into the path deck.<hr>Raemon, Caravaneer gains persistent.<hr>When Raemon is cleared by [harm], read [guide] 1.204 instead of his normal entry.<hr>When a feature with 1 or more supplies on it is cleared, move those supplies to Raemon.<hr><o><b>Arrive at Brookside with Raemon in play:</b> [guide] 1.205</o>",
     "objective": "Arrive at Brookside with Raemon in play: [guide] 1.205",
     "key_locations": "Brookside",
     "sun_challenge": "<f>A box falls off the hoversled!</f> Exhaust Raemon. [right_arrow] Move 1 supply from Raemon to the feature with the fewest supplies.",
