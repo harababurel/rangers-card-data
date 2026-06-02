@@ -1113,7 +1113,7 @@
     "set_position": "9",
     "traits": "Festival",
     "back_card_id": "04249",
-    "text": "<f>You've agreed to meet up with Raemon and escort him back to the festival grounds with the supplies he's gathered. You'll find him at White Sky.</f>\nPath Deck Assembly: Search the Old Growth set for 2 Cloudhive Swarms and 1 Cloudhive and shuffle them into the path deck.<hr><o><b>Arrive at White Sky:</b> [guide] 1.203</o>",
+    "text": "<f>You've agreed to meet up with Raemon and escort him back to the festival grounds with the supplies he's gathered. You'll find him at White Sky.</f>\n<b>Path Deck Assembly:</b> Search the Old Growth set for 2 Cloudhive Swarms and 1 Cloudhive and shuffle them into the path deck.<hr><o><b>Arrive at White Sky:</b> [guide] 1.203</o>",
     "objective": "Arrive at White Sky: [guide] 1.203",
     "key_locations": "White Sky",
     "imagesrc": "http://localhost:8765/scan17.webp",
