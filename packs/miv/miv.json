@@ -81,7 +81,7 @@
     "imagesrc": "http://localhost:8765/scan54.webp",
     "id": "07004",
     "position": 4,
-    "text": "<f>You spot a crowd congregating around one of Spire's open-air markets. There's a sale going on! Maybe you can take some time out of your day to browse the market and barter for something useful.</f><hr><b>RANGERS CHOOSE:</b>\n<b>A) Visit the market.</b> Each Ranger searches their Ranger deck for a gear and reveals it. Then, perform a <b>group test</b>:\n<b>[AWA] + [reason]: Browse [2[per_ranger]]</b> <f>the wares on display to</f> have each Ranger draw the card they revealed. If you fail, each Ranger discards the card they revealed.\n<b>B) Move past the crowd.</b> Each Ranger suffers 1 fatigue. Add 1[per_ranger][progress] to a feature."
+    "text": "<f>You spot a crowd congregating around one of Spire's open-air markets. There's a sale going on! Maybe you can take some time out of your day to browse the market and barter for something useful.</f><hr><b>RANGERS CHOOSE:</b>\n<c>A) Visit the market.</c> Each Ranger searches their Ranger deck for a gear and reveals it. Then, perform a <b>group test</b>:\n<b>[AWA] + [reason]: Browse [2[per_ranger]]</b> <f>the wares on display to</f> have each Ranger draw the card they revealed. If you fail, each Ranger discards the card they revealed.\n<c>B) Move past the crowd.</c> Each Ranger suffers 1 fatigue. Add 1[per_ranger][progress] to a feature."
   },
   {
     "name": "Up An Alley",
@@ -119,7 +119,7 @@
     "imagesrc": "http://localhost:8765/scan56.webp",
     "id": "07006",
     "position": 6,
-    "text": "<f>The sound of a plucky mandolin catches your attention. A talespinner is joyfully playing music, and several passersby have flocked around them to listen. You wonder whether you have time to catch a song or two.</f><hr><b>RANGERS CHOOSE:</b>\n<b>A) Stay awhile and listen.</b> Each Ranger suffers 1 fatigue. Then, perform a <b>group test</b>:\n<b>[SPI] + [connection]: Listen [1[per_ranger]]</b> <f>to the music to</f> soothe fatigue among the Rangers equal to the group's effort.\n<b>B) We'll meet again.</b> Discard all [progress] from each human within reach of a Ranger and move each of them along the way."
+    "text": "<f>The sound of a plucky mandolin catches your attention. A talespinner is joyfully playing music, and several passersby have flocked around them to listen. You wonder whether you have time to catch a song or two.</f><hr><b>RANGERS CHOOSE:</b>\n<c>A) Stay awhile and listen.</c> Each Ranger suffers 1 fatigue. Then, perform a <b>group test</b>:\n<b>[SPI] + [connection]: Listen [1[per_ranger]]</b> <f>to the music to</f> soothe fatigue among the Rangers equal to the group's effort.\n<c>B) We'll meet again.</c> Discard all [progress] from each human within reach of a Ranger and move each of them along the way."
   },
   {
     "name": "Silverfin Spillover",
@@ -157,7 +157,7 @@
     "imagesrc": "http://localhost:8765/scan58.webp",
     "id": "07008",
     "position": 8,
-    "text": "<f>Even among the carbon-forged buildings of Spire, the people of the village must still respect the power of nature. You watch people taking shelter as the weather worsens.</f><hr>If the weather is neither inclement nor hot, flip it.\n<b>RANGERS CHOOSE:</b>\n<b>A) Take shelter.</b> Discard 1[per_ranger][progress] from the location as you pause to take shelter. For each [progress] discarded this way, you may add 1[progress] to a human.\n<b>B) Press forward.</b> Add 1[per_ranger][progress] to the location. Resolve each challenge effect on the weather in an order of your choice."
+    "text": "<f>Even among the carbon-forged buildings of Spire, the people of the village must still respect the power of nature. You watch people taking shelter as the weather worsens.</f><hr>If the weather is neither inclement nor hot, flip it.\n<b>RANGERS CHOOSE:</b>\n<c>A) Take shelter.</c> Discard 1[per_ranger][progress] from the location as you pause to take shelter. For each [progress] discarded this way, you may add 1[progress] to a human.\n<c>B) Press forward.</c> Add 1[per_ranger][progress] to the location. Resolve each challenge effect on the weather in an order of your choice."
   },
   {
     "name": "Going in Circles",
@@ -233,7 +233,7 @@
     "imagesrc": "http://localhost:8765/scan62.webp",
     "id": "07012",
     "position": 12,
-    "text": "<f>You stop for a moment to get your bearings, but the air shimmers and refracts in the heat, distorting the horizon. Some of the rock formations vanish and reform out of thin air, while others dance and twist in the distance.</f><hr><b>If you see this card while scouting:</b> Set aside all other scouted cards, resolve this card, then continue the scouting as normal.\n<b>YOU CHOOSE:</b>\n<b>A) Venture into the mirage.</b> Discard 1[per_ranger][progress] from among features along the way and the location. Each Ranger gains 1 [SPI] energy.\n<b>B) Wait until the mirage fades.</b> Each Ranger suffers 2 fatigue and gains 1 [FOC] energy."
+    "text": "<f>You stop for a moment to get your bearings, but the air shimmers and refracts in the heat, distorting the horizon. Some of the rock formations vanish and reform out of thin air, while others dance and twist in the distance.</f><hr><b>If you see this card while scouting:</b> Set aside all other scouted cards, resolve this card, then continue the scouting as normal.\n<b>YOU CHOOSE:</b>\n<c>A) Venture into the mirage.</c> Discard 1[per_ranger][progress] from among features along the way and the location. Each Ranger gains 1 [SPI] energy.\n<c>B) Wait until the mirage fades.</c> Each Ranger suffers 2 fatigue and gains 1 [FOC] energy."
   },
   {
     "name": "Fight or Flight",
@@ -252,7 +252,7 @@
     "imagesrc": "http://localhost:8765/scan63.webp",
     "id": "07013",
     "position": 13,
-    "text": "<f>You watch as a hierax dives from high above in pursuit of a mysterious bird with long, vivid tailfeathers.</f><hr><b>If you see this card while scouting:</b> You may discard it to scout 2 additional cards.\n<b>RANGERS CHOOSE:</b>\n<b>A) Defend the mysterious bird.</b> Perform a <b>group test</b>:\n<b>[SPI] + [conflict]: Chase [2[per_ranger]]</b> <f>the hierax away to</f> search the General set for The Stranger. If you fail, each Ranger suffers 2 fatigue.\n<b>B) Let it be.</b> The hierax perches nearby. Search the Mesa set for a Soaring Hierax."
+    "text": "<f>You watch as a hierax dives from high above in pursuit of a mysterious bird with long, vivid tailfeathers.</f><hr><b>If you see this card while scouting:</b> You may discard it to scout 2 additional cards.\n<b>RANGERS CHOOSE:</b>\n<c>A) Defend the mysterious bird.</c> Perform a <b>group test</b>:\n<b>[SPI] + [conflict]: Chase [2[per_ranger]]</b> <f>the hierax away to</f> search the General set for The Stranger. If you fail, each Ranger suffers 2 fatigue.\n<c>B) Let it be.</c> The hierax perches nearby. Search the Mesa set for a Soaring Hierax."
   },
   {
     "name": "Heat Wave",
@@ -309,7 +309,7 @@
     "imagesrc": "http://localhost:8765/scan66.webp",
     "id": "07016",
     "position": 16,
-    "text": "<f>You take a sip from your canteen and find only a few gulps left. You'd better find some water, and soon.</f><hr><b>RANGERS CHOOSE:</b>\n<b>A) Search for water.</b> Perform a <b>group test</b>:\n<b>[FOC] + [exploration]: Search [2[per_ranger]]</b> <f>for a source of potable water to</f> have each Ranger soothe 2 fatigue. If you fail, resolve option B.\n<b>B) Start rationing.</b> Place this card in the surroundings. While this card is in play, at the start of each round, each Ranger must discard 1 energy of their choice. (This card will be discarded along with other path cards when you travel.)"
+    "text": "<f>You take a sip from your canteen and find only a few gulps left. You'd better find some water, and soon.</f><hr><b>RANGERS CHOOSE:</b>\n<c>A) Search for water.</c> Perform a <b>group test</b>:\n<b>[FOC] + [exploration]: Search [2[per_ranger]]</b> <f>for a source of potable water to</f> have each Ranger soothe 2 fatigue. If you fail, resolve option B.\n<c>B) Start rationing.</c> Place this card in the surroundings. While this card is in play, at the start of each round, each Ranger must discard 1 energy of their choice. (This card will be discarded along with other path cards when you travel.)"
   },
   {
     "name": "Spark of Inspiration",
@@ -385,7 +385,7 @@
     "imagesrc": "http://localhost:8765/scan70.webp",
     "id": "07020",
     "position": 20,
-    "text": "<f>What is this? A piece of machinery lies half-buried in the ground. Fog issues from a tear along its length. Perhaps if you repaired it, you could improve the weather conditions in your immediate vicinity.</f><hr><b>RANGERS CHOOSE:</b>\n<b>A) Try to fix the device.</b> Perform a <b>group test</b>:\n<b>[FOC] + [reason]: Repair [2[per_ranger]]</b> <f>the machinery to</f> either add 2 tokens to or discard 2 tokens from the weather. Then, you may flip the weather. If you fail, each Ranger suffers 1 fatigue.\n<b>B) Let it be.</b> Search the Nimbus set for a Deep Fog and put it into play."
+    "text": "<f>What is this? A piece of machinery lies half-buried in the ground. Fog issues from a tear along its length. Perhaps if you repaired it, you could improve the weather conditions in your immediate vicinity.</f><hr><b>RANGERS CHOOSE:</b>\n<c>A) Try to fix the device.</c> Perform a <b>group test</b>:\n<b>[FOC] + [reason]: Repair [2[per_ranger]]</b> <f>the machinery to</f> either add 2 tokens to or discard 2 tokens from the weather. Then, you may flip the weather. If you fail, each Ranger suffers 1 fatigue.\n<c>B) Let it be.</c> Search the Nimbus set for a Deep Fog and put it into play."
   },
   {
     "name": "Eyes in the Mist",
@@ -518,7 +518,7 @@
     "imagesrc": "http://localhost:8765/scan77.webp",
     "id": "07027",
     "position": 27,
-    "text": "<f>A rumbling from deep below sets your nerves on edge. Is it the Terravore itself, or the growling of some dangerous being lurking in the dark?</f><hr><b>YOU CHOOSE:</b>\n<b>A) Compose yourself.</b>\n<b>[SPI] + [conflict]: Steel [2]</b> <f>your resolve to</f> add 1[progress] to the location for every 2 effort. If you fail, discard a random card from your hand.\n<b>B) Voice your fears.</b> Each Ranger suffers 1 fatigue."
+    "text": "<f>A rumbling from deep below sets your nerves on edge. Is it the Terravore itself, or the growling of some dangerous being lurking in the dark?</f><hr><b>YOU CHOOSE:</b>\n<c>A) Compose yourself.</c>\n<b>[SPI] + [conflict]: Steel [2]</b> <f>your resolve to</f> add 1[progress] to the location for every 2 effort. If you fail, discard a random card from your hand.\n<c>B) Voice your fears.</c> Each Ranger suffers 1 fatigue."
   },
   {
     "name": "Intestinal Gnats",
@@ -556,7 +556,7 @@
     "imagesrc": "http://localhost:8765/scan79.webp",
     "id": "07029",
     "position": 29,
-    "text": "<f>As you trudge through the muck and mire, something colorful suddenly streaks past. You could almost swear it was a bird, but... what would a bird be doing in here?</f><hr><b>RANGERS CHOOSE:</b>\n<b>A) Follow the mysterious being.</b> Discard all [progress] from all features in play. If at least 1[per_ranger] [progress] was discarded in this way, search the General set for The Stranger and put it into play.\n<b>B) Continue onward.</b> Add 1[per_ranger] [progress] to a feature. Then, each Ranger suffers 1 fatigue."
+    "text": "<f>As you trudge through the muck and mire, something colorful suddenly streaks past. You could almost swear it was a bird, but... what would a bird be doing in here?</f><hr><b>RANGERS CHOOSE:</b>\n<c>A) Follow the mysterious being.</c> Discard all [progress] from all features in play. If at least 1[per_ranger] [progress] was discarded in this way, search the General set for The Stranger and put it into play.\n<c>B) Continue onward.</c> Add 1[per_ranger] [progress] to a feature. Then, each Ranger suffers 1 fatigue."
   },
   {
     "name": "Burp!",
@@ -613,7 +613,7 @@
     "imagesrc": "http://localhost:8765/scan82.webp",
     "id": "07032",
     "position": 32,
-    "text": "<f>A sound that you didn't expect to hear down here greets your ears—whistling! Someone else is in here!</f><hr><b>RANGERS CHOOSE:</b>\n<b>A) Locate the whistler.</b> Perform a <b>group test</b>:\n<b>[AWA] + [exploration]: Locate [2[per_ranger]]</b> <f>the other person to</f> search the Valley set for a human and shuffle them into the path deck. If the group's effort is 3[per_ranger] or more, put them into play instead.\n<b>B) Leave them to face the dangers of the Terravore alone.</b> Each Ranger suffers 2 fatigue."
+    "text": "<f>A sound that you didn't expect to hear down here greets your ears—whistling! Someone else is in here!</f><hr><b>RANGERS CHOOSE:</b>\n<c>A) Locate the whistler.</c> Perform a <b>group test</b>:\n<b>[AWA] + [exploration]: Locate [2[per_ranger]]</b> <f>the other person to</f> search the Valley set for a human and shuffle them into the path deck. If the group's effort is 3[per_ranger] or more, put them into play instead.\n<c>B) Leave them to face the dangers of the Terravore alone.</c> Each Ranger suffers 2 fatigue."
   },
   {
     "name": "A Predictable Path",
