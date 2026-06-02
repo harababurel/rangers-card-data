@@ -135,6 +135,30 @@
     "size": 5
   },
   {
+    "id": "silverfin_docks",
+    "name": "Silverfin Docks",
+    "type_id": "terrain",
+    "size": 1
+  },
+  {
+    "id": "spire_crossing",
+    "name": "Spire Crossing",
+    "type_id": "terrain",
+    "size": 2
+  },
+  {
+    "id": "brookside",
+    "name": "Brookside",
+    "type_id": "terrain",
+    "size": 2
+  },
+  {
+    "id": "thoroughfare",
+    "name": "Thoroughfare",
+    "type_id": "terrain",
+    "size": 12
+  },
+  {
     "id": "general",
     "name": "General",
     "type_id": "terrain",
@@ -275,5 +299,50 @@
     "id": "mission",
     "name": "Mission",
     "size": 34
+  },
+  {
+    "id": "spire_in_bloom_moments",
+    "name": "Spire in Bloom Moments",
+    "size": 8
+  },
+  {
+    "id": "sky_and_smoke_moments",
+    "name": "Sky and Smoke Moments",
+    "size": 8
+  },
+  {
+    "id": "shadow_of_the_storm_moments",
+    "name": "Shadow of the Storm Moments",
+    "size": 8
+  },
+  {
+    "id": "into_the_maw_moments",
+    "name": "Into the Maw Moments",
+    "size": 8
+  },
+  {
+    "id": "arcology_moments",
+    "name": "Arcology Moments",
+    "size": 16
+  },
+  {
+    "id": "valley_moments",
+    "name": "Valley Moments",
+    "size": 16
+  },
+  {
+    "id": "moments_on_the_path_rules",
+    "name": "Moments on the Path Rules",
+    "size": 4
+  },
+  {
+    "id": "moments_in_the_valley_rules",
+    "name": "Moments in the Valley Rules",
+    "size": 4
+  },
+  {
+    "id": "aspiration_narrative_cards",
+    "name": "Aspiration Narrative Cards",
+    "size": 10
   }
 ]

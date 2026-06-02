@@ -1,0 +1,26 @@
+{
+  "scan00": {
+    "rotate_degrees": 90
+  },
+  "scan01": {
+    "rotate_degrees": 90
+  },
+  "scan02": {
+    "rotate_degrees": 90
+  },
+  "scan03": {
+    "rotate_degrees": 90
+  },
+  "scan04": {
+    "rotate_degrees": -90
+  },
+  "scan05": {
+    "rotate_degrees": -90
+  },
+  "scan06": {
+    "rotate_degrees": -90
+  },
+  "scan07": {
+    "rotate_degrees": -90
+  }
+}

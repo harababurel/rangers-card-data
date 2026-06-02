@@ -383,11 +383,11 @@
     "subset_position": 1,
     "category_id": "ranger",
     "pack_id": "sotv",
-    "alt_imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15665141664316885892/0F74DA675EFAFC63EF6E6B1C9BC5201E410C7B5B/",
+    "alt_imagesrc": "http://localhost:8765/scan142.webp",
     "alt_image_rect": [
-      36,
-      10,
-      7
+      0,
+      1,
+      1
     ]
   },
   {
@@ -503,11 +503,11 @@
     "subset_position": 1,
     "category_id": "ranger",
     "pack_id": "sotv",
-    "alt_imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15665141664316885892/0F74DA675EFAFC63EF6E6B1C9BC5201E410C7B5B/",
+    "alt_imagesrc": "http://localhost:8765/scan145.webp",
     "alt_image_rect": [
-      32,
-      10,
-      7
+      0,
+      1,
+      1
     ]
   },
   {
@@ -618,11 +618,11 @@
     "subset_position": 1,
     "category_id": "ranger",
     "pack_id": "sotv",
-    "alt_imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15665141664316885892/0F74DA675EFAFC63EF6E6B1C9BC5201E410C7B5B/",
+    "alt_imagesrc": "http://localhost:8765/scan151.webp",
     "alt_image_rect": [
-      35,
-      10,
-      7
+      0,
+      1,
+      1
     ]
   },
   {
@@ -735,11 +735,11 @@
     "subset_position": 1,
     "category_id": "ranger",
     "pack_id": "sotv",
-    "alt_imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15665141664316885892/0F74DA675EFAFC63EF6E6B1C9BC5201E410C7B5B/",
+    "alt_imagesrc": "http://localhost:8765/scan156.webp",
     "alt_image_rect": [
       0,
-      10,
-      7
+      1,
+      1
     ]
   },
   {
@@ -847,11 +847,11 @@
     "text": "<b>Exhaust:</b> Before your first turn of the round, add 2[progress] to a spirit. Then, <b>spiritspeak</b>.",
     "category_id": "ranger",
     "pack_id": "sotv",
-    "alt_imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15665141664316885892/0F74DA675EFAFC63EF6E6B1C9BC5201E410C7B5B/",
+    "alt_imagesrc": "http://localhost:8765/scan150.webp",
     "alt_image_rect": [
-      4,
-      10,
-      7
+      0,
+      1,
+      1
     ]
   },
   {
@@ -866,11 +866,11 @@
     "text": "<b>Exhaust:</b> Spend 1 energy to <b>spiritspeak</b>.",
     "category_id": "ranger",
     "pack_id": "sotv",
-    "alt_imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15665141664316885892/0F74DA675EFAFC63EF6E6B1C9BC5201E410C7B5B/",
+    "alt_imagesrc": "http://localhost:8765/scan143.webp",
     "alt_image_rect": [
-      3,
-      10,
-      7
+      0,
+      1,
+      1
     ]
   },
   {
@@ -885,11 +885,11 @@
     "text": "<b>Exhaust:</b> Perform a spirit speaker test.",
     "category_id": "ranger",
     "pack_id": "sotv",
-    "alt_imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15665141664316885892/0F74DA675EFAFC63EF6E6B1C9BC5201E410C7B5B/",
+    "alt_imagesrc": "http://localhost:8765/scan153.webp",
     "alt_image_rect": [
-      2,
-      10,
-      7
+      0,
+      1,
+      1
     ]
   },
   {
@@ -2059,5 +2059,255 @@
     ],
     "imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15398307509714413278/2291314E51FBAC2CC94CBCBD4E6D8779C0DDB52A/",
     "pack_id": "sotv"
+  },
+  {
+    "name": "Grell's Secret Map",
+    "quantity": 1,
+    "pack_id": "sotv",
+    "category_id": "aspiration",
+    "type_id": "aspiration",
+    "set_id": "aspiration_narrative_cards",
+    "set_position": "1",
+    "traits": "Introduction",
+    "text": "Record 6 hunches to complete this aspiration.",
+    "image_rect": [
+      0,
+      1,
+      1
+    ],
+    "imagesrc": "http://localhost:8765/scan124.webp",
+    "alt_image_rect": [
+      0,
+      1,
+      1
+    ],
+    "alt_imagesrc": "http://localhost:8765/scan138.webp",
+    "id": "03218",
+    "position": 218
+  },
+  {
+    "name": "Grell's Secret Map",
+    "quantity": 1,
+    "pack_id": "sotv",
+    "category_id": "aspiration",
+    "type_id": "aspiration",
+    "set_id": "aspiration_narrative_cards",
+    "set_position": "2",
+    "traits": "Aspiration Complete",
+    "text": "You gain the Hidden Paths reward card. (Only you may swap this card into your deck when you camp.)",
+    "image_rect": [
+      0,
+      1,
+      1
+    ],
+    "imagesrc": "http://localhost:8765/scan126.webp",
+    "alt_image_rect": [
+      0,
+      1,
+      1
+    ],
+    "alt_imagesrc": "http://localhost:8765/scan134.webp",
+    "id": "03219",
+    "position": 219
+  },
+  {
+    "name": "Friendly Repair Service",
+    "quantity": 1,
+    "pack_id": "sotv",
+    "category_id": "aspiration",
+    "type_id": "aspiration",
+    "set_id": "aspiration_narrative_cards",
+    "set_position": "3",
+    "traits": "Introduction",
+    "text": "Record 6 improvements to complete this aspiration.",
+    "image_rect": [
+      0,
+      1,
+      1
+    ],
+    "imagesrc": "http://localhost:8765/scan128.webp",
+    "alt_image_rect": [
+      0,
+      1,
+      1
+    ],
+    "alt_imagesrc": "http://localhost:8765/scan136.webp",
+    "id": "03220",
+    "position": 220
+  },
+  {
+    "name": "Friendly Repair Service",
+    "quantity": 1,
+    "pack_id": "sotv",
+    "category_id": "aspiration",
+    "type_id": "aspiration",
+    "set_id": "aspiration_narrative_cards",
+    "set_position": "4",
+    "traits": "Aspiration Complete",
+    "text": "You gain the Friendly Welcome reward card. (Only you may swap this card into your deck when you camp.)",
+    "image_rect": [
+      0,
+      1,
+      1
+    ],
+    "imagesrc": "http://localhost:8765/scan130.webp",
+    "alt_image_rect": [
+      0,
+      1,
+      1
+    ],
+    "alt_imagesrc": "http://localhost:8765/scan132.webp",
+    "id": "03221",
+    "position": 221
+  },
+  {
+    "name": "Zoological Recorder",
+    "quantity": 1,
+    "pack_id": "sotv",
+    "category_id": "aspiration",
+    "type_id": "aspiration",
+    "set_id": "aspiration_narrative_cards",
+    "set_position": "5",
+    "traits": "Introduction",
+    "text": "Record 7 records to complete this aspiration.",
+    "image_rect": [
+      0,
+      1,
+      1
+    ],
+    "imagesrc": "http://localhost:8765/scan125.webp",
+    "alt_image_rect": [
+      0,
+      1,
+      1
+    ],
+    "alt_imagesrc": "http://localhost:8765/scan135.webp",
+    "id": "03222",
+    "position": 222
+  },
+  {
+    "name": "Zoological Recorder",
+    "quantity": 1,
+    "pack_id": "sotv",
+    "category_id": "aspiration",
+    "type_id": "aspiration",
+    "set_id": "aspiration_narrative_cards",
+    "set_position": "6",
+    "traits": "Aspiration Complete",
+    "text": "You gain the Kinetic Codex reward card. (Only you may swap this card into your deck when you camp.)",
+    "image_rect": [
+      0,
+      1,
+      1
+    ],
+    "imagesrc": "http://localhost:8765/scan127.webp",
+    "alt_image_rect": [
+      0,
+      1,
+      1
+    ],
+    "alt_imagesrc": "http://localhost:8765/scan133.webp",
+    "id": "03223",
+    "position": 223
+  },
+  {
+    "name": "The Brilliant Gardener",
+    "quantity": 1,
+    "pack_id": "sotv",
+    "category_id": "aspiration",
+    "type_id": "aspiration",
+    "set_id": "aspiration_narrative_cards",
+    "set_position": "7",
+    "traits": "Introduction",
+    "text": "Record 6 seeds to complete this aspiration.",
+    "image_rect": [
+      0,
+      1,
+      1
+    ],
+    "imagesrc": "http://localhost:8765/scan129.webp",
+    "alt_image_rect": [
+      0,
+      1,
+      1
+    ],
+    "alt_imagesrc": "http://localhost:8765/scan137.webp",
+    "id": "03224",
+    "position": 224
+  },
+  {
+    "name": "The Brilliant Gardener",
+    "quantity": 1,
+    "pack_id": "sotv",
+    "category_id": "aspiration",
+    "type_id": "aspiration",
+    "set_id": "aspiration_narrative_cards",
+    "set_position": "8",
+    "traits": "Aspiration Complete",
+    "text": "You gain the Brightfruit Tree reward card. (Only you may swap this card into your deck when you camp.)",
+    "image_rect": [
+      0,
+      1,
+      1
+    ],
+    "imagesrc": "http://localhost:8765/scan131.webp",
+    "alt_image_rect": [
+      0,
+      1,
+      1
+    ],
+    "alt_imagesrc": "http://localhost:8765/scan139.webp",
+    "id": "03225",
+    "position": 225
+  },
+  {
+    "name": "Go Forth, Fearless Ranger",
+    "quantity": 1,
+    "pack_id": "sotv",
+    "category_id": "aspiration",
+    "type_id": "aspiration",
+    "set_id": "aspiration_narrative_cards",
+    "set_position": "9",
+    "traits": "Introduction",
+    "text": "Record 9 feats to complete this aspiration. Optionally, you can describe each feat on a scrap of paper so that you may recall details later.",
+    "image_rect": [
+      0,
+      1,
+      1
+    ],
+    "imagesrc": "http://localhost:8765/scan140.webp",
+    "alt_image_rect": [
+      0,
+      1,
+      1
+    ],
+    "alt_imagesrc": "http://localhost:8765/scan148.webp",
+    "id": "03226",
+    "position": 226
+  },
+  {
+    "name": "Go Forth, Fearless Ranger",
+    "quantity": 1,
+    "pack_id": "sotv",
+    "category_id": "aspiration",
+    "type_id": "aspiration",
+    "set_id": "aspiration_narrative_cards",
+    "set_position": "10",
+    "traits": "Aspiration Complete",
+    "text": "You gain The Bravest Ranger reward card. (Only you may swap this card into your deck when you camp.)",
+    "image_rect": [
+      0,
+      1,
+      1
+    ],
+    "imagesrc": "http://localhost:8765/scan141.webp",
+    "alt_image_rect": [
+      0,
+      1,
+      1
+    ],
+    "alt_imagesrc": "http://localhost:8765/scan149.webp",
+    "id": "03227",
+    "position": 227
   }
 ]

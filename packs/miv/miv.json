@@ -1,0 +1,677 @@
+[
+  {
+    "name": "The Stranger",
+    "quantity": 1,
+    "pack_id": "miv",
+    "category_id": "path",
+    "type_id": "being",
+    "area_id": "along_the_way",
+    "set_id": "general",
+    "set_position": "1",
+    "traits": "Avian / ???",
+    "text": "<b>Clear [progress] or [harm]:</b> Return this being to the collection.",
+    "harm": "2",
+    "progress": "5",
+    "presence": 1,
+    "sun_challenge": "Move this being. If it is within reach of a Ranger, that Ranger soothes 1 fatigue.",
+    "mountain_challenge": "Add 1[progress] to the location and to this being.",
+    "crest_challenge": "If there is an active predator, exhaust it. [right_arrow] Add [progress] to that predator and to this being equal to that predator's presence.",
+    "illustrator": "Julia Schleicher",
+    "image_rect": [
+      0,
+      1,
+      1
+    ],
+    "imagesrc": "http://localhost:8765/scan47.webp",
+    "id": "07001",
+    "position": 1
+  },
+  {
+    "name": "A Chance Encounter",
+    "quantity": 1,
+    "pack_id": "miv",
+    "category_id": "path",
+    "type_id": "moment",
+    "set_id": "spire_in_bloom_moments",
+    "set_position": "1",
+    "traits": "Opportunity",
+    "image_rect": [
+      0,
+      1,
+      1
+    ],
+    "imagesrc": "http://localhost:8765/scan52.webp",
+    "id": "07002",
+    "position": 2
+  },
+  {
+    "name": "Breath of the Verdessa",
+    "quantity": 1,
+    "pack_id": "miv",
+    "category_id": "path",
+    "type_id": "moment",
+    "set_id": "spire_in_bloom_moments",
+    "set_position": "5",
+    "traits": "Weather",
+    "image_rect": [
+      0,
+      1,
+      1
+    ],
+    "imagesrc": "http://localhost:8765/scan53.webp",
+    "id": "07003",
+    "position": 3
+  },
+  {
+    "name": "Market Sale",
+    "quantity": 1,
+    "pack_id": "miv",
+    "category_id": "path",
+    "type_id": "moment",
+    "set_id": "spire_in_bloom_moments",
+    "set_position": "2",
+    "traits": "Opportunity",
+    "image_rect": [
+      0,
+      1,
+      1
+    ],
+    "imagesrc": "http://localhost:8765/scan54.webp",
+    "id": "07004",
+    "position": 4
+  },
+  {
+    "name": "Up An Alley",
+    "quantity": 1,
+    "pack_id": "miv",
+    "category_id": "path",
+    "type_id": "moment",
+    "set_id": "spire_in_bloom_moments",
+    "set_position": "6",
+    "traits": "Navigation",
+    "image_rect": [
+      0,
+      1,
+      1
+    ],
+    "imagesrc": "http://localhost:8765/scan55.webp",
+    "id": "07005",
+    "position": 5
+  },
+  {
+    "name": "Tempting Melody",
+    "quantity": 1,
+    "pack_id": "miv",
+    "category_id": "path",
+    "type_id": "moment",
+    "set_id": "spire_in_bloom_moments",
+    "set_position": "3",
+    "traits": "Opportunity",
+    "image_rect": [
+      0,
+      1,
+      1
+    ],
+    "imagesrc": "http://localhost:8765/scan56.webp",
+    "id": "07006",
+    "position": 6
+  },
+  {
+    "name": "Silverfin Spillover",
+    "quantity": 1,
+    "pack_id": "miv",
+    "category_id": "path",
+    "type_id": "moment",
+    "set_id": "spire_in_bloom_moments",
+    "set_position": "7",
+    "traits": "Weather",
+    "image_rect": [
+      0,
+      1,
+      1
+    ],
+    "imagesrc": "http://localhost:8765/scan57.webp",
+    "id": "07007",
+    "position": 7
+  },
+  {
+    "name": "Ominous Skies",
+    "quantity": 1,
+    "pack_id": "miv",
+    "category_id": "path",
+    "type_id": "moment",
+    "set_id": "spire_in_bloom_moments",
+    "set_position": "4",
+    "traits": "Weather",
+    "image_rect": [
+      0,
+      1,
+      1
+    ],
+    "imagesrc": "http://localhost:8765/scan58.webp",
+    "id": "07008",
+    "position": 8
+  },
+  {
+    "name": "Going in Circles",
+    "quantity": 1,
+    "pack_id": "miv",
+    "category_id": "path",
+    "type_id": "moment",
+    "set_id": "spire_in_bloom_moments",
+    "set_position": "8",
+    "traits": "Navigation",
+    "image_rect": [
+      0,
+      1,
+      1
+    ],
+    "imagesrc": "http://localhost:8765/scan59.webp",
+    "id": "07009",
+    "position": 9
+  },
+  {
+    "name": "Lingering Manifestation",
+    "quantity": 1,
+    "pack_id": "miv",
+    "category_id": "path",
+    "type_id": "moment",
+    "set_id": "sky_and_smoke_moments",
+    "set_position": "1",
+    "traits": "Weather",
+    "image_rect": [
+      0,
+      1,
+      1
+    ],
+    "imagesrc": "http://localhost:8765/scan60.webp",
+    "id": "07010",
+    "position": 10
+  },
+  {
+    "name": "Yowtch!",
+    "quantity": 1,
+    "pack_id": "miv",
+    "category_id": "path",
+    "type_id": "moment",
+    "set_id": "sky_and_smoke_moments",
+    "set_position": "5",
+    "traits": "Hazard",
+    "image_rect": [
+      0,
+      1,
+      1
+    ],
+    "imagesrc": "http://localhost:8765/scan61.webp",
+    "id": "07011",
+    "position": 11
+  },
+  {
+    "name": "Strange Mirage",
+    "quantity": 1,
+    "pack_id": "miv",
+    "category_id": "path",
+    "type_id": "moment",
+    "set_id": "sky_and_smoke_moments",
+    "set_position": "2",
+    "traits": "Navigation",
+    "image_rect": [
+      0,
+      1,
+      1
+    ],
+    "imagesrc": "http://localhost:8765/scan62.webp",
+    "id": "07012",
+    "position": 12
+  },
+  {
+    "name": "Fight or Flight",
+    "quantity": 1,
+    "pack_id": "miv",
+    "category_id": "path",
+    "type_id": "moment",
+    "set_id": "sky_and_smoke_moments",
+    "set_position": "6",
+    "traits": "Opportunity",
+    "image_rect": [
+      0,
+      1,
+      1
+    ],
+    "imagesrc": "http://localhost:8765/scan63.webp",
+    "id": "07013",
+    "position": 13
+  },
+  {
+    "name": "Heat Wave",
+    "quantity": 1,
+    "pack_id": "miv",
+    "category_id": "path",
+    "type_id": "moment",
+    "set_id": "sky_and_smoke_moments",
+    "set_position": "3",
+    "traits": "Weather",
+    "image_rect": [
+      0,
+      1,
+      1
+    ],
+    "imagesrc": "http://localhost:8765/scan64.webp",
+    "id": "07014",
+    "position": 14
+  },
+  {
+    "name": "Tremor",
+    "quantity": 1,
+    "pack_id": "miv",
+    "category_id": "path",
+    "type_id": "moment",
+    "set_id": "sky_and_smoke_moments",
+    "set_position": "7",
+    "traits": "Hazard",
+    "image_rect": [
+      0,
+      1,
+      1
+    ],
+    "imagesrc": "http://localhost:8765/scan65.webp",
+    "id": "07015",
+    "position": 15
+  },
+  {
+    "name": "Dry Spell",
+    "quantity": 1,
+    "pack_id": "miv",
+    "category_id": "path",
+    "type_id": "moment",
+    "set_id": "sky_and_smoke_moments",
+    "set_position": "4",
+    "traits": "Burden",
+    "image_rect": [
+      0,
+      1,
+      1
+    ],
+    "imagesrc": "http://localhost:8765/scan66.webp",
+    "id": "07016",
+    "position": 16
+  },
+  {
+    "name": "Spark of Inspiration",
+    "quantity": 1,
+    "pack_id": "miv",
+    "category_id": "path",
+    "type_id": "moment",
+    "set_id": "sky_and_smoke_moments",
+    "set_position": "8",
+    "traits": "Opportunity",
+    "image_rect": [
+      0,
+      1,
+      1
+    ],
+    "imagesrc": "http://localhost:8765/scan67.webp",
+    "id": "07017",
+    "position": 17
+  },
+  {
+    "name": "Slippery Slope",
+    "quantity": 1,
+    "pack_id": "miv",
+    "category_id": "path",
+    "type_id": "moment",
+    "set_id": "shadow_of_the_storm_moments",
+    "set_position": "1",
+    "traits": "Hazard",
+    "image_rect": [
+      0,
+      1,
+      1
+    ],
+    "imagesrc": "http://localhost:8765/scan68.webp",
+    "id": "07018",
+    "position": 18
+  },
+  {
+    "name": "A World of Gray",
+    "quantity": 1,
+    "pack_id": "miv",
+    "category_id": "path",
+    "type_id": "moment",
+    "set_id": "shadow_of_the_storm_moments",
+    "set_position": "5",
+    "traits": "Weather",
+    "image_rect": [
+      0,
+      1,
+      1
+    ],
+    "imagesrc": "http://localhost:8765/scan69.webp",
+    "id": "07019",
+    "position": 19
+  },
+  {
+    "name": "Weather Machinery",
+    "quantity": 1,
+    "pack_id": "miv",
+    "category_id": "path",
+    "type_id": "moment",
+    "set_id": "shadow_of_the_storm_moments",
+    "set_position": "2",
+    "traits": "Opportunity / Weather",
+    "image_rect": [
+      0,
+      1,
+      1
+    ],
+    "imagesrc": "http://localhost:8765/scan70.webp",
+    "id": "07020",
+    "position": 20
+  },
+  {
+    "name": "Eyes in the Mist",
+    "quantity": 1,
+    "pack_id": "miv",
+    "category_id": "path",
+    "type_id": "moment",
+    "set_id": "shadow_of_the_storm_moments",
+    "set_position": "6",
+    "traits": "Navigation",
+    "image_rect": [
+      0,
+      1,
+      1
+    ],
+    "imagesrc": "http://localhost:8765/scan71.webp",
+    "id": "07021",
+    "position": 21
+  },
+  {
+    "name": "Whispers from Afar",
+    "quantity": 1,
+    "pack_id": "miv",
+    "category_id": "path",
+    "type_id": "moment",
+    "set_id": "shadow_of_the_storm_moments",
+    "set_position": "3",
+    "traits": "Burden",
+    "image_rect": [
+      0,
+      1,
+      1
+    ],
+    "imagesrc": "http://localhost:8765/scan72.webp",
+    "id": "07022",
+    "position": 22
+  },
+  {
+    "name": "Avalanche!",
+    "quantity": 1,
+    "pack_id": "miv",
+    "category_id": "path",
+    "type_id": "moment",
+    "set_id": "shadow_of_the_storm_moments",
+    "set_position": "7",
+    "traits": "Hazard",
+    "image_rect": [
+      0,
+      1,
+      1
+    ],
+    "imagesrc": "http://localhost:8765/scan73.webp",
+    "id": "07023",
+    "position": 23
+  },
+  {
+    "name": "Frigid Winds",
+    "quantity": 1,
+    "pack_id": "miv",
+    "category_id": "path",
+    "type_id": "moment",
+    "set_id": "shadow_of_the_storm_moments",
+    "set_position": "4",
+    "traits": "Weather",
+    "image_rect": [
+      0,
+      1,
+      1
+    ],
+    "imagesrc": "http://localhost:8765/scan74.webp",
+    "id": "07024",
+    "position": 24
+  },
+  {
+    "name": "On Thin Ice",
+    "quantity": 1,
+    "pack_id": "miv",
+    "category_id": "path",
+    "type_id": "moment",
+    "set_id": "shadow_of_the_storm_moments",
+    "set_position": "8",
+    "traits": "Hazard",
+    "image_rect": [
+      0,
+      1,
+      1
+    ],
+    "imagesrc": "http://localhost:8765/scan75.webp",
+    "id": "07025",
+    "position": 25
+  },
+  {
+    "name": "In Digestion",
+    "quantity": 1,
+    "pack_id": "miv",
+    "category_id": "path",
+    "type_id": "moment",
+    "set_id": "into_the_maw_moments",
+    "set_position": "1",
+    "traits": "Hazard / Weather",
+    "image_rect": [
+      0,
+      1,
+      1
+    ],
+    "imagesrc": "http://localhost:8765/scan76.webp",
+    "id": "07026",
+    "position": 26
+  },
+  {
+    "name": "Growls from Below",
+    "quantity": 1,
+    "pack_id": "miv",
+    "category_id": "path",
+    "type_id": "moment",
+    "set_id": "into_the_maw_moments",
+    "set_position": "5",
+    "traits": "Burden",
+    "image_rect": [
+      0,
+      1,
+      1
+    ],
+    "imagesrc": "http://localhost:8765/scan77.webp",
+    "id": "07027",
+    "position": 27
+  },
+  {
+    "name": "Intestinal Gnats",
+    "quantity": 1,
+    "pack_id": "miv",
+    "category_id": "path",
+    "type_id": "moment",
+    "set_id": "into_the_maw_moments",
+    "set_position": "2",
+    "traits": "Hazard",
+    "image_rect": [
+      0,
+      1,
+      1
+    ],
+    "imagesrc": "http://localhost:8765/scan78.webp",
+    "id": "07028",
+    "position": 28
+  },
+  {
+    "name": "Scintillating Blur",
+    "quantity": 1,
+    "pack_id": "miv",
+    "category_id": "path",
+    "type_id": "moment",
+    "set_id": "into_the_maw_moments",
+    "set_position": "6",
+    "traits": "Navigation",
+    "image_rect": [
+      0,
+      1,
+      1
+    ],
+    "imagesrc": "http://localhost:8765/scan79.webp",
+    "id": "07029",
+    "position": 29
+  },
+  {
+    "name": "Burp!",
+    "quantity": 1,
+    "pack_id": "miv",
+    "category_id": "path",
+    "type_id": "moment",
+    "set_id": "into_the_maw_moments",
+    "set_position": "3",
+    "traits": "Navigation",
+    "image_rect": [
+      0,
+      1,
+      1
+    ],
+    "imagesrc": "http://localhost:8765/scan80.webp",
+    "id": "07030",
+    "position": 30
+  },
+  {
+    "name": "Grasping Tendril",
+    "quantity": 1,
+    "pack_id": "miv",
+    "category_id": "path",
+    "type_id": "moment",
+    "set_id": "into_the_maw_moments",
+    "set_position": "7",
+    "traits": "Hazard",
+    "image_rect": [
+      0,
+      1,
+      1
+    ],
+    "imagesrc": "http://localhost:8765/scan81.webp",
+    "id": "07031",
+    "position": 31
+  },
+  {
+    "name": "A Serendipitous Sound",
+    "quantity": 1,
+    "pack_id": "miv",
+    "category_id": "path",
+    "type_id": "moment",
+    "set_id": "into_the_maw_moments",
+    "set_position": "4",
+    "traits": "Opportunity",
+    "image_rect": [
+      0,
+      1,
+      1
+    ],
+    "imagesrc": "http://localhost:8765/scan82.webp",
+    "id": "07032",
+    "position": 32
+  },
+  {
+    "name": "A Predictable Path",
+    "quantity": 1,
+    "pack_id": "miv",
+    "category_id": "path",
+    "type_id": "moment",
+    "set_id": "into_the_maw_moments",
+    "set_position": "8",
+    "traits": "Opportunity",
+    "image_rect": [
+      0,
+      1,
+      1
+    ],
+    "imagesrc": "http://localhost:8765/scan83.webp",
+    "id": "07033",
+    "position": 33
+  },
+  {
+    "name": "Moments in the Valley: Components",
+    "quantity": 1,
+    "pack_id": "miv",
+    "category_id": "rules",
+    "type_id": "rules",
+    "set_id": "moments_in_the_valley_rules",
+    "set_position": "1",
+    "traits": "Rules",
+    "image_rect": [
+      0,
+      1,
+      1
+    ],
+    "imagesrc": "http://localhost:8765/scan117.webp",
+    "id": "07034",
+    "position": 34
+  },
+  {
+    "name": "Moments in the Valley: Path Moment Cards",
+    "quantity": 1,
+    "pack_id": "miv",
+    "category_id": "rules",
+    "type_id": "rules",
+    "set_id": "moments_in_the_valley_rules",
+    "set_position": "2",
+    "traits": "Rules",
+    "image_rect": [
+      0,
+      1,
+      1
+    ],
+    "imagesrc": "http://localhost:8765/scan119.webp",
+    "id": "07035",
+    "position": 35
+  },
+  {
+    "name": "Moments in the Valley: Group Tests",
+    "quantity": 1,
+    "pack_id": "miv",
+    "category_id": "rules",
+    "type_id": "rules",
+    "set_id": "moments_in_the_valley_rules",
+    "set_position": "3",
+    "traits": "Rules",
+    "image_rect": [
+      0,
+      1,
+      1
+    ],
+    "imagesrc": "http://localhost:8765/scan121.webp",
+    "id": "07036",
+    "position": 36
+  },
+  {
+    "name": "Moments in the Valley: Created By",
+    "quantity": 1,
+    "pack_id": "miv",
+    "category_id": "rules",
+    "type_id": "rules",
+    "set_id": "moments_in_the_valley_rules",
+    "set_position": "4",
+    "traits": "Rules",
+    "image_rect": [
+      0,
+      1,
+      1
+    ],
+    "imagesrc": "http://localhost:8765/scan123.webp",
+    "id": "07037",
+    "position": 37
+  }
+]

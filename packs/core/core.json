@@ -816,11 +816,11 @@
     "illustrator": "Evan Simonet",
     "category_id": "ranger",
     "pack_id": "ebr",
-    "alt_imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15665141664316885892/0F74DA675EFAFC63EF6E6B1C9BC5201E410C7B5B/",
+    "alt_imagesrc": "http://localhost:8765/scan154.webp",
     "alt_image_rect": [
-      28,
-      10,
-      7
+      0,
+      1,
+      1
     ]
   },
   {
@@ -1107,11 +1107,11 @@
     "illustrator": "Evan Simonet",
     "category_id": "ranger",
     "pack_id": "ebr",
-    "alt_imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15665141664316885892/0F74DA675EFAFC63EF6E6B1C9BC5201E410C7B5B/",
+    "alt_imagesrc": "http://localhost:8765/scan152.webp",
     "alt_image_rect": [
-      30,
-      10,
-      7
+      0,
+      1,
+      1
     ]
   },
   {
@@ -1126,11 +1126,11 @@
     "illustrator": "Evan Simonet",
     "category_id": "ranger",
     "pack_id": "ebr",
-    "alt_imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15665141664316885892/0F74DA675EFAFC63EF6E6B1C9BC5201E410C7B5B/",
+    "alt_imagesrc": "http://localhost:8765/scan155.webp",
     "alt_image_rect": [
-      31,
-      10,
-      7
+      0,
+      1,
+      1
     ]
   },
   {
@@ -1434,11 +1434,11 @@
     "illustrator": "Evan Simonet",
     "category_id": "ranger",
     "pack_id": "ebr",
-    "alt_imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15665141664316885892/0F74DA675EFAFC63EF6E6B1C9BC5201E410C7B5B/",
+    "alt_imagesrc": "http://localhost:8765/scan144.webp",
     "alt_image_rect": [
-      34,
-      10,
-      7
+      0,
+      1,
+      1
     ]
   },
   {
@@ -1740,11 +1740,11 @@
     "illustrator": "Evan Simonet",
     "category_id": "ranger",
     "pack_id": "ebr",
-    "alt_imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15665141664316885892/0F74DA675EFAFC63EF6E6B1C9BC5201E410C7B5B/",
+    "alt_imagesrc": "http://localhost:8765/scan147.webp",
     "alt_image_rect": [
+      0,
       1,
-      10,
-      7
+      1
     ]
   },
   {
@@ -1759,11 +1759,11 @@
     "illustrator": "Evan Simonet",
     "category_id": "ranger",
     "pack_id": "ebr",
-    "alt_imagesrc": "https://steamusercontent-a.akamaihd.net/ugc/15665141664316885892/0F74DA675EFAFC63EF6E6B1C9BC5201E410C7B5B/",
+    "alt_imagesrc": "http://localhost:8765/scan146.webp",
     "alt_image_rect": [
-      5,
-      10,
-      7
+      0,
+      1,
+      1
     ]
   },
   {

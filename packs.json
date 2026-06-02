@@ -33,5 +33,11 @@
     "name": "Moments on the Path",
     "short_name": "MOP",
     "position": 6
+  },
+  {
+    "id": "miv",
+    "name": "Moments in the Valley",
+    "short_name": "MIV",
+    "position": 7
   }
 ]

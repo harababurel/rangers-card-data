@@ -22,5 +22,13 @@
   {
     "id": "challenge",
     "name": "Challenge"
+  },
+  {
+    "id": "rules",
+    "name": "Rules"
+  },
+  {
+    "id": "aspiration",
+    "name": "Aspiration"
   }
 ]
