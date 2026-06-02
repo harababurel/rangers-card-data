@@ -42,7 +42,8 @@
     ],
     "imagesrc": "http://localhost:8765/scan52.webp",
     "id": "07002",
-    "position": 2
+    "position": 2,
+    "text": "<f>Spire is a busy place, with many travelers passing through every day. Rounding a corner, you bump into someone you know...</f><hr>Put a random human from the Valley set into play. Then, draw a challenge card and resolve the corresponding effect:<hr>[sun] <f>They look happy to see you!</f> Add 1[progress] to them.<hr>[mountain] <f>They appear to be in the middle of a conversation.</f> Exhaust them and another human.<hr>[crest] <f>Oh no, they look injured!</f> Add 1[harm] to them."
   },
   {
     "name": "Breath of the Verdessa",
@@ -60,7 +61,8 @@
     ],
     "imagesrc": "http://localhost:8765/scan53.webp",
     "id": "07003",
-    "position": 3
+    "position": 3,
+    "text": "<f>A southern wind washes up the Silverfin and whistles through the buildings of Spire, bringing with it the heady scent of the Verdessa. Maybe it's your imagination, but you could swear that plants grow greener on days like these.</f><hr>If the weather is Wild Growth or Pollen Clouds, add 2 pollen to it.<hr>Otherwise, return the weather to the collection and put Wild Growth into play in the surroundings with 2 pollen on it."
   },
   {
     "name": "Market Sale",
@@ -78,7 +80,8 @@
     ],
     "imagesrc": "http://localhost:8765/scan54.webp",
     "id": "07004",
-    "position": 4
+    "position": 4,
+    "text": "<f>You spot a crowd congregating around one of Spire's open-air markets. There's a sale going on! Maybe you can take some time out of your day to browse the market and barter for something useful.</f><hr><b>RANGERS CHOOSE:</b><hr><b>A) Visit the market.</b> Each Ranger searches their Ranger deck for a gear and reveals it. Then, perform a group test:<hr><b>[AWA] + [reason]: Browse [2[per_ranger]]</b> <f>the wares on display to</f> have each Ranger draw the card they revealed. If you fail, each Ranger discards the card they revealed.<hr><b>B) Move past the crowd.</b> Each Ranger suffers 1 fatigue. Add 1[per_ranger][progress] to a feature."
   },
   {
     "name": "Up An Alley",
@@ -96,7 +99,8 @@
     ],
     "imagesrc": "http://localhost:8765/scan55.webp",
     "id": "07005",
-    "position": 5
+    "position": 5,
+    "text": "<f>From a nearby rooftop, a strange bird with colorful plumage watches you with keen interest. Oddly enough, no one else seems to notice it. It flutters off into a nearby alleyway before you can approach.</f><hr><b>If you see this card while scouting:</b> You may discard it to scout 2 additional cards.<hr>Perform a group test:<hr><b>[AWA] + [exploration]: Follow [2[per_ranger]]</b> <f>the mysterious bird to</f> search the General set for The Stranger and put it into play. If you fail, remove all [ranger] from cards in play."
   },
   {
     "name": "Tempting Melody",
@@ -114,7 +118,8 @@
     ],
     "imagesrc": "http://localhost:8765/scan56.webp",
     "id": "07006",
-    "position": 6
+    "position": 6,
+    "text": "<f>The sound of a plucky mandolin catches your attention. A talespinner is joyfully playing music, and several passersby have flocked around them to listen. You wonder whether you have time to catch a song or two.</f><hr><b>RANGERS CHOOSE:</b><hr><b>A) Stay awhile and listen.</b> Each Ranger suffers 1 fatigue. Then, perform a group test:<hr><b>[SPI] + [connection]: Listen [1[per_ranger]]</b> <f>to the music to</f> soothe fatigue among the Rangers equal to the group's effort.<hr><b>B) We'll meet again.</b> Discard all [progress] from each human within reach of a Ranger and move each of them along the way."
   },
   {
     "name": "Silverfin Spillover",
@@ -132,7 +137,8 @@
     ],
     "imagesrc": "http://localhost:8765/scan57.webp",
     "id": "07007",
-    "position": 7
+    "position": 7,
+    "text": "<f>You hear cries of townsfolk several buildings down and see water beginning to creep along the ground towards you. The Silverfin has a habit of spilling over its banks this time of year, and it looks to be doing so again.</f><hr>Perform a group test:<hr><b>[FIT] + [reason]: Build [2[per_ranger]]</b> <f>a temporary dike alongside the other residents to</f> scout 1 path card for every 1[per_ranger] effort. If you fail, shuffle 1[per_ranger] random cards from the River set and place them on top of the path deck. Then, draw 1 path card."
   },
   {
     "name": "Ominous Skies",
@@ -150,7 +156,8 @@
     ],
     "imagesrc": "http://localhost:8765/scan58.webp",
     "id": "07008",
-    "position": 8
+    "position": 8,
+    "text": "<f>Even among the carbon-forged buildings of Spire, the people of the village must still respect the power of nature. You watch people taking shelter as the weather worsens.</f><hr>If the weather is neither inclement nor hot, flip it.<hr><b>RANGERS CHOOSE:</b><hr><b>A) Take shelter.</b> Discard 1[per_ranger][progress] from the location as you pause to take shelter. For each [progress] discarded this way, you may add 1[progress] to a human.<hr><b>B) Press forward.</b> Add 1[per_ranger][progress] to the location. Resolve each challenge effect on the weather in an order of your choice."
   },
   {
     "name": "Going in Circles",
@@ -168,7 +175,8 @@
     ],
     "imagesrc": "http://localhost:8765/scan59.webp",
     "id": "07009",
-    "position": 9
+    "position": 9,
+    "text": "<f>Wait... haven't you seen that building before? You're so used to navigating by the unique hills, trails, and trees of the Valley that it's difficult to find your way within all these carbon-forged structures.</f><hr>If there are 1 or more cards in the path discard, shuffle them and place them on top of the path deck.<hr>If there are no cards in the path discard, shuffle this card into the top 4 cards of the path deck instead."
   },
   {
     "name": "Lingering Manifestation",
@@ -186,7 +194,8 @@
     ],
     "imagesrc": "http://localhost:8765/scan60.webp",
     "id": "07010",
-    "position": 10
+    "position": 10,
+    "text": "<f>You hear the whistling of the wind before you feel it. Then suddenly, air rushes around you, sending your cloak flying upwards! Some strange energy is causing an inexplicable updraft in just this one spot.</f><hr>Each Ranger returns one of their equipped gear to their hand as the wind catches it in the updraft.<hr>If at least one of the Rangers is a Shaper, you may perform a group test:<hr><b>[FOC] + [conflict]: Harness [2[per_ranger]]</b> <f>the energy to</f> have each Ranger equip a gear from their hand (without paying its energy cost). If the group's effort is 3[per_ranger] or more, each Shaper may return a card from their hand to the collection. Then they can choose a starting manifestation from the collection that they meet the aspect requirement for and add it to their hand. (This alteration to their deck is permanent.)"
   },
   {
     "name": "Yowtch!",
@@ -204,7 +213,8 @@
     ],
     "imagesrc": "http://localhost:8765/scan61.webp",
     "id": "07011",
-    "position": 11
+    "position": 11,
+    "text": "<f>From out of nowhere, a sharp pain jolts your ankle. You limp away, only to see that you...</f><hr>Draw a challenge card and resolve the corresponding effect:<hr>[sun] <f>...rolled your ankle on uneven ground!</f> Search the Valley set for an Arcology Sinkhole. It fatigues you.<hr>[mountain] <f>...were stung by a cactus spine!</f> Search the Mesa set for an Opuntia Patch.<hr>[crest] <f>...were bitten by a snake!</f> Search the Mesa set for a Slithering Rattler."
   },
   {
     "name": "Strange Mirage",
@@ -222,7 +232,8 @@
     ],
     "imagesrc": "http://localhost:8765/scan62.webp",
     "id": "07012",
-    "position": 12
+    "position": 12,
+    "text": "<f>You stop for a moment to get your bearings, but the air shimmers and refracts in the heat, distorting the horizon. Some of the rock formations vanish and reform out of thin air, while others dance and twist in the distance.</f><hr><b>If you see this card while scouting:</b> Set aside all other scouted cards, resolve this card, then continue the scouting as normal.<hr><b>YOU CHOOSE:</b><hr><b>A) Venture into the mirage.</b> Discard 1[per_ranger][progress] from among features along the way and the location. Each Ranger gains 1 [SPI] energy.<hr><b>B) Wait until the mirage fades.</b> Each Ranger suffers 2 fatigue and gains 1 [FOC] energy."
   },
   {
     "name": "Fight or Flight",
@@ -240,7 +251,8 @@
     ],
     "imagesrc": "http://localhost:8765/scan63.webp",
     "id": "07013",
-    "position": 13
+    "position": 13,
+    "text": "<f>You watch as a hierax dives from high above in pursuit of a mysterious bird with long, vivid tailfeathers.</f><hr><b>If you see this card while scouting:</b> You may discard it to scout 2 additional cards.<hr><b>RANGERS CHOOSE:</b><hr><b>A) Defend the mysterious bird.</b> Perform a group test:<hr><b>[SPI] + [conflict]: Chase [2[per_ranger]]</b> <f>the hierax away to</f> search the General set for The Stranger. If you fail, each Ranger suffers 2 fatigue.<hr><b>B) Let it be.</b> The hierax perches nearby. Search the Mesa set for a Soaring Hierax."
   },
   {
     "name": "Heat Wave",
@@ -258,7 +270,8 @@
     ],
     "imagesrc": "http://localhost:8765/scan64.webp",
     "id": "07014",
-    "position": 14
+    "position": 14,
+    "text": "<f>The sun beats down on you from high above. With no shade in sight, you have no choice but to weather the oppressive heat.</f><hr>If the weather is hot, one at a time, each Ranger performs the following test:<hr><b>[FIT] + [conflict]: Endure [2]</b> <f>the brutal heat.</f> If you fail, discard 1 random card from your hand and suffer 1 fatigue.<hr>If the weather is not hot, return the weather to the collection and replace it with Dry Heat."
   },
   {
     "name": "Tremor",
@@ -276,7 +289,8 @@
     ],
     "imagesrc": "http://localhost:8765/scan65.webp",
     "id": "07015",
-    "position": 15
+    "position": 15,
+    "text": "<f>All of a sudden, the earth begins to shake! What disturbance below the surface could be causing this tremor? You should find an open area, away from any falling rocks.</f><hr>Each Ranger removes their [ranger] from a path card or the location. Each Ranger who cannot suffers 2 fatigue.<hr>You may perform the following group test:<hr><b>[FIT] + [reason]: Keep [1[per_ranger]]</b> <f>your footing amidst the quakes to</f> have a Ranger move their [ranger] to a feature for every 1[per_ranger] effort."
   },
   {
     "name": "Dry Spell",
@@ -294,7 +308,8 @@
     ],
     "imagesrc": "http://localhost:8765/scan66.webp",
     "id": "07016",
-    "position": 16
+    "position": 16,
+    "text": "<f>You take a sip from your canteen and find only a few gulps left. You'd better find some water, and soon.</f><hr><b>RANGERS CHOOSE:</b><hr><b>A) Search for water.</b> Perform a group test:<hr><b>[FOC] + [exploration]: Search [2[per_ranger]]</b> <f>for a source of potable water to</f> have each Ranger soothe 2 fatigue. If you fail, resolve option B.<hr><b>B) Start rationing.</b> Place this card in the surroundings. While this card is in play, at the start of each round, each Ranger must discard 1 energy of their choice. (This card will be discarded along with other path cards when you travel.)"
   },
   {
     "name": "Spark of Inspiration",
@@ -312,7 +327,8 @@
     ],
     "imagesrc": "http://localhost:8765/scan67.webp",
     "id": "07017",
-    "position": 17
+    "position": 17,
+    "text": "<f>The rhythm of the trail, whether challenging or steady, gives you time to think. Sometimes it's meditative, other times, inspiration strikes!</f><hr>Perform a group test:<hr><b>[FOC] + [reason]: Capture [2[per_ranger]]</b> <f>the inspiring moment to</f> have each Ranger search their Ranger deck for a card and add it to their hand. If you fail, each Ranger shuffles a card from their hand into their fatigue stack as the thought slips away."
   },
   {
     "name": "Slippery Slope",
@@ -330,7 +346,8 @@
     ],
     "imagesrc": "http://localhost:8765/scan68.webp",
     "id": "07018",
-    "position": 18
+    "position": 18,
+    "text": "<f>As you crest the top of a hill, you lose your footing - this side of the slope is covered in a sheet of ice!</f><hr><b>If you see this card while scouting:</b> You may discard it.<hr><b>[FIT] + [reason]: Regain [2]</b> <f>your footing to</f> avoid slipping and falling. If you fail, suffer 1 injury and move each card within reach to along the way."
   },
   {
     "name": "A World of Gray",
@@ -348,7 +365,8 @@
     ],
     "imagesrc": "http://localhost:8765/scan69.webp",
     "id": "07019",
-    "position": 19
+    "position": 19,
+    "text": "<f>What little sunlight pierced the dark gray clouds before is now blotted out by thick fog. You can barely see more than a few meters in front of you.</f><hr><b>If you see this card while scouting:</b> Set aside all other scouted cards, resolve this card, then shuffle the set-aside scouted cards and place them back on top of the path deck.<hr>Place this card in the surroundings. While this card is in play, it gains the following text:<hr>Rangers cannot scout.<hr><b>[AWA] + [exploration]: Find [2]</b> <f>a spot of sunlight to</f> discard this moment.<hr>(This card will be discarded along with other path cards when you travel.)"
   },
   {
     "name": "Weather Machinery",
@@ -366,7 +384,8 @@
     ],
     "imagesrc": "http://localhost:8765/scan70.webp",
     "id": "07020",
-    "position": 20
+    "position": 20,
+    "text": "<f>What is this? A piece of machinery lies half-buried in the ground. Fog issues from a tear along its length. Perhaps if you repaired it, you could improve the weather conditions in your immediate vicinity.</f><hr><b>RANGERS CHOOSE:</b><hr><b>A) Try to fix the device.</b> Perform a group test:<hr><b>[FOC] + [reason]: Repair [2[per_ranger]]</b> <f>the machinery to</f> either add 2 tokens to or discard 2 tokens from the weather. Then, you may flip the weather. If you fail, each Ranger suffers 1 fatigue.<hr><b>B) Let it be.</b> Search the Nimbus set for a Deep Fog and put it into play."
   },
   {
     "name": "Eyes in the Mist",
@@ -384,7 +403,8 @@
     ],
     "imagesrc": "http://localhost:8765/scan71.webp",
     "id": "07021",
-    "position": 21
+    "position": 21,
+    "text": "<f>In the distance, you spot a pair of eyes glowing in the mist. A hungry predator? Or something else?</f><hr>Either suffer 2 fatigue, or draw a challenge card and resolve the corresponding effect:<hr>[sun] Search the General set for The Stranger and put it into play.<hr>[mountain] Search the path deck and discard for the next prey and put it into play.<hr>[crest] Search the path deck and discard for the next predator and put it into play, treating it as having ambush."
   },
   {
     "name": "Whispers from Afar",
@@ -402,7 +422,8 @@
     ],
     "imagesrc": "http://localhost:8765/scan72.webp",
     "id": "07022",
-    "position": 22
+    "position": 22,
+    "text": "<f>The wind picks up around you, and within its howling you hear a sound halfway between a whisper and a shriek. Is it just a figment of your imagination? Or are the spirits trying to tell you something?</f><hr>Each Ranger reveals 1 card at random from their hand. Then...<hr><b>EACH RANGER CHOOSES:</b><hr><b>A) Heed the spirits.</b> Discard the revealed card to scout Ranger cards equal to its energy cost.<hr><b>B) Ignore the sound.</b> Place the revealed card on the bottom of your fatigue stack.<hr><b>C) Stay wary.</b> Discard 2 [FOC] or 2 [AWA] energy to keep the revealed card in your hand. If you cannot, choose another option."
   },
   {
     "name": "Avalanche!",
@@ -420,7 +441,8 @@
     ],
     "imagesrc": "http://localhost:8765/scan73.webp",
     "id": "07023",
-    "position": 23
+    "position": 23,
+    "text": "<f>A sudden crash sounds in the distance, followed by a thundering roar. On the horizon, a wall of snow is rapidly approaching.</f><hr>Perform one or both of the following group tests (Rangers choose):<hr><b>[FIT] + [exploration]: Dash [2[per_ranger]]</b> <f>out of the avalanche's path to</f> add 2[per_ranger] [progress] to a feature.<hr><b>[AWA] + [exploration]: Search [2[per_ranger]]</b> <f>for cover to</f> exhaust beings with up to 2[per_ranger] total presence.<hr>If you fail either test, discard all [progress] from the location and each Ranger suffers 1 injury. (Choosing not to perform one of the tests does not count as failure.)"
   },
   {
     "name": "Frigid Winds",
@@ -438,7 +460,8 @@
     ],
     "imagesrc": "http://localhost:8765/scan74.webp",
     "id": "07024",
-    "position": 24
+    "position": 24,
+    "text": "<f>A sudden gust of wind carries with it the promise of snow. You wrap your cloak around your body against the bitter chill.</f><hr>If the weather is Blizzard, discard all snow from it as heavy winds pick up a flurry of snow.<hr>If the weather is Pristine Snow, discard 2 snow from it and flip it as the blizzard begins to rage.<hr>If the weather is not cold, snow starts to fall. Return the weather to the collection and replace it with Blizzard."
   },
   {
     "name": "On Thin Ice",
@@ -456,7 +479,8 @@
     ],
     "imagesrc": "http://localhost:8765/scan75.webp",
     "id": "07025",
-    "position": 25
+    "position": 25,
+    "text": "<f>As you trudge through a barren field of snow, you hear a crack and realize you are standing atop a frozen pond. You'd better watch your step, or you'll wind up in freezing-cold water!</f><hr><b>If you see this card while scouting:</b> You may discard it.<hr>Attach this moment to your role.<hr><b>Response:</b> After you Traverse, if you failed, or if your effort was 5 or more, the ice cracks! Discard this moment and suffer 3 fatigue.<hr><b>Response:</b> When you travel, discard this card."
   },
   {
     "name": "In Digestion",
@@ -474,7 +498,8 @@
     ],
     "imagesrc": "http://localhost:8765/scan76.webp",
     "id": "07026",
-    "position": 26
+    "position": 26,
+    "text": "<f>Even a single drop of the Terravore's digestive juices can spell ruin for your gear. You hear the sizzling sound of it eating through something important and immediately scramble to clean it off.</f><hr>Add 1 ichor to the weather. If the weather is not Acidic Ichor, flip it.<hr>You may perform the following test. If you choose not to, resolve its fail effect:<hr><b>[FOC] + [reason]: Mend [X]</b> <f>your partially digested gear to</f> prevent it from breaking. If you fail, discard your equipped gear with the highest equip value. X is the amount of ichor on the weather."
   },
   {
     "name": "Growls from Below",
@@ -492,7 +517,8 @@
     ],
     "imagesrc": "http://localhost:8765/scan77.webp",
     "id": "07027",
-    "position": 27
+    "position": 27,
+    "text": "<f>A rumbling from deep below sets your nerves on edge. Is it the Terravore itself, or the growling of some dangerous being lurking in the dark?</f><hr><b>YOU CHOOSE:</b><hr><b>A) Compose yourself.</b><hr><b>[SPI] + [connection]: Steel [2]</b> <f>your resolve to</f> add 1[progress] to the location for every 2 effort. If you fail, discard a random card from your hand.<hr><b>B) Voice your fears.</b> Each Ranger suffers 1 fatigue."
   },
   {
     "name": "Intestinal Gnats",
@@ -510,7 +536,8 @@
     ],
     "imagesrc": "http://localhost:8765/scan78.webp",
     "id": "07028",
-    "position": 28
+    "position": 28,
+    "text": "<f>A low droning reverberates from farther down the undulating passage. Moments later you are swarmed by a cloud of tiny insects, flitting at your face and sticking in your eyes and mouth.</f><hr><b>If you see this card while scouting:</b> Set aside all other scouted cards, resolve this card, then continue the scouting as normal.<hr>Suffer 1 fatigue, then you may perform the following test. If you choose not to, resolve its fail effect:<hr><b>[FIT] + [conflict]: Swat [2]</b> <f>at the cloud to</f> discard this moment. If you fail, suffer an additional fatigue and shuffle this moment into the path deck."
   },
   {
     "name": "Scintillating Blur",
@@ -528,7 +555,8 @@
     ],
     "imagesrc": "http://localhost:8765/scan79.webp",
     "id": "07029",
-    "position": 29
+    "position": 29,
+    "text": "<f>As you trudge through the muck and mire, something colorful suddenly streaks past. You could almost swear it was a bird, but... what would a bird be doing in here?</f><hr><b>RANGERS CHOOSE:</b><hr><b>A) Follow the mysterious being.</b> Discard all [progress] from all features in play. If at least 1[per_ranger] [progress] was discarded in this way, search the General set for The Stranger and put it into play.<hr><b>B) Continue onward.</b> Add 1[per_ranger] [progress] to a feature. Then, each Ranger suffers 1 fatigue."
   },
   {
     "name": "Burp!",
@@ -546,7 +574,8 @@
     ],
     "imagesrc": "http://localhost:8765/scan80.webp",
     "id": "07030",
-    "position": 30
+    "position": 30,
+    "text": "<f>The ground undulates and shivers beneath your feet. A sour smell fills your nostrils as the entire Terravore quakes.</f><hr>Draw a challenge card and resolve the corresponding effect:<hr>[sun] Each Ranger discards their fatigue stack.<hr>[mountain] Add 2[harm] to each path card.<hr>[crest] Each Ranger suffers 1 injury unless they remove their [ranger] from a path card."
   },
   {
     "name": "Grasping Tendril",
@@ -564,7 +593,8 @@
     ],
     "imagesrc": "http://localhost:8765/scan81.webp",
     "id": "07031",
-    "position": 31
+    "position": 31,
+    "text": "<f>A slimy organ of some kind reaches out and snatches you! You struggle to break free before the Terravore's digestive ichor burns through your skin.</f><hr>Perform a group test:<hr><b>[FOC] + [conflict]: Wriggle [3[per_ranger]]</b> <f>free from the tendril's grasp to</f> add 1[per_ranger] [progress] to an organ. If you fail, the active Ranger suffers 1 injury. If the group's effort is 1[per_ranger] or less, the active Ranger suffers 2 injuries instead."
   },
   {
     "name": "A Serendipitous Sound",
@@ -582,7 +612,8 @@
     ],
     "imagesrc": "http://localhost:8765/scan82.webp",
     "id": "07032",
-    "position": 32
+    "position": 32,
+    "text": "<f>A sound that you didn't expect to hear down here greets your ears - whistling! Someone else is in here!</f><hr><b>RANGERS CHOOSE:</b><hr><b>A) Locate the whistler.</b> Perform a group test:<hr><b>[AWA] + [connection]: Locate [2[per_ranger]]</b> <f>the other person to</f> search the Valley set for a human and shuffle them into the path deck. If the group's effort is 3[per_ranger] or more, put them into play instead.<hr><b>B) Leave them to face the dangers of the Terravore alone.</b> Each Ranger suffers 2 fatigue."
   },
   {
     "name": "A Predictable Path",
@@ -600,7 +631,8 @@
     ],
     "imagesrc": "http://localhost:8765/scan83.webp",
     "id": "07033",
-    "position": 33
+    "position": 33,
+    "text": "<f>The limited confines of the inside of the Terravore can be claustrophobic, but at least the way forward is obvious. If you can accurately predict what's ahead, your journey will be that much easier.</f><hr><b>If you see this card while scouting:</b> Scout 2 additional cards.<hr>Perform a group test:<hr><b>[FOC] + [reason]: Predict [2[per_ranger]]</b> <f>what is coming in the constrained environment to</f> scout 1[per_ranger] challenge cards. If you fail, shuffle the path discard into the path deck."
   },
   {
     "name": "Moments in the Valley: Components",
