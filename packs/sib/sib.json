@@ -930,7 +930,7 @@
     "set_position": "1",
     "traits": "Festival",
     "back_card_id": "04241",
-    "text": "<f>Etra Lash is planning a festival in Brookside to celebrate the sudden season of growth and renewal that has swept through the Valley. Maybe you should check it out.</f>\n<o><b>Arrive at Brookside:</b> [guide] 1.222</o>",
+    "text": "<f>Etra Lash is planning a festival in Brookside to celebrate the sudden season of growth and renewal that has swept through the Valley. Maybe you should check it out.</f>\n<l>Brookside</l>\n<o><b>Arrive at Brookside:</b> [guide] 1.222</o>",
     "objective": "Arrive at Brookside: [guide] 1.222",
     "key_locations": "Brookside",
     "imagesrc": "http://localhost:8765/scan19.webp",
