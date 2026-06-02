@@ -997,9 +997,9 @@
     "set_position": "4",
     "traits": "Festival",
     "back_card_id": "04242",
-    "text": "<f>Everyone has gathered together to attend the Blossom Festival. In several hours, the feast will begin. Until then, enjoy the festival with the people of Spire!</f>\n<b>Response:</b> When you travel, flip this mission.<hr>Use [guide] 213 instead of the normal entries for each human (if they have a [guide]).<hr>[progress] cannot be added or moved to humans with mirth on them.<hr><b>Refresh:</b> Add 1 time token to this mission.<hr><o><b>Have 3 time on this mission:</b> [guide] 1.211</o>",
+    "text": "<f>Everyone has gathered together to attend the Blossom Festival. In several hours, the feast will begin. Until then, enjoy the festival with the people of Spire!</f>\n<b>Response:</b> When you travel, flip this mission.<hr>Use [guide] 213 instead of the normal entries for each human (if they have a [guide]).<hr>[progress] cannot be added or moved to humans with mirth on them.<hr><b>Refresh:</b> Add 1 time token to this mission.<hr><o><f>Add mirth to your friends by clearing them with [progress] before the feast begins.</f>\n<b>Have 3 time on this mission:</b> [guide] 1.211</o>",
     "objective": "Have 3 time on this mission: [guide] 1.211",
-    "sun_challenge": "<f>More people arrive!</f> Exhaust this mission. [right_arrow] Search the path deck for the next human and put them into play.",
+    "mountain_challenge": "<f>More people arrive!</f> Exhaust this mission. [right_arrow] Search the path deck for the next human and put them into play.",
     "token_id": "time",
     "imagesrc": "http://localhost:8765/scan10.webp",
     "image_rect": [
