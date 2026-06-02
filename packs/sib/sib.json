@@ -1020,7 +1020,7 @@
     "set_position": "5",
     "traits": "Side",
     "back_card_id": "04245",
-    "text": "<f>Bo Talos has asked you to help find a letter he wrote to an old friend named Olyv Sol. The courier lost it somewhere along the way.</f>\n<b>Start of Day:</b> If you have FOUND BO'S LETTER, flip this mission and choose a Ranger to equip it. If you BROKE THE SEAL, it enters play without its seal token.<hr>While you are at a non-pivotal location, each feature enters play with a letter token on it.<hr>Each feature with a letter on it gains the following test:<hr><b>[AWA] + [exploration]: Search</b> <f>for Bo's letter to</f> discard a letter from this feature, add 1[progress] to it, and read one of the following entries: [guide] 1.202, [guide] 1.208, [guide] 1.212, [guide] 1.215, [guide] 1.217, [guide] 1.221, or [guide] 1.223.",
+    "text": "<f>Bo Talos has asked you to help find a letter he wrote to an old friend named Olyv Sol. The courier lost it somewhere along the way.</f>\n<b>Start of Day:</b> If you have <e>FOUND BO'S LETTER</e>, flip this mission and choose a Ranger to equip it. If you <e>BROKE THE SEAL</e>, it enters play without its seal token.<hr>While you are at a non-pivotal location, each feature enters play with a letter token on it.<hr>Each feature with a letter on it gains the following test:\n<b>[AWA] + [exploration]: Search</b> <f>for Bo's letter to</f> discard a letter from this feature, add 1[progress] to it, and read one of the following entries: [guide] 1.202, [guide] 1.208, [guide] 1.212, [guide] 1.215, [guide] 1.217, [guide] 1.221, or [guide] 1.223.",
     "token_id": "letter",
     "imagesrc": "http://localhost:8765/scan18.webp",
     "image_rect": [
