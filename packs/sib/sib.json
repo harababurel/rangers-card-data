@@ -1068,7 +1068,7 @@
     "set_position": "7",
     "traits": "Festival",
     "back_card_id": "04247",
-    "text": "<f>Etra wants you to collect a variety of flowers to be used as decorations for the festival.</f>\n<b>Path Deck Assembly:</b> Search the Old Growth set for 2 Cloudhive Swarms and 1 Cloudhive and shuffle them into the path deck.\n<l>Sunberry Bramble</l><l>Tryptafolium</l><l>Hanging Cherry Moss</l>\nAfter one of these flora is cleared by [progress], check off the corresponding bubble on the campaign tracker.<hr><o><b>Return to Etra once this mission has 3 checkmarks.</b></o>",
+    "text": "<f>Etra wants you to collect a variety of flowers to be used as decorations for the festival.</f>\n<b>Path Deck Assembly:</b> Search the Old Growth set for 2 Cloudhive Swarms and 1 Cloudhive and shuffle them into the path deck.\n<l>Sunberry Bramble</l><l>Tryptafolium</l><l>Hanging Cherry Moss</l>\nAfter one of these flora is cleared by [harm], check off the corresponding bubble on the campaign tracker.<hr><o><b>Return to Etra once this mission has 3 checkmarks.</b></o>",
     "objective": "Return to Etra once this mission has 3 checkmarks.",
     "imagesrc": "http://localhost:8765/scan15.webp",
     "image_rect": [
