@@ -1181,7 +1181,7 @@
     "set_position": "12",
     "traits": "Side",
     "back_card_id": "04250",
-    "text": "<f>You've found Deadfall, the Great Ursus that has been rampaging through the wilds outside Spire. Now you have to find a way to stop her!</f>\nWhen Deadfall is cleared, resolve the following effects instead:<hr><b>Clear [harm]:</b> [guide] 1.219\n<b>Clear [progress]:</b> Deadfall cannot be cleared with [progress]. Ignore this effect.<hr>Deadfall gains the following test:<hr><b>[FIT] + [conflict]: Remove [10]</b> <f>the glass shard to</f> read [guide] 1.220. Commit 1 additional effort for every 1[per_ranger] [harm] and/or [progress] on this being.<hr><o><b>Stop Deadfall's rampage, forcibly if you must.</b></o>",
+    "text": "<f>You've found Deadfall, the Great Ursus that has been rampaging through the wilds outside Spire. Now you have to find a way to stop her!</f>\nWhen Deadfall is cleared, resolve the following effects instead:\n<b>Clear [harm]:</b> [guide] 1.219\n<b>Clear [progress]:</b> Deadfall cannot be cleared with [progress]. Ignore this effect.\nDeadfall gains the following test:\n<b>[FIT] + [connection]: Remove [10]</b> <f>the glass shard to</f> read [guide] 1.220. Commit 1 additional effort for every 1[per_ranger] [harm] and/or [progress] on this being.<hr><o><b>Stop Deadfall's rampage, forcibly if you must.</b></o>",
     "objective": "Stop Deadfall's rampage, forcibly if you must.",
     "mountain_challenge": "If Deadfall has 2[per_ranger] or more [harm], resolve her [sun] effect, then her [crest] effect.",
     "imagesrc": "http://localhost:8765/scan09.webp",
