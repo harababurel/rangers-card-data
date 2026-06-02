@@ -72,7 +72,7 @@
     "imagesrc": "http://localhost:8765/scan84.webp",
     "id": "06003",
     "position": 3,
-    "text": "<f>As you reach a lower spot in the tunnel, your vision begins to blur and your head begins to throb. Silaro warned you about this - certain heavier gases can settle in tunnels and become toxic. You reflexively cover your mouth and nose.</f><hr><b>YOU CHOOSE:</b><hr><b>A) Turn back.</b> Discard all [progress] from the location. If no [progress] is discarded, you suffer 3 fatigue.<hr><b>B) Continue forward, holding your breath.</b> Add [progress] to the location equal to the number of cards in your hand, then place your hand on top of your fatigue stack."
+    "text": "<f>As you reach a lower spot in the tunnel, your vision begins to blur and your head begins to throb. Silaro warned you about this — certain heavier gases can settle in tunnels and become toxic. You reflexively cover your mouth and nose.</f><hr><b>YOU CHOOSE:</b>\n<b>A) Turn back.</b> Discard all [progress] from the location. If no [progress] is discarded, you suffer 3 fatigue.\n<b>B) Continue forward, holding your breath.</b> Add [progress] to the location equal to the number of cards in your hand, then place your hand on top of your fatigue stack."
   },
   {
     "name": "Legacy of the Ancestors",
@@ -91,7 +91,7 @@
     "imagesrc": "http://localhost:8765/scan85.webp",
     "id": "06004",
     "position": 4,
-    "text": "<f>As you traverse the subterranean remnants of the arcology, your heart grows heavy as your mind is filled with thoughts of the original inhabitants of this place. How did the Estian civilization fall to such utter ruin?</f><hr><b>EACH RANGER CHOOSES:</b><hr><b>A) Contemplate the question.</b> Discard 2 [FOC] energy and gain 1 [SPI].<hr><b>B) Pay your respects.</b> Discard 2 [SPI] energy and gain 1 [FOC].<hr><b>C) Focus on the present.</b> Suffer 2 fatigue and gain 1 [FIT] or 1 [AWA]."
+    "text": "<f>As you traverse the subterranean remnants of the arcology, your heart grows heavy as your mind is filled with thoughts of the original inhabitants of this place. How did the Estian civilization fall to such utter ruin?</f><hr><b>EACH RANGER CHOOSES:</b>\n<b>A) Contemplate the question.</b> Discard 2 [FOC] energy and gain 1 [SPI].\n<b>B) Pay your respects.</b> Discard 2 [SPI] energy and gain 1 [FOC].\n<b>C) Focus on the present.</b> Suffer 2 fatigue and gain 1 [FIT] or 1 [AWA]."
   },
   {
     "name": "Fresh Footprints",
@@ -110,7 +110,7 @@
     "imagesrc": "http://localhost:8765/scan86.webp",
     "id": "06005",
     "position": 5,
-    "text": "<f>You come across a section of the passage that no water or weather has touched. There, you see a footprint with the distinct tread of Qory Dane, the renowned cobbler from Spire. Someone with a nice pair of boots has been through here recently.</f><hr><b>RANGERS CHOOSE:</b><hr><b>A) Track the footsteps.</b> Perform a group test:<hr><b>[AWA] + [exploration]: Follow [2[per_ranger]]</b> <f>the tracks of whoever's down here to</f> search the Artery or Arcology set for a human and shuffle them into the path deck. If you succeed by 3[per_ranger] or more, put them into play instead.<hr><b>B) Stay on your present course.</b> Search the Arcology set for A Shadow in the Darkness and shuffle it into the path deck."
+    "text": "<f>You come across a section of the passage that no water or weather has touched. There, you see a footprint with the distinct tread of Qory Dane, the renowned cobbler from Spire. Someone with a nice pair of boots has been through here recently.</f><hr><b>RANGERS CHOOSE:</b>\n<b>A) Track the footsteps.</b> Perform a <b>group test</b>:\n<b>[AWA] + [exploration]: Follow [2[per_ranger]]</b> <f>the tracks of whoever's down here to</f> search the Artery or Arcology set for a human and shuffle them into the path deck. If you succeed by 3[per_ranger] or more, put them into play instead.\n<b>B) Stay on your present course.</b> Search the Arcology set for A Shadow in the Darkness and shuffle it into the path deck."
   },
   {
     "name": "Cave-In!",
@@ -129,7 +129,7 @@
     "imagesrc": "http://localhost:8765/scan87.webp",
     "id": "06006",
     "position": 6,
-    "text": "<f>The ceiling groans, and there is terrible rumbling all around you. You have only moments to react before the chamber collapses!</f><hr><b>If you see this card while scouting:</b> You may discard it to scout 2 additional cards.<hr>Add 1[harm] to each card along the way. Then, perform a group test:<hr><b>[AWA] + [exploration]: Flee [2[per_ranger]]</b> <f>the area to</f> add 1 [progress] to the location and to each feature in play. If you fail, each Ranger suffers 1 injury unless they discard 3 cards from their hand."
+    "text": "<f>The ceiling groans, and there is terrible rumbling all around you. You have only moments to react before the chamber collapses around you!</f><hr><b>If you see this card while scouting:</b> You may discard it to scout 2 additional cards.\nAdd 1[harm] to each card along the way. Then, perform a <b>group test</b>:\n<b>[AWA] + [exploration]: Flee [2[per_ranger]]</b> <f>the area to</f> add 1 [progress] to the location and to each feature in play. If you fail, each Ranger suffers 1 injury unless they discard 3 cards from their hand."
   },
   {
     "name": "Glowing Gnat Cloud",
@@ -148,7 +148,8 @@
     "imagesrc": "http://localhost:8765/scan88.webp",
     "id": "06007",
     "position": 7,
-    "text": "<f>You hear a faint buzzing from up ahead, then see a tiny glowing dot. Then another. Then another. Soon, there is a cloud of the miniscule, glowing gnats swarming around your head, turning you into a beacon of light in the darkness.</f><hr><b>YOU CHOOSE:</b><hr><b>A) I'd prefer to remain in shadow.</b><hr><b>[FIT] + [conflict]: Shoo [2]</b> <f>the gnats away to</f> discard this moment. If you fail, resolve option B.<hr><b>B) Let them be.</b> Attach this moment to a being or feature within reach. It gains illumination.<hr><b>The gnats swarm to a new target.</b><hr>[mountain] Attach this moment to another feature or being."
+    "text": "<f>You hear a faint buzzing from up ahead, then see a tiny glowing dot. Then another. Then another. Soon, there is a cloud of the miniscule, glowing gnats swarming around your head, turning you into a beacon of light in the darkness.</f><hr><b>YOU CHOOSE:</b>\n<b>A) I'd prefer to remain in shadow.</b>\n<b>[FIT] + [conflict]: Shoo [2]</b> <f>the gnats away to</f> discard this moment. If you fail, resolve option B.\n<b>B) Let them be.</b> Attach this moment to a being or feature within reach. It gains illumination.",
+    "mountain_challenge": "<f>The gnats swarm to a new target.</f> <b>Attach this moment to another feature or being.</b>"
   },
   {
     "name": "A Sudden Crash",
@@ -167,7 +168,7 @@
     "imagesrc": "http://localhost:8765/scan89.webp",
     "id": "06008",
     "position": 8,
-    "text": "<f>A loud crash echoes from a distant chamber. What could have made such a terrible noise? At the startling sound, everything around you scatters.</f><hr>Move all beings with 2 or fewer presence along the way.<hr>If the weather is Enveloping Silence or Reverberating Echoes, the noise reverberates throughout the arcology. Add 3 echoes to the weather. If it is Enveloping Silence, flip it over."
+    "text": "<f>A loud crash echoes from a distant chamber. What could have made such a terrible noise?</f><hr><f>At the startling sound, everything around you scatters.</f> Move all beings with 2 or fewer presence along the way.\nIf the weather is Enveloping Silence or Reverberating Echoes, <f>the noise reverberates throughout the arcology.</f> Add 3 echoes to the weather. If it is Enveloping Silence, flip it over."
   },
   {
     "name": "Slippery Footing",
@@ -186,7 +187,7 @@
     "imagesrc": "http://localhost:8765/scan90.webp",
     "id": "06009",
     "position": 9,
-    "text": "<f>The slick ground before you starts to slope, gradually at first, but then suddenly steep. You lose your footing, land uncomfortably on your backside, and start sliding downward!</f><hr><b>If you see this card while scouting:</b> You can choose to discard it.<hr>You may perform the following test. If you choose not to, resolve its fail effect:<hr><b>[FIT] + [conflict]: Catch [2]</b> <f>a handhold in the rock to</f> add 1[progress] to the location and discard this card. If you fail, move all cards within reach to along the way and suffer 1 injury."
+    "text": "<f>The slick ground before you starts to slope, gradually at first, but then suddenly steep. You lose your footing, land uncomfortably on your backside, and start sliding downward!</f><hr><b>If you see this card while scouting:</b> You can choose to discard it.\nYou may perform the following test. If you choose not to, resolve its fail effect:\n<b>[FIT] + [conflict]: Catch [2]</b> <f>a handhold in the rock to</f> add 1[progress] to the location and discard this card. If you fail, move all cards within reach to along the way and suffer 1 injury."
   },
   {
     "name": "Visitors from Above",
@@ -205,7 +206,7 @@
     "imagesrc": "http://localhost:8765/scan91.webp",
     "id": "06010",
     "position": 10,
-    "text": "<f>The air here is fresh, though tinged with the odor of decay. You see no obvious route that leads to the surface, but you sense that there may be other visitors from above.</f><hr>Draw a challenge card and resolve the corresponding effect:<hr>[sun] Search the Ravine set for 2 Nycta Bats and a Web Wall, shuffle them into the path deck, then draw 1 path card.<hr>[mountain] Search the Ravine set for Loose Boulders, shuffle it into the path deck, then draw 1 path card.<hr>[crest] Search the Ravine set for a Skittish Opilion and Web Wall, shuffle them into the path deck, then draw 1 path card."
+    "text": "<f>You feel the hint of a breeze and take a breath. The air here is fresh, though tinged with the odor of decay. You see no obvious route that leads to the surface, but you sense that there may be other visitors from above.</f><hr>Draw a challenge card and resolve the corresponding effect:<hr>[sun] Search the Ravine set for 2 Nycta Bats and a Web Wall, shuffle them into the path deck, then draw 1 path card.<hr>[mountain] Search the Ravine set for Loose Boulders, shuffle it into the path deck, then draw 1 path card.<hr>[crest] Search the Ravine set for a Skittish Opilion and Web Wall, shuffle them into the path deck, then draw 1 path card."
   },
   {
     "name": "Ancient Remains",
@@ -224,7 +225,7 @@
     "imagesrc": "http://localhost:8765/scan92.webp",
     "id": "06011",
     "position": 11,
-    "text": "<f>You come across the mostly-disintegrated, skeletal remains of what must have been one of the Estians, covered in centuries of fine rock dust. You wonder what fate befell them here.</f><hr><b>YOU CHOOSE:</b><hr><b>A) Pay your respects.</b><hr><b>[SPI] + [connection]: Honor [2]</b> <f>the Estian's spirit to</f> soothe 1 fatigue for every 2 effort.<hr><b>B) Leave them be.</b> Discard 1 random card from your hand."
+    "text": "<f>You come across the mostly-disintegrated, skeletal remains of what must have been one of the Estians, covered in centuries of fine rock dust. You wonder what fate befell them here.</f><hr><b>YOU CHOOSE:</b>\n<b>A) Pay your respects.</b>\n<b>[SPI] + [connection]: Honor [2]</b> <f>the Estian's spirit to</f> soothe 1 fatigue for every 2 effort.\n<b>B) Leave them be.</b> Discard 1 random card from your hand."
   },
   {
     "name": "Electrical Disruption",
@@ -243,7 +244,7 @@
     "imagesrc": "http://localhost:8765/scan93.webp",
     "id": "06012",
     "position": 12,
-    "text": "<f>A partially caved-in wall reveals a piece of damaged machinery. Electricity crackles around an intact power cell. Seems a shame to let it go to waste. It may be dangerous, but you think you might be able to remove it.</f><hr><b>YOU CHOOSE:</b><hr><b>A) Harness the machine's power.</b><hr><b>[FOC] + [reason]: Extract [2]</b> <f>the power cell, careful not to damage it to</f> add 1 power or unique token to a machine or tech for every 2 effort. If you fail, suffer 1 injury.<hr><b>B) Avoid the unstable energy.</b> Suffer 1 fatigue. Search the General set for Awakened Apparatus and put it into play."
+    "text": "<f>A partially caved-in wall reveals a piece of damaged machinery. Electricity crackles around an intact power cell. Seems a shame to let it go to waste. It may be dangerous, but you think you might be able to remove it.</f><hr><b>YOU CHOOSE:</b>\n<b>A) Harness the machine's power.</b>\n<b>[FOC] + [reason]: Extract [2]</b> <f>the power cell, careful not to damage it to</f> add 1 power or unique token to a machine or tech for every 2 effort. If you fail, suffer 1 injury.\n<b>B) Avoid the unstable energy.</b> Suffer 1 fatigue. Search the General set for Awakened Apparatus and put it into play."
   },
   {
     "name": "The Arcology Stirs",
@@ -262,7 +263,7 @@
     "imagesrc": "http://localhost:8765/scan94.webp",
     "id": "06013",
     "position": 13,
-    "text": "<f>Awakened by your approach, the area around you stirs with the thrumming of ancient machinery. Whatever purpose it may have once served is lost on you, but perhaps with time you can discern a new use for it.</f><hr><b>RANGERS CHOOSE:</b><hr><b>A) Attempt to understand the perplexing machinery.</b> Perform a group test:<hr><b>[FOC] + [exploration]: Discern [1[per_ranger]]</b> <f>how the ancient technology functions to</f> search the Arcology set for Flowsteel Controls and put it into play. If you fail, discard 3 total unique tokens from machines and/or tech cards in play.<hr><b>B) Pass it by.</b> Search the General set for Awakened Apparatus and put it into play."
+    "text": "<f>Awakened by your approach, the area around you stirs with the thrumming of ancient machinery. Whatever purpose it may have once served is lost on you, but perhaps with time you can discern a new use for it.</f><hr><b>RANGERS CHOOSE:</b>\n<b>A) Attempt to understand the perplexing machinery.</b> Perform a <b>group test</b>:\n<b>[FOC] + [exploration]: Discern [1[per_ranger]]</b> <f>how the ancient technology functions to</f> search the Arcology set for Flowsteel Controls and put it into play. If you fail, discard 3 total unique tokens from machines and/or tech cards in play.\n<b>B) Pass it by.</b> Search the General set for Awakened Apparatus and put it into play."
   },
   {
     "name": "Echoes of the Invasion",
@@ -281,7 +282,7 @@
     "imagesrc": "http://localhost:8765/scan95.webp",
     "id": "06014",
     "position": 14,
-    "text": "<f>Even down here, you can see the impact of the choices made during the reclaimer invasion. You hear something echo up ahead...</f><hr>If <e>RECLAIMERS WASHED AWAY</e>: <f>...rushing water.</f> Search the River set for two Strong Currents and shuffle them into the path deck.<hr>If <e>RECLAIMERS CONSUMED</e>: <f>...Hydraworms.</f> Search the Swamp set for two Hydraworms and shuffle them into the path deck.<hr>If <e>SPIRE FALLEN</e>: <f>...Reclaimers!</f> Search the General set for two Reclaimer Seekers and shuffle them into the path deck."
+    "text": "<f>Even down here, you can see the impact of the choices made during the reclaimer invasion. You hear something echo up a nearby passageway, the telltale sound of ...</f><hr>If <e>RECLAIMERS WASHED AWAY</e>: <f>...rushing water.</f> Search the River set for two Strong Currents and shuffle them into the path deck.\nIf <e>RECLAIMERS CONSUMED</e>: <f>...Hydraworms.</f> Search the Swamp set for two Hydraworms and shuffle them into the path deck.\nIf <e>SPIRE FALLEN</e>: <f>...Reclaimers!</f> Search the General set for two Reclaimer Seekers and shuffle them into the path deck."
   },
   {
     "name": "The Passage Narrows",
@@ -300,7 +301,7 @@
     "imagesrc": "http://localhost:8765/scan96.webp",
     "id": "06015",
     "position": 15,
-    "text": "<f>Ahead, the roof of the chamber slopes downward, and the pathway narrows into a tight squeeze. You might be able to make it through, but you'll need to crawl on your belly to reach the other side.</f><hr><b>RANGERS CHOOSE:</b><hr><b>A) Squeeze through.</b> Perform a group test:<hr><b>[FIT] + [conflict]: Crawl [1[per_ranger]]</b> <f>to the other side to</f> add 1[per_ranger] [progress] to the location. If you fail, each Ranger suffers 2 fatigue.<hr><b>B) Take the long way around.</b> Discard 1[per_ranger] [progress] from among the location and features along the way."
+    "text": "<f>Ahead, the roof of the chamber slopes downward, and the pathway narrows into a tight squeeze. You might be able to make it through, but you'll need to crawl on your belly to reach the other side.</f><hr><b>RANGERS CHOOSE:</b>\n<b>A) Squeeze through.</b> Perform a <b>group test</b>:\n<b>[FIT] + [exploration]: Crawl [1[per_ranger]]</b> <f>to the other side to</f> add 1[per_ranger] [progress] to the location. If you fail, each Ranger suffers 2 fatigue.\n<b>B) Take the long way around.</b> Discard 1[per_ranger] [progress] from among the location and features along the way."
   },
   {
     "name": "Visions of the Past",
@@ -338,7 +339,7 @@
     "imagesrc": "http://localhost:8765/scan98.webp",
     "id": "06017",
     "position": 17,
-    "text": "<f>The chamber shudders and you feel a subsonic pulse move through your body. All at once, the light sources in the environment dim to almost nothing, and the area is shrouded in darkness.</f><hr>Place this card in the surroundings.<hr>While this card is in play, areas cannot be illuminated.<hr><b>Response:</b> At the end of the round, discard this moment.<hr><b>[AWA] + [reason]: Feel [2]</b> <f>your way through the darkness to</f> discard this moment. If you fail, suffer 1 fatigue."
+    "text": "<f>The chamber shudders and you feel a subsonic pulse move through your body. All at once, the light sources in the environment dim to almost nothing, and the area is shrouded in darkness.</f><hr>Place this card in the surroundings.\nWhile this card is in play, areas cannot be illuminated.\n<b>Response:</b> At the end of the round, discard this moment.\n<b>[AWA] + [reason]: Feel [2]</b> <f>your way through the darkness to</f> discard this moment. If you fail, suffer 1 fatigue."
   },
   {
     "name": "Aid of the Ancestors",
@@ -357,7 +358,7 @@
     "imagesrc": "http://localhost:8765/scan99.webp",
     "id": "06018",
     "position": 18,
-    "text": "<f>Your mind drifts, and you become aware of a warm sensation in your heart. It's as though you can feel the collective energy of your ancestors, and you gain an appreciation for all that went into bringing you to this place at this exact moment.</f><hr><b>YOU CHOOSE:</b><hr><b>A) Walk fearlessly.</b> Move your [ranger] to a feature in play.<hr><b>B) Be present with those around you.</b> Attach this moment to a being. Commit 1 effort to all tests that interact with this being."
+    "text": "<f>Your mind drifts, and you become aware of a warm sensation in your heart. It's as though you can feel the collective energy of your ancestors, and you gain an appreciation for all that went into bringing you to this place at this exact moment.</f><hr><b>YOU CHOOSE:</b>\n<b>A) Walk fearlessly.</b> Move your [ranger] to a feature in play.\n<b>B) Be present with those around you.</b> Attach this moment to a being. Commit 1 effort to all tests that interact with this being."
   },
   {
     "name": "Sounds from Below",
@@ -376,7 +377,7 @@
     "imagesrc": "http://localhost:8765/scan100.webp",
     "id": "06019",
     "position": 19,
-    "text": "<f>You hear a deep, resonant thrumming - distant at first, but growing louder. These sounds are somewhat common. Ben Amon believes that they originate from the ruins deep underground. Whatever their source, they begin to shake your bones.</f><hr>Draw a challenge card and resolve the corresponding effect. You may draw additional challenge cards until you choose to stop.<hr>[sun] <f>The intense vibrations cause a large pine to fall.</f> Add 1[harm] to each feature.<hr>[mountain] <f>The unnatural thrum disturbs the wildlife.</f> Exhaust a being.<hr>[crest] <f>The ground opens up beneath you!</f> Suffer 1 injury unless you discard 1 [AWA] energy."
+    "text": "<f>You hear a deep, resonant thrumming—distant at first, but growing louder. These sounds are somewhat common. Ben Amon believes that they originate from the ruins deep underground. Whatever their source, they begin to shake your bones.</f><hr>Draw a challenge card and resolve the corresponding effect. You may draw additional challenge cards until you choose to stop.\n[sun] <f>The intense vibrations cause a large pine to fall.</f> Add 1[harm] to each feature.\n[mountain] <f>The unnatural thrum disturbs the wildlife.</f> Exhaust a being.\n[crest] <f>The ground opens up beneath you!</f> Suffer 1 injury unless you discard 1 [AWA] energy."
   },
   {
     "name": "Watch Your Feet",
@@ -395,7 +396,7 @@
     "imagesrc": "http://localhost:8765/scan101.webp",
     "id": "06020",
     "position": 20,
-    "text": "<f>How is it that the path can look completely clear, and yet whenever you take a moment to enjoy the view or keep an eye out for an Atrox, a big, gnarled root comes out of nowhere and catches your foot?</f><hr><b>If you see this card while scouting:</b> You may discard it.<hr>You may perform the following test. If you choose not to, resolve its fail effect:<hr><b>[AWA] + [conflict]: Regain [2]</b> <f>your footing before you fall on your face to</f> add 1[progress] to the location and discard this card. If you fail, move all cards within reach to along the way and suffer 1 injury."
+    "text": "<f>How is it that the path can look completely clear, and yet whenever you take a moment to enjoy the view or keep an eye out for an Atrox, a big, gnarled root comes out of nowhere and catches your foot?!</f><hr><b>If you see this card while scouting:</b> You may discard it.\nYou may perform the following test. If you choose not to, resolve its fail effect:\n<b>[AWA] + [exploration]: Regain [2]</b> <f>your footing before you fall on your face to</f> add 1[progress] to the location and discard this card. If you fail, move all cards within reach to along the way and suffer 1 injury."
   },
   {
     "name": "Lightning Strike!",
@@ -414,7 +415,7 @@
     "imagesrc": "http://localhost:8765/scan102.webp",
     "id": "06021",
     "position": 21,
-    "text": "<f>With a sudden crack, a flash of light fills the sky. Startled, you take a breath to settle your nerves. Moments later, the sound of rolling thunder echoes in the vaulted sky.</f><hr>Add 3[harm] to the path card with the highest presence and 1[harm] to each card in its area. If it was within reach of a Ranger, they suffer 1 injury.<hr>If the weather is not inclement, continue reading:<hr><f>Lightning without a storm can only mean one thing: Electric Fog.</f> Perform a group test:<hr><b>[FOC] + [exploration]: Chart [2[per_ranger]]</b> <f>a course away from the fog bank to</f> discard [per_ranger] tokens from the weather. If you fail, return the current weather to the collection and put Electric Fog into play."
+    "text": "<f>With a sudden crack, a flash of light fills the sky. Startled, you take a breath to settle your nerves. Moments later, the sound of rolling thunder echoes in the vaulted sky.</f><hr>Add 3[harm] to the path card with the highest presence and 1[harm] to each card in its area. If it was within reach of a Ranger, they suffer 1 injury.\nIf the weather is not inclement, continue reading:\n<f>Lightning without a storm can only mean one thing: Electric Fog.</f> Perform a <b>group test</b>:\n<b>[FOC] + [exploration]: Chart [2[per_ranger]]</b> <f>a course away from the fog bank to</f> discard [per_ranger] tokens from the weather. If you fail, return the current weather to the collection and put Electric Fog into play."
   },
   {
     "name": "Washed Out!",
@@ -433,7 +434,7 @@
     "imagesrc": "http://localhost:8765/scan103.webp",
     "id": "06022",
     "position": 22,
-    "text": "<f>Every rainfall, the Silverfin and its tributaries swell and alter the landscape. It looks like the path ahead has been washed out by exactly such an event. A wide new meander rushes past.</f><hr>If you are currently using River terrain, the river picks up speed! Search the path deck and discard for the next water feature and put it into play. Otherwise:<hr><b>RANGERS CHOOSE:</b><hr><b>A) Ford the River.</b> Randomly add [per_ranger] cards from the River set to the top of the path deck.<hr><b>B) Move to higher ground.</b> Attach this moment to a feature in play that has a [progress] threshold. Increase its [progress] threshold by 2[per_ranger]."
+    "text": "<f>Every rainfall, the Silverfin and its tributaries swell and alter the landscape. It looks like the path ahead has been washed out by exactly such an event. A wide new meander rushes by where there used to be solid land.</f><hr>If you are currently using River terrain, <f>the river picks up speed!</f> Search the path deck and discard for the next water feature and put it into play. Otherwise:\n<b>RANGERS CHOOSE:</b>\n<b>A) Ford the River.</b> Randomly add [per_ranger] cards from the River set to the top of the path deck.\n<b>B) Move to higher ground.</b> Attach this moment to a feature in play that has a [progress] threshold. Increase its [progress] threshold by 2[per_ranger]."
   },
   {
     "name": "Biting Flies",
@@ -452,7 +453,7 @@
     "imagesrc": "http://localhost:8765/scan104.webp",
     "id": "06023",
     "position": 23,
-    "text": "<f>You feel a surprisingly painful bite on your neck, then the back of your hand, then your face. A buzzing fills your ears as a cloud of tiny, biting flies begins to swarm you.</f><hr><b>If you see this card while scouting:</b> Set aside all other scouted cards, resolve this card, then continue the scouting as normal.<hr>Suffer 1 fatigue, then you may perform the following test. If you choose not to, resolve its fail effect:<hr><b>[FIT] + [conflict]: Swat [2]</b> <f>the infuriating insects to</f> discard this moment. If you fail, shuffle it into the path deck."
+    "text": "<f>You feel a surprisingly painful bite on your neck, then the back of your hand, then your face. A buzzing fills your ears as a cloud of tiny, biting flies begins to swarm you.</f><hr><b>If you see this card while scouting:</b> Set aside all other scouted cards, resolve this card, then continue the scouting as normal.\nSuffer 1 fatigue, then you may perform the following test. If you choose not to, resolve its fail effect:\n<b>[FIT] + [conflict]: Swat [2]</b> <f>the infuriating insects to</f> discard this moment. If you fail, shuffle it into the path deck."
   },
   {
     "name": "A Cold Wind",
@@ -471,7 +472,7 @@
     "imagesrc": "http://localhost:8765/scan105.webp",
     "id": "06024",
     "position": 24,
-    "text": "<f>A biting wind pierces even the thick fabric of your cloak. It's common knowledge that no matter the season, the weather in the Valley can grow suddenly cold. You pause to consider building a small fire.</f><hr>If the weather is not inclement, you're thankful for the breeze. Each Ranger soothes 1 fatigue.<hr>If the weather is inclement, add 2 tokens to it, then resolve the following:<hr><b>RANGERS CHOOSE:</b><hr><b>A) Build a fire.</b> Search the General set for Campfire Remains and put it into play.<hr><b>B) Continue undaunted.</b> Each Ranger suffers 2 fatigue."
+    "text": "<f>A biting wind pierces even the thick fabric of your cloak. It's common knowledge that no matter the season, the weather in the Valley can grow suddenly cold. You pause to consider building a small fire.</f><hr>If the weather is not inclement, <f>you're thankful for the breeze.</f> Each Ranger soothes 1 fatigue.\nIf the weather is inclement, add 2 tokens to it, then resolve the following:\n<b>RANGERS CHOOSE:</b>\n<b>A) Build a fire.</b> Search the General set for Campfire Remains and put it into play.\n<b>B) Continue undaunted.</b> Each Ranger suffers 2 fatigue."
   },
   {
     "name": "A Little Lost",
@@ -490,7 +491,7 @@
     "imagesrc": "http://localhost:8765/scan106.webp",
     "id": "06025",
     "position": 25,
-    "text": "<f>It took you some time to notice, but eventually you realize that you've accidentally gone off-trail. You check your maps and scour your memory, but you are unsure which way to proceed from here.</f><hr><b>If you see this card while scouting:</b> You may discard it to scout 2 additional cards.<hr><b>RANGERS CHOOSE:</b><hr><b>A) Backtrack.</b> Shuffle the path discard into the path deck. If [per_ranger] or fewer cards were added to the path deck this way, each Ranger suffers 1 fatigue.<hr><b>B) Continue on your present course.</b> Attach this moment to the location. Increase its presence by 1."
+    "text": "<f>It took you some time to notice, but eventually you realize that you've accidentally gone off-trail. You check your maps and scour your memory, but you are unsure which way to proceed from here.</f><hr><b>If you see this card while scouting:</b> You may discard it to scout 2 additional cards.\n<b>RANGERS CHOOSE:</b>\n<b>A) Backtrack.</b> Shuffle the path discard into the path deck. If [per_ranger] or fewer cards were added to the path deck this way, each Ranger suffers 1 fatigue.\n<b>B) Continue on your present course.</b> Attach this moment to the location. Increase its presence by 1."
   },
   {
     "name": "Ranger Report",
@@ -509,7 +510,7 @@
     "imagesrc": "http://localhost:8765/scan107.webp",
     "id": "06026",
     "position": 26,
-    "text": "<f>A shrill whistle reaches your ears, repeating with a familiar cadence - it is one of Mae's couriers sent out with the Ranger Report. If you can locate the source and whistle back, you can get details on the weather and other news.</f><hr>Perform a group test:<hr><b>[FOC] + [exploration]: Locate [2[per_ranger]]</b> <f>the source of the whistle and receive the weather forecast to</f> either add or discard [per_ranger] tokens from the weather. If you fail, the courier warns others in the area of impending weather. Search the path deck for the next human and discard them."
+    "text": "<f>A shrill whistle reaches your ears, repeating with a familiar cadence—it is one of Mae's couriers sent out with the Ranger Report. If you can locate the source and whistle back, you can get details on the weather and other news.</f><hr>Perform a <b>group test</b>:\n<b>[FOC] + [exploration]: Locate [2[per_ranger]]</b> <f>the source of the whistle and receive the weather forecast to</f> either add or discard [per_ranger] tokens from the weather. If you fail, the courier warns others in the area of impending weather. Search the path deck for the next human and discard them."
   },
   {
     "name": "Distant Howls",
@@ -528,7 +529,7 @@
     "imagesrc": "http://localhost:8765/scan108.webp",
     "id": "06027",
     "position": 27,
-    "text": "<f>The melodious baying of a wolhund drifts across the landscape, a reminder that predators are constantly on the prowl. You must be mindful of your actions, lest they invite the attention of a hungry being seeking its next meal.</f><hr>Perform a group test:<hr><b>[SPI] + [reason]: Reflect [2[per_ranger]]</b> <f>on all you've done today to</f> have each Ranger return a card from their discard to their hand for every 2[per_ranger] effort. Then, whether you succeed or fail, each Ranger with food or tech in their Ranger discard searches the path deck and discard for the next predator and puts it into play."
+    "text": "<f>The melodious baying of a wolhund drifts across the landscape, a reminder that predators are constantly on the prowl. You must be mindful of your actions, lest they invite the attention of a hungry being seeking its next meal.</f><hr>Perform a <b>group test</b>:\n<b>[SPI] + [reason]: Reflect [2[per_ranger]]</b> <f>on all you've done today to</f> have each Ranger return a card from their discard to their hand for every 2[per_ranger] effort. Then, whether you succeed or fail, each Ranger with food or tech in their Ranger discard searches the path deck and discard for the next predator and puts it into play."
   },
   {
     "name": "Wind and Wear",
@@ -547,7 +548,7 @@
     "imagesrc": "http://localhost:8765/scan109.webp",
     "id": "06028",
     "position": 28,
-    "text": "<f>Dirt and the elements slowly wear out all technology; even Mora Orlin's precise carbon-forged creations aren't immune to the effects of the trail. You look down and realize that some of your gear is in dire need of maintenance.</f><hr><b>YOU CHOOSE:</b><hr><b>A) Pause to perform some maintenance.</b><hr><b>[FOC] + [reason]: Repair [2]</b> <f>your weathered gear to</f> add a unique token to one of your equipped tech for every 2 effort. If you fail, discard a gear from your play area or your hand.<hr><b>B) It'll be fine.</b> Discard a gear from your hand or discard 3 unique tokens from among your equipped gear."
+    "text": "<f>Dirt and the elements slowly wear out all technology; even Mora Orlin's precise carbon-forged creations aren't immune to the effects of the trail. You look down and realize that some of your gear is in dire need of maintenance.</f><hr><b>YOU CHOOSE:</b>\n<b>A) Pause to perform some maintenance.</b>\n<b>[FOC] + [reason]: Repair [2]</b> <f>your weathered gear to</f> add a unique token to one of your equipped tech for every 2 effort. If you fail, discard a gear from your play area or your hand.\n<b>B) It'll be fine.</b> Discard a gear from your hand or discard 3 unique tokens from among your equipped gear."
   },
   {
     "name": "Tracks in the Dirt",
@@ -566,7 +567,7 @@
     "imagesrc": "http://localhost:8765/scan110.webp",
     "id": "06029",
     "position": 29,
-    "text": "<f>You come across a set of tracks heading across the beaten path. You consider following them. It might be wise to scout the area for predators.</f><hr><b>RANGERS CHOOSE:</b><hr><b>A) See what's out there.</b> Perform a group test:<hr><b>[AWA] + [reason]: Follow [1[per_ranger]]</b> <f>the tracks to</f> scout 1[per_ranger] path cards. If the weather is inclement, this test's difficulty is [2[per_ranger]] instead.<hr><b>B) Ignore the tracks.</b> Discard all [progress] from the being with the highest presence."
+    "text": "<f>You come across a set of tracks heading across the beaten path. You consider following them. It might be wise to scout the area for predators.</f><hr><b>RANGERS CHOOSE:</b>\n<b>A) See what's out there.</b> Perform a <b>group test</b>:\n<b>[AWA] + [reason]: Follow [1[per_ranger]]</b> <f>the tracks to</f> scout 1[per_ranger] path cards. If the weather is inclement, this test's difficulty is <b>[2[per_ranger]]</b> instead.\n<b>B) Ignore the tracks.</b> Discard all [progress] from the being with the highest presence."
   },
   {
     "name": "The Valley's Splendor",
@@ -585,7 +586,7 @@
     "imagesrc": "http://localhost:8765/scan111.webp",
     "id": "06030",
     "position": 30,
-    "text": "<f>During your training, Calypsa encouraged you to pause and bask in the beauty of the Valley anytime you could find a good vantage point. You spot just such a view off of a spur.</f><hr><b>RANGERS CHOOSE:</b><hr><b>A) Enjoy the view from the overlook.</b> Discard 2[per_ranger] [progress] from the location. For each [progress] discarded this way, a Ranger may soothe 1 fatigue.<hr><b>B) Press forward.</b> Add [per_ranger][progress] to the location as you stick to the path. Each Ranger must either exhaust their role or suffer 2 fatigue."
+    "text": "<f>During your training, Calypsa encouraged you to pause and bask in the beauty of the Valley anytime you could find a good vantage point. You spot just such a view off of a spur trail ahead.</f><hr><b>RANGERS CHOOSE:</b>\n<b>A) Enjoy the view from the overlook.</b> Discard 2[per_ranger] [progress] from the location. For each [progress] discarded this way, a Ranger may soothe 1 fatigue.\n<b>B) Press forward.</b> Add [per_ranger][progress] to the location <f>as you stick to the path.</f> Each Ranger must either exhaust their role or suffer 2 fatigue."
   },
   {
     "name": "Rumbling Beneath Your Feet",
@@ -604,7 +605,7 @@
     "imagesrc": "http://localhost:8765/scan112.webp",
     "id": "06031",
     "position": 31,
-    "text": "<f>The ground beneath your feet begins to move and shift.</f><hr>Draw a challenge card and resolve the corresponding effect:<hr>[sun] <f>A sinkhole opens before you!</f> Search the Valley set for the Arcology Sinkhole and put it into play.<hr>[mountain] Move each feature along the way to within reach of a Ranger, treating them as having Ambush.<hr>[crest] Search the Swamp set for a Hydraworm and shuffle it into the path deck."
+    "text": "<f>The ground beneath your feet begins to move and shift.</f><hr>Draw a challenge card and resolve the corresponding effect:\n[sun] <f>A sinkhole opens before you!</f> Search the Valley set for the Arcology Sinkhole and put it into play.\n[mountain] Move each feature along the way to within reach of a Ranger, treating them as having Ambush.\n[crest] Search the Swamp set for a Hydraworm and shuffle it into the path deck."
   },
   {
     "name": "A Redolent Breeze",
@@ -623,7 +624,7 @@
     "imagesrc": "http://localhost:8765/scan113.webp",
     "id": "06032",
     "position": 32,
-    "text": "<f>The wind shifts, and the lovely scent of flowers in bloom fills the air. This particular bouquet isn't as common in this part of the Valley as it is in others. Perhaps if you followed your nose you might discover a flora rare to this region.</f><hr><b>YOU CHOOSE:</b><hr><b>A) Follow the scent.</b><hr><b>[AWA] + [exploration]: Follow [2]</b> <f>your nose to</f> search a terrain set that is not currently in use for a flora and put it into play.<hr><b>B) Enjoy the sweet air and continue onward.</b> Soothe fatigue equal to the total presence of all flora in play."
+    "text": "<f>The wind shifts, and the lovely scent of flowers in bloom fills the air. This particular bouquet isn't as common in this part of the Valley as it is in others. Perhaps if you followed your nose you might discover a flora rare to this region.</f><hr><b>YOU CHOOSE:</b>\n<b>A) Follow the scent.</b>\n<b>[AWA] + [exploration]: Follow [2]</b> <f>your nose to</f> search a terrain set that is not currently in use for a flora and put it into play.\n<b>B) Enjoy the sweet air and continue onward.</b> Soothe fatigue equal to the total presence of all flora in play."
   },
   {
     "name": "A Perfect Camping Spot",
@@ -642,7 +643,7 @@
     "imagesrc": "http://localhost:8765/scan114.webp",
     "id": "06033",
     "position": 33,
-    "text": "<f>You see a wisp of smoke rising from a nearby hill. There, you find the remnants of a campfire at the center of what could only be called a perfect camping spot: a bit of shade, elevated, and secluded from view.</f><hr><b>RANGERS CHOOSE:</b><hr><b>A) Take a break.</b> Perform a group test:<hr><b>[SPI] + [connection]: Relax [2[per_ranger]]</b> <f>at the idyllic spot, then clean it up to</f> swap rewards into your Ranger decks as if you had camped. You can displace cards from your hand, deck, or discard and add the rewards in the same location. Then, shuffle your deck. If you fail, resolve option B.<hr><b>B) Pass it by.</b> Search the General set for Campfire Remains and put it into play."
+    "text": "<f>You see a wisp of smoke rising from a nearby hill. There, you find the remnants of a campfire at the center of what could only be called a perfect camping spot: a bit of shade, elevated, and secluded from view.</f><hr><b>RANGERS CHOOSE:</b>\n<b>A) Take a break.</b> Perform a <b>group test</b>:\n<b>[SPI] + [reason]: Relax [2[per_ranger]]</b> <f>at the idyllic spot, then clean it up to</f> swap rewards into your Ranger decks as if you had camped. You can displace cards from your hand, deck, or discard and add the rewards in the same location. Then, shuffle your deck. If you fail, resolve option B.\n<b>B) Pass it by.</b> Search the General set for Campfire Remains and put it into play."
   },
   {
     "name": "A Pack Without an Owner",
@@ -661,7 +662,7 @@
     "imagesrc": "http://localhost:8765/scan115.webp",
     "id": "06034",
     "position": 34,
-    "text": "<f>You spot something out of place just off the trail: a ferroweave pack leaning up against a tree. Someone must be nearby. You wonder if perhaps you should check on them, just to make sure they're all right.</f><hr><b>RANGERS CHOOSE:</b><hr><b>A) Search for the owner of the pack.</b> Perform a group test:<hr><b>[AWA] + [connection]: Locate [2[per_ranger]]</b> <f>the owner of the pack to</f> search the Valley set for a human and shuffle them into the path deck. If you succeed by 3[per_ranger] or more, put them into play instead. Then return this card to the collection.<hr><b>B) No need to bother them.</b> Search the path deck for the next human and discard them."
+    "text": "<f>You spot something out of place just off the trail: a ferroweave pack leaning up against a tree. Someone must be nearby. You wonder if perhaps you should check on them, just to make sure they're all right.</f><hr><b>RANGERS CHOOSE:</b>\n<b>A) Search for the owner of the pack.</b> Perform a <b>group test</b>:\n<b>[AWA] + [exploration]: Locate [2[per_ranger]]</b> <f>the owner of the pack to</f> search the Valley set for a human and shuffle them into the path deck. If you succeed by 3[per_ranger] or more, put them into play instead. Then return this card to the collection.\n<b>B) No need to bother them.</b> Search the path deck for the next human and discard them."
   },
   {
     "name": "Moments on the Path: Components",
