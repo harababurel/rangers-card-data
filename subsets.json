@@ -127,6 +127,13 @@
     "pack_id": "sib"
   },
   {
+    "id": "miv_general",
+    "name": "General",
+    "size": 1,
+    "set_id": "general",
+    "pack_id": "miv"
+  },
+  {
     "id": "sib_lone_tree_station",
     "name": "Lone Tree Station",
     "size": 1,
