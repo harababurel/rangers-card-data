@@ -92,6 +92,8 @@ current landscape overrides are:
 
 - `scan00`-`scan03`: rotate `90` degrees counter-clockwise.
 - `scan04`-`scan07`: rotate `-90` degrees clockwise.
+- `scan157`-`scan163`: rotate `90` degrees counter-clockwise.
+- `scan165`-`scan171`: rotate `-90` degrees clockwise.
 
 ## Rebuild The Manifest
 

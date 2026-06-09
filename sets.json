@@ -344,5 +344,41 @@
     "id": "aspiration_narrative_cards",
     "name": "Aspiration Narrative Cards",
     "size": 10
+  },
+  {
+    "id": "terra_lodge",
+    "name": "Terra Lodge",
+    "type_id": "terrain",
+    "size": 3
+  },
+  {
+    "id": "the_otherwoods",
+    "name": "The Otherwoods",
+    "type_id": "terrain",
+    "size": 3
+  },
+  {
+    "id": "nimbus",
+    "name": "Nimbus",
+    "type_id": "terrain",
+    "size": 12
+  },
+  {
+    "id": "nimbus_facility",
+    "name": "Nimbus Facility",
+    "type_id": "terrain",
+    "size": 1
+  },
+  {
+    "id": "arbor_mists",
+    "name": "Arbor Mists",
+    "type_id": "terrain",
+    "size": 1
+  },
+  {
+    "id": "the_undergrove",
+    "name": "The Undergrove",
+    "type_id": "terrain",
+    "size": 1
   }
 ]

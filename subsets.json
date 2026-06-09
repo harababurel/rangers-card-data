@@ -181,5 +181,82 @@
     "size": 5,
     "set_id": "reward",
     "pack_id": "sos"
+  },
+  {
+    "id": "sos_locations",
+    "name": "Locations",
+    "size": 7,
+    "set_id": "locations",
+    "pack_id": "sos"
+  },
+  {
+    "id": "sos_weather",
+    "name": "Weather",
+    "size": 2,
+    "set_id": "weather",
+    "pack_id": "sos"
+  },
+  {
+    "id": "sos_mission",
+    "name": "Mission",
+    "size": 12,
+    "set_id": "mission",
+    "pack_id": "sos"
+  },
+  {
+    "id": "sos_terra_lodge",
+    "name": "Terra Lodge",
+    "size": 3,
+    "set_id": "terra_lodge",
+    "pack_id": "sos"
+  },
+  {
+    "id": "sos_the_otherwoods",
+    "name": "The Otherwoods",
+    "size": 3,
+    "set_id": "the_otherwoods",
+    "pack_id": "sos"
+  },
+  {
+    "id": "sos_nimbus",
+    "name": "Nimbus",
+    "size": 12,
+    "set_id": "nimbus",
+    "pack_id": "sos"
+  },
+  {
+    "id": "sos_nimbus_facility",
+    "name": "Nimbus Facility",
+    "size": 1,
+    "set_id": "nimbus_facility",
+    "pack_id": "sos"
+  },
+  {
+    "id": "sos_arbor_mists",
+    "name": "Arbor Mists",
+    "size": 1,
+    "set_id": "arbor_mists",
+    "pack_id": "sos"
+  },
+  {
+    "id": "sos_the_valley",
+    "name": "The Valley",
+    "size": 2,
+    "set_id": "the_valley",
+    "pack_id": "sos"
+  },
+  {
+    "id": "sos_the_undergrove",
+    "name": "The Undergrove",
+    "size": 1,
+    "set_id": "the_undergrove",
+    "pack_id": "sos"
+  },
+  {
+    "id": "sos_general",
+    "name": "General",
+    "size": 3,
+    "set_id": "general",
+    "pack_id": "sos"
   }
 ]

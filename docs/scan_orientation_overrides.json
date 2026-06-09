@@ -22,5 +22,47 @@
   },
   "scan07": {
     "rotate_degrees": -90
+  },
+  "scan157": {
+    "rotate_degrees": 90
+  },
+  "scan158": {
+    "rotate_degrees": 90
+  },
+  "scan159": {
+    "rotate_degrees": 90
+  },
+  "scan160": {
+    "rotate_degrees": 90
+  },
+  "scan161": {
+    "rotate_degrees": 90
+  },
+  "scan162": {
+    "rotate_degrees": 90
+  },
+  "scan163": {
+    "rotate_degrees": 90
+  },
+  "scan165": {
+    "rotate_degrees": -90
+  },
+  "scan166": {
+    "rotate_degrees": -90
+  },
+  "scan167": {
+    "rotate_degrees": -90
+  },
+  "scan168": {
+    "rotate_degrees": -90
+  },
+  "scan169": {
+    "rotate_degrees": -90
+  },
+  "scan170": {
+    "rotate_degrees": -90
+  },
+  "scan171": {
+    "rotate_degrees": -90
   }
 }
