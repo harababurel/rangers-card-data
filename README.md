@@ -33,3 +33,10 @@ Example:
 Clients that render cards should prefer `approach_icons` when it is present. Clients that filter, search, or calculate icon totals can continue using the numeric `approach_*` fields. If `approach_icons` is absent, clients may derive a fallback order from their own default display order, but that fallback should not be treated as the printed card order.
 
 When adding or editing data, keep `approach_icons` consistent with the numeric count fields. Duplicate icons are represented by repeated array values, for example `["conflict", "conflict", "exploration"]`.
+
+## License
+
+- **Code** (the curator tool, scripts, and schema) is licensed under the [MIT License](LICENSE).
+- **Card data** (the JSON files and translations) is released under [CC0 1.0](LICENSE-DATA) (public domain dedication).
+
+This is an unofficial, fan-made database. *Earthborne Rangers*, its card text, and its artwork are © Earthborne Games. This project is not affiliated with or endorsed by Earthborne Games.
