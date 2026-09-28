@@ -4433,7 +4433,7 @@
     "set_id": "woods",
     "set_position": "8",
     "traits": "Biomeld",
-    "text": "Beings attached to this being do not ready.<hr>If a [ranger] is no this biomeld, you cannot travel and [ranger] on this biomeld cannot be moved except by this test:<hr><b>[FIT] + [conflict]: Wrest [2]</b> <f>them free of the mulcher's grasp to</f> exhaust this biomeld, then remove a [ranger] or unattach a being from it. If you unattach a being, place it in the same area as this biomeld.",
+    "text": "Beings attached to this being do not ready.<hr>If a [ranger] is on this biomeld, you cannot travel and [ranger] on this biomeld cannot be moved except by this test:<hr><b>[FIT] + [conflict]: Wrest [2]</b> <f>them free of the mulcher's grasp to</f> exhaust this biomeld, then remove a [ranger] or unattach a being from it. If you unattach a being, place it in the same area as this biomeld.",
     "harm": "6",
     "progress": "9",
     "presence": 3,
