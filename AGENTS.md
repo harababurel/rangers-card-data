@@ -1,7 +1,5 @@
 # AI Context & Project Guide
 
-> **IMPORTANT:** This file must be kept in sync with `AGENTS.md`, `CLAUDE.md`, and `GEMINI.md` at all times.
-
 ## Project Overview
 This repository is a fork of [zzorba/rangers-card-data](https://github.com/zzorba/rangers-card-data). It serves as a structured, machine-readable JSON database for the tabletop game **Earthborne Rangers**.
 
