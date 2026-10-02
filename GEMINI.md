@@ -47,6 +47,7 @@ A card's 5-digit `id` is a composite of the Pack ID and the card's position with
 - **First 2 digits (Pack Prefix):** Determined by the `position` of the pack in `packs.json`, zero-padded (e.g., `01` for Core set, `02` for Legacy of the Ancestors).
 - **Last 3 digits (Card Position):** Corresponds to the `position` value of the individual card within its JSON file, zero-padded (e.g., a card with position `47` gets `047`).
 - **Example:** A card in the Core set (`01`) with position `47` gets the ID `"01047"`.
+- **Upstream ID divergence (ITM):** Pack positions differ from upstream because this fork added MOP (`06`) and MIV (`07`). *Into the Maw* (`itm`) is position `8` here, so its cards are `08201-08205`; upstream uses `06201-06205`. When syncing ITM data or `i18n/*/packs/itm/itm.po` from upstream, remap `062xx` -> `082xx`.
 
 ### Functional Conventions
 - **Hierarchical Classification:** Every card must have a `category_id` (representing the card back/deck context: `ranger`, `path`, `location`, `weather`, `mission`, `challenge`) and a `type_id` (representing the functional content: `being`, `gear`, `moment`, etc.).
